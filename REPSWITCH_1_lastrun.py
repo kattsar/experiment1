@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on abril 24, 2023, at 17:18
+    on abril 25, 2023, at 11:26
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -14,6 +14,7 @@ If you publish work using this script the most relevant publication is:
 # --- Import packages ---
 from psychopy import locale_setup
 from psychopy import prefs
+prefs.hardware['audioLib'] = 'ptb'
 from psychopy import sound, gui, visual, core, data, event, logging, clock, colors, layout
 from psychopy.constants import (NOT_STARTED, STARTED, PLAYING, PAUSED,
                                 STOPPED, FINISHED, PRESSED, RELEASED, FOREVER)
@@ -72,7 +73,7 @@ if not os.path.isdir(micSpeakResponseRecFolder):
 
 # --- Setup the Window ---
 win = visual.Window(
-    size=(1024, 768), fullscr=True, screen=0, 
+    size=[1920, 1080], fullscr=True, screen=0, 
     winType='pyglet', allowStencil=False,
     monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
     blendMode='avg', useFBO=True, 
@@ -119,12 +120,13 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
 
 # --- Initialize components for Routine "Instructions" ---
 textInstructions = visual.TextStim(win=win, name='textInstructions',
-    text='In this task you will have to name the objects you see on the screen.\nIf the background is red, type the name of the object.\nIf the background is blue, say the name of the object out loud.',
+    text='In this task you will have to name the objects you see on the screen.\nIf the background is red, type the name of the object.\nIf the background is blue, say the name of the object out loud.\n\n\nPress SPACE to begin!',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=0.0);
+keyInstructions = keyboard.Keyboard()
 
 # --- Initialize components for Routine "blank500" ---
 textBlank500 = visual.TextStim(win=win, name='textBlank500',
@@ -147,7 +149,7 @@ fixationITI = visual.ShapeStim(
 imageObject = visual.ImageStim(
     win=win,
     name='imageObject', 
-    image=image, mask=None, anchor='center',
+    image='sin', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(0.5, 0.5),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
@@ -157,6 +159,13 @@ micSpeakResponse = sound.microphone.Microphone(
     sampleRateHz=48000, maxRecordingSize=24000.0
 )
 keyTypeResponse = keyboard.Keyboard()
+textDebug = visual.TextStim(win=win, name='textDebug',
+    text='',
+    font='Open Sans',
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=-4.0);
 
 # --- Initialize components for Routine "blank500" ---
 textBlank500 = visual.TextStim(win=win, name='textBlank500',
@@ -334,8 +343,11 @@ else:
 continueRoutine = True
 routineForceEnded = False
 # update component parameters for each repeat
+keyInstructions.keys = []
+keyInstructions.rt = []
+_keyInstructions_allKeys = []
 # keep track of which components have finished
-InstructionsComponents = [textInstructions]
+InstructionsComponents = [textInstructions, keyInstructions]
 for thisComponent in InstructionsComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -349,7 +361,7 @@ _timeToFirstFrame = win.getFutureFlipTime(clock="now")
 frameN = -1
 
 # --- Run Routine "Instructions" ---
-while continueRoutine and routineTimer.getTime() < 10.0:
+while continueRoutine:
     # get current time
     t = routineTimer.getTime()
     tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -367,15 +379,30 @@ while continueRoutine and routineTimer.getTime() < 10.0:
         # add timestamp to datafile
         thisExp.timestampOnFlip(win, 'textInstructions.started')
         textInstructions.setAutoDraw(True)
-    if textInstructions.status == STARTED:
-        # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > textInstructions.tStartRefresh + 10-frameTolerance:
-            # keep track of stop time/frame for later
-            textInstructions.tStop = t  # not accounting for scr refresh
-            textInstructions.frameNStop = frameN  # exact frame index
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'textInstructions.stopped')
-            textInstructions.setAutoDraw(False)
+    
+    # *keyInstructions* updates
+    waitOnFlip = False
+    if keyInstructions.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        keyInstructions.frameNStart = frameN  # exact frame index
+        keyInstructions.tStart = t  # local t and not account for scr refresh
+        keyInstructions.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(keyInstructions, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'keyInstructions.started')
+        keyInstructions.status = STARTED
+        # keyboard checking is just starting
+        waitOnFlip = True
+        win.callOnFlip(keyInstructions.clock.reset)  # t=0 on next screen flip
+        win.callOnFlip(keyInstructions.clearEvents, eventType='keyboard')  # clear events on next screen flip
+    if keyInstructions.status == STARTED and not waitOnFlip:
+        theseKeys = keyInstructions.getKeys(keyList=['space'], waitRelease=False)
+        _keyInstructions_allKeys.extend(theseKeys)
+        if len(_keyInstructions_allKeys):
+            keyInstructions.keys = _keyInstructions_allKeys[-1].name  # just the last key pressed
+            keyInstructions.rt = _keyInstructions_allKeys[-1].rt
+            # a response ends the routine
+            continueRoutine = False
     
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -399,11 +426,15 @@ while continueRoutine and routineTimer.getTime() < 10.0:
 for thisComponent in InstructionsComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-# using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
-if routineForceEnded:
-    routineTimer.reset()
-else:
-    routineTimer.addTime(-10.000000)
+# check responses
+if keyInstructions.keys in ['', [], None]:  # No response was made
+    keyInstructions.keys = None
+thisExp.addData('keyInstructions.keys',keyInstructions.keys)
+if keyInstructions.keys != None:  # we had a response
+    thisExp.addData('keyInstructions.rt', keyInstructions.rt)
+thisExp.nextEntry()
+# the Routine "Instructions" was not non-slip safe, so reset the non-slip timer
+routineTimer.reset()
 
 # --- Prepare to start Routine "blank500" ---
 continueRoutine = True
@@ -575,6 +606,7 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     continueRoutine = True
     routineForceEnded = False
     # update component parameters for each repeat
+    imageObject.setImage(image)
     keyTypeResponse.keys = []
     keyTypeResponse.rt = []
     _keyTypeResponse_allKeys = []
@@ -585,8 +617,9 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     #key logger defaults
     last_len = 0
     key_list = []
+    textDebug.setText(image)
     # keep track of which components have finished
-    trialComponents = [imageObject, micSpeakResponse, keyTypeResponse]
+    trialComponents = [imageObject, micSpeakResponse, keyTypeResponse, textDebug]
     for thisComponent in trialComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -683,8 +716,8 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
             theseKeys = keyTypeResponse.getKeys(keyList=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','á','é','í','ó','ñ','ú','ü'], waitRelease=False)
             _keyTypeResponse_allKeys.extend(theseKeys)
             if len(_keyTypeResponse_allKeys):
-                keyTypeResponse.keys = _keyTypeResponse_allKeys[-1].name  # just the last key pressed
-                keyTypeResponse.rt = _keyTypeResponse_allKeys[-1].rt
+                keyTypeResponse.keys = [key.name for key in _keyTypeResponse_allKeys]  # storing all keys
+                keyTypeResponse.rt = [key.rt for key in _keyTypeResponse_allKeys]
                 # was this correct?
                 if (keyTypeResponse.keys == str(correctAns)) or (keyTypeResponse.keys == correctAns):
                     keyTypeResponse.corr = 1
@@ -727,6 +760,26 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
             #create a variable to display
             respDisplay = ''.join(key_list)
         
+        # *textDebug* updates
+        if textDebug.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            textDebug.frameNStart = frameN  # exact frame index
+            textDebug.tStart = t  # local t and not account for scr refresh
+            textDebug.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(textDebug, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'textDebug.started')
+            textDebug.setAutoDraw(True)
+        if textDebug.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > textDebug.tStartRefresh + 3-frameTolerance:
+                # keep track of stop time/frame for later
+                textDebug.tStop = t  # not accounting for scr refresh
+                textDebug.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'textDebug.stopped')
+                textDebug.setAutoDraw(False)
+        
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
             core.quit()
@@ -757,7 +810,7 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
         tag=tag, transcribe='None',
         config=None
     )
-    trialsREPSWITCH.addData('micSpeakResponse.clip', os.path.join(micSpeakResponseRecFolder, 'recording_micSpeakResponse_%s.wav' % tag))
+    trialsREPSWITCH.addData('micSpeakResponse.clip', os.path.join(micSpeakResponseRecFolder, 'recording_micSpeakResponse_%s.w64' % tag))
     # check responses
     if keyTypeResponse.keys in ['', [], None]:  # No response was made
         keyTypeResponse.keys = None
@@ -935,7 +988,7 @@ else:
 # save micSpeakResponse recordings
 for tag in micSpeakResponse.clips:
     for i, clip in enumerate(micSpeakResponse.clips[tag]):
-        clipFilename = 'recording_micSpeakResponse_%s.wav' % tag
+        clipFilename = 'recording_micSpeakResponse_%s.w64' % tag
         # if there's more than 1 clip with this tag, append a counter for all beyond the first
         if i > 0:
             clipFilename += '_%s' % i
