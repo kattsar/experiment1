@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Απρίλιος 25, 2023, at 15:44
+    on Απρίλιος 25, 2023, at 13:45
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -55,7 +55,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='D:\\GitHub\\experiment1\\REPSWITCH_1_lastrun.py',
+    originPath='D:\\GitHub\\experiment1\\REPSWITCH_1.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -150,22 +150,14 @@ imageObject = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
     texRes=128.0, interpolate=True, depth=0.0)
-textboxType = visual.TextBox2(
-     win, text=None, font='Open Sans',
-     pos=(0, -0.2),     letterHeight=0.05,
-     size=(0.1, 0.1), borderWidth=2.0,
-     color='white', colorSpace='rgb',
-     opacity=None,
-     bold=False, italic=False,
-     lineSpacing=1.0,
-     padding=0.0, alignment='center',
-     anchor='center',
-     fillColor=None, borderColor=None,
-     flipHoriz=False, flipVert=False, languageStyle='LTR',
-     editable=True,
-     name='textboxType',
-     autoLog=True,
-)
+textInput = visual.TextStim(win=win, name='textInput',
+    text='',
+    font='Open Sans',
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=-1.0);
+keyType = keyboard.Keyboard()
 
 # --- Initialize components for Routine "blank500" ---
 textBlank500 = visual.TextStim(win=win, name='textBlank500',
@@ -607,10 +599,18 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     routineForceEnded = False
     # update component parameters for each repeat
     imageObject.setImage(image)
-    textboxType.reset()
-    textboxType.setText('')
+    keyType.keys = []
+    keyType.rt = []
+    _keyType_allKeys = []
+    # Run 'Begin Routine' code from codeType
+    respDisplay = ""
+    maxDigits = 7
+    
+    #key logger defaults
+    last_len = 0
+    key_list = []
     # keep track of which components have finished
-    trialComponents = [imageObject, textboxType]
+    trialComponents = [imageObject, textInput, keyType]
     for thisComponent in trialComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -624,7 +624,7 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     frameN = -1
     
     # --- Run Routine "trial" ---
-    while continueRoutine and routineTimer.getTime() < 3.0:
+    while continueRoutine:
         # get current time
         t = routineTimer.getTime()
         tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -652,25 +652,89 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
                 thisExp.timestampOnFlip(win, 'imageObject.stopped')
                 imageObject.setAutoDraw(False)
         
-        # *textboxType* updates
-        if textboxType.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # *textInput* updates
+        if textInput.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
-            textboxType.frameNStart = frameN  # exact frame index
-            textboxType.tStart = t  # local t and not account for scr refresh
-            textboxType.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(textboxType, 'tStartRefresh')  # time at next scr refresh
+            textInput.frameNStart = frameN  # exact frame index
+            textInput.tStart = t  # local t and not account for scr refresh
+            textInput.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(textInput, 'tStartRefresh')  # time at next scr refresh
             # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'textboxType.started')
-            textboxType.setAutoDraw(True)
-        if textboxType.status == STARTED:
+            thisExp.timestampOnFlip(win, 'textInput.started')
+            textInput.setAutoDraw(True)
+        if textInput.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > textboxType.tStartRefresh + 3-frameTolerance:
+            if tThisFlipGlobal > textInput.tStartRefresh + 3-frameTolerance:
                 # keep track of stop time/frame for later
-                textboxType.tStop = t  # not accounting for scr refresh
-                textboxType.frameNStop = frameN  # exact frame index
+                textInput.tStop = t  # not accounting for scr refresh
+                textInput.frameNStop = frameN  # exact frame index
                 # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'textboxType.stopped')
-                textboxType.setAutoDraw(False)
+                thisExp.timestampOnFlip(win, 'textInput.stopped')
+                textInput.setAutoDraw(False)
+        if textInput.status == STARTED:  # only update if drawing
+            textInput.setText(respDisplay, log=False)
+        
+        # *keyType* updates
+        waitOnFlip = False
+        if keyType.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            keyType.frameNStart = frameN  # exact frame index
+            keyType.tStart = t  # local t and not account for scr refresh
+            keyType.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(keyType, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'keyType.started')
+            keyType.status = STARTED
+            # keyboard checking is just starting
+            waitOnFlip = True
+            win.callOnFlip(keyType.clock.reset)  # t=0 on next screen flip
+            win.callOnFlip(keyType.clearEvents, eventType='keyboard')  # clear events on next screen flip
+        if keyType.status == STARTED and not waitOnFlip:
+            theseKeys = keyType.getKeys(keyList=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','ñ','á','é','í','ó','ú','ü','return','backspace'], waitRelease=False)
+            _keyType_allKeys.extend(theseKeys)
+            if len(_keyType_allKeys):
+                keyType.keys = [key.name for key in _keyType_allKeys]  # storing all keys
+                keyType.rt = [key.rt for key in _keyType_allKeys]
+                # was this correct?
+                if (keyType.keys == str(correctAns)) or (keyType.keys == correctAns):
+                    keyType.corr = 1
+                else:
+                    keyType.corr = 0
+        # Run 'Each Frame' code from codeType
+        #if a new key has been pressed (and has increased) since last time
+        if(len(keyType.keys) > last_len):
+            
+            #increment the key logger length - update it basically
+            last_len = len(keyType.keys)
+            
+            #grab the last key added to the keys list
+            key_list.append(keyType.keys.pop())
+        
+            #check for backspace
+            if("backspace" in key_list):
+                key_list.remove("backspace")
+        
+                #if we have at least 1 character, remove it
+                if(len(key_list) > 0):
+                    key_list.pop()
+        
+            #if enter is pressed then...
+            elif("return" in key_list):
+                #remove the enter key
+                key_list.pop()
+        
+                #and end the trial if we have at least 2 digits
+                if(len(key_list) >= 2):
+                    continueRoutine = False
+        
+        
+            #now loop through and remove any extra characters that may exist
+            while(len(key_list) > maxDigits):
+                key_list.pop()
+                
+            #create a variable to display
+            respDisplay = ''.join(key_list)
+        
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -694,12 +758,23 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     for thisComponent in trialComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    trialsREPSWITCH.addData('textboxType.text',textboxType.text)
-    # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
-    if routineForceEnded:
-        routineTimer.reset()
-    else:
-        routineTimer.addTime(-3.000000)
+    # check responses
+    if keyType.keys in ['', [], None]:  # No response was made
+        keyType.keys = None
+        # was no response the correct answer?!
+        if str(correctAns).lower() == 'none':
+           keyType.corr = 1;  # correct non-response
+        else:
+           keyType.corr = 0;  # failed to respond (incorrectly)
+    # store data for trialsREPSWITCH (TrialHandler)
+    trialsREPSWITCH.addData('keyType.keys',keyType.keys)
+    trialsREPSWITCH.addData('keyType.corr', keyType.corr)
+    if keyType.keys != None:  # we had a response
+        trialsREPSWITCH.addData('keyType.rt', keyType.rt)
+    # Run 'End Routine' code from codeType
+    thisExp.addData('subjResponse', respDisplay)
+    # the Routine "trial" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
     
     # --- Prepare to start Routine "blank500" ---
     continueRoutine = True

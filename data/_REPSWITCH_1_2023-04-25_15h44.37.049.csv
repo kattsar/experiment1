@@ -1,0 +1,6 @@
+﻿image;typedAns;correctAns;respModal;repSwitch;sequence;target;stimulus;trialsREPSWITCH.thisRepN;trialsREPSWITCH.thisTrialN;trialsREPSWITCH.thisN;trialsREPSWITCH.thisIndex;textWelcome.started;textBlank500.started;textInstructions.started;keyInstructions.started;keyInstructions.keys;keyInstructions.rt;fixationITI.started;fixationITI.stopped;imageObject.started;textboxType.started;textboxType.text;participant;session;date;expName;psychopyVersion;frameRate;Column1
+;;;;;;;;;;;;1,68728E+16;1,88681E+15;1,9367E+16;1,9367E+16;space;1,03149E+16;;;;;;;1;2023-04-25_15h44.37.049;REPSWITCH_1;202225;5,99911E+15;
+REPSWITCH1/PICTURE_1.png;None;ratón;speak;nontarget;2;NT;Stim1_Set1;0;0;0;0;;2,52646E+16;;;;;2,10474E+15;2,23965E+16;2,23965E+16;2,23965E+16;"raton
+";;1;2023-04-25_15h44.37.049;REPSWITCH_1;202225;5,99911E+15;
+REPSWITCH1/PICTURE_1.png;None;ratón;speak;repeat;2;T;Stim1_Set1;0;1;1;1;;3,02654E+14;;;;;2,57649E+15;2,72635E+15;2,72635E+15;2,72635E+15;raton;;1;2023-04-25_15h44.37.049;REPSWITCH_1;202225;5,99911E+15;
+;;;;;;;;;;;;;3,48129E+15;;;;;3,07639E+16;3,18124E+16;3,18124E+16;3,18124E+16;nube;;;;;;;

@@ -1,0 +1,68 @@
+12.1948 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002AB7D007850>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002AB003DA430>, multiSample=False, name='window1', numSamples=2, pos=(192, 108), screen=0, size=array([1536,  864]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.1950 	EXP 	window1: mouseVisible = True
+12.1951 	EXP 	window1: mouseVisible = True
+12.1952 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+12.1952 	EXP 	window1: recordFrameIntervals = False
+12.3608 	EXP 	window1: recordFrameIntervals = True
+12.5440 	EXP 	Screen (0) actual frame rate measured at 60.12Hz
+12.5441 	EXP 	window1: recordFrameIntervals = False
+12.6020 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+15.8717 	EXP 	Created textWelcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textWelcome', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome to the experiment!', units='height', win=Window(...), wrapWidth=1)
+15.8733 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.9128 	EXP 	Created textInstructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textInstructions', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.9144 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.9183 	EXP 	Created fixationITI = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixationITI', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+15.9329 	EXP 	Created imageObject = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imageObject', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+15.9600 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.9683 	EXP 	Created textGoodbye = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textGoodbye', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank you for participating!', units='height', win=Window(...), wrapWidth=1)
+15.9991 	EXP 	textboxType: autoLog = True
+15.9991 	EXP 	textWelcome: autoDraw = True
+17.9922 	EXP 	textWelcome: autoDraw = False
+17.9922 	EXP 	textBlank500: autoDraw = True
+18.4932 	EXP 	textBlank500: autoDraw = False
+18.4932 	EXP 	textInstructions: autoDraw = True
+20.7810 	DATA 	Keypress: m
+21.2645 	DATA 	Keypress: space
+21.2936 	EXP 	textInstructions: autoDraw = False
+21.2936 	EXP 	textBlank500: autoDraw = True
+21.8929 	EXP 	Imported repswitch.xlsx as conditions, 96 conditions, 8 params
+21.8980 	EXP 	Created sequence: sequential, trialTypes=96, nReps=1, seed=None
+21.8994 	EXP 	New trial (rep=0, index=0): {'image': 'REPSWITCH1/PICTURE_1.png', 'typedAns': None, 'correctAns': 'ratón', 'respModal': 'speak', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'stimulus': 'Stim1_Set1'}
+21.9224 	EXP 	textBlank500: autoDraw = False
+21.9224 	EXP 	fixationITI: autoDraw = True
+23.3384 	EXP 	fixationITI: autoDraw = False
+23.3384 	EXP 	fixationITI: autoDraw = False
+23.3384 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_1.png'
+23.3384 	EXP 	imageObject: autoDraw = True
+23.3384 	EXP 	textboxType: autoDraw = True
+24.9986 	DATA 	Keypress: right
+25.1166 	DATA 	Keypress: right
+25.3826 	DATA 	Keypress: right
+25.9979 	DATA 	Keypress: backspace
+26.1452 	DATA 	Keypress: backspace
+26.1568 	EXP 	imageObject: autoDraw = False
+26.1568 	EXP 	textboxType: autoDraw = False
+26.1568 	EXP 	textBlank500: autoDraw = True
+26.2930 	DATA 	Keypress: backspace
+26.6429 	EXP 	New trial (rep=0, index=1): {'image': 'REPSWITCH1/PICTURE_1.png', 'typedAns': None, 'correctAns': 'ratón', 'respModal': 'speak', 'repSwitch': 'repeat', 'sequence': 2, 'target': 'T', 'stimulus': 'Stim1_Set1'}
+26.6574 	EXP 	textBlank500: autoDraw = False
+26.6574 	EXP 	fixationITI: autoDraw = True
+27.8217 	EXP 	fixationITI: autoDraw = False
+27.8217 	EXP 	fixationITI: autoDraw = False
+27.8217 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_1.png'
+27.8217 	EXP 	imageObject: autoDraw = True
+27.8217 	EXP 	textboxType: autoDraw = True
+28.6814 	DATA 	Keypress: a
+28.6985 	DATA 	Keypress: r
+29.1672 	DATA 	Keypress: backspace
+29.3319 	DATA 	Keypress: backspace
+29.3990 	DATA 	Keypress: r
+29.6148 	DATA 	Keypress: a
+29.8146 	DATA 	Keypress: t
+29.8979 	DATA 	Keypress: o
+30.0181 	DATA 	Keypress: n
+30.8224 	EXP 	imageObject: autoDraw = False
+30.8224 	EXP 	textboxType: autoDraw = False
+30.8224 	EXP 	textBlank500: autoDraw = True
+30.8258 	DATA 	Keypress: escape
+31.8643 	EXP 	window1: mouseVisible = True
