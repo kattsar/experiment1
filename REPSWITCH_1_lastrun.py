@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Απρίλιος 25, 2023, at 15:44
+    on abril 26, 2023, at 11:29
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -55,7 +55,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='D:\\GitHub\\experiment1\\REPSWITCH_1_lastrun.py',
+    originPath='F:\\1_Type_speak\\experiment\\REPSWITCH_1_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -66,6 +66,10 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 frameTolerance = 0.001  # how close to onset before 'same' frame
 
 # Start Code - component code to be run after the window creation
+# Make folder to store recordings from micSpeak
+micSpeakRecFolder = filename + '_micSpeak_recorded'
+if not os.path.isdir(micSpeakRecFolder):
+    os.mkdir(micSpeakRecFolder)
 
 # --- Setup the Window ---
 win = visual.Window(
@@ -165,6 +169,11 @@ textboxType = visual.TextBox2(
      editable=True,
      name='textboxType',
      autoLog=True,
+)
+keyType = keyboard.Keyboard()
+micSpeak = sound.microphone.Microphone(
+    device=None, channels=None, 
+    sampleRateHz=48000, maxRecordingSize=24000.0
 )
 
 # --- Initialize components for Routine "blank500" ---
@@ -609,8 +618,11 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     imageObject.setImage(image)
     textboxType.reset()
     textboxType.setText('')
+    keyType.keys = []
+    keyType.rt = []
+    _keyType_allKeys = []
     # keep track of which components have finished
-    trialComponents = [imageObject, textboxType]
+    trialComponents = [imageObject, textboxType, keyType, micSpeak]
     for thisComponent in trialComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -672,6 +684,66 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
                 thisExp.timestampOnFlip(win, 'textboxType.stopped')
                 textboxType.setAutoDraw(False)
         
+        # *keyType* updates
+        waitOnFlip = False
+        if keyType.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            keyType.frameNStart = frameN  # exact frame index
+            keyType.tStart = t  # local t and not account for scr refresh
+            keyType.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(keyType, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'keyType.started')
+            keyType.status = STARTED
+            # keyboard checking is just starting
+            waitOnFlip = True
+            win.callOnFlip(keyType.clock.reset)  # t=0 on next screen flip
+            win.callOnFlip(keyType.clearEvents, eventType='keyboard')  # clear events on next screen flip
+        if keyType.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > keyType.tStartRefresh + 3-frameTolerance:
+                # keep track of stop time/frame for later
+                keyType.tStop = t  # not accounting for scr refresh
+                keyType.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'keyType.stopped')
+                keyType.status = FINISHED
+        if keyType.status == STARTED and not waitOnFlip:
+            theseKeys = keyType.getKeys(keyList=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','','','','','','','','return','backspace'], waitRelease=False)
+            _keyType_allKeys.extend(theseKeys)
+            if len(_keyType_allKeys):
+                keyType.keys = [key.name for key in _keyType_allKeys]  # storing all keys
+                keyType.rt = [key.rt for key in _keyType_allKeys]
+                # a response ends the routine
+                continueRoutine = False
+        
+        # micSpeak updates
+        if micSpeak.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            micSpeak.frameNStart = frameN  # exact frame index
+            micSpeak.tStart = t  # local t and not account for scr refresh
+            micSpeak.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(micSpeak, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'micSpeak.started')
+            # start recording with micSpeak
+            micSpeak.start()
+            micSpeak.status = STARTED
+        if micSpeak.status == STARTED:
+            # update recorded clip for micSpeak
+            micSpeak.poll()
+        if micSpeak.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > micSpeak.tStartRefresh + 3-frameTolerance:
+                # keep track of stop time/frame for later
+                micSpeak.tStop = t  # not accounting for scr refresh
+                micSpeak.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'micSpeak.stopped')
+                # stop recording with micSpeak
+                micSpeak.stop()
+                micSpeak.status = FINISHED
+        
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
             core.quit()
@@ -695,6 +767,21 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     trialsREPSWITCH.addData('textboxType.text',textboxType.text)
+    # check responses
+    if keyType.keys in ['', [], None]:  # No response was made
+        keyType.keys = None
+    trialsREPSWITCH.addData('keyType.keys',keyType.keys)
+    if keyType.keys != None:  # we had a response
+        trialsREPSWITCH.addData('keyType.rt', keyType.rt)
+    # tell mic to keep hold of current recording in micSpeak.clips and transcript (if applicable) in micSpeak.scripts
+    # this will also update micSpeak.lastClip and micSpeak.lastScript
+    micSpeak.stop()
+    tag = data.utils.getDateStr()
+    micSpeakClip = micSpeak.bank(
+        tag=tag, transcribe='None',
+        config=None
+    )
+    trialsREPSWITCH.addData('micSpeak.clip', os.path.join(micSpeakRecFolder, 'recording_micSpeak_%s.wav' % tag))
     # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
     if routineForceEnded:
         routineTimer.reset()
@@ -854,6 +941,14 @@ if routineForceEnded:
     routineTimer.reset()
 else:
     routineTimer.addTime(-2.000000)
+# save micSpeak recordings
+for tag in micSpeak.clips:
+    for i, clip in enumerate(micSpeak.clips[tag]):
+        clipFilename = 'recording_micSpeak_%s.wav' % tag
+        # if there's more than 1 clip with this tag, append a counter for all beyond the first
+        if i > 0:
+            clipFilename += '_%s' % i
+        clip.save(os.path.join(micSpeakRecFolder, clipFilename))
 
 # --- End experiment ---
 # Flip one final time so any remaining win.callOnFlip() 

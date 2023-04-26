@@ -1,0 +1,6 @@
+﻿image,typedAns,correctAns,respModal,repSwitch,sequence,target,stimulus,trialsREPSWITCH.thisRepN,trialsREPSWITCH.thisTrialN,trialsREPSWITCH.thisN,trialsREPSWITCH.thisIndex,textWelcome.started,textBlank500.started,textInstructions.started,keyInstructions.started,keyInstructions.keys,keyInstructions.rt,fixationITI.started,fixationITI.stopped,imageObject.started,textboxType.started,textboxType.text,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,,,,15.849248294282006,17.76666416064836,18.260863070230698,18.260863070230698,space,21.818059695651755,,,,,,,001,2023-04-26_11h19.17.444,REPSWITCH_1,2022.2.5,32.21805770566809,
+REPSWITCH1/PICTURE_1.png,None,ratón,speak,nontarget,2,NT,Stim1_Set1,0,0,0,0,,44.96938256439171,,,,,40.8088613205764,42.42294406192377,42.42294406192377,42.42294406192377,"raton
+",,001,2023-04-26_11h19.17.444,REPSWITCH_1,2022.2.5,32.21805770566809,
+REPSWITCH1/PICTURE_1.png,None,ratón,speak,repeat,2,T,Stim1_Set1,0,1,1,1,,49.739367840782506,,,,,45.464773131127004,46.76163244820782,46.76163244820782,46.76163244820782,,,001,2023-04-26_11h19.17.444,REPSWITCH_1,2022.2.5,32.21805770566809,
+,,,,,,,,,,,,,,,,,,50.26248969932203,,,,,,,,,,,
