@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on abril 26, 2023, at 13:01
+    on abril 28, 2023, at 09:35
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -142,12 +142,18 @@ fixationITI = visual.ShapeStim(
     opacity=None, depth=0.0, interpolate=True)
 
 # --- Initialize components for Routine "trial" ---
-polygon = visual.Rect(
-    win=win, name='polygon',
-    width=(0.5, 0.5)[0], height=(0.5, 0.5)[1],
+polygonColour = visual.Rect(
+    win=win, name='polygonColour',
+    width=(0.55, 0.55)[0], height=(0.55, 0.55)[1],
     ori=0.0, pos=(0, 0), anchor='center',
     lineWidth=1.0,     colorSpace='rgb',  lineColor='white', fillColor='white',
     opacity=None, depth=0.0, interpolate=True)
+polygonWhite = visual.Rect(
+    win=win, name='polygonWhite',
+    width=(0.5, 0.5)[0], height=(0.5, 0.5)[1],
+    ori=0.0, pos=(0, 0), anchor='center',
+    lineWidth=1.0,     colorSpace='rgb',  lineColor='white', fillColor='white',
+    opacity=None, depth=-1.0, interpolate=True)
 imageObject = visual.ImageStim(
     win=win,
     name='imageObject', 
@@ -155,7 +161,7 @@ imageObject = visual.ImageStim(
     ori=0.0, pos=(0, 0), size=(0.5, 0.5),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-1.0)
+    texRes=128.0, interpolate=True, depth=-2.0)
 textbox = visual.TextBox2(
      win, text=None, font='Open Sans',
      pos=(0, 0),     letterHeight=0.05,
@@ -612,11 +618,13 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     continueRoutine = True
     routineForceEnded = False
     # update component parameters for each repeat
+    polygonColour.setFillColor(frameColour)
+    polygonColour.setLineColor(frameColour)
     imageObject.setImage(image)
     textbox.reset()
     textbox.setText('')
     # keep track of which components have finished
-    trialComponents = [polygon, imageObject, textbox]
+    trialComponents = [polygonColour, polygonWhite, imageObject, textbox]
     for thisComponent in trialComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -638,25 +646,45 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
         
-        # *polygon* updates
-        if polygon.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # *polygonColour* updates
+        if polygonColour.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
-            polygon.frameNStart = frameN  # exact frame index
-            polygon.tStart = t  # local t and not account for scr refresh
-            polygon.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(polygon, 'tStartRefresh')  # time at next scr refresh
+            polygonColour.frameNStart = frameN  # exact frame index
+            polygonColour.tStart = t  # local t and not account for scr refresh
+            polygonColour.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(polygonColour, 'tStartRefresh')  # time at next scr refresh
             # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'polygon.started')
-            polygon.setAutoDraw(True)
-        if polygon.status == STARTED:
+            thisExp.timestampOnFlip(win, 'polygonColour.started')
+            polygonColour.setAutoDraw(True)
+        if polygonColour.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > polygon.tStartRefresh + 3-frameTolerance:
+            if tThisFlipGlobal > polygonColour.tStartRefresh + 3-frameTolerance:
                 # keep track of stop time/frame for later
-                polygon.tStop = t  # not accounting for scr refresh
-                polygon.frameNStop = frameN  # exact frame index
+                polygonColour.tStop = t  # not accounting for scr refresh
+                polygonColour.frameNStop = frameN  # exact frame index
                 # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'polygon.stopped')
-                polygon.setAutoDraw(False)
+                thisExp.timestampOnFlip(win, 'polygonColour.stopped')
+                polygonColour.setAutoDraw(False)
+        
+        # *polygonWhite* updates
+        if polygonWhite.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            polygonWhite.frameNStart = frameN  # exact frame index
+            polygonWhite.tStart = t  # local t and not account for scr refresh
+            polygonWhite.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(polygonWhite, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'polygonWhite.started')
+            polygonWhite.setAutoDraw(True)
+        if polygonWhite.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > polygonWhite.tStartRefresh + 3-frameTolerance:
+                # keep track of stop time/frame for later
+                polygonWhite.tStop = t  # not accounting for scr refresh
+                polygonWhite.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'polygonWhite.stopped')
+                polygonWhite.setAutoDraw(False)
         
         # *imageObject* updates
         if imageObject.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
