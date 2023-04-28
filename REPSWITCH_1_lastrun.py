@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on abril 26, 2023, at 11:29
+    on abril 26, 2023, at 13:01
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -66,10 +66,6 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 frameTolerance = 0.001  # how close to onset before 'same' frame
 
 # Start Code - component code to be run after the window creation
-# Make folder to store recordings from micSpeak
-micSpeakRecFolder = filename + '_micSpeak_recorded'
-if not os.path.isdir(micSpeakRecFolder):
-    os.mkdir(micSpeakRecFolder)
 
 # --- Setup the Window ---
 win = visual.Window(
@@ -146,6 +142,12 @@ fixationITI = visual.ShapeStim(
     opacity=None, depth=0.0, interpolate=True)
 
 # --- Initialize components for Routine "trial" ---
+polygon = visual.Rect(
+    win=win, name='polygon',
+    width=(0.5, 0.5)[0], height=(0.5, 0.5)[1],
+    ori=0.0, pos=(0, 0), anchor='center',
+    lineWidth=1.0,     colorSpace='rgb',  lineColor='white', fillColor='white',
+    opacity=None, depth=0.0, interpolate=True)
 imageObject = visual.ImageStim(
     win=win,
     name='imageObject', 
@@ -153,11 +155,11 @@ imageObject = visual.ImageStim(
     ori=0.0, pos=(0, 0), size=(0.5, 0.5),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=0.0)
-textboxType = visual.TextBox2(
+    texRes=128.0, interpolate=True, depth=-1.0)
+textbox = visual.TextBox2(
      win, text=None, font='Open Sans',
-     pos=(0, -0.2),     letterHeight=0.05,
-     size=(0.1, 0.1), borderWidth=2.0,
+     pos=(0, 0),     letterHeight=0.05,
+     size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
      bold=False, italic=False,
@@ -166,14 +168,9 @@ textboxType = visual.TextBox2(
      anchor='center',
      fillColor=None, borderColor=None,
      flipHoriz=False, flipVert=False, languageStyle='LTR',
-     editable=True,
-     name='textboxType',
+     editable=False,
+     name='textbox',
      autoLog=True,
-)
-keyType = keyboard.Keyboard()
-micSpeak = sound.microphone.Microphone(
-    device=None, channels=None, 
-    sampleRateHz=48000, maxRecordingSize=24000.0
 )
 
 # --- Initialize components for Routine "blank500" ---
@@ -616,13 +613,10 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     routineForceEnded = False
     # update component parameters for each repeat
     imageObject.setImage(image)
-    textboxType.reset()
-    textboxType.setText('')
-    keyType.keys = []
-    keyType.rt = []
-    _keyType_allKeys = []
+    textbox.reset()
+    textbox.setText('')
     # keep track of which components have finished
-    trialComponents = [imageObject, textboxType, keyType, micSpeak]
+    trialComponents = [polygon, imageObject, textbox]
     for thisComponent in trialComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -644,6 +638,26 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
         
+        # *polygon* updates
+        if polygon.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            polygon.frameNStart = frameN  # exact frame index
+            polygon.tStart = t  # local t and not account for scr refresh
+            polygon.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(polygon, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'polygon.started')
+            polygon.setAutoDraw(True)
+        if polygon.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > polygon.tStartRefresh + 3-frameTolerance:
+                # keep track of stop time/frame for later
+                polygon.tStop = t  # not accounting for scr refresh
+                polygon.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'polygon.stopped')
+                polygon.setAutoDraw(False)
+        
         # *imageObject* updates
         if imageObject.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
@@ -664,85 +678,25 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
                 thisExp.timestampOnFlip(win, 'imageObject.stopped')
                 imageObject.setAutoDraw(False)
         
-        # *textboxType* updates
-        if textboxType.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # *textbox* updates
+        if textbox.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
-            textboxType.frameNStart = frameN  # exact frame index
-            textboxType.tStart = t  # local t and not account for scr refresh
-            textboxType.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(textboxType, 'tStartRefresh')  # time at next scr refresh
+            textbox.frameNStart = frameN  # exact frame index
+            textbox.tStart = t  # local t and not account for scr refresh
+            textbox.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(textbox, 'tStartRefresh')  # time at next scr refresh
             # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'textboxType.started')
-            textboxType.setAutoDraw(True)
-        if textboxType.status == STARTED:
+            thisExp.timestampOnFlip(win, 'textbox.started')
+            textbox.setAutoDraw(True)
+        if textbox.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > textboxType.tStartRefresh + 3-frameTolerance:
+            if tThisFlipGlobal > textbox.tStartRefresh + 3-frameTolerance:
                 # keep track of stop time/frame for later
-                textboxType.tStop = t  # not accounting for scr refresh
-                textboxType.frameNStop = frameN  # exact frame index
+                textbox.tStop = t  # not accounting for scr refresh
+                textbox.frameNStop = frameN  # exact frame index
                 # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'textboxType.stopped')
-                textboxType.setAutoDraw(False)
-        
-        # *keyType* updates
-        waitOnFlip = False
-        if keyType.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            keyType.frameNStart = frameN  # exact frame index
-            keyType.tStart = t  # local t and not account for scr refresh
-            keyType.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(keyType, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'keyType.started')
-            keyType.status = STARTED
-            # keyboard checking is just starting
-            waitOnFlip = True
-            win.callOnFlip(keyType.clock.reset)  # t=0 on next screen flip
-            win.callOnFlip(keyType.clearEvents, eventType='keyboard')  # clear events on next screen flip
-        if keyType.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > keyType.tStartRefresh + 3-frameTolerance:
-                # keep track of stop time/frame for later
-                keyType.tStop = t  # not accounting for scr refresh
-                keyType.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'keyType.stopped')
-                keyType.status = FINISHED
-        if keyType.status == STARTED and not waitOnFlip:
-            theseKeys = keyType.getKeys(keyList=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','','','','','','','','return','backspace'], waitRelease=False)
-            _keyType_allKeys.extend(theseKeys)
-            if len(_keyType_allKeys):
-                keyType.keys = [key.name for key in _keyType_allKeys]  # storing all keys
-                keyType.rt = [key.rt for key in _keyType_allKeys]
-                # a response ends the routine
-                continueRoutine = False
-        
-        # micSpeak updates
-        if micSpeak.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            micSpeak.frameNStart = frameN  # exact frame index
-            micSpeak.tStart = t  # local t and not account for scr refresh
-            micSpeak.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(micSpeak, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'micSpeak.started')
-            # start recording with micSpeak
-            micSpeak.start()
-            micSpeak.status = STARTED
-        if micSpeak.status == STARTED:
-            # update recorded clip for micSpeak
-            micSpeak.poll()
-        if micSpeak.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > micSpeak.tStartRefresh + 3-frameTolerance:
-                # keep track of stop time/frame for later
-                micSpeak.tStop = t  # not accounting for scr refresh
-                micSpeak.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'micSpeak.stopped')
-                # stop recording with micSpeak
-                micSpeak.stop()
-                micSpeak.status = FINISHED
+                thisExp.timestampOnFlip(win, 'textbox.stopped')
+                textbox.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -766,22 +720,6 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     for thisComponent in trialComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    trialsREPSWITCH.addData('textboxType.text',textboxType.text)
-    # check responses
-    if keyType.keys in ['', [], None]:  # No response was made
-        keyType.keys = None
-    trialsREPSWITCH.addData('keyType.keys',keyType.keys)
-    if keyType.keys != None:  # we had a response
-        trialsREPSWITCH.addData('keyType.rt', keyType.rt)
-    # tell mic to keep hold of current recording in micSpeak.clips and transcript (if applicable) in micSpeak.scripts
-    # this will also update micSpeak.lastClip and micSpeak.lastScript
-    micSpeak.stop()
-    tag = data.utils.getDateStr()
-    micSpeakClip = micSpeak.bank(
-        tag=tag, transcribe='None',
-        config=None
-    )
-    trialsREPSWITCH.addData('micSpeak.clip', os.path.join(micSpeakRecFolder, 'recording_micSpeak_%s.wav' % tag))
     # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
     if routineForceEnded:
         routineTimer.reset()
@@ -941,14 +879,6 @@ if routineForceEnded:
     routineTimer.reset()
 else:
     routineTimer.addTime(-2.000000)
-# save micSpeak recordings
-for tag in micSpeak.clips:
-    for i, clip in enumerate(micSpeak.clips[tag]):
-        clipFilename = 'recording_micSpeak_%s.wav' % tag
-        # if there's more than 1 clip with this tag, append a counter for all beyond the first
-        if i > 0:
-            clipFilename += '_%s' % i
-        clip.save(os.path.join(micSpeakRecFolder, clipFilename))
 
 # --- End experiment ---
 # Flip one final time so any remaining win.callOnFlip() 
