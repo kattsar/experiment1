@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on abril 28, 2023, at 09:55
+    on Μάιος 03, 2023, at 14:26
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -55,7 +55,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='F:\\1_Type_speak\\experiment\\REPSWITCH_1_lastrun.py',
+    originPath='D:\\GitHub\\experiment1\\REPSWITCH_1_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -162,7 +162,14 @@ imageObject = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
     texRes=128.0, interpolate=True, depth=-2.0)
-keyType = keyboard.Keyboard()
+textInput = visual.TextStim(win=win, name='textInput',
+    text='',
+    font='Open Sans',
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=-3.0);
+keyResp = keyboard.Keyboard()
 
 # --- Initialize components for Routine "blank500" ---
 textBlank500 = visual.TextStim(win=win, name='textBlank500',
@@ -606,10 +613,10 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     polygonColour.setFillColor(frameColour)
     polygonColour.setLineColor(frameColour)
     imageObject.setImage(image)
-    keyType.keys = []
-    keyType.rt = []
-    _keyType_allKeys = []
-    # Run 'Begin Routine' code from codeType
+    keyResp.keys = []
+    keyResp.rt = []
+    _keyResp_allKeys = []
+    # Run 'Begin Routine' code from codeResp
     respDisplay = ""
     maxDigits = 8
     
@@ -617,7 +624,7 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     last_len = 0
     key_list = []
     # keep track of which components have finished
-    trialComponents = [polygonColour, polygonWhite, imageObject, keyType]
+    trialComponents = [polygonColour, polygonWhite, imageObject, textInput, keyResp]
     for thisComponent in trialComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -631,7 +638,7 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     frameN = -1
     
     # --- Run Routine "trial" ---
-    while continueRoutine and routineTimer.getTime() < 3.0:
+    while continueRoutine:
         # get current time
         t = routineTimer.getTime()
         tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -699,39 +706,41 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
                 thisExp.timestampOnFlip(win, 'imageObject.stopped')
                 imageObject.setAutoDraw(False)
         
-        # *keyType* updates
-        waitOnFlip = False
-        if keyType.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # *textInput* updates
+        if textInput.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
-            keyType.frameNStart = frameN  # exact frame index
-            keyType.tStart = t  # local t and not account for scr refresh
-            keyType.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(keyType, 'tStartRefresh')  # time at next scr refresh
+            textInput.frameNStart = frameN  # exact frame index
+            textInput.tStart = t  # local t and not account for scr refresh
+            textInput.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(textInput, 'tStartRefresh')  # time at next scr refresh
             # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'keyType.started')
-            keyType.status = STARTED
+            thisExp.timestampOnFlip(win, 'textInput.started')
+            textInput.setAutoDraw(True)
+        if textInput.status == STARTED:  # only update if drawing
+            textInput.setText(respDisplay, log=False)
+        
+        # *keyResp* updates
+        waitOnFlip = False
+        if keyResp.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            keyResp.frameNStart = frameN  # exact frame index
+            keyResp.tStart = t  # local t and not account for scr refresh
+            keyResp.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(keyResp, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'keyResp.started')
+            keyResp.status = STARTED
             # keyboard checking is just starting
             waitOnFlip = True
-            win.callOnFlip(keyType.clock.reset)  # t=0 on next screen flip
-            win.callOnFlip(keyType.clearEvents, eventType='keyboard')  # clear events on next screen flip
-        if keyType.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > keyType.tStartRefresh + 3-frameTolerance:
-                # keep track of stop time/frame for later
-                keyType.tStop = t  # not accounting for scr refresh
-                keyType.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'keyType.stopped')
-                keyType.status = FINISHED
-        if keyType.status == STARTED and not waitOnFlip:
-            theseKeys = keyType.getKeys(keyList=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y,'z','ñ','backspace','return'], waitRelease=False)
-            _keyType_allKeys.extend(theseKeys)
-            if len(_keyType_allKeys):
-                keyType.keys = _keyType_allKeys[-1].name  # just the last key pressed
-                keyType.rt = _keyType_allKeys[-1].rt
-                # a response ends the routine
-                continueRoutine = False
-        # Run 'Each Frame' code from codeType
+            win.callOnFlip(keyResp.clock.reset)  # t=0 on next screen flip
+            win.callOnFlip(keyResp.clearEvents, eventType='keyboard')  # clear events on next screen flip
+        if keyResp.status == STARTED and not waitOnFlip:
+            theseKeys = keyResp.getKeys(keyList=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y,'z','return','backspace'], waitRelease=False)
+            _keyResp_allKeys.extend(theseKeys)
+            if len(_keyResp_allKeys):
+                keyResp.keys = [key.name for key in _keyResp_allKeys]  # storing all keys
+                keyResp.rt = [key.rt for key in _keyResp_allKeys]
+        # Run 'Each Frame' code from codeResp
         #if a new key has been pressed since last time
         if(len(keyResp.keys) > last_len):
             
@@ -789,18 +798,15 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     # check responses
-    if keyType.keys in ['', [], None]:  # No response was made
-        keyType.keys = None
-    trialsREPSWITCH.addData('keyType.keys',keyType.keys)
-    if keyType.keys != None:  # we had a response
-        trialsREPSWITCH.addData('keyType.rt', keyType.rt)
-    # Run 'End Routine' code from codeType
+    if keyResp.keys in ['', [], None]:  # No response was made
+        keyResp.keys = None
+    trialsREPSWITCH.addData('keyResp.keys',keyResp.keys)
+    if keyResp.keys != None:  # we had a response
+        trialsREPSWITCH.addData('keyResp.rt', keyResp.rt)
+    # Run 'End Routine' code from codeResp
     thisExp.addData('subjResponse', respDisplay)
-    # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
-    if routineForceEnded:
-        routineTimer.reset()
-    else:
-        routineTimer.addTime(-3.000000)
+    # the Routine "trial" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
     
     # --- Prepare to start Routine "blank500" ---
     continueRoutine = True
