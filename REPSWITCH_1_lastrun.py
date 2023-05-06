@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Μάιος 03, 2023, at 14:26
+    on Μάιος 06, 2023, at 14:34
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -66,6 +66,10 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 frameTolerance = 0.001  # how close to onset before 'same' frame
 
 # Start Code - component code to be run after the window creation
+# Make folder to store recordings from micResp
+micRespRecFolder = filename + '_micResp_recorded'
+if not os.path.isdir(micRespRecFolder):
+    os.mkdir(micRespRecFolder)
 
 # --- Setup the Window ---
 win = visual.Window(
@@ -166,10 +170,14 @@ textInput = visual.TextStim(win=win, name='textInput',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
-    color='white', colorSpace='rgb', opacity=None, 
+    color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=-3.0);
 keyResp = keyboard.Keyboard()
+micResp = sound.microphone.Microphone(
+    device=5, channels=None, 
+    sampleRateHz=48000, maxRecordingSize=24000.0
+)
 
 # --- Initialize components for Routine "blank500" ---
 textBlank500 = visual.TextStim(win=win, name='textBlank500',
@@ -624,7 +632,7 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     last_len = 0
     key_list = []
     # keep track of which components have finished
-    trialComponents = [polygonColour, polygonWhite, imageObject, textInput, keyResp]
+    trialComponents = [polygonColour, polygonWhite, imageObject, textInput, keyResp, micResp]
     for thisComponent in trialComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -735,7 +743,7 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
             win.callOnFlip(keyResp.clock.reset)  # t=0 on next screen flip
             win.callOnFlip(keyResp.clearEvents, eventType='keyboard')  # clear events on next screen flip
         if keyResp.status == STARTED and not waitOnFlip:
-            theseKeys = keyResp.getKeys(keyList=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y,'z','return','backspace'], waitRelease=False)
+            theseKeys = keyResp.getKeys(keyList=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','return','backspace'], waitRelease=False)
             _keyResp_allKeys.extend(theseKeys)
             if len(_keyResp_allKeys):
                 keyResp.keys = [key.name for key in _keyResp_allKeys]  # storing all keys
@@ -775,6 +783,33 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
             #create a variable to display
             respDisplay = ''.join(key_list)
         
+        # micResp updates
+        if micResp.status == NOT_STARTED and t >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            micResp.frameNStart = frameN  # exact frame index
+            micResp.tStart = t  # local t and not account for scr refresh
+            micResp.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(micResp, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.addData('micResp.started', t)
+            # start recording with micResp
+            micResp.start()
+            micResp.status = STARTED
+        if micResp.status == STARTED:
+            # update recorded clip for micResp
+            micResp.poll()
+        if micResp.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > micResp.tStartRefresh + 3-frameTolerance:
+                # keep track of stop time/frame for later
+                micResp.tStop = t  # not accounting for scr refresh
+                micResp.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.addData('micResp.stopped', t)
+                # stop recording with micResp
+                micResp.stop()
+                micResp.status = FINISHED
+        
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
             core.quit()
@@ -805,6 +840,15 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
         trialsREPSWITCH.addData('keyResp.rt', keyResp.rt)
     # Run 'End Routine' code from codeResp
     thisExp.addData('subjResponse', respDisplay)
+    # tell mic to keep hold of current recording in micResp.clips and transcript (if applicable) in micResp.scripts
+    # this will also update micResp.lastClip and micResp.lastScript
+    micResp.stop()
+    tag = data.utils.getDateStr()
+    micRespClip = micResp.bank(
+        tag=tag, transcribe='None',
+        config=None
+    )
+    trialsREPSWITCH.addData('micResp.clip', os.path.join(micRespRecFolder, 'recording_micResp_%s.wav' % tag))
     # the Routine "trial" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     
@@ -961,6 +1005,14 @@ if routineForceEnded:
     routineTimer.reset()
 else:
     routineTimer.addTime(-2.000000)
+# save micResp recordings
+for tag in micResp.clips:
+    for i, clip in enumerate(micResp.clips[tag]):
+        clipFilename = 'recording_micResp_%s.wav' % tag
+        # if there's more than 1 clip with this tag, append a counter for all beyond the first
+        if i > 0:
+            clipFilename += '_%s' % i
+        clip.save(os.path.join(micRespRecFolder, clipFilename))
 
 # --- End experiment ---
 # Flip one final time so any remaining win.callOnFlip() 
