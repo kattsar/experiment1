@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Μάιος 06, 2023, at 14:34
+    on Μάιος 07, 2023, at 18:53
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -646,7 +646,7 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     frameN = -1
     
     # --- Run Routine "trial" ---
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime() < 3.0:
         # get current time
         t = routineTimer.getTime()
         tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -724,6 +724,15 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
             # add timestamp to datafile
             thisExp.timestampOnFlip(win, 'textInput.started')
             textInput.setAutoDraw(True)
+        if textInput.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > textInput.tStartRefresh + 3-frameTolerance:
+                # keep track of stop time/frame for later
+                textInput.tStop = t  # not accounting for scr refresh
+                textInput.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'textInput.stopped')
+                textInput.setAutoDraw(False)
         if textInput.status == STARTED:  # only update if drawing
             textInput.setText(respDisplay, log=False)
         
@@ -742,8 +751,17 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
             waitOnFlip = True
             win.callOnFlip(keyResp.clock.reset)  # t=0 on next screen flip
             win.callOnFlip(keyResp.clearEvents, eventType='keyboard')  # clear events on next screen flip
+        if keyResp.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > keyResp.tStartRefresh + 3-frameTolerance:
+                # keep track of stop time/frame for later
+                keyResp.tStop = t  # not accounting for scr refresh
+                keyResp.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'keyResp.stopped')
+                keyResp.status = FINISHED
         if keyResp.status == STARTED and not waitOnFlip:
-            theseKeys = keyResp.getKeys(keyList=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','return','backspace'], waitRelease=False)
+            theseKeys = keyResp.getKeys(keyList=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','ñ','o','p','q','r','s','t','u','v','w','x','y','z','return','backspace'], waitRelease=False)
             _keyResp_allKeys.extend(theseKeys)
             if len(_keyResp_allKeys):
                 keyResp.keys = [key.name for key in _keyResp_allKeys]  # storing all keys
@@ -849,8 +867,11 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
         config=None
     )
     trialsREPSWITCH.addData('micResp.clip', os.path.join(micRespRecFolder, 'recording_micResp_%s.wav' % tag))
-    # the Routine "trial" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
+    # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
+    if routineForceEnded:
+        routineTimer.reset()
+    else:
+        routineTimer.addTime(-3.000000)
     
     # --- Prepare to start Routine "blank500" ---
     continueRoutine = True
