@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Μάιος 08, 2023, at 10:08
+    on Μάιος 08, 2023, at 16:32
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -120,7 +120,7 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
 
 # --- Initialize components for Routine "Instructions" ---
 textInstructions = visual.TextStim(win=win, name='textInstructions',
-    text='In this task you will have to name the objects you see on the screen.\nIf the background is red, type the name of the object.\nIf the background is blue, say the name of the object out loud.\n\n\nPress SPACE to begin!',
+    text='In this task you will have to name the objects you see on the screen.\nIf the background is blue, type the name of the object.\nIf the background is yellow, say the name of the object out loud.\n\n\nPress SPACE to begin!',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -170,7 +170,7 @@ textInput = visual.TextStim(win=win, name='textInput',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
-    color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb', opacity=None, 
+    color=[1.0000, 1.0000, 1.0000], colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
     depth=-3.0);
 keyResp = keyboard.Keyboard()
@@ -761,7 +761,7 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
                 thisExp.timestampOnFlip(win, 'keyResp.stopped')
                 keyResp.status = FINISHED
         if keyResp.status == STARTED and not waitOnFlip:
-            theseKeys = keyResp.getKeys(keyList=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','ñ','o','p','q','r','s','t','u','v','w','x','y','z','return','backspace'], waitRelease=False)
+            theseKeys = keyResp.getKeys(keyList=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','ñ','o','p','q','r','s','t','u','v','w','x','y','z','backspace'], waitRelease=False)
             _keyResp_allKeys.extend(theseKeys)
             if len(_keyResp_allKeys):
                 keyResp.keys = [key.name for key in _keyResp_allKeys]  # storing all keys
@@ -818,7 +818,7 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
             micResp.poll()
         if micResp.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > micResp.tStartRefresh + 3-frameTolerance:
+            if tThisFlipGlobal > micResp.tStartRefresh + 2-frameTolerance:
                 # keep track of stop time/frame for later
                 micResp.tStop = t  # not accounting for scr refresh
                 micResp.frameNStop = frameN  # exact frame index
