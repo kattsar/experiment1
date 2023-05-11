@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Μάιος 09, 2023, at 15:38
+    on Μάιος 11, 2023, at 15:28
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -166,19 +166,13 @@ imageObject = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
     texRes=128.0, interpolate=True, depth=-2.0)
-polygonText = visual.Rect(
-    win=win, name='polygonText',
-    width=(0, 0)[0], height=(0, 0)[1],
-    ori=0.0, pos=(0, 0), anchor='center',
-    lineWidth=1.0,     colorSpace='rgb',  lineColor='white', fillColor='white',
-    opacity=1.0, depth=-3.0, interpolate=True)
 textInput = visual.TextStim(win=win, name='textInput',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-4.0);
+    depth=-3.0);
 keyResp = keyboard.Keyboard()
 micResp = sound.microphone.Microphone(
     device=None, channels=None, 
@@ -627,8 +621,6 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     polygonColour.setFillColor(frameColour)
     polygonColour.setLineColor(frameColour)
     imageObject.setImage(image)
-    polygonText.setFillColor(textColour)
-    polygonText.setLineColor(textColour)
     keyResp.keys = []
     keyResp.rt = []
     _keyResp_allKeys = []
@@ -640,7 +632,7 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     last_len = 0
     key_list = []
     # keep track of which components have finished
-    trialComponents = [polygonColour, polygonWhite, imageObject, polygonText, textInput, keyResp, micResp]
+    trialComponents = [polygonColour, polygonWhite, imageObject, textInput, keyResp, micResp]
     for thisComponent in trialComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -721,26 +713,6 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
                 # add timestamp to datafile
                 thisExp.timestampOnFlip(win, 'imageObject.stopped')
                 imageObject.setAutoDraw(False)
-        
-        # *polygonText* updates
-        if polygonText.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            polygonText.frameNStart = frameN  # exact frame index
-            polygonText.tStart = t  # local t and not account for scr refresh
-            polygonText.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(polygonText, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'polygonText.started')
-            polygonText.setAutoDraw(True)
-        if polygonText.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > polygonText.tStartRefresh + 3-frameTolerance:
-                # keep track of stop time/frame for later
-                polygonText.tStop = t  # not accounting for scr refresh
-                polygonText.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'polygonText.stopped')
-                polygonText.setAutoDraw(False)
         
         # *textInput* updates
         if textInput.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
