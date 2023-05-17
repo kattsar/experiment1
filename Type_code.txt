@@ -1,0 +1,42 @@
+#increment the key logger length
+    #last_len = len(keyResp.keys)
+    
+    #grab the last key added to the keys list
+    #key_list.append(keyResp.keys.pop())
+
+    #check for backspace
+    #if("backspace" in key_list):
+        #key_list.remove("backspace")
+
+        #if we have at least 1 character, remove it
+        #if(len(key_list) > 0):
+            #key_list.pop()
+
+    #if enter is pressed then...
+    #elif("return" in key_list):
+        #remove the enter key
+        #key_list.pop()
+
+        #and end the trial if we have at least 2 digits
+        #if(len(key_list) >= 2):
+            #continueRoutine = False
+
+
+    #now loop through and remove any extra characters that may exist
+    #while(len(key_list) > maxDigits):
+        #key_list.pop()
+    
+    #create a variable to display
+    #respDisplay = ''.join(key_list)
+    
+    #Update the text of the white box with the typed response
+    #resp_text.text = respDisplay
+    
+    #Set the position of the white box
+    #white_box.pos = (0, 0)
+    
+    # Draw the white box
+    #white_box.draw()
+    
+    #Draw the typed response
+    #resp_text.draw()

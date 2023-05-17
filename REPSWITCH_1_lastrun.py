@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Μάιος 11, 2023, at 15:36
+    on Μάιος 17, 2023, at 14:17
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -166,13 +166,19 @@ imageObject = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
     texRes=128.0, interpolate=True, depth=-2.0)
+polygonText = visual.Rect(
+    win=win, name='polygonText',
+    width=(0, 0)[0], height=(0, 0)[1],
+    ori=0.0, pos=(0, 0), anchor='center',
+    lineWidth=1.0,     colorSpace='rgb',  lineColor='white', fillColor='white',
+    opacity=None, depth=-3.0, interpolate=True)
 textInput = visual.TextStim(win=win, name='textInput',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb', opacity=1.0, 
     languageStyle='LTR',
-    depth=-3.0);
+    depth=-4.0);
 keyResp = keyboard.Keyboard()
 micResp = sound.microphone.Microphone(
     device=None, channels=None, 
@@ -626,13 +632,21 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     _keyResp_allKeys = []
     # Run 'Begin Routine' code from codeResp
     respDisplay = ""
-    maxDigits = 15
+    #maxDigits = 15
     
     #key logger defaults
     last_len = 0
     key_list = []
+    
+    #create the white box
+    white_box = visual.Rect(win, width=0.5, height=0.1, fillColor="white", lineColor="black", pos=(0, 0))
+    
+    #display the typed response text
+    resp_text = visual.TextStim(win, text="", color="black", pos=(0, 0), height=0.1, wrapWidth=1.5)
+    
+    first_key_pressed = False
     # keep track of which components have finished
-    trialComponents = [polygonColour, polygonWhite, imageObject, textInput, keyResp, micResp]
+    trialComponents = [polygonColour, polygonWhite, imageObject, polygonText, textInput, keyResp, micResp]
     for thisComponent in trialComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -714,6 +728,26 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
                 thisExp.timestampOnFlip(win, 'imageObject.stopped')
                 imageObject.setAutoDraw(False)
         
+        # *polygonText* updates
+        if polygonText.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            polygonText.frameNStart = frameN  # exact frame index
+            polygonText.tStart = t  # local t and not account for scr refresh
+            polygonText.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(polygonText, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'polygonText.started')
+            polygonText.setAutoDraw(True)
+        if polygonText.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > polygonText.tStartRefresh + 3-frameTolerance:
+                # keep track of stop time/frame for later
+                polygonText.tStop = t  # not accounting for scr refresh
+                polygonText.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'polygonText.stopped')
+                polygonText.setAutoDraw(False)
+        
         # *textInput* updates
         if textInput.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
@@ -769,37 +803,42 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
         # Run 'Each Frame' code from codeResp
         #if a new key has been pressed since last time
         if(len(keyResp.keys) > last_len):
-            
-            #increment the key logger length
+            # Update the key logger length
             last_len = len(keyResp.keys)
-            
-            #grab the last key added to the keys list
-            key_list.append(keyResp.keys.pop())
         
-            #check for backspace
-            if("backspace" in key_list):
-                key_list.remove("backspace")
+            # Grab the last key added to the keys list
+            key = keyResp.keys[-1]
         
-                #if we have at least 1 character, remove it
-                if(len(key_list) > 0):
+            # Check if it's the first key press
+            if not first_key_pressed:
+                first_key_pressed = True
+        
+            # Add the key to the key logger
+            key_list.append(key)
+        
+            # Check for backspace
+            if key == 'backspace':
+                if len(key_list) > 0:
                     key_list.pop()
         
-            #if enter is pressed then...
-            elif("return" in key_list):
-                #remove the enter key
-                key_list.pop()
-        
-                #and end the trial if we have at least 2 digits
-                if(len(key_list) >= 2):
+            # Check for enter
+            elif key == 'return':
+                if len(key_list) >= 2:
                     continueRoutine = False
         
-        
-            #now loop through and remove any extra characters that may exist
-            while(len(key_list) > maxDigits):
-                key_list.pop()
-                
-            #create a variable to display
+            # Create a variable to display
             respDisplay = ''.join(key_list)
+        
+        # Draw the white box
+        if first_key_pressed:
+            white_box.draw()
+        
+        # Update the text of the typed response
+        resp_text.text = respDisplay
+        
+        # Draw the typed response
+        resp_text.draw()
+        
         
         # micResp updates
         if micResp.status == NOT_STARTED and t >= 0.0-frameTolerance:
