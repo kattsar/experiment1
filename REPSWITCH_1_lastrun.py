@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Μάιος 17, 2023, at 14:17
+    on Μάιος 18, 2023, at 11:13
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -166,11 +166,11 @@ imageObject = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
     texRes=128.0, interpolate=True, depth=-2.0)
-polygonText = visual.Rect(
-    win=win, name='polygonText',
-    width=(0, 0)[0], height=(0, 0)[1],
+polygonType = visual.Rect(
+    win=win, name='polygonType',
+    width=(0.2, 0.1)[0], height=(0.2, 0.1)[1],
     ori=0.0, pos=(0, 0), anchor='center',
-    lineWidth=1.0,     colorSpace='rgb',  lineColor='white', fillColor='white',
+    lineWidth=1.0,     colorSpace='rgb',  lineColor=[0.9216, 0.9216, 0.9216], fillColor=[0.9216, 0.9216, 0.9216],
     opacity=None, depth=-3.0, interpolate=True)
 textInput = visual.TextStim(win=win, name='textInput',
     text='',
@@ -638,15 +638,10 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     last_len = 0
     key_list = []
     
-    #create the white box
-    white_box = visual.Rect(win, width=0.5, height=0.1, fillColor="white", lineColor="black", pos=(0, 0))
+    polygonType.opacity = 0  
     
-    #display the typed response text
-    resp_text = visual.TextStim(win, text="", color="black", pos=(0, 0), height=0.1, wrapWidth=1.5)
-    
-    first_key_pressed = False
     # keep track of which components have finished
-    trialComponents = [polygonColour, polygonWhite, imageObject, polygonText, textInput, keyResp, micResp]
+    trialComponents = [polygonColour, polygonWhite, imageObject, polygonType, textInput, keyResp, micResp]
     for thisComponent in trialComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -728,25 +723,25 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
                 thisExp.timestampOnFlip(win, 'imageObject.stopped')
                 imageObject.setAutoDraw(False)
         
-        # *polygonText* updates
-        if polygonText.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # *polygonType* updates
+        if polygonType.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
             # keep track of start time/frame for later
-            polygonText.frameNStart = frameN  # exact frame index
-            polygonText.tStart = t  # local t and not account for scr refresh
-            polygonText.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(polygonText, 'tStartRefresh')  # time at next scr refresh
+            polygonType.frameNStart = frameN  # exact frame index
+            polygonType.tStart = t  # local t and not account for scr refresh
+            polygonType.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(polygonType, 'tStartRefresh')  # time at next scr refresh
             # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'polygonText.started')
-            polygonText.setAutoDraw(True)
-        if polygonText.status == STARTED:
+            thisExp.timestampOnFlip(win, 'polygonType.started')
+            polygonType.setAutoDraw(True)
+        if polygonType.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > polygonText.tStartRefresh + 3-frameTolerance:
+            if tThisFlipGlobal > polygonType.tStartRefresh + 3-frameTolerance:
                 # keep track of stop time/frame for later
-                polygonText.tStop = t  # not accounting for scr refresh
-                polygonText.frameNStop = frameN  # exact frame index
+                polygonType.tStop = t  # not accounting for scr refresh
+                polygonType.frameNStop = frameN  # exact frame index
                 # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'polygonText.stopped')
-                polygonText.setAutoDraw(False)
+                thisExp.timestampOnFlip(win, 'polygonType.stopped')
+                polygonType.setAutoDraw(False)
         
         # *textInput* updates
         if textInput.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
@@ -803,42 +798,40 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
         # Run 'Each Frame' code from codeResp
         #if a new key has been pressed since last time
         if(len(keyResp.keys) > last_len):
-            # Update the key logger length
+            #increment the key logger length
             last_len = len(keyResp.keys)
+            
+            #grab the last key added to the keys list
+            key_list.append(keyResp.keys.pop())
         
-            # Grab the last key added to the keys list
-            key = keyResp.keys[-1]
+            #check for backspace
+            if("backspace" in key_list):
+                key_list.remove("backspace")
         
-            # Check if it's the first key press
-            if not first_key_pressed:
-                first_key_pressed = True
-        
-            # Add the key to the key logger
-            key_list.append(key)
-        
-            # Check for backspace
-            if key == 'backspace':
-                if len(key_list) > 0:
+                #if we have at least 1 character, remove it
+                if(len(key_list) > 0):
                     key_list.pop()
         
-            # Check for enter
-            elif key == 'return':
-                if len(key_list) >= 2:
-                    continueRoutine = False
+            #if enter is pressed then...
+            #elif("return" in key_list):
+                #remove the enter key
+                #key_list.pop()
         
-            # Create a variable to display
+                #and end the trial if we have at least 2 digits
+                #if(len(key_list) >= 2):
+                    #continueRoutine = False
+        
+        
+            #now loop through and remove any extra characters that may exist
+            #while(len(key_list) > maxDigits):
+                #key_list.pop()
+            
+            #create a variable to display
             respDisplay = ''.join(key_list)
-        
-        # Draw the white box
-        if first_key_pressed:
-            white_box.draw()
-        
-        # Update the text of the typed response
-        resp_text.text = respDisplay
-        
-        # Draw the typed response
-        resp_text.draw()
-        
+           
+        # check if the participant has started typing for the box to appear behind the sentence
+        if len(key_list) > 0:
+            polygonType.opacity = 1
         
         # micResp updates
         if micResp.status == NOT_STARTED and t >= 0.0-frameTolerance:

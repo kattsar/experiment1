@@ -1,0 +1,100 @@
+82.4739 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002B94DB58910>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002B94EB0D460>, multiSample=False, name='window1', numSamples=2, pos=(192, 108), screen=0, size=array([1536,  864]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+82.4740 	EXP 	window1: mouseVisible = True
+82.4741 	EXP 	window1: mouseVisible = True
+82.4741 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+82.4741 	EXP 	window1: recordFrameIntervals = False
+82.6423 	EXP 	window1: recordFrameIntervals = True
+82.8264 	EXP 	Screen (0) actual frame rate measured at 59.84Hz
+82.8264 	EXP 	window1: recordFrameIntervals = False
+83.3655 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+101.9115 	EXP 	Created textWelcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textWelcome', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome to the experiment!', units='height', win=Window(...), wrapWidth=1)
+101.9126 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+101.9486 	EXP 	Created textInstructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textInstructions', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+101.9498 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+101.9836 	EXP 	Created fixationITI = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixationITI', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+102.1549 	EXP 	Created polygonColour = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygonColour', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.55, 0.55]), units='height', vertices=ndarray(...), win=Window(...))
+102.1579 	EXP 	Created polygonWhite = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygonWhite', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+102.3095 	EXP 	Created imageObject = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imageObject', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+102.3114 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([0.9216, 0.9216, 0.9216]), fillColorSpace='rgb', fillRGB=array([0.9216, 0.9216, 0.9216]), interpolate=True, lineColor=array([0.9216, 0.9216, 0.9216]), lineColorSpace='rgb', lineRGB=array([0.9216, 0.9216, 0.9216]), lineWidth=1.0, name='polygon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.1]), units='height', vertices=ndarray(...), win=Window(...))
+102.3123 	EXP 	Created textInput = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textInput', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+103.6847 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+103.6909 	EXP 	Created textGoodbye = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textGoodbye', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank you for participating!', units='height', win=Window(...), wrapWidth=1)
+103.7233 	EXP 	textWelcome: autoDraw = True
+105.7207 	EXP 	textWelcome: autoDraw = False
+105.7207 	EXP 	textBlank500: autoDraw = True
+106.2210 	EXP 	textBlank500: autoDraw = False
+106.2210 	EXP 	textInstructions: autoDraw = True
+108.4391 	DATA 	Keypress: space
+108.4534 	EXP 	textInstructions: autoDraw = False
+108.4534 	EXP 	textBlank500: autoDraw = True
+109.1915 	EXP 	Imported repswitch.xlsx as conditions, 96 conditions, 8 params
+109.2614 	EXP 	Created sequence: sequential, trialTypes=96, nReps=1, seed=None
+109.2619 	EXP 	New trial (rep=0, index=0): {'image': 'REPSWITCH1/PICTURE_1.png', 'correctAns': 'ratón', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'stimulus': 'Stim1_Set1'}
+109.3350 	EXP 	textBlank500: autoDraw = False
+109.3350 	EXP 	textBlank500: autoDraw = False
+109.3350 	EXP 	fixationITI: autoDraw = True
+110.6360 	EXP 	fixationITI: autoDraw = False
+110.6360 	EXP 	fixationITI: autoDraw = False
+110.6360 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+110.6360 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+110.6360 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_1.png'
+110.6360 	EXP 	polygonColour: autoDraw = True
+110.6360 	EXP 	polygonWhite: autoDraw = True
+110.6360 	EXP 	imageObject: autoDraw = True
+110.6360 	EXP 	polygon: autoDraw = True
+110.6360 	EXP 	textInput: autoDraw = True
+110.6360 	EXP 	textInput: height = 0.05
+110.6360 	EXP 	textInput: height = 0.05
+110.6360 	EXP 	textInput: height = 0.05
+110.6360 	EXP 	textInput: text = ''
+111.9722 	DATA 	Keypress: m
+112.1055 	DATA 	Keypress: o
+112.2725 	DATA 	Keypress: u
+112.3559 	DATA 	Keypress: s
+112.5057 	DATA 	Keypress: e
+113.4671 	EXP 	polygonColour: autoDraw = False
+113.4671 	EXP 	polygonWhite: autoDraw = False
+113.4671 	EXP 	imageObject: autoDraw = False
+113.4671 	EXP 	polygon: autoDraw = False
+113.4671 	EXP 	textInput: autoDraw = False
+113.4671 	EXP 	textBlank500: autoDraw = True
+113.8856 	EXP 	New trial (rep=0, index=1): {'image': 'REPSWITCH1/PICTURE_1.png', 'correctAns': 'ratón', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'repeat', 'sequence': 2, 'target': 'T', 'stimulus': 'Stim1_Set1'}
+113.9021 	EXP 	textBlank500: autoDraw = False
+113.9021 	EXP 	fixationITI: autoDraw = True
+115.0693 	EXP 	fixationITI: autoDraw = False
+115.0693 	EXP 	fixationITI: autoDraw = False
+115.0693 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+115.0693 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+115.0693 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_1.png'
+115.0693 	EXP 	polygonColour: autoDraw = True
+115.0693 	EXP 	polygonWhite: autoDraw = True
+115.0693 	EXP 	imageObject: autoDraw = True
+115.0693 	EXP 	polygon: autoDraw = True
+115.0693 	EXP 	textInput: autoDraw = True
+118.0672 	EXP 	polygonColour: autoDraw = False
+118.0672 	EXP 	polygonWhite: autoDraw = False
+118.0672 	EXP 	imageObject: autoDraw = False
+118.0672 	EXP 	polygon: autoDraw = False
+118.0672 	EXP 	textInput: autoDraw = False
+118.0672 	EXP 	polygonColour: autoDraw = False
+118.0672 	EXP 	polygonWhite: autoDraw = False
+118.0672 	EXP 	imageObject: autoDraw = False
+118.0672 	EXP 	polygon: autoDraw = False
+118.0672 	EXP 	textInput: autoDraw = False
+118.0672 	EXP 	textBlank500: autoDraw = True
+118.5520 	EXP 	New trial (rep=0, index=2): {'image': 'REPSWITCH1/PICTURE_599.png', 'correctAns': 'nube', 'respModal': 'type', 'frameColour': 'blue', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'stimulus': 'Stim1_Set3'}
+118.5673 	EXP 	textBlank500: autoDraw = False
+118.5673 	EXP 	textBlank500: autoDraw = False
+118.5673 	EXP 	fixationITI: autoDraw = True
+119.6502 	EXP 	fixationITI: autoDraw = False
+119.6502 	EXP 	fixationITI: autoDraw = False
+119.6502 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: blue, alpha=1.0>
+119.6502 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: blue, alpha=1.0>
+119.6502 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_599.png'
+119.6502 	EXP 	polygonColour: autoDraw = True
+119.6502 	EXP 	polygonWhite: autoDraw = True
+119.6502 	EXP 	imageObject: autoDraw = True
+119.6502 	EXP 	polygon: autoDraw = True
+119.6502 	EXP 	textInput: autoDraw = True
+120.2206 	DATA 	Keypress: escape
+123.0479 	EXP 	window1: mouseVisible = True
