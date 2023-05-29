@@ -455,7 +455,7 @@
         <Param val="textCue" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0,1)" valType="list" updates="constant" name="pos"/>
+        <Param val="(-1,-1)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
@@ -658,7 +658,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="In this experiment you will see different images on the screen. You will see one image at a time. Each image will stay on screen for a few seconds. You will have to name what you see in each image. After each image, you will see the written word for what you saw in that image. The goal of this experiment is for you to name each image with the correct word.&amp;#10;&amp;#10;&amp;#10;Press SPACE to begin!" valType="str" updates="constant" name="text"/>
+        <Param val="In this experiment you will see different images on the screen. You will see one image at a time. Each image will stay on screen for a few seconds. &amp;#10;&amp;#10;You will have to name what you see in each image. After each image, you will see the written word for what you saw in that image. &amp;#10;The goal of this experiment is for you to name each image with the correct word.&amp;#10;&amp;#10;&amp;#10;Press SPACE to begin!" valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
@@ -691,7 +691,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="Open Sans" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
         <Param val="textInstrPractice" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -703,7 +703,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="This is a practice session! &amp;#10;Again, you will see some images on the screen, one at a time, and you will have to name what you see in each image. &amp;#10;&amp;#10;This time you will have to name either by speaking or by typing. &amp;#10;&amp;#10;A blue or yellow rectangle will be placed behind every image to indicate whether you need to speak or type. &amp;#10;&amp;#10;If the rectangle is blue, you will need to type the name of what you see on the image. If the rectangle is yellow, you will have to speak. &amp;#10;&amp;#10;You should name the images correctly and as quickly as possible. The images will stay on the screen for a short time. &amp;#10;&amp;#10;It is important that when you type you avoid looking at your hands as much as possible! &amp;#10;&amp;#10;You should also keep your hands above the keyboard during the whole practice session! &amp;#10;&amp;#10;Please, try not to speak while typing!&amp;#10;&amp;#10;&amp;#10;Press SPACE to begin!&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="This is a practice session! &amp;#10;You will see images on the screen, one at a time, and you will have to name what you see in each image.  You will have to name either by speaking or by typing. &amp;#10;&amp;#10;A blue or yellow rectangle will be placed behind every image to indicate whether you need to speak or type. &amp;#10;&amp;#10;If the rectangle is blue, you will need to type the name of what you see on the image. If the rectangle is yellow, you will have to speak. &amp;#10;&amp;#10;You should name the images correctly and as quickly as possible. The images will stay on the screen for a short time. &amp;#10;&amp;#10;It is important that when you type you avoid looking at your hands as much as possible! &amp;#10;&amp;#10;You should also keep your hands above the keyboard during the whole practice session! &amp;#10;&amp;#10;Please, try not to speak while typing!&amp;#10;&amp;#10;&amp;#10;Press SPACE to begin!&amp;#10;" valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
@@ -736,7 +736,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="Open Sans" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
         <Param val="textInstrMain" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
