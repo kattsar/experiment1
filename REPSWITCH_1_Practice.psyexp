@@ -165,6 +165,48 @@
       </PolygonComponent>
     </Routine>
     <Routine name="practiceTrial">
+      <CodeComponent name="codeRepeat">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="def calculate_accuracy(frameColor, respModal):&amp;#10;    total_frames = len(frameColor)  # Total number of frames in the experiment&amp;#10;    correct_frames = 0  # Counter for correct frames&amp;#10;&amp;#10;    for color, modality in zip(frameColor, respModal):&amp;#10;        if (color == 'blue' and modality == 'type') or (color == 'yellow' and mode == 'speak'):&amp;#10;            correct_frames += 1&amp;#10;&amp;#10;    accuracy = (correct_frames / total_frames) * 100&amp;#10;    return accuracy" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="repeat_practice = True" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="if repeat_practice:&amp;#10;    # Calculate participant's accuracy&amp;#10;    accuracy = calculate_accuracy(frameColor, respModal)&amp;#10;    &amp;#10;    if accuracy &gt;= 90:&amp;#10;        repeat_practice = False&amp;#10;    else:&amp;#10;        # Display a message to repeat the practice session&amp;#10;        print(&quot;You need to repeat the practice session.&quot;)&amp;#10;        &amp;#10;        # Provide an option to start the practice session again&amp;#10;        repeat_practice_key = event.getKeys(keyList=['y', 'n'])&amp;#10;        if 'n' in repeat_practice_key:&amp;#10;            repeat_practice = False  # Exit the loop if the participant does not want to repeat" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="codeRepeat" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="textCue">
+        <Param val="$frameColor" valType="color" updates="set every repeat" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="textCue" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-1,-1)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="3" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$respModal" valType="str" updates="set every frame" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
       <PolygonComponent name="polygonCol">
         <Param val="center" valType="str" updates="constant" name="anchor"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
@@ -246,31 +288,6 @@
         <Param val="128" valType="num" updates="constant" name="texture resolution"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
       </ImageComponent>
-      <TextComponent name="textCue">
-        <Param val="$frameColor" valType="color" updates="set every repeat" name="color"/>
-        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
-        <Param val="1" valType="num" updates="constant" name="contrast"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
-        <Param val="" valType="code" updates="None" name="durationEstim"/>
-        <Param val="None" valType="str" updates="constant" name="flip"/>
-        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
-        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
-        <Param val="textCue" valType="code" updates="None" name="name"/>
-        <Param val="" valType="num" updates="constant" name="opacity"/>
-        <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(-1,-1)" valType="list" updates="constant" name="pos"/>
-        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="" valType="code" updates="None" name="startEstim"/>
-        <Param val="time (s)" valType="str" updates="None" name="startType"/>
-        <Param val="0.0" valType="code" updates="None" name="startVal"/>
-        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
-        <Param val="3" valType="code" updates="constant" name="stopVal"/>
-        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="$respModal" valType="str" updates="set every frame" name="text"/>
-        <Param val="from exp settings" valType="str" updates="None" name="units"/>
-        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
-      </TextComponent>
       <PolygonComponent name="polygonText">
         <Param val="center" valType="str" updates="constant" name="anchor"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
@@ -381,23 +398,6 @@
         <Param val="" valType="list" updates="None" name="transcribeWords"/>
         <Param val="False" valType="bool" updates="None" name="trimSilent"/>
       </MicrophoneComponent>
-      <CodeComponent name="codeSpeak">
-        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="from datetime import date&amp;#10;&amp;#10;# Get the participant number from the experiment info dialog&amp;#10;participant_number = expInfo['participant']&amp;#10;&amp;#10;# Get the current date&amp;#10;current_date = date.today().strftime(&quot;%Y-%m-%d&quot;)&amp;#10;&amp;#10;# Define a placeholder filename&amp;#10;filename = &quot;&quot;&amp;#10;&amp;#10;# Define and initialise trialN&amp;#10;trialN = 0" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="import sounddevice as sd&amp;#10;import soundfile as sf&amp;#10;import os&amp;#10;&amp;#10;output_dir = &quot;D:/GitHub/experiment1/data&quot;  # Set the desired directory to save the audio files&amp;#10;&amp;#10;# Increment trialN for each new routine&amp;#10;trialN += 1&amp;#10;&amp;#10;# Define the filename based on participant number and date&amp;#10;filename = f&quot;response_p{participant_number}_{current_date}_trial{str(trialN)}.wav&quot;&amp;#10;&amp;#10;def save_audio(response):&amp;#10;    sf.write(os.path.join(output_dir, filename), response, samplerate)&amp;#10;&amp;#10;# Set the sampling rate of the microphone response component&amp;#10;samplerate = int(sd.query_devices(None, 'input')['default_samplerate'])&amp;#10;&amp;#10;# Set the callback function to save audio during the experiment&amp;#10;def audio_callback(indata, frames, time, status):&amp;#10;    if status:&amp;#10;        print(status)&amp;#10;    save_audio(indata)&amp;#10;&amp;#10;# Initialize the microphone and start recording&amp;#10;mic = sd.InputStream(callback=audio_callback, channels=1, samplerate=samplerate)&amp;#10;mic.start()" valType="extendedCode" updates="constant" name="Begin Routine"/>
-        <Param val="Py" valType="str" updates="None" name="Code Type"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="# Stop recording when the routine ends&amp;#10;mic.stop()&amp;#10;mic.close()" valType="extendedCode" updates="constant" name="End Routine"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
-        <Param val="codeSpeak" valType="code" updates="None" name="name"/>
-      </CodeComponent>
     </Routine>
     <Routine name="WelcomePractice">
       <TextComponent name="textWelcomePractice">

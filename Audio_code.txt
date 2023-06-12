@@ -1,0 +1,48 @@
+BEGIN EXPERIMENT
+from datetime import date
+
+# Get the participant number from the experiment info dialog
+participant_number = expInfo['participant']
+
+# Get the current date
+current_date = date.today().strftime("%Y-%m-%d")
+
+# Define a placeholder filename
+filename = ""
+
+# Define and initialise trialN
+trialN = 0
+
+BEGIN ROUTINE
+import sounddevice as sd
+import soundfile as sf
+import os
+
+output_dir = "D:/GitHub/experiment1/data"  # Set the desired directory to save the audio files
+
+# Increment trialN for each new routine
+trialN += 1
+
+# Define the filename based on participant number and date
+filename = f"response_p{participant_number}_{current_date}_trial{str(trialN)}.wav"
+
+def save_audio(response):
+    sf.write(os.path.join(output_dir, filename), response, samplerate)
+
+# Set the sampling rate of the microphone response component
+samplerate = int(sd.query_devices(None, 'input')['default_samplerate'])
+
+# Set the callback function to save audio during the experiment
+def audio_callback(indata, frames, time, status):
+    if status:
+        print(status)
+    save_audio(indata)
+
+# Initialize the microphone and start recording
+mic = sd.InputStream(callback=audio_callback, channels=1, samplerate=samplerate)
+mic.start()
+
+END ROUTINE
+# Stop recording when the routine ends
+mic.stop()
+mic.close()

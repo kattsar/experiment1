@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Ιούνιος 09, 2023, at 11:07
+    on Ιούνιος 12, 2023, at 10:07
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -190,7 +190,7 @@ micPractice = sound.microphone.Microphone(
     device=None, channels=None, 
     sampleRateHz=48000, maxRecordingSize=24000.0
 )
-# Run 'Begin Experiment' code from codeSpeak
+# Run 'Begin Experiment' code from codeMic
 from datetime import date
 
 # Get the participant number from the experiment info dialog
@@ -669,7 +669,7 @@ for thisTrialsPractice in trialsPractice:
     key_list = []
     
     polygonText.opacity = 0  
-    # Run 'Begin Routine' code from codeSpeak
+    # Run 'Begin Routine' code from codeMic
     import sounddevice as sd
     import soundfile as sf
     import os
@@ -681,6 +681,9 @@ for thisTrialsPractice in trialsPractice:
     
     # Define the filename based on participant number and date
     filename = f"response_p{participant_number}_{current_date}_trial{str(trialN)}.wav"
+    
+    # Set the sampling rate for recording
+    samplerate = 48000  # Replace with your desired samplerate
     
     def save_audio(response):
         sf.write(os.path.join(output_dir, filename), response, samplerate)
@@ -990,10 +993,11 @@ for thisTrialsPractice in trialsPractice:
         config=None
     )
     trialsPractice.addData('micPractice.clip', os.path.join(micPracticeRecFolder, 'recording_micPractice_%s.wav' % tag))
-    # Run 'End Routine' code from codeSpeak
+    # Run 'End Routine' code from codeMic
     # Stop recording when the routine ends
     mic.stop()
     mic.close()
+    
     # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
     if routineForceEnded:
         routineTimer.reset()

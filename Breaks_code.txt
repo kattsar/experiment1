@@ -1,0 +1,11 @@
+BEGIN EXPERIMENT
+trialCount=0
+breakTrials = [96, 192, 288]
+
+BEGIN ROUTINE
+trialCount = trialCount+1
+
+EACH FRAME
+if trialCount not in breakTrials:
+    continueRoutine = False
+
