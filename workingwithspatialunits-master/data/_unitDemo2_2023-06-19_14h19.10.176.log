@@ -1,0 +1,52 @@
+5.6397 	INFO 	Loaded monitor calibration from ['2020_07_06 18:31']
+7.6554 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001F55E3D4910>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001F55F3427C0>, multiSample=False, name='window1', numSamples=2, pos=(228, 72), screen=0, size=array([1080,  720]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.6556 	EXP 	window1: mouseVisible = True
+7.6558 	EXP 	window1: mouseVisible = True
+7.6558 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.6559 	EXP 	window1: recordFrameIntervals = False
+7.8203 	EXP 	window1: recordFrameIntervals = True
+8.0045 	EXP 	Screen (0) actual frame rate measured at 59.89Hz
+8.0046 	EXP 	window1: recordFrameIntervals = False
+8.0598 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+11.0459 	INFO 	keyboard.Keyboard is using iohub backend.
+11.0516 	EXP 	Created stim = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1, name='stim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+11.2549 	EXP 	Created inst = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='inst', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.2565 	EXP 	Created poslog = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='poslog', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.3057 	EXP 	stim: autoDraw = True
+11.3057 	EXP 	inst: autoDraw = True
+11.3057 	EXP 	poslog: autoDraw = True
+20.5422 	DATA 	Keypress: return
+21.4201 	DATA 	Keypress: space
+26.9689 	DATA 	Keypress: left
+28.8929 	DATA 	Keypress: right
+29.8747 	DATA 	Keypress: up
+34.1727 	DATA 	Keypress: up
+38.5511 	DATA 	Keypress: up
+39.9499 	DATA 	Keypress: up
+40.5496 	DATA 	Keypress: down
+41.0099 	DATA 	Keypress: down
+41.3702 	DATA 	Keypress: down
+41.7825 	DATA 	Keypress: down
+42.1822 	DATA 	Keypress: down
+42.7487 	DATA 	Keypress: down
+43.5810 	DATA 	Keypress: down
+44.5146 	DATA 	Keypress: up
+44.8640 	DATA 	Keypress: up
+45.2142 	DATA 	Keypress: up
+46.0037 	DATA 	Keypress: up
+47.2023 	DATA 	Keypress: down
+49.8296 	DATA 	Keypress: left
+51.5120 	DATA 	Keypress: right
+62.7925 	DATA 	Keypress: left
+63.6103 	DATA 	Keypress: right
+64.1584 	DATA 	Keypress: up
+68.9745 	DATA 	Keypress: up
+70.4742 	DATA 	Keypress: up
+81.5119 	DATA 	Keypress: escape
+81.5371 	EXP 	stim: autoDraw = False
+81.5371 	EXP 	inst: autoDraw = False
+81.5371 	EXP 	poslog: autoDraw = False
+81.5408 	INFO 	saved data to 'D:\\GitHub\\experiment1\\workingwithspatialunits-master\\data/_unitDemo2_2023-06-19_14h19.10.176.csv'
+81.9174 	INFO 	saved data to D:\GitHub\experiment1\workingwithspatialunits-master\data/_unitDemo2_2023-06-19_14h19.10.176.psydat
+82.0803 	EXP 	window1: mouseVisible = True
+82.8372 	DEBUG 	Saving data for unitDemo2 ExperimentHandler

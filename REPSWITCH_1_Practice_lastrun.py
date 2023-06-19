@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Ιούνιος 12, 2023, at 10:07
+    on Ιούνιος 19, 2023, at 14:30
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -157,6 +157,13 @@ polygonWh = visual.Rect(
     ori=0.0, pos=(0, 0), anchor='center',
     lineWidth=1.0,     colorSpace='rgb',  lineColor='white', fillColor='white',
     opacity=None, depth=-1.0, interpolate=True)
+textCue = visual.TextStim(win=win, name='textCue',
+    text='',
+    font='Open Sans',
+    pos=(0,0.35), height=0.05, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=-2.0);
 imagePractice = visual.ImageStim(
     win=win,
     name='imagePractice', 
@@ -164,14 +171,7 @@ imagePractice = visual.ImageStim(
     ori=0.0, pos=(0, 0), size=(0.5, 0.5),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-2.0)
-textCue = visual.TextStim(win=win, name='textCue',
-    text='',
-    font='Open Sans',
-    pos=(-1,-1), height=0.05, wrapWidth=None, ori=0.0, 
-    color='white', colorSpace='rgb', opacity=None, 
-    languageStyle='LTR',
-    depth=-3.0);
+    texRes=128.0, interpolate=True, depth=-3.0)
 polygonText = visual.Rect(
     win=win, name='polygonText',
     width=(0.2, 0.1)[0], height=(0.2, 0.1)[1],
@@ -190,20 +190,6 @@ micPractice = sound.microphone.Microphone(
     device=None, channels=None, 
     sampleRateHz=48000, maxRecordingSize=24000.0
 )
-# Run 'Begin Experiment' code from codeMic
-from datetime import date
-
-# Get the participant number from the experiment info dialog
-participant_number = expInfo['participant']
-
-# Get the current date
-current_date = date.today().strftime("%Y-%m-%d")
-
-# Define a placeholder filename
-filename = ""
-
-# Define and initialise trialN
-trialN = 0
 
 # --- Initialize components for Routine "blank500" ---
 textBlank500 = visual.TextStim(win=win, name='textBlank500',
@@ -655,8 +641,9 @@ for thisTrialsPractice in trialsPractice:
     # update component parameters for each repeat
     polygonCol.setFillColor(frameColor)
     polygonCol.setLineColor(frameColor)
+    textCue.setColor([1.0000, 1.0000, 1.0000], colorSpace='rgb')
+    textCue.setText(respModal)
     imagePractice.setImage(image)
-    textCue.setColor(frameColor, colorSpace='rgb')
     keyPractice.keys = []
     keyPractice.rt = []
     _keyPractice_allKeys = []
@@ -669,39 +656,8 @@ for thisTrialsPractice in trialsPractice:
     key_list = []
     
     polygonText.opacity = 0  
-    # Run 'Begin Routine' code from codeMic
-    import sounddevice as sd
-    import soundfile as sf
-    import os
-    
-    output_dir = "D:/GitHub/experiment1/data"  # Set the desired directory to save the audio files
-    
-    # Increment trialN for each new routine
-    trialN += 1
-    
-    # Define the filename based on participant number and date
-    filename = f"response_p{participant_number}_{current_date}_trial{str(trialN)}.wav"
-    
-    # Set the sampling rate for recording
-    samplerate = 48000  # Replace with your desired samplerate
-    
-    def save_audio(response):
-        sf.write(os.path.join(output_dir, filename), response, samplerate)
-    
-    # Set the sampling rate of the microphone response component
-    samplerate = int(sd.query_devices(None, 'input')['default_samplerate'])
-    
-    # Set the callback function to save audio during the experiment
-    def audio_callback(indata, frames, time, status):
-        if status:
-            print(status)
-        save_audio(indata)
-    
-    # Initialize the microphone and start recording
-    mic = sd.InputStream(callback=audio_callback, channels=1, samplerate=samplerate)
-    mic.start()
     # keep track of which components have finished
-    practiceTrialComponents = [polygonCol, polygonWh, imagePractice, textCue, polygonText, textPractice, keyPractice, micPractice]
+    practiceTrialComponents = [polygonCol, polygonWh, textCue, imagePractice, polygonText, textPractice, keyPractice, micPractice]
     for thisComponent in practiceTrialComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -763,26 +719,6 @@ for thisTrialsPractice in trialsPractice:
                 thisExp.timestampOnFlip(win, 'polygonWh.stopped')
                 polygonWh.setAutoDraw(False)
         
-        # *imagePractice* updates
-        if imagePractice.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            imagePractice.frameNStart = frameN  # exact frame index
-            imagePractice.tStart = t  # local t and not account for scr refresh
-            imagePractice.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(imagePractice, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'imagePractice.started')
-            imagePractice.setAutoDraw(True)
-        if imagePractice.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > imagePractice.tStartRefresh + 3-frameTolerance:
-                # keep track of stop time/frame for later
-                imagePractice.tStop = t  # not accounting for scr refresh
-                imagePractice.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'imagePractice.stopped')
-                imagePractice.setAutoDraw(False)
-        
         # *textCue* updates
         if textCue.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
@@ -802,8 +738,26 @@ for thisTrialsPractice in trialsPractice:
                 # add timestamp to datafile
                 thisExp.timestampOnFlip(win, 'textCue.stopped')
                 textCue.setAutoDraw(False)
-        if textCue.status == STARTED:  # only update if drawing
-            textCue.setText(respModal, log=False)
+        
+        # *imagePractice* updates
+        if imagePractice.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            imagePractice.frameNStart = frameN  # exact frame index
+            imagePractice.tStart = t  # local t and not account for scr refresh
+            imagePractice.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(imagePractice, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'imagePractice.started')
+            imagePractice.setAutoDraw(True)
+        if imagePractice.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > imagePractice.tStartRefresh + 3-frameTolerance:
+                # keep track of stop time/frame for later
+                imagePractice.tStop = t  # not accounting for scr refresh
+                imagePractice.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'imagePractice.stopped')
+                imagePractice.setAutoDraw(False)
         
         # *polygonText* updates
         if polygonText.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
@@ -993,11 +947,6 @@ for thisTrialsPractice in trialsPractice:
         config=None
     )
     trialsPractice.addData('micPractice.clip', os.path.join(micPracticeRecFolder, 'recording_micPractice_%s.wav' % tag))
-    # Run 'End Routine' code from codeMic
-    # Stop recording when the routine ends
-    mic.stop()
-    mic.close()
-    
     # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
     if routineForceEnded:
         routineTimer.reset()
