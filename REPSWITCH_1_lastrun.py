@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Ιούνιος 20, 2023, at 12:12
+    on Ιούνιος 20, 2023, at 20:10
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -192,6 +192,16 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
     color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=0.0);
+
+# --- Initialize components for Routine "pause" ---
+textPause = visual.TextStim(win=win, name='textPause',
+    text='Short break!\n\nPress SPACE to continue.',
+    font='Open Sans',
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
+    color='white', colorSpace='rgb', opacity=None, 
+    languageStyle='LTR',
+    depth=0.0);
+keyPause = keyboard.Keyboard()
 
 # --- Initialize components for Routine "blank500" ---
 textBlank500 = visual.TextStim(win=win, name='textBlank500',
@@ -1017,6 +1027,105 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
         routineTimer.reset()
     else:
         routineTimer.addTime(-0.500000)
+    
+    # --- Prepare to start Routine "pause" ---
+    continueRoutine = True
+    routineForceEnded = False
+    # update component parameters for each repeat
+    keyPause.keys = []
+    keyPause.rt = []
+    _keyPause_allKeys = []
+    # Run 'Begin Routine' code from codeBreak
+    if trialsREPSWITCH.thisN == 0 or trialsREPSWITCH.thisN % 95 != 0:
+        continueRoutine = False
+    # keep track of which components have finished
+    pauseComponents = [textPause, keyPause]
+    for thisComponent in pauseComponents:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    frameN = -1
+    
+    # --- Run Routine "pause" ---
+    while continueRoutine:
+        # get current time
+        t = routineTimer.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # *textPause* updates
+        if textPause.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            textPause.frameNStart = frameN  # exact frame index
+            textPause.tStart = t  # local t and not account for scr refresh
+            textPause.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(textPause, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'textPause.started')
+            textPause.setAutoDraw(True)
+        
+        # *keyPause* updates
+        waitOnFlip = False
+        if keyPause.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            keyPause.frameNStart = frameN  # exact frame index
+            keyPause.tStart = t  # local t and not account for scr refresh
+            keyPause.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(keyPause, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'keyPause.started')
+            keyPause.status = STARTED
+            # keyboard checking is just starting
+            waitOnFlip = True
+            win.callOnFlip(keyPause.clock.reset)  # t=0 on next screen flip
+            win.callOnFlip(keyPause.clearEvents, eventType='keyboard')  # clear events on next screen flip
+        if keyPause.status == STARTED and not waitOnFlip:
+            theseKeys = keyPause.getKeys(keyList=['space'], waitRelease=False)
+            _keyPause_allKeys.extend(theseKeys)
+            if len(_keyPause_allKeys):
+                keyPause.keys = _keyPause_allKeys[-1].name  # just the last key pressed
+                keyPause.rt = _keyPause_allKeys[-1].rt
+                # a response ends the routine
+                continueRoutine = False
+        
+        # check for quit (typically the Esc key)
+        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+            core.quit()
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            routineForceEnded = True
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in pauseComponents:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # --- Ending Routine "pause" ---
+    for thisComponent in pauseComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    # check responses
+    if keyPause.keys in ['', [], None]:  # No response was made
+        keyPause.keys = None
+    trialsREPSWITCH.addData('keyPause.keys',keyPause.keys)
+    if keyPause.keys != None:  # we had a response
+        trialsREPSWITCH.addData('keyPause.rt', keyPause.rt)
+    # the Routine "pause" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
     thisExp.nextEntry()
     
 # completed 1.0 repeats of 'trialsREPSWITCH'

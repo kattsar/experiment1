@@ -1,11 +1,4 @@
-BEGIN EXPERIMENT
-trialCount=0
-breakTrials = [96, 192, 288]
 
 BEGIN ROUTINE
-trialCount = trialCount+1
-
-EACH FRAME
-if trialCount not in breakTrials:
+if trialsREPSWITCH.thisN == 0 or trialsREPSWITCH.thisN % 95 != 0:
     continueRoutine = False
-
