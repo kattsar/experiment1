@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Ιούνιος 19, 2023, at 14:30
+    on Ιούνιος 20, 2023, at 10:59
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -119,7 +119,7 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
 
 # --- Initialize components for Routine "InstructionsPractice" ---
 textInstrPractice = visual.TextStim(win=win, name='textInstrPractice',
-    text='This is a practice session! \nYou will see images on the screen, one at a time, and you will have to name what you see in each image.  You will have to name either by speaking or by typing. \n\nA blue or yellow rectangle will be placed behind every image to indicate whether you need to speak or type. \n\nIf the rectangle is blue, you will need to type the name of what you see on the image. If the rectangle is yellow, you will have to speak. \n\nYou should name the images correctly and as quickly as possible. The images will stay on the screen for a short time. \n\nIt is important that when you type you avoid looking at your hands as much as possible! \n\nYou should also keep your hands above the keyboard during the whole practice session! \n\nPlease, try not to speak while typing!\n\n\nPress SPACE to begin!\n',
+    text='This is a practice session! \nYou will see images on the screen, one at a time, and you will have to name what you see in each image.  You will have to name either by speaking or by typing. \n\nA blue or yellow rectangle will be placed behind every image to indicate whether you need to speak or type. \n\nIf the rectangle is blue, you will need to type the name of what you see on the image. If the rectangle is yellow, you will have to speak. \n\nThe word TYPE will appear on top of the screen when the rectangle is blue and the word SPEAK will appear when the rectangle is YELLOW.\n\nYou should name the images correctly and as quickly as possible. The images will stay on the screen for a short time. \n\nIt is important that when you type you avoid looking at your hands as much as possible! \n\nYou should also keep your hands above the keyboard during the whole practice session! \n\nPlease, try not to speak while typing!\n\n\nPress SPACE to begin!\n',
     font='Open Sans',
     pos=(0, 0), height=0.03, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -160,7 +160,7 @@ polygonWh = visual.Rect(
 textCue = visual.TextStim(win=win, name='textCue',
     text='',
     font='Open Sans',
-    pos=(0,0.35), height=0.05, wrapWidth=None, ori=0.0, 
+    pos=(0, 0.35), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=-2.0);
@@ -210,8 +210,8 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
     depth=0.0);
 
 # --- Initialize components for Routine "EndPractice" ---
-text = visual.TextStim(win=win, name='text',
-    text='Great! \n\nYou finished the second part of the experiment!\n\nYou can now move to the third and last part of this experiment!\n\nPress SPACE to end this part.',
+textEndPractice = visual.TextStim(win=win, name='textEndPractice',
+    text='Great! \n\nYou finished the second part of the experiment!\n\nYou can now move to the third part of this experiment!\n\nPress SPACE to end this part.',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -641,7 +641,7 @@ for thisTrialsPractice in trialsPractice:
     # update component parameters for each repeat
     polygonCol.setFillColor(frameColor)
     polygonCol.setLineColor(frameColor)
-    textCue.setColor([1.0000, 1.0000, 1.0000], colorSpace='rgb')
+    textCue.setColor(frameColor, colorSpace='rgb')
     textCue.setText(respModal)
     imagePractice.setImage(image)
     keyPractice.keys = []
@@ -1112,7 +1112,7 @@ continueRoutine = True
 routineForceEnded = False
 # update component parameters for each repeat
 # keep track of which components have finished
-EndPracticeComponents = [text]
+EndPracticeComponents = [textEndPractice]
 for thisComponent in EndPracticeComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -1134,25 +1134,25 @@ while continueRoutine and routineTimer.getTime() < 3.0:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *text* updates
-    if text.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+    # *textEndPractice* updates
+    if textEndPractice.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
-        text.frameNStart = frameN  # exact frame index
-        text.tStart = t  # local t and not account for scr refresh
-        text.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(text, 'tStartRefresh')  # time at next scr refresh
+        textEndPractice.frameNStart = frameN  # exact frame index
+        textEndPractice.tStart = t  # local t and not account for scr refresh
+        textEndPractice.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textEndPractice, 'tStartRefresh')  # time at next scr refresh
         # add timestamp to datafile
-        thisExp.timestampOnFlip(win, 'text.started')
-        text.setAutoDraw(True)
-    if text.status == STARTED:
+        thisExp.timestampOnFlip(win, 'textEndPractice.started')
+        textEndPractice.setAutoDraw(True)
+    if textEndPractice.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > text.tStartRefresh + 3-frameTolerance:
+        if tThisFlipGlobal > textEndPractice.tStartRefresh + 3-frameTolerance:
             # keep track of stop time/frame for later
-            text.tStop = t  # not accounting for scr refresh
-            text.frameNStop = frameN  # exact frame index
+            textEndPractice.tStop = t  # not accounting for scr refresh
+            textEndPractice.frameNStop = frameN  # exact frame index
             # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'text.stopped')
-            text.setAutoDraw(False)
+            thisExp.timestampOnFlip(win, 'textEndPractice.stopped')
+            textEndPractice.setAutoDraw(False)
     
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Ιούνιος 19, 2023, at 16:01
+    on Ιούνιος 20, 2023, at 11:09
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -72,12 +72,12 @@ if not os.path.isdir(micPractice_2RecFolder):
 
 # --- Setup the Window ---
 win = visual.Window(
-    size=(1024, 768), fullscr=True, screen=0, 
+    size=[1536, 864], fullscr=False, screen=0, 
     winType='pyglet', allowStencil=False,
     monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
     blendMode='avg', useFBO=True, 
     units='height')
-win.mouseVisible = False
+win.mouseVisible = True
 # store frame rate of monitor if we can measure it
 expInfo['frameRate'] = win.getActualFrameRate()
 if expInfo['frameRate'] != None:
@@ -157,13 +157,6 @@ polygonWh_2 = visual.Rect(
     ori=0.0, pos=(0, 0), anchor='center',
     lineWidth=1.0,     colorSpace='rgb',  lineColor='white', fillColor='white',
     opacity=None, depth=-1.0, interpolate=True)
-textCue_2 = visual.TextStim(win=win, name='textCue_2',
-    text='',
-    font='Open Sans',
-    pos=(0,0.35), height=0.05, wrapWidth=None, ori=0.0, 
-    color='white', colorSpace='rgb', opacity=None, 
-    languageStyle='LTR',
-    depth=-2.0);
 imagePractice_2 = visual.ImageStim(
     win=win,
     name='imagePractice_2', 
@@ -171,20 +164,20 @@ imagePractice_2 = visual.ImageStim(
     ori=0.0, pos=(0, 0), size=(0.5, 0.5),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-3.0)
+    texRes=128.0, interpolate=True, depth=-2.0)
 polygonText_2 = visual.Rect(
     win=win, name='polygonText_2',
     width=(0.2, 0.1)[0], height=(0.2, 0.1)[1],
     ori=0.0, pos=(0, 0), anchor='center',
     lineWidth=1.0,     colorSpace='rgb',  lineColor=[0.9216, 0.9216, 0.9216], fillColor=[0.9216, 0.9216, 0.9216],
-    opacity=None, depth=-4.0, interpolate=True)
+    opacity=None, depth=-3.0, interpolate=True)
 textPractice_2 = visual.TextStim(win=win, name='textPractice_2',
     text='',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
-    depth=-5.0);
+    depth=-4.0);
 keyPractice_2 = keyboard.Keyboard()
 micPractice_2 = sound.microphone.Microphone(
     device=None, channels=None, 
@@ -641,8 +634,6 @@ for thisTrialsPractice_2 in trialsPractice_2:
     # update component parameters for each repeat
     polygonCol_2.setFillColor(frameColor)
     polygonCol_2.setLineColor(frameColor)
-    textCue_2.setColor([1.0000, 1.0000, 1.0000], colorSpace='rgb')
-    textCue_2.setText(respModal)
     imagePractice_2.setImage(image)
     keyPractice_2.keys = []
     keyPractice_2.rt = []
@@ -655,9 +646,9 @@ for thisTrialsPractice_2 in trialsPractice_2:
     last_len = 0
     key_list = []
     
-    polygonText.opacity = 0  
+    polygonText_2.opacity = 0  
     # keep track of which components have finished
-    practiceTrial_2Components = [polygonCol_2, polygonWh_2, textCue_2, imagePractice_2, polygonText_2, textPractice_2, keyPractice_2, micPractice_2]
+    practiceTrial_2Components = [polygonCol_2, polygonWh_2, imagePractice_2, polygonText_2, textPractice_2, keyPractice_2, micPractice_2]
     for thisComponent in practiceTrial_2Components:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -718,26 +709,6 @@ for thisTrialsPractice_2 in trialsPractice_2:
                 # add timestamp to datafile
                 thisExp.timestampOnFlip(win, 'polygonWh_2.stopped')
                 polygonWh_2.setAutoDraw(False)
-        
-        # *textCue_2* updates
-        if textCue_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            textCue_2.frameNStart = frameN  # exact frame index
-            textCue_2.tStart = t  # local t and not account for scr refresh
-            textCue_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(textCue_2, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'textCue_2.started')
-            textCue_2.setAutoDraw(True)
-        if textCue_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > textCue_2.tStartRefresh + 3-frameTolerance:
-                # keep track of stop time/frame for later
-                textCue_2.tStop = t  # not accounting for scr refresh
-                textCue_2.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'textCue_2.stopped')
-                textCue_2.setAutoDraw(False)
         
         # *imagePractice_2* updates
         if imagePractice_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
@@ -838,12 +809,12 @@ for thisTrialsPractice_2 in trialsPractice_2:
                     keyPractice_2.corr = 0
         # Run 'Each Frame' code from codePractice_2
         #if a new key has been pressed since last time
-        if(len(keyPractice.keys) > last_len):
+        if(len(keyPractice_2.keys) > last_len):
             #increment the key logger length
-            last_len = len(keyPractice.keys)
+            last_len = len(keyPractice_2.keys)
             
             #grab the last key added to the keys list
-            key_list.append(keyPractice.keys.pop())
+            key_list.append(keyPractice_2.keys.pop())
         
             #check for backspace
             if("backspace" in key_list):
@@ -872,7 +843,7 @@ for thisTrialsPractice_2 in trialsPractice_2:
            
         # check if the participant has started typing for the box to appear behind the sentence
         if len(key_list) > 0:
-            polygonText.opacity = 1
+            polygonText_2.opacity = 1
         
         # micPractice_2 updates
         if micPractice_2.status == NOT_STARTED and t >= 0.0-frameTolerance:
