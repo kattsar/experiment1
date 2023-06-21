@@ -1,0 +1,2226 @@
+49.0746 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001B1A77FAAF0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001B1A97836D0>, multiSample=False, name='window1', numSamples=2, pos=(8, 104), screen=0, size=array([1536,  864]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+49.0749 	EXP 	window1: mouseVisible = True
+49.0751 	EXP 	window1: mouseVisible = True
+49.0751 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+49.0752 	EXP 	window1: recordFrameIntervals = False
+49.2732 	EXP 	window1: recordFrameIntervals = True
+49.3345 	WARNING 	t of last frame was 28.54ms (=1/35)
+49.3671 	WARNING 	t of last frame was 32.64ms (=1/30)
+49.3893 	WARNING 	t of last frame was 22.13ms (=1/45)
+49.4243 	WARNING 	t of last frame was 35.08ms (=1/28)
+49.6710 	EXP 	Screen (0) actual frame rate measured at 60.38Hz
+49.6711 	EXP 	window1: recordFrameIntervals = False
+49.9805 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+56.3853 	EXP 	Created textWelcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textWelcome', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome to the experiment!', units='height', win=Window(...), wrapWidth=1)
+56.3880 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+56.5329 	EXP 	Created textInstrMain = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='textInstrMain', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+56.5356 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+56.5581 	EXP 	Created fixationITI = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixationITI', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+56.6038 	EXP 	Created polygonColour = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygonColour', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.55, 0.55]), units='height', vertices=ndarray(...), win=Window(...))
+56.6068 	EXP 	Created polygonWhite = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygonWhite', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+56.6376 	EXP 	Created imageObject = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imageObject', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+56.6404 	EXP 	Created polygonType = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([0.9216, 0.9216, 0.9216]), fillColorSpace='rgb', fillRGB=array([0.9216, 0.9216, 0.9216]), interpolate=True, lineColor=array([0.9216, 0.9216, 0.9216]), lineColorSpace='rgb', lineRGB=array([0.9216, 0.9216, 0.9216]), lineWidth=1.0, name='polygonType', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.1]), units='height', vertices=ndarray(...), win=Window(...))
+56.6419 	EXP 	Created textInput = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textInput', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+57.8548 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+58.0075 	EXP 	Created textPause = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textPause', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Short break!\n\nPress SPACE to continue.', units='height', win=Window(...), wrapWidth=1)
+58.0167 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+58.1056 	EXP 	Created textDebrief = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textDebrief', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+58.1083 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+58.1236 	EXP 	Created textGoodbye = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textGoodbye', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank you for participating!', units='height', win=Window(...), wrapWidth=1)
+58.1955 	EXP 	textWelcome: autoDraw = True
+60.1603 	EXP 	textWelcome: autoDraw = False
+60.1603 	EXP 	textBlank500: autoDraw = True
+60.6520 	EXP 	textBlank500: autoDraw = False
+60.6520 	EXP 	textInstrMain: autoDraw = True
+61.6342 	DATA 	Mouse: Left button down, pos=(1326,417)
+61.7197 	DATA 	Mouse:  Left button up, pos=(1326,417)
+62.3734 	DATA 	Keypress: space
+62.3839 	EXP 	textInstrMain: autoDraw = False
+62.3839 	EXP 	textBlank500: autoDraw = True
+63.3221 	EXP 	Imported repswitch.xlsx as conditions, 384 conditions, 9 params
+63.3402 	EXP 	Created sequence: sequential, trialTypes=384, nReps=1, seed=None
+63.3408 	EXP 	New trial (rep=0, index=0): {'image': 'REPSWITCH1/PICTURE_128.png', 'correctAns': 'muñeca', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 1, 'stimulus': 'Stim1_Set1'}
+63.3651 	EXP 	textBlank500: autoDraw = False
+63.3651 	EXP 	textBlank500: autoDraw = False
+63.3651 	EXP 	fixationITI: autoDraw = True
+64.7983 	EXP 	fixationITI: autoDraw = False
+64.7983 	EXP 	fixationITI: autoDraw = False
+64.7983 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+64.7983 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+64.7983 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_128.png'
+64.7983 	EXP 	polygonColour: autoDraw = True
+64.7983 	EXP 	polygonWhite: autoDraw = True
+64.7983 	EXP 	imageObject: autoDraw = True
+64.7983 	EXP 	polygonType: autoDraw = True
+64.7983 	EXP 	textInput: autoDraw = True
+64.7983 	EXP 	textInput: height = 0.05
+64.7983 	EXP 	textInput: height = 0.05
+64.7983 	EXP 	textInput: height = 0.05
+64.7983 	EXP 	textInput: text = ''
+67.5646 	EXP 	polygonColour: autoDraw = False
+67.5646 	EXP 	polygonWhite: autoDraw = False
+67.5646 	EXP 	imageObject: autoDraw = False
+67.5646 	EXP 	polygonType: autoDraw = False
+67.5646 	EXP 	textInput: autoDraw = False
+67.5646 	EXP 	textBlank500: autoDraw = True
+68.0349 	EXP 	New trial (rep=0, index=1): {'image': 'REPSWITCH1/PICTURE_128.png', 'correctAns': 'muñeca', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'repeat', 'sequence': 2, 'target': 'T', 'set': 1, 'stimulus': 'Stim1_Set1'}
+68.0495 	EXP 	textBlank500: autoDraw = False
+68.0495 	EXP 	textPause: autoDraw = False
+68.0495 	EXP 	fixationITI: autoDraw = True
+69.1151 	EXP 	fixationITI: autoDraw = False
+69.1151 	EXP 	fixationITI: autoDraw = False
+69.1151 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+69.1151 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+69.1151 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_128.png'
+69.1151 	EXP 	polygonColour: autoDraw = True
+69.1151 	EXP 	polygonWhite: autoDraw = True
+69.1151 	EXP 	imageObject: autoDraw = True
+69.1151 	EXP 	polygonType: autoDraw = True
+69.1151 	EXP 	textInput: autoDraw = True
+72.1305 	EXP 	polygonColour: autoDraw = False
+72.1305 	EXP 	polygonWhite: autoDraw = False
+72.1305 	EXP 	imageObject: autoDraw = False
+72.1305 	EXP 	polygonType: autoDraw = False
+72.1305 	EXP 	textInput: autoDraw = False
+72.1305 	EXP 	textBlank500: autoDraw = True
+72.5997 	EXP 	New trial (rep=0, index=2): {'image': 'REPSWITCH1/PICTURE_135.png', 'correctAns': 'traje', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 1, 'stimulus': 'Stim1_Set4'}
+72.6150 	EXP 	textBlank500: autoDraw = False
+72.6150 	EXP 	textPause: autoDraw = False
+72.6150 	EXP 	fixationITI: autoDraw = True
+73.9472 	EXP 	fixationITI: autoDraw = False
+73.9472 	EXP 	fixationITI: autoDraw = False
+73.9472 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+73.9472 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+73.9472 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_135.png'
+73.9472 	EXP 	polygonColour: autoDraw = True
+73.9472 	EXP 	polygonWhite: autoDraw = True
+73.9472 	EXP 	imageObject: autoDraw = True
+73.9472 	EXP 	polygonType: autoDraw = True
+73.9472 	EXP 	textInput: autoDraw = True
+74.3228 	DATA 	Keypress: t
+74.3892 	DATA 	Keypress: r
+74.6057 	DATA 	Keypress: a
+74.6938 	DATA 	Keypress: j
+74.8082 	DATA 	Keypress: e
+76.8454 	EXP 	polygonColour: autoDraw = False
+76.8454 	EXP 	polygonWhite: autoDraw = False
+76.8454 	EXP 	imageObject: autoDraw = False
+76.8454 	EXP 	polygonType: autoDraw = False
+76.8454 	EXP 	textInput: autoDraw = False
+76.8454 	EXP 	textBlank500: autoDraw = True
+77.2989 	EXP 	New trial (rep=0, index=3): {'image': 'REPSWITCH1/PICTURE_142.png', 'correctAns': 'vaso', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 1, 'stimulus': 'Stim2_Set1'}
+77.3138 	EXP 	textBlank500: autoDraw = False
+77.3138 	EXP 	textPause: autoDraw = False
+77.3138 	EXP 	fixationITI: autoDraw = True
+78.5629 	EXP 	fixationITI: autoDraw = False
+78.5629 	EXP 	fixationITI: autoDraw = False
+78.5629 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+78.5629 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+78.5629 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_142.png'
+78.5629 	EXP 	polygonColour: autoDraw = True
+78.5629 	EXP 	polygonWhite: autoDraw = True
+78.5629 	EXP 	imageObject: autoDraw = True
+78.5629 	EXP 	polygonType: autoDraw = True
+78.5629 	EXP 	textInput: autoDraw = True
+81.5612 	EXP 	polygonColour: autoDraw = False
+81.5612 	EXP 	polygonWhite: autoDraw = False
+81.5612 	EXP 	imageObject: autoDraw = False
+81.5612 	EXP 	polygonType: autoDraw = False
+81.5612 	EXP 	textInput: autoDraw = False
+81.5612 	EXP 	textBlank500: autoDraw = True
+82.0138 	EXP 	New trial (rep=0, index=4): {'image': 'REPSWITCH1/PICTURE_142.png', 'correctAns': 'vaso', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'repeat', 'sequence': 2, 'target': 'T', 'set': 1, 'stimulus': 'Stim2_Set1'}
+82.0296 	EXP 	textBlank500: autoDraw = False
+82.0296 	EXP 	textPause: autoDraw = False
+82.0296 	EXP 	fixationITI: autoDraw = True
+83.1453 	EXP 	fixationITI: autoDraw = False
+83.1453 	EXP 	fixationITI: autoDraw = False
+83.1453 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+83.1453 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+83.1453 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_142.png'
+83.1453 	EXP 	polygonColour: autoDraw = True
+83.1453 	EXP 	polygonWhite: autoDraw = True
+83.1453 	EXP 	imageObject: autoDraw = True
+83.1453 	EXP 	polygonType: autoDraw = True
+83.1453 	EXP 	textInput: autoDraw = True
+86.1600 	EXP 	polygonColour: autoDraw = False
+86.1600 	EXP 	polygonWhite: autoDraw = False
+86.1600 	EXP 	imageObject: autoDraw = False
+86.1600 	EXP 	polygonType: autoDraw = False
+86.1600 	EXP 	textInput: autoDraw = False
+86.1600 	EXP 	textBlank500: autoDraw = True
+86.6298 	EXP 	New trial (rep=0, index=5): {'image': 'REPSWITCH1/PICTURE_464.png', 'correctAns': 'goma', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 1, 'stimulus': 'Stim2_Set4'}
+86.6463 	EXP 	textBlank500: autoDraw = False
+86.6463 	EXP 	textPause: autoDraw = False
+86.6463 	EXP 	fixationITI: autoDraw = True
+87.7940 	EXP 	fixationITI: autoDraw = False
+87.7940 	EXP 	fixationITI: autoDraw = False
+87.7940 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+87.7940 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+87.7940 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_464.png'
+87.7940 	EXP 	polygonColour: autoDraw = True
+87.7940 	EXP 	polygonWhite: autoDraw = True
+87.7940 	EXP 	imageObject: autoDraw = True
+87.7940 	EXP 	polygonType: autoDraw = True
+87.7940 	EXP 	textInput: autoDraw = True
+88.3024 	DATA 	Keypress: g
+88.5872 	DATA 	Keypress: o
+88.7350 	DATA 	Keypress: m
+88.8535 	DATA 	Keypress: a
+90.7752 	EXP 	polygonColour: autoDraw = False
+90.7752 	EXP 	polygonWhite: autoDraw = False
+90.7752 	EXP 	imageObject: autoDraw = False
+90.7752 	EXP 	polygonType: autoDraw = False
+90.7752 	EXP 	textInput: autoDraw = False
+90.7752 	EXP 	textBlank500: autoDraw = True
+91.2287 	EXP 	New trial (rep=0, index=6): {'image': 'REPSWITCH1/PICTURE_152.png', 'correctAns': 'caracol', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 1, 'stimulus': 'Stim3_Set1'}
+91.2437 	EXP 	textBlank500: autoDraw = False
+91.2437 	EXP 	textPause: autoDraw = False
+91.2437 	EXP 	fixationITI: autoDraw = True
+92.5597 	EXP 	fixationITI: autoDraw = False
+92.5597 	EXP 	fixationITI: autoDraw = False
+92.5597 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+92.5597 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+92.5597 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_152.png'
+92.5597 	EXP 	polygonColour: autoDraw = True
+92.5597 	EXP 	polygonWhite: autoDraw = True
+92.5597 	EXP 	imageObject: autoDraw = True
+92.5597 	EXP 	polygonType: autoDraw = True
+92.5597 	EXP 	textInput: autoDraw = True
+95.5242 	EXP 	polygonColour: autoDraw = False
+95.5242 	EXP 	polygonWhite: autoDraw = False
+95.5242 	EXP 	imageObject: autoDraw = False
+95.5242 	EXP 	polygonType: autoDraw = False
+95.5242 	EXP 	textInput: autoDraw = False
+95.5242 	EXP 	textBlank500: autoDraw = True
+95.9776 	EXP 	New trial (rep=0, index=7): {'image': 'REPSWITCH1/PICTURE_152.png', 'correctAns': 'caracol', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'switch', 'sequence': 1, 'target': 'T', 'set': 1, 'stimulus': 'Stim3_Set1'}
+95.9925 	EXP 	textBlank500: autoDraw = False
+95.9925 	EXP 	textPause: autoDraw = False
+95.9925 	EXP 	fixationITI: autoDraw = True
+97.1752 	EXP 	fixationITI: autoDraw = False
+97.1752 	EXP 	fixationITI: autoDraw = False
+97.1752 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+97.1752 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+97.1752 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_152.png'
+97.1752 	EXP 	polygonColour: autoDraw = True
+97.1752 	EXP 	polygonWhite: autoDraw = True
+97.1752 	EXP 	imageObject: autoDraw = True
+97.1752 	EXP 	polygonType: autoDraw = True
+97.1752 	EXP 	textInput: autoDraw = True
+97.5496 	DATA 	Keypress: c
+97.6669 	DATA 	Keypress: a
+97.8534 	DATA 	Keypress: r
+97.9536 	DATA 	Keypress: a
+98.2678 	DATA 	Keypress: c
+98.4511 	DATA 	Keypress: o
+98.6839 	DATA 	Keypress: l
+100.1730 	EXP 	polygonColour: autoDraw = False
+100.1730 	EXP 	polygonWhite: autoDraw = False
+100.1730 	EXP 	imageObject: autoDraw = False
+100.1730 	EXP 	polygonType: autoDraw = False
+100.1730 	EXP 	textInput: autoDraw = False
+100.1730 	EXP 	textBlank500: autoDraw = True
+100.6445 	EXP 	New trial (rep=0, index=8): {'image': 'REPSWITCH1/PICTURE_19.png', 'correctAns': 'pavo', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'nontarget', 'sequence': 1, 'target': 'NT', 'set': 1, 'stimulus': 'Stim4_Set1'}
+100.6586 	EXP 	textBlank500: autoDraw = False
+100.6586 	EXP 	textPause: autoDraw = False
+100.6586 	EXP 	fixationITI: autoDraw = True
+101.8744 	EXP 	fixationITI: autoDraw = False
+101.8744 	EXP 	fixationITI: autoDraw = False
+101.8744 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+101.8744 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+101.8744 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_19.png'
+101.8744 	EXP 	polygonColour: autoDraw = True
+101.8744 	EXP 	polygonWhite: autoDraw = True
+101.8744 	EXP 	imageObject: autoDraw = True
+101.8744 	EXP 	polygonType: autoDraw = True
+101.8744 	EXP 	textInput: autoDraw = True
+102.2999 	DATA 	Keypress: p
+102.5001 	DATA 	Keypress: a
+102.6807 	DATA 	Keypress: v
+103.0496 	DATA 	Keypress: o
+104.7886 	EXP 	polygonColour: autoDraw = False
+104.7886 	EXP 	polygonWhite: autoDraw = False
+104.7886 	EXP 	imageObject: autoDraw = False
+104.7886 	EXP 	polygonType: autoDraw = False
+104.7886 	EXP 	textInput: autoDraw = False
+104.7886 	EXP 	textBlank500: autoDraw = True
+105.2261 	EXP 	New trial (rep=0, index=9): {'image': 'REPSWITCH1/PICTURE_19.png', 'correctAns': 'pavo', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'switch', 'sequence': 2, 'target': 'T', 'set': 1, 'stimulus': 'Stim4_Set1'}
+105.2401 	EXP 	textBlank500: autoDraw = False
+105.2401 	EXP 	textPause: autoDraw = False
+105.2401 	EXP 	fixationITI: autoDraw = True
+106.4560 	EXP 	fixationITI: autoDraw = False
+106.4560 	EXP 	fixationITI: autoDraw = False
+106.4560 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+106.4560 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+106.4560 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_19.png'
+106.4560 	EXP 	polygonColour: autoDraw = True
+106.4560 	EXP 	polygonWhite: autoDraw = True
+106.4560 	EXP 	imageObject: autoDraw = True
+106.4560 	EXP 	polygonType: autoDraw = True
+106.4560 	EXP 	textInput: autoDraw = True
+109.4715 	EXP 	polygonColour: autoDraw = False
+109.4715 	EXP 	polygonWhite: autoDraw = False
+109.4715 	EXP 	imageObject: autoDraw = False
+109.4715 	EXP 	polygonType: autoDraw = False
+109.4715 	EXP 	textInput: autoDraw = False
+109.4715 	EXP 	textBlank500: autoDraw = True
+109.9408 	EXP 	New trial (rep=0, index=10): {'image': 'REPSWITCH1/PICTURE_381.png', 'correctAns': 'fresa', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'filler', 'sequence': 2, 'target': 'F', 'set': 1, 'stimulus': 'Stim3_Set4'}
+109.9558 	EXP 	textBlank500: autoDraw = False
+109.9558 	EXP 	textPause: autoDraw = False
+109.9558 	EXP 	fixationITI: autoDraw = True
+111.4053 	EXP 	fixationITI: autoDraw = False
+111.4053 	EXP 	fixationITI: autoDraw = False
+111.4053 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+111.4053 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+111.4053 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_381.png'
+111.4053 	EXP 	polygonColour: autoDraw = True
+111.4053 	EXP 	polygonWhite: autoDraw = True
+111.4053 	EXP 	imageObject: autoDraw = True
+111.4053 	EXP 	polygonType: autoDraw = True
+111.4053 	EXP 	textInput: autoDraw = True
+114.3031 	EXP 	polygonColour: autoDraw = False
+114.3031 	EXP 	polygonWhite: autoDraw = False
+114.3031 	EXP 	imageObject: autoDraw = False
+114.3031 	EXP 	polygonType: autoDraw = False
+114.3031 	EXP 	textInput: autoDraw = False
+114.3031 	EXP 	textBlank500: autoDraw = True
+114.7712 	EXP 	New trial (rep=0, index=11): {'image': 'REPSWITCH1/PICTURE_199.png', 'correctAns': 'falda', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 1, 'stimulus': 'Stim5_Set1'}
+114.7872 	EXP 	textBlank500: autoDraw = False
+114.7872 	EXP 	textPause: autoDraw = False
+114.7872 	EXP 	fixationITI: autoDraw = True
+116.0024 	EXP 	fixationITI: autoDraw = False
+116.0024 	EXP 	fixationITI: autoDraw = False
+116.0024 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+116.0024 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+116.0024 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_199.png'
+116.0024 	EXP 	polygonColour: autoDraw = True
+116.0024 	EXP 	polygonWhite: autoDraw = True
+116.0024 	EXP 	imageObject: autoDraw = True
+116.0024 	EXP 	polygonType: autoDraw = True
+116.0024 	EXP 	textInput: autoDraw = True
+118.8848 	EXP 	polygonColour: autoDraw = False
+118.8848 	EXP 	polygonWhite: autoDraw = False
+118.8848 	EXP 	imageObject: autoDraw = False
+118.8848 	EXP 	polygonType: autoDraw = False
+118.8848 	EXP 	textInput: autoDraw = False
+118.8848 	EXP 	textBlank500: autoDraw = True
+119.3726 	EXP 	New trial (rep=0, index=12): {'image': 'REPSWITCH1/PICTURE_199.png', 'correctAns': 'falda', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'switch', 'sequence': 1, 'target': 'T', 'set': 1, 'stimulus': 'Stim5_Set1'}
+119.3866 	EXP 	textBlank500: autoDraw = False
+119.3866 	EXP 	textPause: autoDraw = False
+119.3866 	EXP 	fixationITI: autoDraw = True
+120.6530 	EXP 	fixationITI: autoDraw = False
+120.6530 	EXP 	fixationITI: autoDraw = False
+120.6530 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+120.6530 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+120.6530 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_199.png'
+120.6530 	EXP 	polygonColour: autoDraw = True
+120.6530 	EXP 	polygonWhite: autoDraw = True
+120.6530 	EXP 	imageObject: autoDraw = True
+120.6530 	EXP 	polygonType: autoDraw = True
+120.6530 	EXP 	textInput: autoDraw = True
+120.9781 	DATA 	Keypress: f
+121.0796 	DATA 	Keypress: a
+121.1981 	DATA 	Keypress: l
+121.3443 	DATA 	Keypress: s
+122.0437 	DATA 	Keypress: backspace
+122.2105 	DATA 	Keypress: d
+122.3274 	DATA 	Keypress: a
+123.6839 	EXP 	polygonColour: autoDraw = False
+123.6839 	EXP 	polygonWhite: autoDraw = False
+123.6839 	EXP 	imageObject: autoDraw = False
+123.6839 	EXP 	polygonType: autoDraw = False
+123.6839 	EXP 	textInput: autoDraw = False
+123.6839 	EXP 	textBlank500: autoDraw = True
+124.1375 	EXP 	New trial (rep=0, index=13): {'image': 'REPSWITCH1/PICTURE_546.png', 'correctAns': 'puerta', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'filler', 'sequence': 2, 'target': 'F', 'set': 1, 'stimulus': 'Stim4_Set4'}
+124.1525 	EXP 	textBlank500: autoDraw = False
+124.1525 	EXP 	textPause: autoDraw = False
+124.1525 	EXP 	fixationITI: autoDraw = True
+125.4686 	EXP 	fixationITI: autoDraw = False
+125.4686 	EXP 	fixationITI: autoDraw = False
+125.4686 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+125.4686 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+125.4686 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_546.png'
+125.4686 	EXP 	polygonColour: autoDraw = True
+125.4686 	EXP 	polygonWhite: autoDraw = True
+125.4686 	EXP 	imageObject: autoDraw = True
+125.4686 	EXP 	polygonType: autoDraw = True
+125.4686 	EXP 	textInput: autoDraw = True
+128.3162 	EXP 	polygonColour: autoDraw = False
+128.3162 	EXP 	polygonWhite: autoDraw = False
+128.3162 	EXP 	imageObject: autoDraw = False
+128.3162 	EXP 	polygonType: autoDraw = False
+128.3162 	EXP 	textInput: autoDraw = False
+128.3162 	EXP 	textBlank500: autoDraw = True
+128.7893 	EXP 	New trial (rep=0, index=14): {'image': 'REPSWITCH1/PICTURE_235.png', 'correctAns': 'aguja', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'nontarget', 'sequence': 1, 'target': 'NT', 'set': 1, 'stimulus': 'Stim6_Set1'}
+128.8011 	EXP 	textBlank500: autoDraw = False
+128.8011 	EXP 	textPause: autoDraw = False
+128.8011 	EXP 	fixationITI: autoDraw = True
+130.2506 	EXP 	fixationITI: autoDraw = False
+130.2506 	EXP 	fixationITI: autoDraw = False
+130.2506 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+130.2506 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+130.2506 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_235.png'
+130.2506 	EXP 	polygonColour: autoDraw = True
+130.2506 	EXP 	polygonWhite: autoDraw = True
+130.2506 	EXP 	imageObject: autoDraw = True
+130.2506 	EXP 	polygonType: autoDraw = True
+130.2506 	EXP 	textInput: autoDraw = True
+130.9928 	DATA 	Keypress: a
+131.3637 	DATA 	Keypress: g
+131.4506 	DATA 	Keypress: i
+131.5912 	DATA 	Keypress: j
+131.6926 	DATA 	Keypress: a
+133.1487 	EXP 	polygonColour: autoDraw = False
+133.1487 	EXP 	polygonWhite: autoDraw = False
+133.1487 	EXP 	imageObject: autoDraw = False
+133.1487 	EXP 	polygonType: autoDraw = False
+133.1487 	EXP 	textInput: autoDraw = False
+133.1487 	EXP 	textBlank500: autoDraw = True
+133.6185 	EXP 	New trial (rep=0, index=15): {'image': 'REPSWITCH1/PICTURE_235.png', 'correctAns': 'aguja', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'repeat', 'sequence': 1, 'target': 'T', 'set': 1, 'stimulus': 'Stim6_Set1'}
+133.6335 	EXP 	textBlank500: autoDraw = False
+133.6335 	EXP 	textPause: autoDraw = False
+133.6335 	EXP 	fixationITI: autoDraw = True
+134.8165 	EXP 	fixationITI: autoDraw = False
+134.8165 	EXP 	fixationITI: autoDraw = False
+134.8165 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+134.8165 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+134.8165 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_235.png'
+134.8165 	EXP 	polygonColour: autoDraw = True
+134.8165 	EXP 	polygonWhite: autoDraw = True
+134.8165 	EXP 	imageObject: autoDraw = True
+134.8165 	EXP 	polygonType: autoDraw = True
+134.8165 	EXP 	textInput: autoDraw = True
+135.1970 	DATA 	Keypress: a
+135.3412 	DATA 	Keypress: g
+135.6405 	DATA 	Keypress: i
+136.3072 	DATA 	Keypress: j
+136.4407 	DATA 	Keypress: a
+137.8306 	EXP 	polygonColour: autoDraw = False
+137.8306 	EXP 	polygonWhite: autoDraw = False
+137.8306 	EXP 	imageObject: autoDraw = False
+137.8306 	EXP 	polygonType: autoDraw = False
+137.8306 	EXP 	textInput: autoDraw = False
+137.8306 	EXP 	textBlank500: autoDraw = True
+138.2843 	EXP 	New trial (rep=0, index=16): {'image': 'REPSWITCH1/PICTURE_636.png', 'correctAns': 'oveja', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'filler', 'sequence': 2, 'target': 'F', 'set': 1, 'stimulus': 'Stim5_Set4'}
+138.2991 	EXP 	textBlank500: autoDraw = False
+138.2991 	EXP 	textPause: autoDraw = False
+138.2991 	EXP 	fixationITI: autoDraw = True
+139.5647 	EXP 	fixationITI: autoDraw = False
+139.5647 	EXP 	fixationITI: autoDraw = False
+139.5647 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+139.5647 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+139.5647 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_636.png'
+139.5647 	EXP 	polygonColour: autoDraw = True
+139.5647 	EXP 	polygonWhite: autoDraw = True
+139.5647 	EXP 	imageObject: autoDraw = True
+139.5647 	EXP 	polygonType: autoDraw = True
+139.5647 	EXP 	textInput: autoDraw = True
+142.5128 	EXP 	polygonColour: autoDraw = False
+142.5128 	EXP 	polygonWhite: autoDraw = False
+142.5128 	EXP 	imageObject: autoDraw = False
+142.5128 	EXP 	polygonType: autoDraw = False
+142.5128 	EXP 	textInput: autoDraw = False
+142.5128 	EXP 	textBlank500: autoDraw = True
+142.9822 	EXP 	New trial (rep=0, index=17): {'image': 'REPSWITCH1/PICTURE_264.png', 'correctAns': 'mano', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'nontarget', 'sequence': 1, 'target': 'NT', 'set': 1, 'stimulus': 'Stim7_Set1'}
+142.9990 	EXP 	textBlank500: autoDraw = False
+142.9990 	EXP 	textPause: autoDraw = False
+142.9990 	EXP 	fixationITI: autoDraw = True
+144.3140 	EXP 	fixationITI: autoDraw = False
+144.3140 	EXP 	fixationITI: autoDraw = False
+144.3140 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+144.3140 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+144.3140 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_264.png'
+144.3140 	EXP 	polygonColour: autoDraw = True
+144.3140 	EXP 	polygonWhite: autoDraw = True
+144.3140 	EXP 	imageObject: autoDraw = True
+144.3140 	EXP 	polygonType: autoDraw = True
+144.3140 	EXP 	textInput: autoDraw = True
+147.2118 	EXP 	polygonColour: autoDraw = False
+147.2118 	EXP 	polygonWhite: autoDraw = False
+147.2118 	EXP 	imageObject: autoDraw = False
+147.2118 	EXP 	polygonType: autoDraw = False
+147.2118 	EXP 	textInput: autoDraw = False
+147.2118 	EXP 	textBlank500: autoDraw = True
+147.6651 	EXP 	New trial (rep=0, index=18): {'image': 'REPSWITCH1/PICTURE_264.png', 'correctAns': 'mano', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'repeat', 'sequence': 1, 'target': 'T', 'set': 1, 'stimulus': 'Stim7_Set1'}
+147.6802 	EXP 	textBlank500: autoDraw = False
+147.6802 	EXP 	textPause: autoDraw = False
+147.6802 	EXP 	fixationITI: autoDraw = True
+149.0130 	EXP 	fixationITI: autoDraw = False
+149.0130 	EXP 	fixationITI: autoDraw = False
+149.0130 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+149.0130 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+149.0130 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_264.png'
+149.0130 	EXP 	polygonColour: autoDraw = True
+149.0130 	EXP 	polygonWhite: autoDraw = True
+149.0130 	EXP 	imageObject: autoDraw = True
+149.0130 	EXP 	polygonType: autoDraw = True
+149.0130 	EXP 	textInput: autoDraw = True
+149.3920 	DATA 	Keypress: m
+149.4909 	DATA 	Keypress: a
+149.6039 	DATA 	Keypress: n
+149.7380 	DATA 	Keypress: o
+152.0273 	EXP 	polygonColour: autoDraw = False
+152.0273 	EXP 	polygonWhite: autoDraw = False
+152.0273 	EXP 	imageObject: autoDraw = False
+152.0273 	EXP 	polygonType: autoDraw = False
+152.0273 	EXP 	textInput: autoDraw = False
+152.0273 	EXP 	textBlank500: autoDraw = True
+152.4971 	EXP 	New trial (rep=0, index=19): {'image': 'REPSWITCH1/PICTURE_545.png', 'correctAns': 'braga', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'filler', 'sequence': 2, 'target': 'F', 'set': 1, 'stimulus': 'Stim6_Set4'}
+152.5125 	EXP 	textBlank500: autoDraw = False
+152.5125 	EXP 	textPause: autoDraw = False
+152.5125 	EXP 	fixationITI: autoDraw = True
+153.7283 	EXP 	fixationITI: autoDraw = False
+153.7283 	EXP 	fixationITI: autoDraw = False
+153.7283 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+153.7283 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+153.7283 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_545.png'
+153.7283 	EXP 	polygonColour: autoDraw = True
+153.7283 	EXP 	polygonWhite: autoDraw = True
+153.7283 	EXP 	imageObject: autoDraw = True
+153.7283 	EXP 	polygonType: autoDraw = True
+153.7283 	EXP 	textInput: autoDraw = True
+155.0902 	DATA 	Keypress: b
+155.2202 	DATA 	Keypress: r
+155.5538 	DATA 	Keypress: a
+155.8202 	DATA 	Keypress: g
+155.9206 	DATA 	Keypress: a
+156.6430 	EXP 	polygonColour: autoDraw = False
+156.6430 	EXP 	polygonWhite: autoDraw = False
+156.6430 	EXP 	imageObject: autoDraw = False
+156.6430 	EXP 	polygonType: autoDraw = False
+156.6430 	EXP 	textInput: autoDraw = False
+156.6430 	EXP 	textBlank500: autoDraw = True
+157.0970 	EXP 	New trial (rep=0, index=20): {'image': 'REPSWITCH1/PICTURE_271.png', 'correctAns': 'conejo', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'nontarget', 'sequence': 1, 'target': 'NT', 'set': 1, 'stimulus': 'Stim8_Set1'}
+157.1116 	EXP 	textBlank500: autoDraw = False
+157.1116 	EXP 	textPause: autoDraw = False
+157.1116 	EXP 	fixationITI: autoDraw = True
+158.4438 	EXP 	fixationITI: autoDraw = False
+158.4438 	EXP 	fixationITI: autoDraw = False
+158.4438 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+158.4438 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+158.4438 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_271.png'
+158.4438 	EXP 	polygonColour: autoDraw = True
+158.4438 	EXP 	polygonWhite: autoDraw = True
+158.4438 	EXP 	imageObject: autoDraw = True
+158.4438 	EXP 	polygonType: autoDraw = True
+158.4438 	EXP 	textInput: autoDraw = True
+159.3682 	DATA 	Keypress: c
+159.6030 	DATA 	Keypress: o
+159.8056 	DATA 	Keypress: n
+159.9697 	DATA 	Keypress: e
+160.0741 	DATA 	Keypress: j
+160.1846 	DATA 	Keypress: o
+161.3416 	EXP 	polygonColour: autoDraw = False
+161.3416 	EXP 	polygonWhite: autoDraw = False
+161.3416 	EXP 	imageObject: autoDraw = False
+161.3416 	EXP 	polygonType: autoDraw = False
+161.3416 	EXP 	textInput: autoDraw = False
+161.3416 	EXP 	textBlank500: autoDraw = True
+161.7949 	EXP 	New trial (rep=0, index=21): {'image': 'REPSWITCH1/PICTURE_271.png', 'correctAns': 'conejo', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'switch', 'sequence': 2, 'target': 'T', 'set': 1, 'stimulus': 'Stim8_Set1'}
+161.8102 	EXP 	textBlank500: autoDraw = False
+161.8102 	EXP 	textPause: autoDraw = False
+161.8102 	EXP 	fixationITI: autoDraw = True
+162.9924 	EXP 	fixationITI: autoDraw = False
+162.9924 	EXP 	fixationITI: autoDraw = False
+162.9924 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+162.9924 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+162.9924 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_271.png'
+162.9924 	EXP 	polygonColour: autoDraw = True
+162.9924 	EXP 	polygonWhite: autoDraw = True
+162.9924 	EXP 	imageObject: autoDraw = True
+162.9924 	EXP 	polygonType: autoDraw = True
+162.9924 	EXP 	textInput: autoDraw = True
+165.9909 	EXP 	polygonColour: autoDraw = False
+165.9909 	EXP 	polygonWhite: autoDraw = False
+165.9909 	EXP 	imageObject: autoDraw = False
+165.9909 	EXP 	polygonType: autoDraw = False
+165.9909 	EXP 	textInput: autoDraw = False
+165.9909 	EXP 	textBlank500: autoDraw = True
+166.4610 	EXP 	New trial (rep=0, index=22): {'image': 'REPSWITCH1/PICTURE_8.png', 'correctAns': 'pierna', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 1, 'stimulus': 'Stim7_Set4'}
+166.4756 	EXP 	textBlank500: autoDraw = False
+166.4756 	EXP 	textPause: autoDraw = False
+166.4756 	EXP 	fixationITI: autoDraw = True
+167.6749 	EXP 	fixationITI: autoDraw = False
+167.6749 	EXP 	fixationITI: autoDraw = False
+167.6749 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+167.6749 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+167.6749 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_8.png'
+167.6749 	EXP 	polygonColour: autoDraw = True
+167.6749 	EXP 	polygonWhite: autoDraw = True
+167.6749 	EXP 	imageObject: autoDraw = True
+167.6749 	EXP 	polygonType: autoDraw = True
+167.6749 	EXP 	textInput: autoDraw = True
+168.1888 	DATA 	Keypress: p
+168.3514 	DATA 	Keypress: i
+168.8509 	DATA 	Keypress: e
+169.0676 	DATA 	Keypress: r
+169.2016 	DATA 	Keypress: n
+169.3011 	DATA 	Keypress: a
+170.5728 	EXP 	polygonColour: autoDraw = False
+170.5728 	EXP 	polygonWhite: autoDraw = False
+170.5728 	EXP 	imageObject: autoDraw = False
+170.5728 	EXP 	polygonType: autoDraw = False
+170.5728 	EXP 	textInput: autoDraw = False
+170.5728 	EXP 	textBlank500: autoDraw = True
+171.0260 	EXP 	New trial (rep=0, index=23): {'image': 'REPSWITCH1/PICTURE_91.png', 'correctAns': 'boca', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 1, 'stimulus': 'Stim8_Set4'}
+171.0412 	EXP 	textBlank500: autoDraw = False
+171.0412 	EXP 	textPause: autoDraw = False
+171.0412 	EXP 	fixationITI: autoDraw = True
+172.5240 	EXP 	fixationITI: autoDraw = False
+172.5240 	EXP 	fixationITI: autoDraw = False
+172.5240 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+172.5240 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+172.5240 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_91.png'
+172.5240 	EXP 	polygonColour: autoDraw = True
+172.5240 	EXP 	polygonWhite: autoDraw = True
+172.5240 	EXP 	imageObject: autoDraw = True
+172.5240 	EXP 	polygonType: autoDraw = True
+172.5240 	EXP 	textInput: autoDraw = True
+172.9026 	DATA 	Keypress: b
+172.9826 	DATA 	Keypress: o
+173.1171 	DATA 	Keypress: v
+173.2828 	DATA 	Keypress: a
+173.7994 	DATA 	Keypress: backspace
+173.9653 	DATA 	Keypress: backspace
+174.0996 	DATA 	Keypress: c
+174.1975 	DATA 	Keypress: a
+175.4217 	EXP 	polygonColour: autoDraw = False
+175.4217 	EXP 	polygonWhite: autoDraw = False
+175.4217 	EXP 	imageObject: autoDraw = False
+175.4217 	EXP 	polygonType: autoDraw = False
+175.4217 	EXP 	textInput: autoDraw = False
+175.4217 	EXP 	textBlank500: autoDraw = True
+175.8925 	EXP 	New trial (rep=0, index=24): {'image': 'REPSWITCH1/PICTURE_128.png', 'correctAns': 'muñeca', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'filler', 'sequence': 2, 'target': 'F', 'set': 2, 'stimulus': 'Stim1_Set1'}
+175.9069 	EXP 	textBlank500: autoDraw = False
+175.9069 	EXP 	textPause: autoDraw = False
+175.9069 	EXP 	fixationITI: autoDraw = True
+177.1058 	EXP 	fixationITI: autoDraw = False
+177.1058 	EXP 	fixationITI: autoDraw = False
+177.1058 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+177.1058 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+177.1058 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_128.png'
+177.1058 	EXP 	polygonColour: autoDraw = True
+177.1058 	EXP 	polygonWhite: autoDraw = True
+177.1058 	EXP 	imageObject: autoDraw = True
+177.1058 	EXP 	polygonType: autoDraw = True
+177.1058 	EXP 	textInput: autoDraw = True
+180.1260 	EXP 	polygonColour: autoDraw = False
+180.1260 	EXP 	polygonWhite: autoDraw = False
+180.1260 	EXP 	imageObject: autoDraw = False
+180.1260 	EXP 	polygonType: autoDraw = False
+180.1260 	EXP 	textInput: autoDraw = False
+180.1260 	EXP 	textBlank500: autoDraw = True
+180.5720 	EXP 	New trial (rep=0, index=25): {'image': 'REPSWITCH1/PICTURE_16.png', 'correctAns': 'cazador', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'nontarget', 'sequence': 1, 'target': 'NT', 'set': 2, 'stimulus': 'Stim1_Set2'}
+180.5895 	EXP 	textBlank500: autoDraw = False
+180.5895 	EXP 	textPause: autoDraw = False
+180.5895 	EXP 	fixationITI: autoDraw = True
+181.9213 	EXP 	fixationITI: autoDraw = False
+181.9213 	EXP 	fixationITI: autoDraw = False
+181.9213 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+181.9213 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+181.9213 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_16.png'
+181.9213 	EXP 	polygonColour: autoDraw = True
+181.9213 	EXP 	polygonWhite: autoDraw = True
+181.9213 	EXP 	imageObject: autoDraw = True
+181.9213 	EXP 	polygonType: autoDraw = True
+181.9213 	EXP 	textInput: autoDraw = True
+184.8196 	EXP 	polygonColour: autoDraw = False
+184.8196 	EXP 	polygonWhite: autoDraw = False
+184.8196 	EXP 	imageObject: autoDraw = False
+184.8196 	EXP 	polygonType: autoDraw = False
+184.8196 	EXP 	textInput: autoDraw = False
+184.8196 	EXP 	textBlank500: autoDraw = True
+185.2887 	EXP 	New trial (rep=0, index=26): {'image': 'REPSWITCH1/PICTURE_16.png', 'correctAns': 'cazador', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'repeat', 'sequence': 1, 'target': 'T', 'set': 2, 'stimulus': 'Stim1_Set2'}
+185.3041 	EXP 	textBlank500: autoDraw = False
+185.3041 	EXP 	textPause: autoDraw = False
+185.3041 	EXP 	fixationITI: autoDraw = True
+186.5034 	EXP 	fixationITI: autoDraw = False
+186.5034 	EXP 	fixationITI: autoDraw = False
+186.5034 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+186.5034 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+186.5034 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_16.png'
+186.5034 	EXP 	polygonColour: autoDraw = True
+186.5034 	EXP 	polygonWhite: autoDraw = True
+186.5034 	EXP 	imageObject: autoDraw = True
+186.5034 	EXP 	polygonType: autoDraw = True
+186.5034 	EXP 	textInput: autoDraw = True
+186.8157 	DATA 	Keypress: c
+186.9114 	DATA 	Keypress: a
+187.1625 	DATA 	Keypress: z
+187.4132 	DATA 	Keypress: a
+188.1125 	DATA 	Keypress: d
+188.2475 	DATA 	Keypress: o
+188.3458 	DATA 	Keypress: r
+189.5184 	EXP 	polygonColour: autoDraw = False
+189.5184 	EXP 	polygonWhite: autoDraw = False
+189.5184 	EXP 	imageObject: autoDraw = False
+189.5184 	EXP 	polygonType: autoDraw = False
+189.5184 	EXP 	textInput: autoDraw = False
+189.5184 	EXP 	textBlank500: autoDraw = True
+189.9882 	EXP 	New trial (rep=0, index=27): {'image': 'REPSWITCH1/PICTURE_142.png', 'correctAns': 'vaso', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'filler', 'sequence': 2, 'target': 'F', 'set': 2, 'stimulus': 'Stim2_Set1'}
+190.0039 	EXP 	textBlank500: autoDraw = False
+190.0039 	EXP 	textPause: autoDraw = False
+190.0039 	EXP 	fixationITI: autoDraw = True
+191.2692 	EXP 	fixationITI: autoDraw = False
+191.2692 	EXP 	fixationITI: autoDraw = False
+191.2692 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+191.2692 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+191.2692 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_142.png'
+191.2692 	EXP 	polygonColour: autoDraw = True
+191.2692 	EXP 	polygonWhite: autoDraw = True
+191.2692 	EXP 	imageObject: autoDraw = True
+191.2692 	EXP 	polygonType: autoDraw = True
+191.2692 	EXP 	textInput: autoDraw = True
+194.2843 	EXP 	polygonColour: autoDraw = False
+194.2843 	EXP 	polygonWhite: autoDraw = False
+194.2843 	EXP 	imageObject: autoDraw = False
+194.2843 	EXP 	polygonType: autoDraw = False
+194.2843 	EXP 	textInput: autoDraw = False
+194.2843 	EXP 	textBlank500: autoDraw = True
+194.7370 	EXP 	New trial (rep=0, index=28): {'image': 'REPSWITCH1/PICTURE_175.png', 'correctAns': 'pintor', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'nontarget', 'sequence': 1, 'target': 'NT', 'set': 2, 'stimulus': 'Stim2_Set2'}
+194.7522 	EXP 	textBlank500: autoDraw = False
+194.7522 	EXP 	textPause: autoDraw = False
+194.7522 	EXP 	fixationITI: autoDraw = True
+196.0685 	EXP 	fixationITI: autoDraw = False
+196.0685 	EXP 	fixationITI: autoDraw = False
+196.0685 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+196.0685 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+196.0685 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_175.png'
+196.0685 	EXP 	polygonColour: autoDraw = True
+196.0685 	EXP 	polygonWhite: autoDraw = True
+196.0685 	EXP 	imageObject: autoDraw = True
+196.0685 	EXP 	polygonType: autoDraw = True
+196.0685 	EXP 	textInput: autoDraw = True
+196.5261 	DATA 	Keypress: p
+196.7277 	DATA 	Keypress: i
+196.9130 	DATA 	Keypress: t
+196.9756 	DATA 	Keypress: n
+197.1438 	DATA 	Keypress: o
+197.2627 	DATA 	Keypress: r
+198.9658 	EXP 	polygonColour: autoDraw = False
+198.9658 	EXP 	polygonWhite: autoDraw = False
+198.9658 	EXP 	imageObject: autoDraw = False
+198.9658 	EXP 	polygonType: autoDraw = False
+198.9658 	EXP 	textInput: autoDraw = False
+198.9658 	EXP 	textBlank500: autoDraw = True
+199.4191 	EXP 	New trial (rep=0, index=29): {'image': 'REPSWITCH1/PICTURE_175.png', 'correctAns': 'pintor', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'repeat', 'sequence': 1, 'target': 'T', 'set': 2, 'stimulus': 'Stim2_Set2'}
+199.4346 	EXP 	textBlank500: autoDraw = False
+199.4346 	EXP 	textPause: autoDraw = False
+199.4346 	EXP 	fixationITI: autoDraw = True
+200.5838 	EXP 	fixationITI: autoDraw = False
+200.5838 	EXP 	fixationITI: autoDraw = False
+200.5838 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+200.5838 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+200.5838 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_175.png'
+200.5838 	EXP 	polygonColour: autoDraw = True
+200.5838 	EXP 	polygonWhite: autoDraw = True
+200.5838 	EXP 	imageObject: autoDraw = True
+200.5838 	EXP 	polygonType: autoDraw = True
+200.5838 	EXP 	textInput: autoDraw = True
+200.9929 	DATA 	Keypress: p
+201.1637 	DATA 	Keypress: i
+201.3916 	DATA 	Keypress: n
+201.4958 	DATA 	Keypress: t
+201.6100 	DATA 	Keypress: o
+201.7269 	DATA 	Keypress: r
+203.5983 	EXP 	polygonColour: autoDraw = False
+203.5983 	EXP 	polygonWhite: autoDraw = False
+203.5983 	EXP 	imageObject: autoDraw = False
+203.5983 	EXP 	polygonType: autoDraw = False
+203.5983 	EXP 	textInput: autoDraw = False
+203.5983 	EXP 	textBlank500: autoDraw = True
+204.0514 	EXP 	New trial (rep=0, index=30): {'image': 'REPSWITCH1/PICTURE_30.png', 'correctAns': 'granja', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'nontarget', 'sequence': 1, 'target': 'NT', 'set': 2, 'stimulus': 'Stim3_Set2'}
+204.0678 	EXP 	textBlank500: autoDraw = False
+204.0678 	EXP 	textPause: autoDraw = False
+204.0678 	EXP 	fixationITI: autoDraw = True
+205.2992 	EXP 	fixationITI: autoDraw = False
+205.2992 	EXP 	fixationITI: autoDraw = False
+205.2992 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+205.2992 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+205.2992 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_30.png'
+205.2992 	EXP 	polygonColour: autoDraw = True
+205.2992 	EXP 	polygonWhite: autoDraw = True
+205.2992 	EXP 	imageObject: autoDraw = True
+205.2992 	EXP 	polygonType: autoDraw = True
+205.2992 	EXP 	textInput: autoDraw = True
+205.7080 	DATA 	Keypress: g
+205.8081 	DATA 	Keypress: r
+206.0772 	DATA 	Keypress: a
+206.6245 	DATA 	Keypress: n
+206.7409 	DATA 	Keypress: j
+206.9065 	DATA 	Keypress: a
+208.1968 	EXP 	polygonColour: autoDraw = False
+208.1968 	EXP 	polygonWhite: autoDraw = False
+208.1968 	EXP 	imageObject: autoDraw = False
+208.1968 	EXP 	polygonType: autoDraw = False
+208.1968 	EXP 	textInput: autoDraw = False
+208.1968 	EXP 	textBlank500: autoDraw = True
+208.6503 	EXP 	New trial (rep=0, index=31): {'image': 'REPSWITCH1/PICTURE_30.png', 'correctAns': 'granja', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'switch', 'sequence': 2, 'target': 'T', 'set': 2, 'stimulus': 'Stim3_Set2'}
+208.6659 	EXP 	textBlank500: autoDraw = False
+208.6659 	EXP 	textPause: autoDraw = False
+208.6659 	EXP 	fixationITI: autoDraw = True
+209.7981 	EXP 	fixationITI: autoDraw = False
+209.7981 	EXP 	fixationITI: autoDraw = False
+209.7981 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+209.7981 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+209.7981 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_30.png'
+209.7981 	EXP 	polygonColour: autoDraw = True
+209.7981 	EXP 	polygonWhite: autoDraw = True
+209.7981 	EXP 	imageObject: autoDraw = True
+209.7981 	EXP 	polygonType: autoDraw = True
+209.7981 	EXP 	textInput: autoDraw = True
+212.8129 	EXP 	polygonColour: autoDraw = False
+212.8129 	EXP 	polygonWhite: autoDraw = False
+212.8129 	EXP 	imageObject: autoDraw = False
+212.8129 	EXP 	polygonType: autoDraw = False
+212.8129 	EXP 	textInput: autoDraw = False
+212.8129 	EXP 	textBlank500: autoDraw = True
+213.2662 	EXP 	New trial (rep=0, index=32): {'image': 'REPSWITCH1/PICTURE_319.png', 'correctAns': 'vaca', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 2, 'stimulus': 'Stim4_Set2'}
+213.2816 	EXP 	textBlank500: autoDraw = False
+213.2816 	EXP 	textPause: autoDraw = False
+213.2816 	EXP 	fixationITI: autoDraw = True
+214.6137 	EXP 	fixationITI: autoDraw = False
+214.6137 	EXP 	fixationITI: autoDraw = False
+214.6137 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+214.6137 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+214.6137 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_319.png'
+214.6137 	EXP 	polygonColour: autoDraw = True
+214.6137 	EXP 	polygonWhite: autoDraw = True
+214.6137 	EXP 	imageObject: autoDraw = True
+214.6137 	EXP 	polygonType: autoDraw = True
+214.6137 	EXP 	textInput: autoDraw = True
+217.5118 	EXP 	polygonColour: autoDraw = False
+217.5118 	EXP 	polygonWhite: autoDraw = False
+217.5118 	EXP 	imageObject: autoDraw = False
+217.5118 	EXP 	polygonType: autoDraw = False
+217.5118 	EXP 	textInput: autoDraw = False
+217.5118 	EXP 	textBlank500: autoDraw = True
+217.9816 	EXP 	New trial (rep=0, index=33): {'image': 'REPSWITCH1/PICTURE_319.png', 'correctAns': 'vaca', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'switch', 'sequence': 1, 'target': 'T', 'set': 2, 'stimulus': 'Stim4_Set2'}
+217.9964 	EXP 	textBlank500: autoDraw = False
+217.9964 	EXP 	textPause: autoDraw = False
+217.9964 	EXP 	fixationITI: autoDraw = True
+219.1961 	EXP 	fixationITI: autoDraw = False
+219.1961 	EXP 	fixationITI: autoDraw = False
+219.1961 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+219.1961 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+219.1961 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_319.png'
+219.1961 	EXP 	polygonColour: autoDraw = True
+219.1961 	EXP 	polygonWhite: autoDraw = True
+219.1961 	EXP 	imageObject: autoDraw = True
+219.1961 	EXP 	polygonType: autoDraw = True
+219.1961 	EXP 	textInput: autoDraw = True
+219.6071 	DATA 	Keypress: v
+219.7388 	DATA 	Keypress: a
+219.9407 	DATA 	Keypress: c
+220.0671 	DATA 	Keypress: a
+222.2097 	EXP 	polygonColour: autoDraw = False
+222.2097 	EXP 	polygonWhite: autoDraw = False
+222.2097 	EXP 	imageObject: autoDraw = False
+222.2097 	EXP 	polygonType: autoDraw = False
+222.2097 	EXP 	textInput: autoDraw = False
+222.2097 	EXP 	textBlank500: autoDraw = True
+222.6787 	EXP 	New trial (rep=0, index=34): {'image': 'REPSWITCH1/PICTURE_152.png', 'correctAns': 'caracol', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'filler', 'sequence': 2, 'target': 'F', 'set': 2, 'stimulus': 'Stim3_Set1'}
+222.6944 	EXP 	textBlank500: autoDraw = False
+222.6944 	EXP 	textPause: autoDraw = False
+222.6944 	EXP 	fixationITI: autoDraw = True
+223.8779 	EXP 	fixationITI: autoDraw = False
+223.8779 	EXP 	fixationITI: autoDraw = False
+223.8779 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+223.8779 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+223.8779 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_152.png'
+223.8779 	EXP 	polygonColour: autoDraw = True
+223.8779 	EXP 	polygonWhite: autoDraw = True
+223.8779 	EXP 	imageObject: autoDraw = True
+223.8779 	EXP 	polygonType: autoDraw = True
+223.8779 	EXP 	textInput: autoDraw = True
+226.8751 	EXP 	polygonColour: autoDraw = False
+226.8751 	EXP 	polygonWhite: autoDraw = False
+226.8751 	EXP 	imageObject: autoDraw = False
+226.8751 	EXP 	polygonType: autoDraw = False
+226.8751 	EXP 	textInput: autoDraw = False
+226.8751 	EXP 	textBlank500: autoDraw = True
+227.3454 	EXP 	New trial (rep=0, index=35): {'image': 'REPSWITCH1/PICTURE_320.png', 'correctAns': 'iglesia', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'nontarget', 'sequence': 1, 'target': 'NT', 'set': 2, 'stimulus': 'Stim5_Set2'}
+227.3605 	EXP 	textBlank500: autoDraw = False
+227.3605 	EXP 	textPause: autoDraw = False
+227.3605 	EXP 	fixationITI: autoDraw = True
+228.5429 	EXP 	fixationITI: autoDraw = False
+228.5429 	EXP 	fixationITI: autoDraw = False
+228.5429 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+228.5429 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+228.5429 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_320.png'
+228.5429 	EXP 	polygonColour: autoDraw = True
+228.5429 	EXP 	polygonWhite: autoDraw = True
+228.5429 	EXP 	imageObject: autoDraw = True
+228.5429 	EXP 	polygonType: autoDraw = True
+228.5429 	EXP 	textInput: autoDraw = True
+229.0149 	DATA 	Keypress: i
+229.1168 	DATA 	Keypress: g
+229.2164 	DATA 	Keypress: e
+229.7679 	DATA 	Keypress: backspace
+230.0175 	DATA 	Keypress: l
+230.0674 	DATA 	Keypress: e
+230.2347 	DATA 	Keypress: s
+230.3166 	DATA 	Keypress: i
+230.4527 	DATA 	Keypress: a
+231.4407 	EXP 	polygonColour: autoDraw = False
+231.4407 	EXP 	polygonWhite: autoDraw = False
+231.4407 	EXP 	imageObject: autoDraw = False
+231.4407 	EXP 	polygonType: autoDraw = False
+231.4407 	EXP 	textInput: autoDraw = False
+231.4407 	EXP 	textBlank500: autoDraw = True
+231.9109 	EXP 	New trial (rep=0, index=36): {'image': 'REPSWITCH1/PICTURE_320.png', 'correctAns': 'iglesia', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'switch', 'sequence': 2, 'target': 'T', 'set': 2, 'stimulus': 'Stim5_Set2'}
+231.9256 	EXP 	textBlank500: autoDraw = False
+231.9256 	EXP 	textPause: autoDraw = False
+231.9256 	EXP 	fixationITI: autoDraw = True
+233.0250 	EXP 	fixationITI: autoDraw = False
+233.0250 	EXP 	fixationITI: autoDraw = False
+233.0250 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+233.0250 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+233.0250 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_320.png'
+233.0250 	EXP 	polygonColour: autoDraw = True
+233.0250 	EXP 	polygonWhite: autoDraw = True
+233.0250 	EXP 	imageObject: autoDraw = True
+233.0250 	EXP 	polygonType: autoDraw = True
+233.0250 	EXP 	textInput: autoDraw = True
+236.0966 	EXP 	polygonColour: autoDraw = False
+236.0966 	EXP 	polygonWhite: autoDraw = False
+236.0966 	EXP 	imageObject: autoDraw = False
+236.0966 	EXP 	polygonType: autoDraw = False
+236.0966 	EXP 	textInput: autoDraw = False
+236.0966 	EXP 	textBlank500: autoDraw = True
+236.5011 	EXP 	New trial (rep=0, index=37): {'image': 'REPSWITCH1/PICTURE_19.png', 'correctAns': 'pavo', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 2, 'stimulus': 'Stim4_Set1'}
+236.5320 	EXP 	textBlank500: autoDraw = False
+236.5320 	EXP 	textPause: autoDraw = False
+236.5320 	EXP 	fixationITI: autoDraw = True
+237.7497 	EXP 	fixationITI: autoDraw = False
+237.7497 	EXP 	fixationITI: autoDraw = False
+237.7497 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+237.7497 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+237.7497 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_19.png'
+237.7497 	EXP 	polygonColour: autoDraw = True
+237.7497 	EXP 	polygonWhite: autoDraw = True
+237.7497 	EXP 	imageObject: autoDraw = True
+237.7497 	EXP 	polygonType: autoDraw = True
+237.7497 	EXP 	textInput: autoDraw = True
+240.7557 	EXP 	polygonColour: autoDraw = False
+240.7557 	EXP 	polygonWhite: autoDraw = False
+240.7557 	EXP 	imageObject: autoDraw = False
+240.7557 	EXP 	polygonType: autoDraw = False
+240.7557 	EXP 	textInput: autoDraw = False
+240.7557 	EXP 	textBlank500: autoDraw = True
+241.2236 	EXP 	New trial (rep=0, index=38): {'image': 'REPSWITCH1/PICTURE_199.png', 'correctAns': 'falda', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 2, 'stimulus': 'Stim5_Set1'}
+241.2401 	EXP 	textBlank500: autoDraw = False
+241.2401 	EXP 	textPause: autoDraw = False
+241.2401 	EXP 	fixationITI: autoDraw = True
+242.3724 	EXP 	fixationITI: autoDraw = False
+242.3724 	EXP 	fixationITI: autoDraw = False
+242.3724 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+242.3724 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+242.3724 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_199.png'
+242.3724 	EXP 	polygonColour: autoDraw = True
+242.3724 	EXP 	polygonWhite: autoDraw = True
+242.3724 	EXP 	imageObject: autoDraw = True
+242.3724 	EXP 	polygonType: autoDraw = True
+242.3724 	EXP 	textInput: autoDraw = True
+245.3879 	EXP 	polygonColour: autoDraw = False
+245.3879 	EXP 	polygonWhite: autoDraw = False
+245.3879 	EXP 	imageObject: autoDraw = False
+245.3879 	EXP 	polygonType: autoDraw = False
+245.3879 	EXP 	textInput: autoDraw = False
+245.3879 	EXP 	textBlank500: autoDraw = True
+245.8569 	EXP 	New trial (rep=0, index=39): {'image': 'REPSWITCH1/PICTURE_517.png', 'correctAns': 'cuerda', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 2, 'stimulus': 'Stim6_Set2'}
+245.8720 	EXP 	textBlank500: autoDraw = False
+245.8720 	EXP 	textPause: autoDraw = False
+245.8720 	EXP 	fixationITI: autoDraw = True
+247.2225 	EXP 	fixationITI: autoDraw = False
+247.2225 	EXP 	fixationITI: autoDraw = False
+247.2225 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+247.2225 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+247.2225 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_517.png'
+247.2225 	EXP 	polygonColour: autoDraw = True
+247.2225 	EXP 	polygonWhite: autoDraw = True
+247.2225 	EXP 	imageObject: autoDraw = True
+247.2225 	EXP 	polygonType: autoDraw = True
+247.2225 	EXP 	textInput: autoDraw = True
+250.2195 	EXP 	polygonColour: autoDraw = False
+250.2195 	EXP 	polygonWhite: autoDraw = False
+250.2195 	EXP 	imageObject: autoDraw = False
+250.2195 	EXP 	polygonType: autoDraw = False
+250.2195 	EXP 	textInput: autoDraw = False
+250.2195 	EXP 	textBlank500: autoDraw = True
+250.6885 	EXP 	New trial (rep=0, index=40): {'image': 'REPSWITCH1/PICTURE_517.png', 'correctAns': 'cuerda', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'repeat', 'sequence': 2, 'target': 'T', 'set': 2, 'stimulus': 'Stim6_Set2'}
+250.7048 	EXP 	textBlank500: autoDraw = False
+250.7048 	EXP 	textPause: autoDraw = False
+250.7048 	EXP 	fixationITI: autoDraw = True
+251.9371 	EXP 	fixationITI: autoDraw = False
+251.9371 	EXP 	fixationITI: autoDraw = False
+251.9371 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+251.9371 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+251.9371 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_517.png'
+251.9371 	EXP 	polygonColour: autoDraw = True
+251.9371 	EXP 	polygonWhite: autoDraw = True
+251.9371 	EXP 	imageObject: autoDraw = True
+251.9371 	EXP 	polygonType: autoDraw = True
+251.9371 	EXP 	textInput: autoDraw = True
+254.9518 	EXP 	polygonColour: autoDraw = False
+254.9518 	EXP 	polygonWhite: autoDraw = False
+254.9518 	EXP 	imageObject: autoDraw = False
+254.9518 	EXP 	polygonType: autoDraw = False
+254.9518 	EXP 	textInput: autoDraw = False
+254.9518 	EXP 	textBlank500: autoDraw = True
+255.4209 	EXP 	New trial (rep=0, index=41): {'image': 'REPSWITCH1/PICTURE_235.png', 'correctAns': 'aguja', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 2, 'stimulus': 'Stim6_Set1'}
+255.4364 	EXP 	textBlank500: autoDraw = False
+255.4364 	EXP 	textPause: autoDraw = False
+255.4364 	EXP 	fixationITI: autoDraw = True
+256.5526 	EXP 	fixationITI: autoDraw = False
+256.5526 	EXP 	fixationITI: autoDraw = False
+256.5526 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+256.5526 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+256.5526 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_235.png'
+256.5526 	EXP 	polygonColour: autoDraw = True
+256.5526 	EXP 	polygonWhite: autoDraw = True
+256.5526 	EXP 	imageObject: autoDraw = True
+256.5526 	EXP 	polygonType: autoDraw = True
+256.5526 	EXP 	textInput: autoDraw = True
+259.5682 	EXP 	polygonColour: autoDraw = False
+259.5682 	EXP 	polygonWhite: autoDraw = False
+259.5682 	EXP 	imageObject: autoDraw = False
+259.5682 	EXP 	polygonType: autoDraw = False
+259.5682 	EXP 	textInput: autoDraw = False
+259.5682 	EXP 	textBlank500: autoDraw = True
+260.0372 	EXP 	New trial (rep=0, index=42): {'image': 'REPSWITCH1/PICTURE_610.png', 'correctAns': 'miel', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 2, 'stimulus': 'Stim7_Set2'}
+260.0524 	EXP 	textBlank500: autoDraw = False
+260.0524 	EXP 	textPause: autoDraw = False
+260.0524 	EXP 	fixationITI: autoDraw = True
+261.2352 	EXP 	fixationITI: autoDraw = False
+261.2352 	EXP 	fixationITI: autoDraw = False
+261.2352 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+261.2352 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+261.2352 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_610.png'
+261.2352 	EXP 	polygonColour: autoDraw = True
+261.2352 	EXP 	polygonWhite: autoDraw = True
+261.2352 	EXP 	imageObject: autoDraw = True
+261.2352 	EXP 	polygonType: autoDraw = True
+261.2352 	EXP 	textInput: autoDraw = True
+264.2690 	EXP 	polygonColour: autoDraw = False
+264.2690 	EXP 	polygonWhite: autoDraw = False
+264.2690 	EXP 	imageObject: autoDraw = False
+264.2690 	EXP 	polygonType: autoDraw = False
+264.2690 	EXP 	textInput: autoDraw = False
+264.2690 	EXP 	textBlank500: autoDraw = True
+264.7036 	EXP 	New trial (rep=0, index=43): {'image': 'REPSWITCH1/PICTURE_610.png', 'correctAns': 'miel', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'repeat', 'sequence': 2, 'target': 'T', 'set': 2, 'stimulus': 'Stim7_Set2'}
+264.7185 	EXP 	textBlank500: autoDraw = False
+264.7185 	EXP 	textPause: autoDraw = False
+264.7185 	EXP 	fixationITI: autoDraw = True
+265.8844 	EXP 	fixationITI: autoDraw = False
+265.8844 	EXP 	fixationITI: autoDraw = False
+265.8844 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+265.8844 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+265.8844 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_610.png'
+265.8844 	EXP 	polygonColour: autoDraw = True
+265.8844 	EXP 	polygonWhite: autoDraw = True
+265.8844 	EXP 	imageObject: autoDraw = True
+265.8844 	EXP 	polygonType: autoDraw = True
+265.8844 	EXP 	textInput: autoDraw = True
+268.8992 	EXP 	polygonColour: autoDraw = False
+268.8992 	EXP 	polygonWhite: autoDraw = False
+268.8992 	EXP 	imageObject: autoDraw = False
+268.8992 	EXP 	polygonType: autoDraw = False
+268.8992 	EXP 	textInput: autoDraw = False
+268.8992 	EXP 	textBlank500: autoDraw = True
+269.3700 	EXP 	New trial (rep=0, index=44): {'image': 'REPSWITCH1/PICTURE_264.png', 'correctAns': 'mano', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'filler', 'sequence': 2, 'target': 'F', 'set': 2, 'stimulus': 'Stim7_Set1'}
+269.3848 	EXP 	textBlank500: autoDraw = False
+269.3848 	EXP 	textPause: autoDraw = False
+269.3848 	EXP 	fixationITI: autoDraw = True
+270.5168 	EXP 	fixationITI: autoDraw = False
+270.5168 	EXP 	fixationITI: autoDraw = False
+270.5168 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+270.5168 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+270.5168 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_264.png'
+270.5168 	EXP 	polygonColour: autoDraw = True
+270.5168 	EXP 	polygonWhite: autoDraw = True
+270.5168 	EXP 	imageObject: autoDraw = True
+270.5168 	EXP 	polygonType: autoDraw = True
+270.5168 	EXP 	textInput: autoDraw = True
+273.5317 	EXP 	polygonColour: autoDraw = False
+273.5317 	EXP 	polygonWhite: autoDraw = False
+273.5317 	EXP 	imageObject: autoDraw = False
+273.5317 	EXP 	polygonType: autoDraw = False
+273.5317 	EXP 	textInput: autoDraw = False
+273.5317 	EXP 	textBlank500: autoDraw = True
+274.0016 	EXP 	New trial (rep=0, index=45): {'image': 'REPSWITCH1/PICTURE_271.png', 'correctAns': 'conejo', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 2, 'stimulus': 'Stim8_Set1'}
+274.0167 	EXP 	textBlank500: autoDraw = False
+274.0167 	EXP 	textPause: autoDraw = False
+274.0167 	EXP 	fixationITI: autoDraw = True
+275.1487 	EXP 	fixationITI: autoDraw = False
+275.1487 	EXP 	fixationITI: autoDraw = False
+275.1487 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+275.1487 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+275.1487 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_271.png'
+275.1487 	EXP 	polygonColour: autoDraw = True
+275.1487 	EXP 	polygonWhite: autoDraw = True
+275.1487 	EXP 	imageObject: autoDraw = True
+275.1487 	EXP 	polygonType: autoDraw = True
+275.1487 	EXP 	textInput: autoDraw = True
+278.1470 	EXP 	polygonColour: autoDraw = False
+278.1470 	EXP 	polygonWhite: autoDraw = False
+278.1470 	EXP 	imageObject: autoDraw = False
+278.1470 	EXP 	polygonType: autoDraw = False
+278.1470 	EXP 	textInput: autoDraw = False
+278.1470 	EXP 	textBlank500: autoDraw = True
+278.6186 	EXP 	New trial (rep=0, index=46): {'image': 'REPSWITCH1/PICTURE_35.png', 'correctAns': 'oreja', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 2, 'stimulus': 'Stim8_Set2'}
+278.6329 	EXP 	textBlank500: autoDraw = False
+278.6329 	EXP 	textPause: autoDraw = False
+278.6329 	EXP 	fixationITI: autoDraw = True
+279.7311 	EXP 	fixationITI: autoDraw = False
+279.7311 	EXP 	fixationITI: autoDraw = False
+279.7311 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+279.7311 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+279.7311 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_35.png'
+279.7311 	EXP 	polygonColour: autoDraw = True
+279.7311 	EXP 	polygonWhite: autoDraw = True
+279.7311 	EXP 	imageObject: autoDraw = True
+279.7311 	EXP 	polygonType: autoDraw = True
+279.7311 	EXP 	textInput: autoDraw = True
+282.7291 	EXP 	polygonColour: autoDraw = False
+282.7291 	EXP 	polygonWhite: autoDraw = False
+282.7291 	EXP 	imageObject: autoDraw = False
+282.7291 	EXP 	polygonType: autoDraw = False
+282.7291 	EXP 	textInput: autoDraw = False
+282.7291 	EXP 	textBlank500: autoDraw = True
+283.1987 	EXP 	New trial (rep=0, index=47): {'image': 'REPSWITCH1/PICTURE_35.png', 'correctAns': 'oreja', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'switch', 'sequence': 1, 'target': 'T', 'set': 2, 'stimulus': 'Stim8_Set2'}
+283.2141 	EXP 	textBlank500: autoDraw = False
+283.2141 	EXP 	textPause: autoDraw = False
+283.2141 	EXP 	fixationITI: autoDraw = True
+284.4145 	EXP 	fixationITI: autoDraw = False
+284.4145 	EXP 	fixationITI: autoDraw = False
+284.4145 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+284.4145 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+284.4145 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_35.png'
+284.4145 	EXP 	polygonColour: autoDraw = True
+284.4145 	EXP 	polygonWhite: autoDraw = True
+284.4145 	EXP 	imageObject: autoDraw = True
+284.4145 	EXP 	polygonType: autoDraw = True
+284.4145 	EXP 	textInput: autoDraw = True
+287.4289 	EXP 	polygonColour: autoDraw = False
+287.4289 	EXP 	polygonWhite: autoDraw = False
+287.4289 	EXP 	imageObject: autoDraw = False
+287.4289 	EXP 	polygonType: autoDraw = False
+287.4289 	EXP 	textInput: autoDraw = False
+287.4289 	EXP 	textBlank500: autoDraw = True
+287.8992 	EXP 	New trial (rep=0, index=48): {'image': 'REPSWITCH1/PICTURE_178.png', 'correctAns': 'puente', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'nontarget', 'sequence': 1, 'target': 'NT', 'set': 3, 'stimulus': 'Stim1_Set3'}
+287.9135 	EXP 	textBlank500: autoDraw = False
+287.9135 	EXP 	textPause: autoDraw = False
+287.9135 	EXP 	fixationITI: autoDraw = True
+289.1128 	EXP 	fixationITI: autoDraw = False
+289.1128 	EXP 	fixationITI: autoDraw = False
+289.1128 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+289.1128 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+289.1128 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_178.png'
+289.1128 	EXP 	polygonColour: autoDraw = True
+289.1128 	EXP 	polygonWhite: autoDraw = True
+289.1128 	EXP 	imageObject: autoDraw = True
+289.1128 	EXP 	polygonType: autoDraw = True
+289.1128 	EXP 	textInput: autoDraw = True
+292.0602 	EXP 	polygonColour: autoDraw = False
+292.0602 	EXP 	polygonWhite: autoDraw = False
+292.0602 	EXP 	imageObject: autoDraw = False
+292.0602 	EXP 	polygonType: autoDraw = False
+292.0602 	EXP 	textInput: autoDraw = False
+292.0602 	EXP 	textBlank500: autoDraw = True
+292.5299 	EXP 	New trial (rep=0, index=49): {'image': 'REPSWITCH1/PICTURE_178.png', 'correctAns': 'puente', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'switch', 'sequence': 2, 'target': 'T', 'set': 3, 'stimulus': 'Stim1_Set3'}
+292.5452 	EXP 	textBlank500: autoDraw = False
+292.5452 	EXP 	textPause: autoDraw = False
+292.5452 	EXP 	fixationITI: autoDraw = True
+293.7950 	EXP 	fixationITI: autoDraw = False
+293.7950 	EXP 	fixationITI: autoDraw = False
+293.7950 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+293.7950 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+293.7950 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_178.png'
+293.7950 	EXP 	polygonColour: autoDraw = True
+293.7950 	EXP 	polygonWhite: autoDraw = True
+293.7950 	EXP 	imageObject: autoDraw = True
+293.7950 	EXP 	polygonType: autoDraw = True
+293.7950 	EXP 	textInput: autoDraw = True
+296.8263 	EXP 	polygonColour: autoDraw = False
+296.8263 	EXP 	polygonWhite: autoDraw = False
+296.8263 	EXP 	imageObject: autoDraw = False
+296.8263 	EXP 	polygonType: autoDraw = False
+296.8263 	EXP 	textInput: autoDraw = False
+296.8263 	EXP 	textBlank500: autoDraw = True
+297.2792 	EXP 	New trial (rep=0, index=50): {'image': 'REPSWITCH1/PICTURE_242.png', 'correctAns': 'cartero', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 3, 'stimulus': 'Stim2_Set3'}
+297.2945 	EXP 	textBlank500: autoDraw = False
+297.2945 	EXP 	textPause: autoDraw = False
+297.2945 	EXP 	fixationITI: autoDraw = True
+298.3764 	EXP 	fixationITI: autoDraw = False
+298.3764 	EXP 	fixationITI: autoDraw = False
+298.3764 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+298.3764 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+298.3764 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_242.png'
+298.3764 	EXP 	polygonColour: autoDraw = True
+298.3764 	EXP 	polygonWhite: autoDraw = True
+298.3764 	EXP 	imageObject: autoDraw = True
+298.3764 	EXP 	polygonType: autoDraw = True
+298.3764 	EXP 	textInput: autoDraw = True
+301.3917 	EXP 	polygonColour: autoDraw = False
+301.3917 	EXP 	polygonWhite: autoDraw = False
+301.3917 	EXP 	imageObject: autoDraw = False
+301.3917 	EXP 	polygonType: autoDraw = False
+301.3917 	EXP 	textInput: autoDraw = False
+301.3917 	EXP 	textBlank500: autoDraw = True
+301.8443 	EXP 	New trial (rep=0, index=51): {'image': 'REPSWITCH1/PICTURE_242.png', 'correctAns': 'cartero', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'switch', 'sequence': 1, 'target': 'T', 'set': 3, 'stimulus': 'Stim2_Set3'}
+301.8595 	EXP 	textBlank500: autoDraw = False
+301.8595 	EXP 	textPause: autoDraw = False
+301.8595 	EXP 	fixationITI: autoDraw = True
+303.1092 	EXP 	fixationITI: autoDraw = False
+303.1092 	EXP 	fixationITI: autoDraw = False
+303.1092 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+303.1092 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+303.1092 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_242.png'
+303.1092 	EXP 	polygonColour: autoDraw = True
+303.1092 	EXP 	polygonWhite: autoDraw = True
+303.1092 	EXP 	imageObject: autoDraw = True
+303.1092 	EXP 	polygonType: autoDraw = True
+303.1092 	EXP 	textInput: autoDraw = True
+306.1403 	EXP 	polygonColour: autoDraw = False
+306.1403 	EXP 	polygonWhite: autoDraw = False
+306.1403 	EXP 	imageObject: autoDraw = False
+306.1403 	EXP 	polygonType: autoDraw = False
+306.1403 	EXP 	textInput: autoDraw = False
+306.1403 	EXP 	textBlank500: autoDraw = True
+306.5939 	EXP 	New trial (rep=0, index=52): {'image': 'REPSWITCH1/PICTURE_16.png', 'correctAns': 'cazador', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 3, 'stimulus': 'Stim1_Set2'}
+306.6096 	EXP 	textBlank500: autoDraw = False
+306.6096 	EXP 	textPause: autoDraw = False
+306.6096 	EXP 	fixationITI: autoDraw = True
+307.6917 	EXP 	fixationITI: autoDraw = False
+307.6917 	EXP 	fixationITI: autoDraw = False
+307.6917 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+307.6917 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+307.6917 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_16.png'
+307.6917 	EXP 	polygonColour: autoDraw = True
+307.6917 	EXP 	polygonWhite: autoDraw = True
+307.6917 	EXP 	imageObject: autoDraw = True
+307.6917 	EXP 	polygonType: autoDraw = True
+307.6917 	EXP 	textInput: autoDraw = True
+310.7223 	EXP 	polygonColour: autoDraw = False
+310.7223 	EXP 	polygonWhite: autoDraw = False
+310.7223 	EXP 	imageObject: autoDraw = False
+310.7223 	EXP 	polygonType: autoDraw = False
+310.7223 	EXP 	textInput: autoDraw = False
+310.7223 	EXP 	textBlank500: autoDraw = True
+311.1772 	EXP 	New trial (rep=0, index=53): {'image': 'REPSWITCH1/PICTURE_48.png', 'correctAns': 'bombero', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'nontarget', 'sequence': 1, 'target': 'NT', 'set': 3, 'stimulus': 'Stim3_Set3'}
+311.1906 	EXP 	textBlank500: autoDraw = False
+311.1906 	EXP 	textPause: autoDraw = False
+311.1906 	EXP 	fixationITI: autoDraw = True
+312.4399 	EXP 	fixationITI: autoDraw = False
+312.4399 	EXP 	fixationITI: autoDraw = False
+312.4399 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+312.4399 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+312.4399 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_48.png'
+312.4399 	EXP 	polygonColour: autoDraw = True
+312.4399 	EXP 	polygonWhite: autoDraw = True
+312.4399 	EXP 	imageObject: autoDraw = True
+312.4399 	EXP 	polygonType: autoDraw = True
+312.4399 	EXP 	textInput: autoDraw = True
+315.4547 	EXP 	polygonColour: autoDraw = False
+315.4547 	EXP 	polygonWhite: autoDraw = False
+315.4547 	EXP 	imageObject: autoDraw = False
+315.4547 	EXP 	polygonType: autoDraw = False
+315.4547 	EXP 	textInput: autoDraw = False
+315.4547 	EXP 	textBlank500: autoDraw = True
+315.9087 	EXP 	New trial (rep=0, index=54): {'image': 'REPSWITCH1/PICTURE_48.png', 'correctAns': 'bombero', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'switch', 'sequence': 2, 'target': 'T', 'set': 3, 'stimulus': 'Stim3_Set3'}
+315.9228 	EXP 	textBlank500: autoDraw = False
+315.9228 	EXP 	textPause: autoDraw = False
+315.9228 	EXP 	fixationITI: autoDraw = True
+317.2225 	EXP 	fixationITI: autoDraw = False
+317.2225 	EXP 	fixationITI: autoDraw = False
+317.2225 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+317.2225 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+317.2225 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_48.png'
+317.2225 	EXP 	polygonColour: autoDraw = True
+317.2225 	EXP 	polygonWhite: autoDraw = True
+317.2225 	EXP 	imageObject: autoDraw = True
+317.2225 	EXP 	polygonType: autoDraw = True
+317.2225 	EXP 	textInput: autoDraw = True
+320.2370 	EXP 	polygonColour: autoDraw = False
+320.2370 	EXP 	polygonWhite: autoDraw = False
+320.2370 	EXP 	imageObject: autoDraw = False
+320.2370 	EXP 	polygonType: autoDraw = False
+320.2370 	EXP 	textInput: autoDraw = False
+320.2370 	EXP 	textBlank500: autoDraw = True
+320.7073 	EXP 	New trial (rep=0, index=55): {'image': 'REPSWITCH1/PICTURE_175.png', 'correctAns': 'pintor', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 3, 'stimulus': 'Stim2_Set2'}
+320.7224 	EXP 	textBlank500: autoDraw = False
+320.7224 	EXP 	textPause: autoDraw = False
+320.7224 	EXP 	fixationITI: autoDraw = True
+321.8549 	EXP 	fixationITI: autoDraw = False
+321.8549 	EXP 	fixationITI: autoDraw = False
+321.8549 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+321.8549 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+321.8549 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_175.png'
+321.8549 	EXP 	polygonColour: autoDraw = True
+321.8549 	EXP 	polygonWhite: autoDraw = True
+321.8549 	EXP 	imageObject: autoDraw = True
+321.8549 	EXP 	polygonType: autoDraw = True
+321.8549 	EXP 	textInput: autoDraw = True
+324.8688 	EXP 	polygonColour: autoDraw = False
+324.8688 	EXP 	polygonWhite: autoDraw = False
+324.8688 	EXP 	imageObject: autoDraw = False
+324.8688 	EXP 	polygonType: autoDraw = False
+324.8688 	EXP 	textInput: autoDraw = False
+324.8688 	EXP 	textBlank500: autoDraw = True
+325.3398 	EXP 	New trial (rep=0, index=56): {'image': 'REPSWITCH1/PICTURE_728.png', 'correctAns': 'pulpo', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 3, 'stimulus': 'Stim4_Set3'}
+325.3540 	EXP 	textBlank500: autoDraw = False
+325.3540 	EXP 	textPause: autoDraw = False
+325.3540 	EXP 	fixationITI: autoDraw = True
+326.5202 	EXP 	fixationITI: autoDraw = False
+326.5202 	EXP 	fixationITI: autoDraw = False
+326.5202 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+326.5202 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+326.5202 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_728.png'
+326.5202 	EXP 	polygonColour: autoDraw = True
+326.5202 	EXP 	polygonWhite: autoDraw = True
+326.5202 	EXP 	imageObject: autoDraw = True
+326.5202 	EXP 	polygonType: autoDraw = True
+326.5202 	EXP 	textInput: autoDraw = True
+329.5180 	EXP 	polygonColour: autoDraw = False
+329.5180 	EXP 	polygonWhite: autoDraw = False
+329.5180 	EXP 	imageObject: autoDraw = False
+329.5180 	EXP 	polygonType: autoDraw = False
+329.5180 	EXP 	textInput: autoDraw = False
+329.5180 	EXP 	textBlank500: autoDraw = True
+329.9881 	EXP 	New trial (rep=0, index=57): {'image': 'REPSWITCH1/PICTURE_728.png', 'correctAns': 'pulpo', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'repeat', 'sequence': 2, 'target': 'T', 'set': 3, 'stimulus': 'Stim4_Set3'}
+330.0033 	EXP 	textBlank500: autoDraw = False
+330.0033 	EXP 	textPause: autoDraw = False
+330.0033 	EXP 	fixationITI: autoDraw = True
+331.0858 	EXP 	fixationITI: autoDraw = False
+331.0858 	EXP 	fixationITI: autoDraw = False
+331.0858 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+331.0858 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+331.0858 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_728.png'
+331.0858 	EXP 	polygonColour: autoDraw = True
+331.0858 	EXP 	polygonWhite: autoDraw = True
+331.0858 	EXP 	imageObject: autoDraw = True
+331.0858 	EXP 	polygonType: autoDraw = True
+331.0858 	EXP 	textInput: autoDraw = True
+334.1012 	EXP 	polygonColour: autoDraw = False
+334.1012 	EXP 	polygonWhite: autoDraw = False
+334.1012 	EXP 	imageObject: autoDraw = False
+334.1012 	EXP 	polygonType: autoDraw = False
+334.1012 	EXP 	textInput: autoDraw = False
+334.1012 	EXP 	textBlank500: autoDraw = True
+334.5686 	EXP 	New trial (rep=0, index=58): {'image': 'REPSWITCH1/PICTURE_30.png', 'correctAns': 'granja', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'filler', 'sequence': 2, 'target': 'F', 'set': 3, 'stimulus': 'Stim3_Set2'}
+334.5847 	EXP 	textBlank500: autoDraw = False
+334.5847 	EXP 	textPause: autoDraw = False
+334.5847 	EXP 	fixationITI: autoDraw = True
+335.7014 	EXP 	fixationITI: autoDraw = False
+335.7014 	EXP 	fixationITI: autoDraw = False
+335.7014 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+335.7014 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+335.7014 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_30.png'
+335.7014 	EXP 	polygonColour: autoDraw = True
+335.7014 	EXP 	polygonWhite: autoDraw = True
+335.7014 	EXP 	imageObject: autoDraw = True
+335.7014 	EXP 	polygonType: autoDraw = True
+335.7014 	EXP 	textInput: autoDraw = True
+338.7157 	EXP 	polygonColour: autoDraw = False
+338.7157 	EXP 	polygonWhite: autoDraw = False
+338.7157 	EXP 	imageObject: autoDraw = False
+338.7157 	EXP 	polygonType: autoDraw = False
+338.7157 	EXP 	textInput: autoDraw = False
+338.7157 	EXP 	textBlank500: autoDraw = True
+339.1840 	EXP 	New trial (rep=0, index=59): {'image': 'REPSWITCH1/PICTURE_319.png', 'correctAns': 'vaca', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 3, 'stimulus': 'Stim4_Set2'}
+339.1999 	EXP 	textBlank500: autoDraw = False
+339.1999 	EXP 	textPause: autoDraw = False
+339.1999 	EXP 	fixationITI: autoDraw = True
+340.5335 	EXP 	fixationITI: autoDraw = False
+340.5335 	EXP 	fixationITI: autoDraw = False
+340.5335 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+340.5335 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+340.5335 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_319.png'
+340.5335 	EXP 	polygonColour: autoDraw = True
+340.5335 	EXP 	polygonWhite: autoDraw = True
+340.5335 	EXP 	imageObject: autoDraw = True
+340.5335 	EXP 	polygonType: autoDraw = True
+340.5335 	EXP 	textInput: autoDraw = True
+343.5649 	EXP 	polygonColour: autoDraw = False
+343.5649 	EXP 	polygonWhite: autoDraw = False
+343.5649 	EXP 	imageObject: autoDraw = False
+343.5649 	EXP 	polygonType: autoDraw = False
+343.5649 	EXP 	textInput: autoDraw = False
+343.5649 	EXP 	textBlank500: autoDraw = True
+344.0177 	EXP 	New trial (rep=0, index=60): {'image': 'REPSWITCH1/PICTURE_320.png', 'correctAns': 'iglesia', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 3, 'stimulus': 'Stim5_Set2'}
+344.0322 	EXP 	textBlank500: autoDraw = False
+344.0322 	EXP 	textPause: autoDraw = False
+344.0322 	EXP 	fixationITI: autoDraw = True
+345.2157 	EXP 	fixationITI: autoDraw = False
+345.2157 	EXP 	fixationITI: autoDraw = False
+345.2157 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+345.2157 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+345.2157 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_320.png'
+345.2157 	EXP 	polygonColour: autoDraw = True
+345.2157 	EXP 	polygonWhite: autoDraw = True
+345.2157 	EXP 	imageObject: autoDraw = True
+345.2157 	EXP 	polygonType: autoDraw = True
+345.2157 	EXP 	textInput: autoDraw = True
+348.2303 	EXP 	polygonColour: autoDraw = False
+348.2303 	EXP 	polygonWhite: autoDraw = False
+348.2303 	EXP 	imageObject: autoDraw = False
+348.2303 	EXP 	polygonType: autoDraw = False
+348.2303 	EXP 	textInput: autoDraw = False
+348.2303 	EXP 	textBlank500: autoDraw = True
+348.6993 	EXP 	New trial (rep=0, index=61): {'image': 'REPSWITCH1/PICTURE_552.png', 'correctAns': 'manzana', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 3, 'stimulus': 'Stim5_Set3'}
+348.7146 	EXP 	textBlank500: autoDraw = False
+348.7146 	EXP 	textPause: autoDraw = False
+348.7146 	EXP 	fixationITI: autoDraw = True
+350.1636 	EXP 	fixationITI: autoDraw = False
+350.1636 	EXP 	fixationITI: autoDraw = False
+350.1636 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+350.1636 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+350.1636 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_552.png'
+350.1636 	EXP 	polygonColour: autoDraw = True
+350.1636 	EXP 	polygonWhite: autoDraw = True
+350.1636 	EXP 	imageObject: autoDraw = True
+350.1636 	EXP 	polygonType: autoDraw = True
+350.1636 	EXP 	textInput: autoDraw = True
+353.1453 	EXP 	polygonColour: autoDraw = False
+353.1453 	EXP 	polygonWhite: autoDraw = False
+353.1453 	EXP 	imageObject: autoDraw = False
+353.1453 	EXP 	polygonType: autoDraw = False
+353.1453 	EXP 	textInput: autoDraw = False
+353.1453 	EXP 	textBlank500: autoDraw = True
+353.6150 	EXP 	New trial (rep=0, index=62): {'image': 'REPSWITCH1/PICTURE_552.png', 'correctAns': 'manzana', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'repeat', 'sequence': 2, 'target': 'T', 'set': 3, 'stimulus': 'Stim5_Set3'}
+353.6311 	EXP 	textBlank500: autoDraw = False
+353.6311 	EXP 	textPause: autoDraw = False
+353.6311 	EXP 	fixationITI: autoDraw = True
+354.7301 	EXP 	fixationITI: autoDraw = False
+354.7301 	EXP 	fixationITI: autoDraw = False
+354.7301 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+354.7301 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+354.7301 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_552.png'
+354.7301 	EXP 	polygonColour: autoDraw = True
+354.7301 	EXP 	polygonWhite: autoDraw = True
+354.7301 	EXP 	imageObject: autoDraw = True
+354.7301 	EXP 	polygonType: autoDraw = True
+354.7301 	EXP 	textInput: autoDraw = True
+357.7612 	EXP 	polygonColour: autoDraw = False
+357.7612 	EXP 	polygonWhite: autoDraw = False
+357.7612 	EXP 	imageObject: autoDraw = False
+357.7612 	EXP 	polygonType: autoDraw = False
+357.7612 	EXP 	textInput: autoDraw = False
+357.7612 	EXP 	textBlank500: autoDraw = True
+358.2149 	EXP 	New trial (rep=0, index=63): {'image': 'REPSWITCH1/PICTURE_576.png', 'correctAns': 'guante', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 3, 'stimulus': 'Stim6_Set3'}
+358.2298 	EXP 	textBlank500: autoDraw = False
+358.2298 	EXP 	textPause: autoDraw = False
+358.2298 	EXP 	fixationITI: autoDraw = True
+359.5789 	EXP 	fixationITI: autoDraw = False
+359.5789 	EXP 	fixationITI: autoDraw = False
+359.5789 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+359.5789 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+359.5789 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_576.png'
+359.5789 	EXP 	polygonColour: autoDraw = True
+359.5789 	EXP 	polygonWhite: autoDraw = True
+359.5789 	EXP 	imageObject: autoDraw = True
+359.5789 	EXP 	polygonType: autoDraw = True
+359.5789 	EXP 	textInput: autoDraw = True
+362.5598 	EXP 	polygonColour: autoDraw = False
+362.5598 	EXP 	polygonWhite: autoDraw = False
+362.5598 	EXP 	imageObject: autoDraw = False
+362.5598 	EXP 	polygonType: autoDraw = False
+362.5598 	EXP 	textInput: autoDraw = False
+362.5598 	EXP 	textBlank500: autoDraw = True
+363.0298 	EXP 	New trial (rep=0, index=64): {'image': 'REPSWITCH1/PICTURE_576.png', 'correctAns': 'guante', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'switch', 'sequence': 1, 'target': 'T', 'set': 3, 'stimulus': 'Stim6_Set3'}
+363.0462 	EXP 	textBlank500: autoDraw = False
+363.0462 	EXP 	textPause: autoDraw = False
+363.0462 	EXP 	fixationITI: autoDraw = True
+364.2942 	EXP 	fixationITI: autoDraw = False
+364.2942 	EXP 	fixationITI: autoDraw = False
+364.2942 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+364.2942 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+364.2942 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_576.png'
+364.2942 	EXP 	polygonColour: autoDraw = True
+364.2942 	EXP 	polygonWhite: autoDraw = True
+364.2942 	EXP 	imageObject: autoDraw = True
+364.2942 	EXP 	polygonType: autoDraw = True
+364.2942 	EXP 	textInput: autoDraw = True
+367.3080 	EXP 	polygonColour: autoDraw = False
+367.3080 	EXP 	polygonWhite: autoDraw = False
+367.3080 	EXP 	imageObject: autoDraw = False
+367.3080 	EXP 	polygonType: autoDraw = False
+367.3080 	EXP 	textInput: autoDraw = False
+367.3080 	EXP 	textBlank500: autoDraw = True
+367.7778 	EXP 	New trial (rep=0, index=65): {'image': 'REPSWITCH1/PICTURE_517.png', 'correctAns': 'cuerda', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'filler', 'sequence': 2, 'target': 'F', 'set': 3, 'stimulus': 'Stim6_Set2'}
+367.7934 	EXP 	textBlank500: autoDraw = False
+367.7934 	EXP 	textPause: autoDraw = False
+367.7934 	EXP 	fixationITI: autoDraw = True
+368.9933 	EXP 	fixationITI: autoDraw = False
+368.9933 	EXP 	fixationITI: autoDraw = False
+368.9933 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+368.9933 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+368.9933 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_517.png'
+368.9933 	EXP 	polygonColour: autoDraw = True
+368.9933 	EXP 	polygonWhite: autoDraw = True
+368.9933 	EXP 	imageObject: autoDraw = True
+368.9933 	EXP 	polygonType: autoDraw = True
+368.9933 	EXP 	textInput: autoDraw = True
+372.0073 	EXP 	polygonColour: autoDraw = False
+372.0073 	EXP 	polygonWhite: autoDraw = False
+372.0073 	EXP 	imageObject: autoDraw = False
+372.0073 	EXP 	polygonType: autoDraw = False
+372.0073 	EXP 	textInput: autoDraw = False
+372.0073 	EXP 	textBlank500: autoDraw = True
+372.4767 	EXP 	New trial (rep=0, index=66): {'image': 'REPSWITCH1/PICTURE_687.png', 'correctAns': 'camisa', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'nontarget', 'sequence': 1, 'target': 'NT', 'set': 3, 'stimulus': 'Stim7_Set3'}
+372.4917 	EXP 	textBlank500: autoDraw = False
+372.4917 	EXP 	textPause: autoDraw = False
+372.4917 	EXP 	fixationITI: autoDraw = True
+373.7083 	EXP 	fixationITI: autoDraw = False
+373.7083 	EXP 	fixationITI: autoDraw = False
+373.7083 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+373.7083 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+373.7083 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_687.png'
+373.7083 	EXP 	polygonColour: autoDraw = True
+373.7083 	EXP 	polygonWhite: autoDraw = True
+373.7083 	EXP 	imageObject: autoDraw = True
+373.7083 	EXP 	polygonType: autoDraw = True
+373.7083 	EXP 	textInput: autoDraw = True
+376.7232 	EXP 	polygonColour: autoDraw = False
+376.7232 	EXP 	polygonWhite: autoDraw = False
+376.7232 	EXP 	imageObject: autoDraw = False
+376.7232 	EXP 	polygonType: autoDraw = False
+376.7232 	EXP 	textInput: autoDraw = False
+376.7232 	EXP 	textBlank500: autoDraw = True
+377.1760 	EXP 	New trial (rep=0, index=67): {'image': 'REPSWITCH1/PICTURE_687.png', 'correctAns': 'camisa', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'repeat', 'sequence': 1, 'target': 'T', 'set': 3, 'stimulus': 'Stim7_Set3'}
+377.1916 	EXP 	textBlank500: autoDraw = False
+377.1916 	EXP 	textPause: autoDraw = False
+377.1916 	EXP 	fixationITI: autoDraw = True
+378.3761 	EXP 	fixationITI: autoDraw = False
+378.3761 	EXP 	fixationITI: autoDraw = False
+378.3761 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+378.3761 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+378.3761 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_687.png'
+378.3761 	EXP 	polygonColour: autoDraw = True
+378.3761 	EXP 	polygonWhite: autoDraw = True
+378.3761 	EXP 	imageObject: autoDraw = True
+378.3761 	EXP 	polygonType: autoDraw = True
+378.3761 	EXP 	textInput: autoDraw = True
+381.3722 	EXP 	polygonColour: autoDraw = False
+381.3722 	EXP 	polygonWhite: autoDraw = False
+381.3722 	EXP 	imageObject: autoDraw = False
+381.3722 	EXP 	polygonType: autoDraw = False
+381.3722 	EXP 	textInput: autoDraw = False
+381.3722 	EXP 	textBlank500: autoDraw = True
+381.8582 	EXP 	New trial (rep=0, index=68): {'image': 'REPSWITCH1/PICTURE_610.png', 'correctAns': 'miel', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'filler', 'sequence': 2, 'target': 'F', 'set': 3, 'stimulus': 'Stim7_Set2'}
+381.8748 	EXP 	textBlank500: autoDraw = False
+381.8748 	EXP 	textPause: autoDraw = False
+381.8748 	EXP 	fixationITI: autoDraw = True
+383.0066 	EXP 	fixationITI: autoDraw = False
+383.0066 	EXP 	fixationITI: autoDraw = False
+383.0066 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+383.0066 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+383.0066 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_610.png'
+383.0066 	EXP 	polygonColour: autoDraw = True
+383.0066 	EXP 	polygonWhite: autoDraw = True
+383.0066 	EXP 	imageObject: autoDraw = True
+383.0066 	EXP 	polygonType: autoDraw = True
+383.0066 	EXP 	textInput: autoDraw = True
+386.0212 	EXP 	polygonColour: autoDraw = False
+386.0212 	EXP 	polygonWhite: autoDraw = False
+386.0212 	EXP 	imageObject: autoDraw = False
+386.0212 	EXP 	polygonType: autoDraw = False
+386.0212 	EXP 	textInput: autoDraw = False
+386.0212 	EXP 	textBlank500: autoDraw = True
+386.4908 	EXP 	New trial (rep=0, index=69): {'image': 'REPSWITCH1/PICTURE_35.png', 'correctAns': 'oreja', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'filler', 'sequence': 2, 'target': 'F', 'set': 3, 'stimulus': 'Stim8_Set2'}
+386.5062 	EXP 	textBlank500: autoDraw = False
+386.5062 	EXP 	textPause: autoDraw = False
+386.5062 	EXP 	fixationITI: autoDraw = True
+387.8054 	EXP 	fixationITI: autoDraw = False
+387.8054 	EXP 	fixationITI: autoDraw = False
+387.8054 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+387.8054 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+387.8054 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_35.png'
+387.8054 	EXP 	polygonColour: autoDraw = True
+387.8054 	EXP 	polygonWhite: autoDraw = True
+387.8054 	EXP 	imageObject: autoDraw = True
+387.8054 	EXP 	polygonType: autoDraw = True
+387.8054 	EXP 	textInput: autoDraw = True
+390.8197 	EXP 	polygonColour: autoDraw = False
+390.8197 	EXP 	polygonWhite: autoDraw = False
+390.8197 	EXP 	imageObject: autoDraw = False
+390.8197 	EXP 	polygonType: autoDraw = False
+390.8197 	EXP 	textInput: autoDraw = False
+390.8197 	EXP 	textBlank500: autoDraw = True
+391.2892 	EXP 	New trial (rep=0, index=70): {'image': 'REPSWITCH1/PICTURE_719.png', 'correctAns': 'baño', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'nontarget', 'sequence': 1, 'target': 'NT', 'set': 3, 'stimulus': 'Stim8_Set3'}
+391.3047 	EXP 	textBlank500: autoDraw = False
+391.3047 	EXP 	textPause: autoDraw = False
+391.3047 	EXP 	fixationITI: autoDraw = True
+392.4873 	EXP 	fixationITI: autoDraw = False
+392.4873 	EXP 	fixationITI: autoDraw = False
+392.4873 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+392.4873 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+392.4873 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_719.png'
+392.4873 	EXP 	polygonColour: autoDraw = True
+392.4873 	EXP 	polygonWhite: autoDraw = True
+392.4873 	EXP 	imageObject: autoDraw = True
+392.4873 	EXP 	polygonType: autoDraw = True
+392.4873 	EXP 	textInput: autoDraw = True
+395.4857 	EXP 	polygonColour: autoDraw = False
+395.4857 	EXP 	polygonWhite: autoDraw = False
+395.4857 	EXP 	imageObject: autoDraw = False
+395.4857 	EXP 	polygonType: autoDraw = False
+395.4857 	EXP 	textInput: autoDraw = False
+395.4857 	EXP 	textBlank500: autoDraw = True
+395.9552 	EXP 	New trial (rep=0, index=71): {'image': 'REPSWITCH1/PICTURE_719.png', 'correctAns': 'baño', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'repeat', 'sequence': 1, 'target': 'T', 'set': 3, 'stimulus': 'Stim8_Set3'}
+395.9706 	EXP 	textBlank500: autoDraw = False
+395.9706 	EXP 	textPause: autoDraw = False
+395.9706 	EXP 	fixationITI: autoDraw = True
+397.2032 	EXP 	fixationITI: autoDraw = False
+397.2032 	EXP 	fixationITI: autoDraw = False
+397.2032 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+397.2032 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+397.2032 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_719.png'
+397.2032 	EXP 	polygonColour: autoDraw = True
+397.2032 	EXP 	polygonWhite: autoDraw = True
+397.2032 	EXP 	imageObject: autoDraw = True
+397.2032 	EXP 	polygonType: autoDraw = True
+397.2032 	EXP 	textInput: autoDraw = True
+400.2010 	EXP 	polygonColour: autoDraw = False
+400.2010 	EXP 	polygonWhite: autoDraw = False
+400.2010 	EXP 	imageObject: autoDraw = False
+400.2010 	EXP 	polygonType: autoDraw = False
+400.2010 	EXP 	textInput: autoDraw = False
+400.2010 	EXP 	textBlank500: autoDraw = True
+400.6708 	EXP 	New trial (rep=0, index=72): {'image': 'REPSWITCH1/PICTURE_178.png', 'correctAns': 'puente', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'filler', 'sequence': 2, 'target': 'F', 'set': 4, 'stimulus': 'Stim1_Set3'}
+400.6862 	EXP 	textBlank500: autoDraw = False
+400.6862 	EXP 	textPause: autoDraw = False
+400.6862 	EXP 	fixationITI: autoDraw = True
+401.8358 	EXP 	fixationITI: autoDraw = False
+401.8358 	EXP 	fixationITI: autoDraw = False
+401.8358 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+401.8358 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+401.8358 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_178.png'
+401.8358 	EXP 	polygonColour: autoDraw = True
+401.8358 	EXP 	polygonWhite: autoDraw = True
+401.8358 	EXP 	imageObject: autoDraw = True
+401.8358 	EXP 	polygonType: autoDraw = True
+401.8358 	EXP 	textInput: autoDraw = True
+404.8498 	EXP 	polygonColour: autoDraw = False
+404.8498 	EXP 	polygonWhite: autoDraw = False
+404.8498 	EXP 	imageObject: autoDraw = False
+404.8498 	EXP 	polygonType: autoDraw = False
+404.8498 	EXP 	textInput: autoDraw = False
+404.8498 	EXP 	textBlank500: autoDraw = True
+405.3203 	EXP 	New trial (rep=0, index=73): {'image': 'REPSWITCH1/PICTURE_135.png', 'correctAns': 'traje', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'nontarget', 'sequence': 1, 'target': 'NT', 'set': 4, 'stimulus': 'Stim1_Set4'}
+405.3348 	EXP 	textBlank500: autoDraw = False
+405.3348 	EXP 	textPause: autoDraw = False
+405.3348 	EXP 	fixationITI: autoDraw = True
+406.6507 	EXP 	fixationITI: autoDraw = False
+406.6507 	EXP 	fixationITI: autoDraw = False
+406.6507 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+406.6507 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+406.6507 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_135.png'
+406.6507 	EXP 	polygonColour: autoDraw = True
+406.6507 	EXP 	polygonWhite: autoDraw = True
+406.6507 	EXP 	imageObject: autoDraw = True
+406.6507 	EXP 	polygonType: autoDraw = True
+406.6507 	EXP 	textInput: autoDraw = True
+409.6656 	EXP 	polygonColour: autoDraw = False
+409.6656 	EXP 	polygonWhite: autoDraw = False
+409.6656 	EXP 	imageObject: autoDraw = False
+409.6656 	EXP 	polygonType: autoDraw = False
+409.6656 	EXP 	textInput: autoDraw = False
+409.6656 	EXP 	textBlank500: autoDraw = True
+410.1347 	EXP 	New trial (rep=0, index=74): {'image': 'REPSWITCH1/PICTURE_135.png', 'correctAns': 'traje', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'repeat', 'sequence': 1, 'target': 'T', 'set': 4, 'stimulus': 'Stim1_Set4'}
+410.1500 	EXP 	textBlank500: autoDraw = False
+410.1500 	EXP 	textPause: autoDraw = False
+410.1500 	EXP 	fixationITI: autoDraw = True
+411.2834 	EXP 	fixationITI: autoDraw = False
+411.2834 	EXP 	fixationITI: autoDraw = False
+411.2834 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+411.2834 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+411.2834 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_135.png'
+411.2834 	EXP 	polygonColour: autoDraw = True
+411.2834 	EXP 	polygonWhite: autoDraw = True
+411.2834 	EXP 	imageObject: autoDraw = True
+411.2834 	EXP 	polygonType: autoDraw = True
+411.2834 	EXP 	textInput: autoDraw = True
+414.3141 	EXP 	polygonColour: autoDraw = False
+414.3141 	EXP 	polygonWhite: autoDraw = False
+414.3141 	EXP 	imageObject: autoDraw = False
+414.3141 	EXP 	polygonType: autoDraw = False
+414.3141 	EXP 	textInput: autoDraw = False
+414.3141 	EXP 	textBlank500: autoDraw = True
+414.7682 	EXP 	New trial (rep=0, index=75): {'image': 'REPSWITCH1/PICTURE_464.png', 'correctAns': 'goma', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'nontarget', 'sequence': 1, 'target': 'NT', 'set': 4, 'stimulus': 'Stim2_Set4'}
+414.7825 	EXP 	textBlank500: autoDraw = False
+414.7825 	EXP 	textPause: autoDraw = False
+414.7825 	EXP 	fixationITI: autoDraw = True
+415.8324 	EXP 	fixationITI: autoDraw = False
+415.8324 	EXP 	fixationITI: autoDraw = False
+415.8324 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+415.8324 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+415.8324 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_464.png'
+415.8324 	EXP 	polygonColour: autoDraw = True
+415.8324 	EXP 	polygonWhite: autoDraw = True
+415.8324 	EXP 	imageObject: autoDraw = True
+415.8324 	EXP 	polygonType: autoDraw = True
+415.8324 	EXP 	textInput: autoDraw = True
+418.8466 	EXP 	polygonColour: autoDraw = False
+418.8466 	EXP 	polygonWhite: autoDraw = False
+418.8466 	EXP 	imageObject: autoDraw = False
+418.8466 	EXP 	polygonType: autoDraw = False
+418.8466 	EXP 	textInput: autoDraw = False
+418.8466 	EXP 	textBlank500: autoDraw = True
+419.3175 	EXP 	New trial (rep=0, index=76): {'image': 'REPSWITCH1/PICTURE_464.png', 'correctAns': 'goma', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'switch', 'sequence': 2, 'target': 'T', 'set': 4, 'stimulus': 'Stim2_Set4'}
+419.3319 	EXP 	textBlank500: autoDraw = False
+419.3319 	EXP 	textPause: autoDraw = False
+419.3319 	EXP 	fixationITI: autoDraw = True
+420.4143 	EXP 	fixationITI: autoDraw = False
+420.4143 	EXP 	fixationITI: autoDraw = False
+420.4143 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+420.4143 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+420.4143 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_464.png'
+420.4143 	EXP 	polygonColour: autoDraw = True
+420.4143 	EXP 	polygonWhite: autoDraw = True
+420.4143 	EXP 	imageObject: autoDraw = True
+420.4143 	EXP 	polygonType: autoDraw = True
+420.4143 	EXP 	textInput: autoDraw = True
+423.4287 	EXP 	polygonColour: autoDraw = False
+423.4287 	EXP 	polygonWhite: autoDraw = False
+423.4287 	EXP 	imageObject: autoDraw = False
+423.4287 	EXP 	polygonType: autoDraw = False
+423.4287 	EXP 	textInput: autoDraw = False
+423.4287 	EXP 	textBlank500: autoDraw = True
+423.8987 	EXP 	New trial (rep=0, index=77): {'image': 'REPSWITCH1/PICTURE_242.png', 'correctAns': 'cartero', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 4, 'stimulus': 'Stim2_Set3'}
+423.9138 	EXP 	textBlank500: autoDraw = False
+423.9138 	EXP 	textPause: autoDraw = False
+423.9138 	EXP 	fixationITI: autoDraw = True
+425.1471 	EXP 	fixationITI: autoDraw = False
+425.1471 	EXP 	fixationITI: autoDraw = False
+425.1471 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+425.1471 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+425.1471 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_242.png'
+425.1471 	EXP 	polygonColour: autoDraw = True
+425.1471 	EXP 	polygonWhite: autoDraw = True
+425.1471 	EXP 	imageObject: autoDraw = True
+425.1471 	EXP 	polygonType: autoDraw = True
+425.1471 	EXP 	textInput: autoDraw = True
+428.1777 	EXP 	polygonColour: autoDraw = False
+428.1777 	EXP 	polygonWhite: autoDraw = False
+428.1777 	EXP 	imageObject: autoDraw = False
+428.1777 	EXP 	polygonType: autoDraw = False
+428.1777 	EXP 	textInput: autoDraw = False
+428.1777 	EXP 	textBlank500: autoDraw = True
+428.6307 	EXP 	New trial (rep=0, index=78): {'image': 'REPSWITCH1/PICTURE_48.png', 'correctAns': 'bombero', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 4, 'stimulus': 'Stim3_Set3'}
+428.6459 	EXP 	textBlank500: autoDraw = False
+428.6459 	EXP 	textPause: autoDraw = False
+428.6459 	EXP 	fixationITI: autoDraw = True
+429.7451 	EXP 	fixationITI: autoDraw = False
+429.7451 	EXP 	fixationITI: autoDraw = False
+429.7451 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+429.7451 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+429.7451 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_48.png'
+429.7451 	EXP 	polygonColour: autoDraw = True
+429.7451 	EXP 	polygonWhite: autoDraw = True
+429.7451 	EXP 	imageObject: autoDraw = True
+429.7451 	EXP 	polygonType: autoDraw = True
+429.7451 	EXP 	textInput: autoDraw = True
+432.7433 	EXP 	polygonColour: autoDraw = False
+432.7433 	EXP 	polygonWhite: autoDraw = False
+432.7433 	EXP 	imageObject: autoDraw = False
+432.7433 	EXP 	polygonType: autoDraw = False
+432.7433 	EXP 	textInput: autoDraw = False
+432.7433 	EXP 	textBlank500: autoDraw = True
+433.2113 	EXP 	New trial (rep=0, index=79): {'image': 'REPSWITCH1/PICTURE_381.png', 'correctAns': 'fresa', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 4, 'stimulus': 'Stim3_Set4'}
+433.2270 	EXP 	textBlank500: autoDraw = False
+433.2270 	EXP 	textPause: autoDraw = False
+433.2270 	EXP 	fixationITI: autoDraw = True
+434.5106 	EXP 	fixationITI: autoDraw = False
+434.5106 	EXP 	fixationITI: autoDraw = False
+434.5106 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+434.5106 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+434.5106 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_381.png'
+434.5106 	EXP 	polygonColour: autoDraw = True
+434.5106 	EXP 	polygonWhite: autoDraw = True
+434.5106 	EXP 	imageObject: autoDraw = True
+434.5106 	EXP 	polygonType: autoDraw = True
+434.5106 	EXP 	textInput: autoDraw = True
+437.5080 	EXP 	polygonColour: autoDraw = False
+437.5080 	EXP 	polygonWhite: autoDraw = False
+437.5080 	EXP 	imageObject: autoDraw = False
+437.5080 	EXP 	polygonType: autoDraw = False
+437.5080 	EXP 	textInput: autoDraw = False
+437.5080 	EXP 	textBlank500: autoDraw = True
+437.9783 	EXP 	New trial (rep=0, index=80): {'image': 'REPSWITCH1/PICTURE_381.png', 'correctAns': 'fresa', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'repeat', 'sequence': 2, 'target': 'T', 'set': 4, 'stimulus': 'Stim3_Set4'}
+437.9934 	EXP 	textBlank500: autoDraw = False
+437.9934 	EXP 	textPause: autoDraw = False
+437.9934 	EXP 	fixationITI: autoDraw = True
+439.0429 	EXP 	fixationITI: autoDraw = False
+439.0429 	EXP 	fixationITI: autoDraw = False
+439.0429 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+439.0429 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+439.0429 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_381.png'
+439.0429 	EXP 	polygonColour: autoDraw = True
+439.0429 	EXP 	polygonWhite: autoDraw = True
+439.0429 	EXP 	imageObject: autoDraw = True
+439.0429 	EXP 	polygonType: autoDraw = True
+439.0429 	EXP 	textInput: autoDraw = True
+442.0576 	EXP 	polygonColour: autoDraw = False
+442.0576 	EXP 	polygonWhite: autoDraw = False
+442.0576 	EXP 	imageObject: autoDraw = False
+442.0576 	EXP 	polygonType: autoDraw = False
+442.0576 	EXP 	textInput: autoDraw = False
+442.0576 	EXP 	textBlank500: autoDraw = True
+442.5275 	EXP 	New trial (rep=0, index=81): {'image': 'REPSWITCH1/PICTURE_546.png', 'correctAns': 'puerta', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 4, 'stimulus': 'Stim4_Set4'}
+442.5428 	EXP 	textBlank500: autoDraw = False
+442.5428 	EXP 	textPause: autoDraw = False
+442.5428 	EXP 	fixationITI: autoDraw = True
+443.8265 	EXP 	fixationITI: autoDraw = False
+443.8265 	EXP 	fixationITI: autoDraw = False
+443.8265 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+443.8265 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+443.8265 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_546.png'
+443.8265 	EXP 	polygonColour: autoDraw = True
+443.8265 	EXP 	polygonWhite: autoDraw = True
+443.8265 	EXP 	imageObject: autoDraw = True
+443.8265 	EXP 	polygonType: autoDraw = True
+443.8265 	EXP 	textInput: autoDraw = True
+446.8401 	EXP 	polygonColour: autoDraw = False
+446.8401 	EXP 	polygonWhite: autoDraw = False
+446.8401 	EXP 	imageObject: autoDraw = False
+446.8401 	EXP 	polygonType: autoDraw = False
+446.8401 	EXP 	textInput: autoDraw = False
+446.8401 	EXP 	textBlank500: autoDraw = True
+447.3097 	EXP 	New trial (rep=0, index=82): {'image': 'REPSWITCH1/PICTURE_546.png', 'correctAns': 'puerta', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'switch', 'sequence': 1, 'target': 'T', 'set': 4, 'stimulus': 'Stim4_Set4'}
+447.3260 	EXP 	textBlank500: autoDraw = False
+447.3260 	EXP 	textPause: autoDraw = False
+447.3260 	EXP 	fixationITI: autoDraw = True
+448.5245 	EXP 	fixationITI: autoDraw = False
+448.5245 	EXP 	fixationITI: autoDraw = False
+448.5245 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+448.5245 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+448.5245 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_546.png'
+448.5245 	EXP 	polygonColour: autoDraw = True
+448.5245 	EXP 	polygonWhite: autoDraw = True
+448.5245 	EXP 	imageObject: autoDraw = True
+448.5245 	EXP 	polygonType: autoDraw = True
+448.5245 	EXP 	textInput: autoDraw = True
+451.5383 	EXP 	polygonColour: autoDraw = False
+451.5383 	EXP 	polygonWhite: autoDraw = False
+451.5383 	EXP 	imageObject: autoDraw = False
+451.5383 	EXP 	polygonType: autoDraw = False
+451.5383 	EXP 	textInput: autoDraw = False
+451.5383 	EXP 	textBlank500: autoDraw = True
+452.0084 	EXP 	New trial (rep=0, index=83): {'image': 'REPSWITCH1/PICTURE_728.png', 'correctAns': 'pulpo', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'filler', 'sequence': 2, 'target': 'F', 'set': 4, 'stimulus': 'Stim4_Set3'}
+452.0240 	EXP 	textBlank500: autoDraw = False
+452.0240 	EXP 	textPause: autoDraw = False
+452.0240 	EXP 	fixationITI: autoDraw = True
+453.1896 	EXP 	fixationITI: autoDraw = False
+453.1896 	EXP 	fixationITI: autoDraw = False
+453.1896 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+453.1896 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+453.1896 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_728.png'
+453.1896 	EXP 	polygonColour: autoDraw = True
+453.1896 	EXP 	polygonWhite: autoDraw = True
+453.1896 	EXP 	imageObject: autoDraw = True
+453.1896 	EXP 	polygonType: autoDraw = True
+453.1896 	EXP 	textInput: autoDraw = True
+456.2044 	EXP 	polygonColour: autoDraw = False
+456.2044 	EXP 	polygonWhite: autoDraw = False
+456.2044 	EXP 	imageObject: autoDraw = False
+456.2044 	EXP 	polygonType: autoDraw = False
+456.2044 	EXP 	textInput: autoDraw = False
+456.2044 	EXP 	textBlank500: autoDraw = True
+456.6740 	EXP 	New trial (rep=0, index=84): {'image': 'REPSWITCH1/PICTURE_636.png', 'correctAns': 'oveja', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'nontarget', 'sequence': 1, 'target': 'NT', 'set': 4, 'stimulus': 'Stim5_Set4'}
+456.6893 	EXP 	textBlank500: autoDraw = False
+456.6893 	EXP 	textPause: autoDraw = False
+456.6893 	EXP 	fixationITI: autoDraw = True
+457.9218 	EXP 	fixationITI: autoDraw = False
+457.9218 	EXP 	fixationITI: autoDraw = False
+457.9218 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+457.9218 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+457.9218 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_636.png'
+457.9218 	EXP 	polygonColour: autoDraw = True
+457.9218 	EXP 	polygonWhite: autoDraw = True
+457.9218 	EXP 	imageObject: autoDraw = True
+457.9218 	EXP 	polygonType: autoDraw = True
+457.9218 	EXP 	textInput: autoDraw = True
+460.9354 	EXP 	polygonColour: autoDraw = False
+460.9354 	EXP 	polygonWhite: autoDraw = False
+460.9354 	EXP 	imageObject: autoDraw = False
+460.9354 	EXP 	polygonType: autoDraw = False
+460.9354 	EXP 	textInput: autoDraw = False
+460.9354 	EXP 	textBlank500: autoDraw = True
+461.4063 	EXP 	New trial (rep=0, index=85): {'image': 'REPSWITCH1/PICTURE_636.png', 'correctAns': 'oveja', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'switch', 'sequence': 2, 'target': 'T', 'set': 4, 'stimulus': 'Stim5_Set4'}
+461.4215 	EXP 	textBlank500: autoDraw = False
+461.4215 	EXP 	textPause: autoDraw = False
+461.4215 	EXP 	fixationITI: autoDraw = True
+462.5387 	EXP 	fixationITI: autoDraw = False
+462.5387 	EXP 	fixationITI: autoDraw = False
+462.5387 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+462.5387 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+462.5387 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_636.png'
+462.5387 	EXP 	polygonColour: autoDraw = True
+462.5387 	EXP 	polygonWhite: autoDraw = True
+462.5387 	EXP 	imageObject: autoDraw = True
+462.5387 	EXP 	polygonType: autoDraw = True
+462.5387 	EXP 	textInput: autoDraw = True
+465.5687 	EXP 	polygonColour: autoDraw = False
+465.5687 	EXP 	polygonWhite: autoDraw = False
+465.5687 	EXP 	imageObject: autoDraw = False
+465.5687 	EXP 	polygonType: autoDraw = False
+465.5687 	EXP 	textInput: autoDraw = False
+465.5687 	EXP 	textBlank500: autoDraw = True
+466.0218 	EXP 	New trial (rep=0, index=86): {'image': 'REPSWITCH1/PICTURE_545.png', 'correctAns': 'braga', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 4, 'stimulus': 'Stim6_Set4'}
+466.0373 	EXP 	textBlank500: autoDraw = False
+466.0373 	EXP 	textPause: autoDraw = False
+466.0373 	EXP 	fixationITI: autoDraw = True
+467.1039 	EXP 	fixationITI: autoDraw = False
+467.1039 	EXP 	fixationITI: autoDraw = False
+467.1039 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+467.1039 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+467.1039 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_545.png'
+467.1039 	EXP 	polygonColour: autoDraw = True
+467.1039 	EXP 	polygonWhite: autoDraw = True
+467.1039 	EXP 	imageObject: autoDraw = True
+467.1039 	EXP 	polygonType: autoDraw = True
+467.1039 	EXP 	textInput: autoDraw = True
+470.1342 	EXP 	polygonColour: autoDraw = False
+470.1342 	EXP 	polygonWhite: autoDraw = False
+470.1342 	EXP 	imageObject: autoDraw = False
+470.1342 	EXP 	polygonType: autoDraw = False
+470.1342 	EXP 	textInput: autoDraw = False
+470.1342 	EXP 	textBlank500: autoDraw = True
+470.5868 	EXP 	New trial (rep=0, index=87): {'image': 'REPSWITCH1/PICTURE_545.png', 'correctAns': 'braga', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'repeat', 'sequence': 2, 'target': 'T', 'set': 4, 'stimulus': 'Stim6_Set4'}
+470.6035 	EXP 	textBlank500: autoDraw = False
+470.6035 	EXP 	textPause: autoDraw = False
+470.6035 	EXP 	fixationITI: autoDraw = True
+471.7684 	EXP 	fixationITI: autoDraw = False
+471.7684 	EXP 	fixationITI: autoDraw = False
+471.7684 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+471.7684 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+471.7684 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_545.png'
+471.7684 	EXP 	polygonColour: autoDraw = True
+471.7684 	EXP 	polygonWhite: autoDraw = True
+471.7684 	EXP 	imageObject: autoDraw = True
+471.7684 	EXP 	polygonType: autoDraw = True
+471.7684 	EXP 	textInput: autoDraw = True
+474.8001 	EXP 	polygonColour: autoDraw = False
+474.8001 	EXP 	polygonWhite: autoDraw = False
+474.8001 	EXP 	imageObject: autoDraw = False
+474.8001 	EXP 	polygonType: autoDraw = False
+474.8001 	EXP 	textInput: autoDraw = False
+474.8001 	EXP 	textBlank500: autoDraw = True
+475.2536 	EXP 	New trial (rep=0, index=88): {'image': 'REPSWITCH1/PICTURE_552.png', 'correctAns': 'manzana', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 4, 'stimulus': 'Stim5_Set3'}
+475.2681 	EXP 	textBlank500: autoDraw = False
+475.2681 	EXP 	textPause: autoDraw = False
+475.2681 	EXP 	fixationITI: autoDraw = True
+476.4842 	EXP 	fixationITI: autoDraw = False
+476.4842 	EXP 	fixationITI: autoDraw = False
+476.4842 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+476.4842 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+476.4842 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_552.png'
+476.4842 	EXP 	polygonColour: autoDraw = True
+476.4842 	EXP 	polygonWhite: autoDraw = True
+476.4842 	EXP 	imageObject: autoDraw = True
+476.4842 	EXP 	polygonType: autoDraw = True
+476.4842 	EXP 	textInput: autoDraw = True
+479.5157 	EXP 	polygonColour: autoDraw = False
+479.5157 	EXP 	polygonWhite: autoDraw = False
+479.5157 	EXP 	imageObject: autoDraw = False
+479.5157 	EXP 	polygonType: autoDraw = False
+479.5157 	EXP 	textInput: autoDraw = False
+479.5157 	EXP 	textBlank500: autoDraw = True
+479.9681 	EXP 	New trial (rep=0, index=89): {'image': 'REPSWITCH1/PICTURE_576.png', 'correctAns': 'guante', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'filler', 'sequence': 2, 'target': 'F', 'set': 4, 'stimulus': 'Stim6_Set3'}
+479.9840 	EXP 	textBlank500: autoDraw = False
+479.9840 	EXP 	textPause: autoDraw = False
+479.9840 	EXP 	fixationITI: autoDraw = True
+481.1995 	EXP 	fixationITI: autoDraw = False
+481.1995 	EXP 	fixationITI: autoDraw = False
+481.1995 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+481.1995 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+481.1995 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_576.png'
+481.1995 	EXP 	polygonColour: autoDraw = True
+481.1995 	EXP 	polygonWhite: autoDraw = True
+481.1995 	EXP 	imageObject: autoDraw = True
+481.1995 	EXP 	polygonType: autoDraw = True
+481.1995 	EXP 	textInput: autoDraw = True
+484.2141 	EXP 	polygonColour: autoDraw = False
+484.2141 	EXP 	polygonWhite: autoDraw = False
+484.2141 	EXP 	imageObject: autoDraw = False
+484.2141 	EXP 	polygonType: autoDraw = False
+484.2141 	EXP 	textInput: autoDraw = False
+484.2141 	EXP 	textBlank500: autoDraw = True
+484.6845 	EXP 	New trial (rep=0, index=90): {'image': 'REPSWITCH1/PICTURE_687.png', 'correctAns': 'camisa', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 4, 'stimulus': 'Stim7_Set3'}
+484.6992 	EXP 	textBlank500: autoDraw = False
+484.6992 	EXP 	textPause: autoDraw = False
+484.6992 	EXP 	fixationITI: autoDraw = True
+485.9652 	EXP 	fixationITI: autoDraw = False
+485.9652 	EXP 	fixationITI: autoDraw = False
+485.9652 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+485.9652 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+485.9652 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_687.png'
+485.9652 	EXP 	polygonColour: autoDraw = True
+485.9652 	EXP 	polygonWhite: autoDraw = True
+485.9652 	EXP 	imageObject: autoDraw = True
+485.9652 	EXP 	polygonType: autoDraw = True
+485.9652 	EXP 	textInput: autoDraw = True
+488.9962 	EXP 	polygonColour: autoDraw = False
+488.9962 	EXP 	polygonWhite: autoDraw = False
+488.9962 	EXP 	imageObject: autoDraw = False
+488.9962 	EXP 	polygonType: autoDraw = False
+488.9962 	EXP 	textInput: autoDraw = False
+488.9962 	EXP 	textBlank500: autoDraw = True
+489.4493 	EXP 	New trial (rep=0, index=91): {'image': 'REPSWITCH1/PICTURE_8.png', 'correctAns': 'pierna', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 4, 'stimulus': 'Stim7_Set4'}
+489.4643 	EXP 	textBlank500: autoDraw = False
+489.4643 	EXP 	textPause: autoDraw = False
+489.4643 	EXP 	fixationITI: autoDraw = True
+490.6978 	EXP 	fixationITI: autoDraw = False
+490.6978 	EXP 	fixationITI: autoDraw = False
+490.6978 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+490.6978 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+490.6978 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_8.png'
+490.6978 	EXP 	polygonColour: autoDraw = True
+490.6978 	EXP 	polygonWhite: autoDraw = True
+490.6978 	EXP 	imageObject: autoDraw = True
+490.6978 	EXP 	polygonType: autoDraw = True
+490.6978 	EXP 	textInput: autoDraw = True
+493.7285 	EXP 	polygonColour: autoDraw = False
+493.7285 	EXP 	polygonWhite: autoDraw = False
+493.7285 	EXP 	imageObject: autoDraw = False
+493.7285 	EXP 	polygonType: autoDraw = False
+493.7285 	EXP 	textInput: autoDraw = False
+493.7285 	EXP 	textBlank500: autoDraw = True
+494.1817 	EXP 	New trial (rep=0, index=92): {'image': 'REPSWITCH1/PICTURE_8.png', 'correctAns': 'pierna', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'switch', 'sequence': 1, 'target': 'T', 'set': 4, 'stimulus': 'Stim7_Set4'}
+494.1969 	EXP 	textBlank500: autoDraw = False
+494.1969 	EXP 	textPause: autoDraw = False
+494.1969 	EXP 	fixationITI: autoDraw = True
+495.3631 	EXP 	fixationITI: autoDraw = False
+495.3631 	EXP 	fixationITI: autoDraw = False
+495.3631 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+495.3631 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+495.3631 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_8.png'
+495.3631 	EXP 	polygonColour: autoDraw = True
+495.3631 	EXP 	polygonWhite: autoDraw = True
+495.3631 	EXP 	imageObject: autoDraw = True
+495.3631 	EXP 	polygonType: autoDraw = True
+495.3631 	EXP 	textInput: autoDraw = True
+498.3940 	EXP 	polygonColour: autoDraw = False
+498.3940 	EXP 	polygonWhite: autoDraw = False
+498.3940 	EXP 	imageObject: autoDraw = False
+498.3940 	EXP 	polygonType: autoDraw = False
+498.3940 	EXP 	textInput: autoDraw = False
+498.3940 	EXP 	textBlank500: autoDraw = True
+498.8472 	EXP 	New trial (rep=0, index=93): {'image': 'REPSWITCH1/PICTURE_719.png', 'correctAns': 'baño', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 4, 'stimulus': 'Stim8_Set3'}
+498.8623 	EXP 	textBlank500: autoDraw = False
+498.8623 	EXP 	textPause: autoDraw = False
+498.8623 	EXP 	fixationITI: autoDraw = True
+499.9116 	EXP 	fixationITI: autoDraw = False
+499.9116 	EXP 	fixationITI: autoDraw = False
+499.9116 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+499.9116 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+499.9116 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_719.png'
+499.9116 	EXP 	polygonColour: autoDraw = True
+499.9116 	EXP 	polygonWhite: autoDraw = True
+499.9116 	EXP 	imageObject: autoDraw = True
+499.9116 	EXP 	polygonType: autoDraw = True
+499.9116 	EXP 	textInput: autoDraw = True
+502.9268 	EXP 	polygonColour: autoDraw = False
+502.9268 	EXP 	polygonWhite: autoDraw = False
+502.9268 	EXP 	imageObject: autoDraw = False
+502.9268 	EXP 	polygonType: autoDraw = False
+502.9268 	EXP 	textInput: autoDraw = False
+502.9268 	EXP 	textBlank500: autoDraw = True
+503.3956 	EXP 	New trial (rep=0, index=94): {'image': 'REPSWITCH1/PICTURE_91.png', 'correctAns': 'boca', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'nontarget', 'sequence': 1, 'target': 'NT', 'set': 4, 'stimulus': 'Stim8_Set4'}
+503.4111 	EXP 	textBlank500: autoDraw = False
+503.4111 	EXP 	textPause: autoDraw = False
+503.4111 	EXP 	fixationITI: autoDraw = True
+504.5449 	EXP 	fixationITI: autoDraw = False
+504.5449 	EXP 	fixationITI: autoDraw = False
+504.5449 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+504.5449 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+504.5449 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_91.png'
+504.5449 	EXP 	polygonColour: autoDraw = True
+504.5449 	EXP 	polygonWhite: autoDraw = True
+504.5449 	EXP 	imageObject: autoDraw = True
+504.5449 	EXP 	polygonType: autoDraw = True
+504.5449 	EXP 	textInput: autoDraw = True
+507.5750 	EXP 	polygonColour: autoDraw = False
+507.5750 	EXP 	polygonWhite: autoDraw = False
+507.5750 	EXP 	imageObject: autoDraw = False
+507.5750 	EXP 	polygonType: autoDraw = False
+507.5750 	EXP 	textInput: autoDraw = False
+507.5750 	EXP 	textBlank500: autoDraw = True
+508.0267 	EXP 	New trial (rep=0, index=95): {'image': 'REPSWITCH1/PICTURE_91.png', 'correctAns': 'boca', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'repeat', 'sequence': 1, 'target': 'T', 'set': 4, 'stimulus': 'Stim8_Set4'}
+508.0435 	EXP 	textBlank500: autoDraw = False
+508.0435 	EXP 	textPause: autoDraw = False
+508.0435 	EXP 	fixationITI: autoDraw = True
+509.1594 	EXP 	fixationITI: autoDraw = False
+509.1594 	EXP 	fixationITI: autoDraw = False
+509.1594 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+509.1594 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+509.1594 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_91.png'
+509.1594 	EXP 	polygonColour: autoDraw = True
+509.1594 	EXP 	polygonWhite: autoDraw = True
+509.1594 	EXP 	imageObject: autoDraw = True
+509.1594 	EXP 	polygonType: autoDraw = True
+509.1594 	EXP 	textInput: autoDraw = True
+512.1740 	EXP 	polygonColour: autoDraw = False
+512.1740 	EXP 	polygonWhite: autoDraw = False
+512.1740 	EXP 	imageObject: autoDraw = False
+512.1740 	EXP 	polygonType: autoDraw = False
+512.1740 	EXP 	textInput: autoDraw = False
+512.1740 	EXP 	textBlank500: autoDraw = True
+512.6590 	EXP 	textBlank500: autoDraw = False
+512.6590 	EXP 	textPause: autoDraw = True
+515.5300 	EXP 	New trial (rep=0, index=96): {'image': 'REPSWITCH1/PICTURE_19.png', 'correctAns': 'pavo', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 1, 'stimulus': 'Stim4_Set1'}
+515.5428 	EXP 	textPause: autoDraw = False
+515.5428 	EXP 	fixationITI: autoDraw = True
+516.6759 	EXP 	fixationITI: autoDraw = False
+516.6759 	EXP 	fixationITI: autoDraw = False
+516.6759 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+516.6759 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+516.6759 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_19.png'
+516.6759 	EXP 	polygonColour: autoDraw = True
+516.6759 	EXP 	polygonWhite: autoDraw = True
+516.6759 	EXP 	imageObject: autoDraw = True
+516.6759 	EXP 	polygonType: autoDraw = True
+516.6759 	EXP 	textInput: autoDraw = True
+519.6895 	EXP 	polygonColour: autoDraw = False
+519.6895 	EXP 	polygonWhite: autoDraw = False
+519.6895 	EXP 	imageObject: autoDraw = False
+519.6895 	EXP 	polygonType: autoDraw = False
+519.6895 	EXP 	textInput: autoDraw = False
+519.6895 	EXP 	textBlank500: autoDraw = True
+520.1584 	EXP 	New trial (rep=0, index=97): {'image': 'REPSWITCH1/PICTURE_19.png', 'correctAns': 'pavo', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'repeat', 'sequence': 2, 'target': 'T', 'set': 1, 'stimulus': 'Stim4_Set1'}
+520.1739 	EXP 	textBlank500: autoDraw = False
+520.1739 	EXP 	textPause: autoDraw = False
+520.1739 	EXP 	fixationITI: autoDraw = True
+521.3913 	EXP 	fixationITI: autoDraw = False
+521.3913 	EXP 	fixationITI: autoDraw = False
+521.3913 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+521.3913 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+521.3913 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_19.png'
+521.3913 	EXP 	polygonColour: autoDraw = True
+521.3913 	EXP 	polygonWhite: autoDraw = True
+521.3913 	EXP 	imageObject: autoDraw = True
+521.3913 	EXP 	polygonType: autoDraw = True
+521.3913 	EXP 	textInput: autoDraw = True
+524.4048 	EXP 	polygonColour: autoDraw = False
+524.4048 	EXP 	polygonWhite: autoDraw = False
+524.4048 	EXP 	imageObject: autoDraw = False
+524.4048 	EXP 	polygonType: autoDraw = False
+524.4048 	EXP 	textInput: autoDraw = False
+524.4048 	EXP 	textBlank500: autoDraw = True
+524.8595 	EXP 	New trial (rep=0, index=98): {'image': 'REPSWITCH1/PICTURE_381.png', 'correctAns': 'fresa', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 1, 'stimulus': 'Stim3_Set4'}
+524.8737 	EXP 	textBlank500: autoDraw = False
+524.8737 	EXP 	textPause: autoDraw = False
+524.8737 	EXP 	fixationITI: autoDraw = True
+525.9728 	EXP 	fixationITI: autoDraw = False
+525.9728 	EXP 	fixationITI: autoDraw = False
+525.9728 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+525.9728 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+525.9728 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_381.png'
+525.9728 	EXP 	polygonColour: autoDraw = True
+525.9728 	EXP 	polygonWhite: autoDraw = True
+525.9728 	EXP 	imageObject: autoDraw = True
+525.9728 	EXP 	polygonType: autoDraw = True
+525.9728 	EXP 	textInput: autoDraw = True
+528.9699 	EXP 	polygonColour: autoDraw = False
+528.9699 	EXP 	polygonWhite: autoDraw = False
+528.9699 	EXP 	imageObject: autoDraw = False
+528.9699 	EXP 	polygonType: autoDraw = False
+528.9699 	EXP 	textInput: autoDraw = False
+528.9699 	EXP 	textBlank500: autoDraw = True
+529.4408 	EXP 	New trial (rep=0, index=99): {'image': 'REPSWITCH1/PICTURE_91.png', 'correctAns': 'boca', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'filler', 'sequence': 1, 'target': 'F', 'set': 1, 'stimulus': 'Stim8_Set4'}
+529.4554 	EXP 	textBlank500: autoDraw = False
+529.4554 	EXP 	textPause: autoDraw = False
+529.4554 	EXP 	fixationITI: autoDraw = True
+530.5545 	EXP 	fixationITI: autoDraw = False
+530.5545 	EXP 	fixationITI: autoDraw = False
+530.5545 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+530.5545 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+530.5545 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_91.png'
+530.5545 	EXP 	polygonColour: autoDraw = True
+530.5545 	EXP 	polygonWhite: autoDraw = True
+530.5545 	EXP 	imageObject: autoDraw = True
+530.5545 	EXP 	polygonType: autoDraw = True
+530.5545 	EXP 	textInput: autoDraw = True
+533.5689 	EXP 	polygonColour: autoDraw = False
+533.5689 	EXP 	polygonWhite: autoDraw = False
+533.5689 	EXP 	imageObject: autoDraw = False
+533.5689 	EXP 	polygonType: autoDraw = False
+533.5689 	EXP 	textInput: autoDraw = False
+533.5689 	EXP 	textBlank500: autoDraw = True
+534.0401 	EXP 	New trial (rep=0, index=100): {'image': 'REPSWITCH1/PICTURE_152.png', 'correctAns': 'caracol', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 1, 'stimulus': 'Stim3_Set1'}
+534.0547 	EXP 	textBlank500: autoDraw = False
+534.0547 	EXP 	textPause: autoDraw = False
+534.0547 	EXP 	fixationITI: autoDraw = True
+535.2581 	EXP 	fixationITI: autoDraw = False
+535.2581 	EXP 	fixationITI: autoDraw = False
+535.2581 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+535.2581 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+535.2581 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_152.png'
+535.2581 	EXP 	polygonColour: autoDraw = True
+535.2581 	EXP 	polygonWhite: autoDraw = True
+535.2581 	EXP 	imageObject: autoDraw = True
+535.2581 	EXP 	polygonType: autoDraw = True
+535.2581 	EXP 	textInput: autoDraw = True
+538.2702 	EXP 	polygonColour: autoDraw = False
+538.2702 	EXP 	polygonWhite: autoDraw = False
+538.2702 	EXP 	imageObject: autoDraw = False
+538.2702 	EXP 	polygonType: autoDraw = False
+538.2702 	EXP 	textInput: autoDraw = False
+538.2702 	EXP 	textBlank500: autoDraw = True
+538.7378 	EXP 	New trial (rep=0, index=101): {'image': 'REPSWITCH1/PICTURE_152.png', 'correctAns': 'caracol', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'repeat', 'sequence': 2, 'target': 'T', 'set': 1, 'stimulus': 'Stim3_Set1'}
+538.7530 	EXP 	textBlank500: autoDraw = False
+538.7530 	EXP 	textPause: autoDraw = False
+538.7530 	EXP 	fixationITI: autoDraw = True
+539.9684 	EXP 	fixationITI: autoDraw = False
+539.9684 	EXP 	fixationITI: autoDraw = False
+539.9684 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+539.9684 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+539.9684 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_152.png'
+539.9684 	EXP 	polygonColour: autoDraw = True
+539.9684 	EXP 	polygonWhite: autoDraw = True
+539.9684 	EXP 	imageObject: autoDraw = True
+539.9684 	EXP 	polygonType: autoDraw = True
+539.9684 	EXP 	textInput: autoDraw = True
+542.9659 	EXP 	polygonColour: autoDraw = False
+542.9659 	EXP 	polygonWhite: autoDraw = False
+542.9659 	EXP 	imageObject: autoDraw = False
+542.9659 	EXP 	polygonType: autoDraw = False
+542.9659 	EXP 	textInput: autoDraw = False
+542.9659 	EXP 	textBlank500: autoDraw = True
+543.4513 	EXP 	New trial (rep=0, index=102): {'image': 'REPSWITCH1/PICTURE_235.png', 'correctAns': 'aguja', 'respModal': 'speak', 'frameColour': 'yellow', 'repSwitch': 'nontarget', 'sequence': 2, 'target': 'NT', 'set': 1, 'stimulus': 'Stim6_Set1'}
+543.4673 	EXP 	textBlank500: autoDraw = False
+543.4673 	EXP 	textPause: autoDraw = False
+543.4673 	EXP 	fixationITI: autoDraw = True
+544.5178 	EXP 	fixationITI: autoDraw = False
+544.5178 	EXP 	fixationITI: autoDraw = False
+544.5178 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: yellow, alpha=1.0>
+544.5178 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+544.5178 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_235.png'
+544.5178 	EXP 	polygonColour: autoDraw = True
+544.5178 	EXP 	polygonWhite: autoDraw = True
+544.5178 	EXP 	imageObject: autoDraw = True
+544.5178 	EXP 	polygonType: autoDraw = True
+544.5178 	EXP 	textInput: autoDraw = True
+547.5323 	EXP 	polygonColour: autoDraw = False
+547.5323 	EXP 	polygonWhite: autoDraw = False
+547.5323 	EXP 	imageObject: autoDraw = False
+547.5323 	EXP 	polygonType: autoDraw = False
+547.5323 	EXP 	textInput: autoDraw = False
+547.5323 	EXP 	textBlank500: autoDraw = True
+548.0014 	EXP 	New trial (rep=0, index=103): {'image': 'REPSWITCH1/PICTURE_235.png', 'correctAns': 'aguja', 'respModal': 'type', 'frameColour': 'indigo', 'repSwitch': 'switch', 'sequence': 1, 'target': 'T', 'set': 1, 'stimulus': 'Stim6_Set1'}
+548.0171 	EXP 	textBlank500: autoDraw = False
+548.0171 	EXP 	textPause: autoDraw = False
+548.0171 	EXP 	fixationITI: autoDraw = True
+549.1001 	EXP 	fixationITI: autoDraw = False
+549.1001 	EXP 	fixationITI: autoDraw = False
+549.1001 	EXP 	polygonColour: fillColor = <psychopy.colors.Color: indigo, alpha=1.0>
+549.1001 	EXP 	polygonColour: borderColor = <psychopy.colors.Color: indigo, alpha=1.0>
+549.1001 	EXP 	imageObject: image = 'REPSWITCH1/PICTURE_235.png'
+549.1001 	EXP 	polygonColour: autoDraw = True
+549.1001 	EXP 	polygonWhite: autoDraw = True
+549.1001 	EXP 	imageObject: autoDraw = True
+549.1001 	EXP 	polygonType: autoDraw = True
+549.1001 	EXP 	textInput: autoDraw = True
+550.0612 	DATA 	Keypress: escape
+551.5025 	EXP 	window1: mouseVisible = True

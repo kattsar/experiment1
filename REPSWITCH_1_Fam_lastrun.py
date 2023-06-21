@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Ιούνιος 09, 2023, at 09:23
+    on Ιούνιος 21, 2023, at 14:08
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -72,12 +72,12 @@ if not os.path.isdir(micFamRecFolder):
 
 # --- Setup the Window ---
 win = visual.Window(
-    size=[1536, 864], fullscr=True, screen=0, 
+    size=[1536, 864], fullscr=False, screen=0, 
     winType='pyglet', allowStencil=False,
     monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
     blendMode='avg', useFBO=True, 
     units='height')
-win.mouseVisible = False
+win.mouseVisible = True
 # store frame rate of monitor if we can measure it
 expInfo['frameRate'] = win.getActualFrameRate()
 if expInfo['frameRate'] != None:
@@ -162,7 +162,7 @@ imageFam = visual.ImageStim(
 textFam = visual.TextStim(win=win, name='textFam',
     text='',
     font='Open Sans',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
+    pos=(0, -0.3), height=0.05, wrapWidth=None, ori=0.0, 
     color=[1.0000, 1.0000, 1.0000], colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=-2.0);
@@ -525,7 +525,7 @@ else:
     routineTimer.addTime(-0.500000)
 
 # set up handler to look after randomisation of conditions etc
-famTrials = data.TrialHandler(nReps=1.0, method='sequential', 
+famTrials = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=data.importConditions('D:/GitHub/experiment1/repswitch_fam.xlsx'),
     seed=None, name='famTrials')
@@ -635,7 +635,7 @@ for thisFamTrial in famTrials:
     frameN = -1
     
     # --- Run Routine "famPhase" ---
-    while continueRoutine and routineTimer.getTime() < 7.5:
+    while continueRoutine and routineTimer.getTime() < 7.0:
         # get current time
         t = routineTimer.getTime()
         tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -655,7 +655,7 @@ for thisFamTrial in famTrials:
             polygonWhiteFam.setAutoDraw(True)
         if polygonWhiteFam.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > polygonWhiteFam.tStartRefresh + 4-frameTolerance:
+            if tThisFlipGlobal > polygonWhiteFam.tStartRefresh + 7-frameTolerance:
                 # keep track of stop time/frame for later
                 polygonWhiteFam.tStop = t  # not accounting for scr refresh
                 polygonWhiteFam.frameNStop = frameN  # exact frame index
@@ -675,7 +675,7 @@ for thisFamTrial in famTrials:
             imageFam.setAutoDraw(True)
         if imageFam.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > imageFam.tStartRefresh + 4-frameTolerance:
+            if tThisFlipGlobal > imageFam.tStartRefresh + 7-frameTolerance:
                 # keep track of stop time/frame for later
                 imageFam.tStop = t  # not accounting for scr refresh
                 imageFam.frameNStop = frameN  # exact frame index
@@ -695,7 +695,7 @@ for thisFamTrial in famTrials:
             textFam.setAutoDraw(True)
         if textFam.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > textFam.tStartRefresh + 3-frameTolerance:
+            if tThisFlipGlobal > textFam.tStartRefresh + 2.5-frameTolerance:
                 # keep track of stop time/frame for later
                 textFam.tStop = t  # not accounting for scr refresh
                 textFam.frameNStop = frameN  # exact frame index
@@ -767,7 +767,7 @@ for thisFamTrial in famTrials:
     if routineForceEnded:
         routineTimer.reset()
     else:
-        routineTimer.addTime(-7.500000)
+        routineTimer.addTime(-7.000000)
     
     # --- Prepare to start Routine "blank500" ---
     continueRoutine = True

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Ιούνιος 20, 2023, at 20:10
+    on Ιούνιος 21, 2023, at 14:13
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -72,12 +72,12 @@ if not os.path.isdir(micRespRecFolder):
 
 # --- Setup the Window ---
 win = visual.Window(
-    size=[1536, 864], fullscr=False, screen=0, 
+    size=[1536, 864], fullscr=True, screen=0, 
     winType='pyglet', allowStencil=False,
     monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
     blendMode='avg', useFBO=True, 
     units='height')
-win.mouseVisible = True
+win.mouseVisible = False
 # store frame rate of monitor if we can measure it
 expInfo['frameRate'] = win.getActualFrameRate()
 if expInfo['frameRate'] != None:
@@ -167,7 +167,7 @@ imageObject = visual.ImageStim(
     texRes=128.0, interpolate=True, depth=-2.0)
 polygonType = visual.Rect(
     win=win, name='polygonType',
-    width=(0.2, 0.1)[0], height=(0.2, 0.1)[1],
+    width=(0.3, 0.1)[0], height=(0.3, 0.1)[1],
     ori=0.0, pos=(0, 0), anchor='center',
     lineWidth=1.0,     colorSpace='rgb',  lineColor=[0.9216, 0.9216, 0.9216], fillColor=[0.9216, 0.9216, 0.9216],
     opacity=None, depth=-3.0, interpolate=True)
@@ -1038,6 +1038,10 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     # Run 'Begin Routine' code from codeBreak
     if trialsREPSWITCH.thisN == 0 or trialsREPSWITCH.thisN % 95 != 0:
         continueRoutine = False
+        
+        #checks if the value of trialsREPSWITCH.thisN is either 0 or not divisible evenly by 95
+        #If either of these conditions is true, the continueRoutine variable is set to False, 
+        #indicating that some loop or routine should be skipped or terminated.
     # keep track of which components have finished
     pauseComponents = [textPause, keyPause]
     for thisComponent in pauseComponents:
