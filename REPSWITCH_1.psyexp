@@ -9,7 +9,7 @@
     <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
     <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
     <Param val="True" valType="bool" updates="None" name="Force stereo"/>
-    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="False" valType="bool" updates="None" name="Full-screen window"/>
     <Param val="" valType="str" updates="None" name="HTML path"/>
     <Param val="" valType="str" updates="None" name="Incomplete URL"/>
     <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
@@ -255,6 +255,23 @@
         <Param val="" valType="list" updates="None" name="transcribeWords"/>
         <Param val="False" valType="bool" updates="None" name="trimSilent"/>
       </MicrophoneComponent>
+      <CodeComponent name="codeMic">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="from psychopy import sound, core, event&amp;#10;&amp;#10;# Set up the Microphone component&amp;#10;micResp = sound.Microphone()&amp;#10;&amp;#10;# Create a list to store the participants' audio responses&amp;#10;participant_responses = []&amp;#10;&amp;#10;# Start the Microphone recording&amp;#10;micResp.start()&amp;#10;&amp;#10;# Run the experiment loop&amp;#10;num_trials = 10  # Replace with the desired number of trials&amp;#10;for trial in range(num_trials):&amp;#10;    # Present stimulus (picture, word, etc.) using Image component&amp;#10;&amp;#10;    # Start recording the participant's response&amp;#10;    micResp.record(sec=None)&amp;#10;&amp;#10;    # Wait for participant's response&amp;#10;    keys = event.waitKeys(keyList=['space'])&amp;#10;&amp;#10;    # Stop recording the participant's response&amp;#10;    micResp.stop()&amp;#10;&amp;#10;    # Get the recorded response&amp;#10;    response = micResp.getRecording()&amp;#10;&amp;#10;    # Save the participant's response in audio file&amp;#10;    participant_responses.append(response)&amp;#10;&amp;#10;# Save each participant's response to a separate audio file&amp;#10;for i, response in enumerate(participant_responses):&amp;#10;    output_file = 'response_{}.wav'.format(i)&amp;#10;    response.save(output_file)&amp;#10;&amp;#10;# Cleanup&amp;#10;micResp.close()&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="codeMic" valType="code" updates="None" name="name"/>
+      </CodeComponent>
     </Routine>
     <Routine name="Welcome">
       <TextComponent name="textWelcome">

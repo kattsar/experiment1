@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Ιούνιος 21, 2023, at 14:13
+    on Ιούνιος 21, 2023, at 22:09
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -72,12 +72,12 @@ if not os.path.isdir(micRespRecFolder):
 
 # --- Setup the Window ---
 win = visual.Window(
-    size=[1536, 864], fullscr=True, screen=0, 
+    size=[1536, 864], fullscr=False, screen=0, 
     winType='pyglet', allowStencil=False,
     monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
     blendMode='avg', useFBO=True, 
     units='height')
-win.mouseVisible = False
+win.mouseVisible = True
 # store frame rate of monitor if we can measure it
 expInfo['frameRate'] = win.getActualFrameRate()
 if expInfo['frameRate'] != None:
@@ -675,6 +675,46 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     key_list = []
     
     polygonType.opacity = 0  
+    
+    # Run 'Begin Routine' code from codeMic
+    from psychopy import sound, core, event
+    
+    # Set up the Microphone component
+    micResp = sound.Microphone()
+    
+    # Create a list to store the participants' audio responses
+    participant_responses = []
+    
+    # Start the Microphone recording
+    micResp.start()
+    
+    # Run the experiment loop
+    num_trials = 10  # Replace with the desired number of trials
+    for trial in range(num_trials):
+        # Present stimulus (picture, word, etc.) using Image component
+    
+        # Start recording the participant's response
+        micResp.record(sec=None)
+    
+        # Wait for participant's response
+        keys = event.waitKeys(keyList=['space'])
+    
+        # Stop recording the participant's response
+        micResp.stop()
+    
+        # Get the recorded response
+        response = micResp.getRecording()
+    
+        # Save the participant's response in audio file
+        participant_responses.append(response)
+    
+    # Save each participant's response to a separate audio file
+    for i, response in enumerate(participant_responses):
+        output_file = 'response_{}.wav'.format(i)
+        response.save(output_file)
+    
+    # Cleanup
+    micResp.close()
     
     # keep track of which components have finished
     trialComponents = [polygonColour, polygonWhite, imageObject, polygonType, textInput, keyResp, micResp]

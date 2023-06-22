@@ -49,46 +49,47 @@ mic.close()
 
 
 
-
-
-
-Yes, you can keep the Microphone component and add a piece of code to save the audio files as the experiment progresses. Here's how you can do it:
-
-Insert a code component in your PsychoPy experiment by clicking on "Add Component" and selecting "Code" from the dropdown menu.
-
-In the "Begin Experiment" tab of the code component, add the following code to initialize a sound object and a file to save the audio:
-
-python
-Copy code
+BEGIN EXPERIMENT
 from psychopy import sound
 
-# Set the audio file name and format
-audio_filename = 'audio.wav'
-audio_format = 'wav'
+recording = None
+recording_filename = "recording.wav"
+trial_duration = 3
 
-# Initialize the sound object
-audio = sound.Sound(backend='ptb', stereo=True)
-In the "Each Frame" tab of the code component, add the following code to continuously update the audio recording:
-python
-Copy code
-if microphone.status == NOT_STARTED:
-    microphone.status = STARTED
-    microphone.tStart = t
-    microphone.frameNStart = frameN
-    microphone.record(sec=-1, block=False)
+def start_recording(frame_rate=48000, channels='auto'):
+    global recording
+    if channels == 'auto':
+        channels = 2 if sound.getInputDevs(includeVirtual=True) else 1
+    if frame_rate <= 0:
+        frame_rate = 44100  # Set a valid default sample rate (e.g., 44100)
+    try:
+        recording = sound.Sound(value=0, secs=trial_duration, sampleRate=frame_rate, stereo=(channels == 2))
+    except ValueError as e:
+        print("Error: Invalid audio parameters:", e)
 
-elif microphone.status == STARTED and t - microphone.tStart >= 0.5:
-    microphone.stop()
-    audio.append(microphone.getSnapshot())
-    audio.save(filename=audio_filename, format=audio_format)
-This code checks if the Microphone component has started recording (microphone.status == NOT_STARTED). If it has not started, it starts recording audio. If it has started and at least 0.5 seconds have passed (t - microphone.tStart >= 0.5), it stops the recording, appends the recorded audio to the audio object, and saves it to the specified file.
+def stop_recording():
+    global recording
+    if recording is not None:
+        recording.save(recording_filename)
 
-Make sure you have correctly set up the Microphone component in your experiment. Set the "Start" field to a keyboard or other event that initiates the recording. Set the "Stop" field to a keyboard or event that stops the recording.
-With these code components in place, the Microphone component will start recording when triggered, and every 0.5 seconds it will save the recorded audio to the specified file. You can adjust the file name and format according to your preferences.
+def get_recording_status():
+    global recording
+    if recording is None:
+        return False
+    else:
+        return True
 
-Remember to check the documentation of PsychoPy for more information on the Microphone component and the sound.Sound() class for advanced audio settings and options.
 
+BEGIN ROUTINE
+start_recording(frame_rate=48000, channels=1) # Start recording at the beginning of each trial/routine
 
+END ROUTINE
+stop_recording()  # Stop recording at the end of each trial/routine
+
+END EXPERIMENT
+# If the recording is still in progress at the end of the experiment, stop it and save the file
+if get_recording_status():
+    stop_recording()
 
 
 
