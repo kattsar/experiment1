@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Ιούνιος 21, 2023, at 14:08
+    on Ιούνιος 23, 2023, at 12:33
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -119,7 +119,7 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
 
 # --- Initialize components for Routine "InstructionsFam" ---
 textInstrFam = visual.TextStim(win=win, name='textInstrFam',
-    text='In this experiment you will see different images on the screen. You will see one image at a time. Each image will stay on screen for a few seconds. \n\nYou will have to name what you see in each image. After each image, you will see the written word for what you saw in that image. \nThe goal of this experiment is for you to name each image with the correct word.\n\n\nPress SPACE to begin!',
+    text='In this experiment you will see pictures on the screen and will have to name them. Pictures will appear one at a time and will stay on screen for a few seconds. \n\n\nWhen a picture appears, you will have to say its name out loud. After each picture, you will see its name written below it. Please try and remember to use this name for the rest of the experiment.\n\n\nPress SPACE to start.\n',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -191,7 +191,7 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
 
 # --- Initialize components for Routine "EndFam" ---
 textEndFam = visual.TextStim(win=win, name='textEndFam',
-    text='Congratulations! \n\nYou finished the first part and you can now move to the second part of the experiment! \n\nPress SPACE to end this part.',
+    text='Congratulations! \n\nYou finished the first part and you can now move to the second part of the experiment! \n\n\nPress SPACE to continue.\n',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -527,7 +527,7 @@ else:
 # set up handler to look after randomisation of conditions etc
 famTrials = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('D:/GitHub/experiment1/repswitch_fam.xlsx'),
+    trialList=data.importConditions('repswitch_fam.xlsx'),
     seed=None, name='famTrials')
 thisExp.addLoop(famTrials)  # add the loop to the experiment
 thisFamTrial = famTrials.trialList[0]  # so we can initialise stimuli with some values
