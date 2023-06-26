@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Ιούνιος 20, 2023, at 11:09
+This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
+    on Ιούνιος 26, 2023, at 12:55
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -10,6 +10,10 @@ If you publish work using this script the most relevant publication is:
         https://doi.org/10.3758/s13428-018-01193-y
 
 """
+
+import psychopy
+psychopy.useVersion('2022.2.4')
+
 
 # --- Import packages ---
 from psychopy import locale_setup
@@ -34,7 +38,7 @@ from psychopy.hardware import keyboard
 _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 # Store info about the experiment session
-psychopyVersion = '2022.2.5'
+psychopyVersion = '2022.2.4'
 expName = 'REPSWITCH1_Practice_2'  # from the Builder filename that created this script
 expInfo = {
     'participant': f"{randint(0, 999999):06.0f}",
@@ -99,29 +103,11 @@ eyetracker = None
 # create a default keyboard (e.g. to check for escape)
 defaultKeyboard = keyboard.Keyboard(backend='iohub')
 
-# --- Initialize components for Routine "WelcomePractice_2" ---
-textWelcomePractice_2 = visual.TextStim(win=win, name='textWelcomePractice_2',
-    text='Welcome to the third part of the experiment!',
-    font='Open Sans',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
-    color='white', colorSpace='rgb', opacity=None, 
-    languageStyle='LTR',
-    depth=0.0);
-
-# --- Initialize components for Routine "blank500" ---
-textBlank500 = visual.TextStim(win=win, name='textBlank500',
-    text=None,
-    font='Open Sans',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
-    color='white', colorSpace='rgb', opacity=None, 
-    languageStyle='LTR',
-    depth=0.0);
-
 # --- Initialize components for Routine "InstructionsPractice_2" ---
 textInstrPractice_2 = visual.TextStim(win=win, name='textInstrPractice_2',
-    text='This is a practice session! \nYou will see images on the screen, one at a time, and you will have to name what you see in each image.  You will have to name either by speaking or by typing. \n\nA blue or yellow rectangle will be placed behind every image to indicate whether you need to speak or type. \n\nIf the rectangle is blue, you will need to type the name of what you see on the image. If the rectangle is yellow, you will have to speak. \n\nYou should name the images correctly and as quickly as possible. The images will stay on the screen for a short time. \n\nIt is important that when you type you avoid looking at your hands as much as possible! \n\nYou should also keep your hands above the keyboard during the whole practice session! \n\nPlease, try not to speak while typing!\n\n\nPress SPACE to begin!\n',
+    text='Let’s practice some more before we start!\nRemember:\n\nIf the rectangle is blue, you will need to type the name of the picture. \nIf the rectangle is yellow, you will have to say out loud the name of the picture. \n\nThis time, you won’t see the words TYPE or SPEAK and only have to use the colors.\n\n\nPress SPACE to begin!\n',
     font='Open Sans',
-    pos=(0, 0), height=0.03, wrapWidth=None, ori=0.0, 
+    pos=(0, 0), height=0.04, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=0.0);
@@ -204,7 +190,7 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
 
 # --- Initialize components for Routine "EndPractice_2" ---
 textEndPractice_2 = visual.TextStim(win=win, name='textEndPractice_2',
-    text='Great! \n\nYou finished the third part of the experiment!\n\nYou can now move to the fourth and last part of this experiment!\n\nPress SPACE to end this part.',
+    text='Great! \n\n\nPress SPACE to continue.',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -214,156 +200,6 @@ textEndPractice_2 = visual.TextStim(win=win, name='textEndPractice_2',
 # Create some handy timers
 globalClock = core.Clock()  # to track the time since experiment started
 routineTimer = core.Clock()  # to track time remaining of each (possibly non-slip) routine 
-
-# --- Prepare to start Routine "WelcomePractice_2" ---
-continueRoutine = True
-routineForceEnded = False
-# update component parameters for each repeat
-# keep track of which components have finished
-WelcomePractice_2Components = [textWelcomePractice_2]
-for thisComponent in WelcomePractice_2Components:
-    thisComponent.tStart = None
-    thisComponent.tStop = None
-    thisComponent.tStartRefresh = None
-    thisComponent.tStopRefresh = None
-    if hasattr(thisComponent, 'status'):
-        thisComponent.status = NOT_STARTED
-# reset timers
-t = 0
-_timeToFirstFrame = win.getFutureFlipTime(clock="now")
-frameN = -1
-
-# --- Run Routine "WelcomePractice_2" ---
-while continueRoutine and routineTimer.getTime() < 2.0:
-    # get current time
-    t = routineTimer.getTime()
-    tThisFlip = win.getFutureFlipTime(clock=routineTimer)
-    tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-    # update/draw components on each frame
-    
-    # *textWelcomePractice_2* updates
-    if textWelcomePractice_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-        # keep track of start time/frame for later
-        textWelcomePractice_2.frameNStart = frameN  # exact frame index
-        textWelcomePractice_2.tStart = t  # local t and not account for scr refresh
-        textWelcomePractice_2.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(textWelcomePractice_2, 'tStartRefresh')  # time at next scr refresh
-        # add timestamp to datafile
-        thisExp.timestampOnFlip(win, 'textWelcomePractice_2.started')
-        textWelcomePractice_2.setAutoDraw(True)
-    if textWelcomePractice_2.status == STARTED:
-        # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > textWelcomePractice_2.tStartRefresh + 2-frameTolerance:
-            # keep track of stop time/frame for later
-            textWelcomePractice_2.tStop = t  # not accounting for scr refresh
-            textWelcomePractice_2.frameNStop = frameN  # exact frame index
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'textWelcomePractice_2.stopped')
-            textWelcomePractice_2.setAutoDraw(False)
-    
-    # check for quit (typically the Esc key)
-    if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-        core.quit()
-    
-    # check if all components have finished
-    if not continueRoutine:  # a component has requested a forced-end of Routine
-        routineForceEnded = True
-        break
-    continueRoutine = False  # will revert to True if at least one component still running
-    for thisComponent in WelcomePractice_2Components:
-        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-            continueRoutine = True
-            break  # at least one component has not yet finished
-    
-    # refresh the screen
-    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-        win.flip()
-
-# --- Ending Routine "WelcomePractice_2" ---
-for thisComponent in WelcomePractice_2Components:
-    if hasattr(thisComponent, "setAutoDraw"):
-        thisComponent.setAutoDraw(False)
-# using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
-if routineForceEnded:
-    routineTimer.reset()
-else:
-    routineTimer.addTime(-2.000000)
-
-# --- Prepare to start Routine "blank500" ---
-continueRoutine = True
-routineForceEnded = False
-# update component parameters for each repeat
-# keep track of which components have finished
-blank500Components = [textBlank500]
-for thisComponent in blank500Components:
-    thisComponent.tStart = None
-    thisComponent.tStop = None
-    thisComponent.tStartRefresh = None
-    thisComponent.tStopRefresh = None
-    if hasattr(thisComponent, 'status'):
-        thisComponent.status = NOT_STARTED
-# reset timers
-t = 0
-_timeToFirstFrame = win.getFutureFlipTime(clock="now")
-frameN = -1
-
-# --- Run Routine "blank500" ---
-while continueRoutine and routineTimer.getTime() < 0.5:
-    # get current time
-    t = routineTimer.getTime()
-    tThisFlip = win.getFutureFlipTime(clock=routineTimer)
-    tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-    # update/draw components on each frame
-    
-    # *textBlank500* updates
-    if textBlank500.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-        # keep track of start time/frame for later
-        textBlank500.frameNStart = frameN  # exact frame index
-        textBlank500.tStart = t  # local t and not account for scr refresh
-        textBlank500.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(textBlank500, 'tStartRefresh')  # time at next scr refresh
-        # add timestamp to datafile
-        thisExp.timestampOnFlip(win, 'textBlank500.started')
-        textBlank500.setAutoDraw(True)
-    if textBlank500.status == STARTED:
-        # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > textBlank500.tStartRefresh + .5-frameTolerance:
-            # keep track of stop time/frame for later
-            textBlank500.tStop = t  # not accounting for scr refresh
-            textBlank500.frameNStop = frameN  # exact frame index
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'textBlank500.stopped')
-            textBlank500.setAutoDraw(False)
-    
-    # check for quit (typically the Esc key)
-    if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-        core.quit()
-    
-    # check if all components have finished
-    if not continueRoutine:  # a component has requested a forced-end of Routine
-        routineForceEnded = True
-        break
-    continueRoutine = False  # will revert to True if at least one component still running
-    for thisComponent in blank500Components:
-        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-            continueRoutine = True
-            break  # at least one component has not yet finished
-    
-    # refresh the screen
-    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-        win.flip()
-
-# --- Ending Routine "blank500" ---
-for thisComponent in blank500Components:
-    if hasattr(thisComponent, "setAutoDraw"):
-        thisComponent.setAutoDraw(False)
-# using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
-if routineForceEnded:
-    routineTimer.reset()
-else:
-    routineTimer.addTime(-0.500000)
 
 # --- Prepare to start Routine "InstructionsPractice_2" ---
 continueRoutine = True
@@ -862,7 +698,7 @@ for thisTrialsPractice_2 in trialsPractice_2:
             micPractice_2.poll()
         if micPractice_2.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > micPractice_2.tStartRefresh + 2.0-frameTolerance:
+            if tThisFlipGlobal > micPractice_2.tStartRefresh + 3-frameTolerance:
                 # keep track of stop time/frame for later
                 micPractice_2.tStop = t  # not accounting for scr refresh
                 micPractice_2.frameNStop = frameN  # exact frame index

@@ -1,0 +1,548 @@
+24.9981 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001C4E422C850>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001C4E61B1460>, multiSample=False, name='window1', numSamples=2, pos=(192, 108), screen=0, size=array([1536,  864]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+24.9983 	EXP 	window1: mouseVisible = True
+24.9984 	EXP 	window1: mouseVisible = True
+24.9984 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+24.9985 	EXP 	window1: recordFrameIntervals = False
+25.1638 	EXP 	window1: recordFrameIntervals = True
+25.3476 	EXP 	Screen (0) actual frame rate measured at 59.99Hz
+25.3477 	EXP 	window1: recordFrameIntervals = False
+25.4019 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+28.3078 	EXP 	Created textWelcomeFam = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textWelcomeFam', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome to the experiment!', units='height', win=Window(...), wrapWidth=1)
+28.3092 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+28.3475 	EXP 	Created textInstrFam = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textInstrFam', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+28.3487 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+28.3515 	EXP 	Created fixationITI = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixationITI', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+28.3529 	EXP 	Created polygonWhiteFam = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygonWhiteFam', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+28.3645 	EXP 	Created imageFam = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imageFam', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+28.3654 	EXP 	Created textFam = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textFam', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+29.7272 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+29.7314 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+29.7628 	EXP 	Created textEndFam = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textEndFam', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+29.7911 	EXP 	textWelcomeFam: autoDraw = True
+31.7961 	EXP 	textWelcomeFam: autoDraw = False
+31.7961 	EXP 	textBlank500: autoDraw = True
+32.2808 	EXP 	textBlank500: autoDraw = False
+32.2808 	EXP 	textInstrFam: autoDraw = True
+42.2162 	DATA 	Keypress: space
+42.2264 	EXP 	textInstrFam: autoDraw = False
+42.2264 	EXP 	textBlank500: autoDraw = True
+42.7521 	EXP 	Imported repswitch_fam.xlsx as conditions, 39 conditions, 2 params
+42.7556 	EXP 	Created sequence: random, trialTypes=39, nReps=1, seed=None
+42.7564 	EXP 	New trial (rep=0, index=0): {'image': 'REPSWITCH1_Fam/PICTURE_381.png', 'correctAns': 'fresa'}
+42.7747 	EXP 	textBlank500: autoDraw = False
+42.7747 	EXP 	textBlank500: autoDraw = False
+42.7747 	EXP 	fixationITI: autoDraw = True
+44.1419 	EXP 	fixationITI: autoDraw = False
+44.1419 	EXP 	fixationITI: autoDraw = False
+44.1419 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_381.png'
+44.1419 	EXP 	polygonWhiteFam: autoDraw = True
+44.1419 	EXP 	imageFam: autoDraw = True
+48.4745 	EXP 	textFam: autoDraw = True
+51.0393 	EXP 	polygonWhiteFam: autoDraw = False
+51.0393 	EXP 	imageFam: autoDraw = False
+51.0393 	EXP 	textFam: autoDraw = False
+51.0393 	EXP 	textBlank500: autoDraw = True
+51.4586 	EXP 	New trial (rep=0, index=1): {'image': 'REPSWITCH1_Practice/PICTURE_614.png', 'correctAns': 'reina'}
+51.4743 	EXP 	textBlank500: autoDraw = False
+51.4743 	EXP 	fixationITI: autoDraw = True
+52.6073 	EXP 	fixationITI: autoDraw = False
+52.6073 	EXP 	fixationITI: autoDraw = False
+52.6073 	EXP 	imageFam: image = 'REPSWITCH1_Practice/PICTURE_614.png'
+52.6073 	EXP 	polygonWhiteFam: autoDraw = True
+52.6073 	EXP 	imageFam: autoDraw = True
+57.1055 	EXP 	textFam: autoDraw = True
+59.6704 	EXP 	polygonWhiteFam: autoDraw = False
+59.6704 	EXP 	imageFam: autoDraw = False
+59.6704 	EXP 	textFam: autoDraw = False
+59.6704 	EXP 	textBlank500: autoDraw = True
+60.0899 	EXP 	New trial (rep=0, index=2): {'image': 'REPSWITCH1_Fam/PICTURE_16.png', 'correctAns': 'cazador'}
+60.1060 	EXP 	textBlank500: autoDraw = False
+60.1060 	EXP 	fixationITI: autoDraw = True
+61.3881 	EXP 	fixationITI: autoDraw = False
+61.3881 	EXP 	fixationITI: autoDraw = False
+61.3881 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_16.png'
+61.3881 	EXP 	polygonWhiteFam: autoDraw = True
+61.3881 	EXP 	imageFam: autoDraw = True
+65.8699 	EXP 	textFam: autoDraw = True
+68.4349 	EXP 	polygonWhiteFam: autoDraw = False
+68.4349 	EXP 	imageFam: autoDraw = False
+68.4349 	EXP 	textFam: autoDraw = False
+68.4349 	EXP 	textBlank500: autoDraw = True
+68.8553 	EXP 	New trial (rep=0, index=3): {'image': 'REPSWITCH1_Practice/PICTURE_110.png', 'correctAns': 'mesa'}
+68.8704 	EXP 	textBlank500: autoDraw = False
+68.8704 	EXP 	fixationITI: autoDraw = True
+70.1361 	EXP 	fixationITI: autoDraw = False
+70.1361 	EXP 	fixationITI: autoDraw = False
+70.1361 	EXP 	imageFam: image = 'REPSWITCH1_Practice/PICTURE_110.png'
+70.1361 	EXP 	polygonWhiteFam: autoDraw = True
+70.1361 	EXP 	imageFam: autoDraw = True
+74.6346 	EXP 	textFam: autoDraw = True
+77.1995 	EXP 	polygonWhiteFam: autoDraw = False
+77.1995 	EXP 	imageFam: autoDraw = False
+77.1995 	EXP 	textFam: autoDraw = False
+77.1995 	EXP 	textBlank500: autoDraw = True
+77.6190 	EXP 	New trial (rep=0, index=4): {'image': 'REPSWITCH1_Fam/PICTURE_199.png', 'correctAns': 'falda'}
+77.6346 	EXP 	textBlank500: autoDraw = False
+77.6346 	EXP 	fixationITI: autoDraw = True
+78.8337 	EXP 	fixationITI: autoDraw = False
+78.8337 	EXP 	fixationITI: autoDraw = False
+78.8337 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_199.png'
+78.8337 	EXP 	polygonWhiteFam: autoDraw = True
+78.8337 	EXP 	imageFam: autoDraw = True
+83.3159 	EXP 	textFam: autoDraw = True
+85.8975 	EXP 	polygonWhiteFam: autoDraw = False
+85.8975 	EXP 	imageFam: autoDraw = False
+85.8975 	EXP 	textFam: autoDraw = False
+85.8975 	EXP 	textBlank500: autoDraw = True
+86.3004 	EXP 	New trial (rep=0, index=5): {'image': 'REPSWITCH1_Fam/PICTURE_719.png', 'correctAns': 'baño'}
+86.3160 	EXP 	textBlank500: autoDraw = False
+86.3160 	EXP 	fixationITI: autoDraw = True
+87.4809 	EXP 	fixationITI: autoDraw = False
+87.4809 	EXP 	fixationITI: autoDraw = False
+87.4809 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_719.png'
+87.4809 	EXP 	polygonWhiteFam: autoDraw = True
+87.4809 	EXP 	imageFam: autoDraw = True
+91.9638 	EXP 	textFam: autoDraw = True
+94.4648 	EXP 	textFam: autoDraw = False
+94.5624 	EXP 	polygonWhiteFam: autoDraw = False
+94.5624 	EXP 	imageFam: autoDraw = False
+94.5624 	EXP 	textFam: autoDraw = False
+94.5624 	EXP 	textBlank500: autoDraw = True
+94.9648 	EXP 	New trial (rep=0, index=6): {'image': 'REPSWITCH1_Fam/PICTURE_175.png', 'correctAns': 'pintor'}
+94.9804 	EXP 	textBlank500: autoDraw = False
+94.9804 	EXP 	fixationITI: autoDraw = True
+96.2129 	EXP 	fixationITI: autoDraw = False
+96.2129 	EXP 	fixationITI: autoDraw = False
+96.2129 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_175.png'
+96.2129 	EXP 	polygonWhiteFam: autoDraw = True
+96.2129 	EXP 	imageFam: autoDraw = True
+100.6785 	EXP 	textFam: autoDraw = True
+103.2262 	EXP 	polygonWhiteFam: autoDraw = False
+103.2262 	EXP 	imageFam: autoDraw = False
+103.2262 	EXP 	textFam: autoDraw = False
+103.2262 	EXP 	textBlank500: autoDraw = True
+103.6617 	EXP 	New trial (rep=0, index=7): {'image': 'REPSWITCH1_Fam/PICTURE_576.png', 'correctAns': 'guante'}
+103.6780 	EXP 	textBlank500: autoDraw = False
+103.6780 	EXP 	fixationITI: autoDraw = True
+104.7938 	EXP 	fixationITI: autoDraw = False
+104.7938 	EXP 	fixationITI: autoDraw = False
+104.7938 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_576.png'
+104.7938 	EXP 	polygonWhiteFam: autoDraw = True
+104.7938 	EXP 	imageFam: autoDraw = True
+109.2765 	EXP 	textFam: autoDraw = True
+111.7772 	EXP 	textFam: autoDraw = False
+111.8746 	EXP 	polygonWhiteFam: autoDraw = False
+111.8746 	EXP 	imageFam: autoDraw = False
+111.8746 	EXP 	textFam: autoDraw = False
+111.8746 	EXP 	textBlank500: autoDraw = True
+112.2774 	EXP 	New trial (rep=0, index=8): {'image': 'REPSWITCH1_Fam/PICTURE_610.png', 'correctAns': 'miel'}
+112.2930 	EXP 	textBlank500: autoDraw = False
+112.2930 	EXP 	fixationITI: autoDraw = True
+113.5588 	EXP 	fixationITI: autoDraw = False
+113.5588 	EXP 	fixationITI: autoDraw = False
+113.5588 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_610.png'
+113.5588 	EXP 	polygonWhiteFam: autoDraw = True
+113.5588 	EXP 	imageFam: autoDraw = True
+118.0405 	EXP 	textFam: autoDraw = True
+120.6224 	EXP 	polygonWhiteFam: autoDraw = False
+120.6224 	EXP 	imageFam: autoDraw = False
+120.6224 	EXP 	textFam: autoDraw = False
+120.6224 	EXP 	textBlank500: autoDraw = True
+121.0264 	EXP 	New trial (rep=0, index=9): {'image': 'REPSWITCH1_Fam/PICTURE_687.png', 'correctAns': 'camisa'}
+121.0409 	EXP 	textBlank500: autoDraw = False
+121.0409 	EXP 	fixationITI: autoDraw = True
+122.1065 	EXP 	fixationITI: autoDraw = False
+122.1065 	EXP 	fixationITI: autoDraw = False
+122.1065 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_687.png'
+122.1065 	EXP 	polygonWhiteFam: autoDraw = True
+122.1065 	EXP 	imageFam: autoDraw = True
+126.5891 	EXP 	textFam: autoDraw = True
+129.1536 	EXP 	polygonWhiteFam: autoDraw = False
+129.1536 	EXP 	imageFam: autoDraw = False
+129.1536 	EXP 	textFam: autoDraw = False
+129.1536 	EXP 	textBlank500: autoDraw = True
+129.5732 	EXP 	New trial (rep=0, index=10): {'image': 'REPSWITCH1_Fam/PICTURE_242.png', 'correctAns': 'cartero'}
+129.5890 	EXP 	textBlank500: autoDraw = False
+129.5890 	EXP 	fixationITI: autoDraw = True
+130.7548 	EXP 	fixationITI: autoDraw = False
+130.7548 	EXP 	fixationITI: autoDraw = False
+130.7548 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_242.png'
+130.7548 	EXP 	polygonWhiteFam: autoDraw = True
+130.7548 	EXP 	imageFam: autoDraw = True
+135.2368 	EXP 	textFam: autoDraw = True
+137.8018 	EXP 	polygonWhiteFam: autoDraw = False
+137.8018 	EXP 	imageFam: autoDraw = False
+137.8018 	EXP 	textFam: autoDraw = False
+137.8018 	EXP 	textBlank500: autoDraw = True
+138.2212 	EXP 	New trial (rep=0, index=11): {'image': 'REPSWITCH1_Fam/PICTURE_498.png', 'correctAns': 'taza'}
+138.2367 	EXP 	textBlank500: autoDraw = False
+138.2367 	EXP 	fixationITI: autoDraw = True
+139.3527 	EXP 	fixationITI: autoDraw = False
+139.3527 	EXP 	fixationITI: autoDraw = False
+139.3527 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_498.png'
+139.3527 	EXP 	polygonWhiteFam: autoDraw = True
+139.3527 	EXP 	imageFam: autoDraw = True
+143.8347 	EXP 	textFam: autoDraw = True
+146.3997 	EXP 	polygonWhiteFam: autoDraw = False
+146.3997 	EXP 	imageFam: autoDraw = False
+146.3997 	EXP 	textFam: autoDraw = False
+146.3997 	EXP 	textBlank500: autoDraw = True
+146.8196 	EXP 	New trial (rep=0, index=12): {'image': 'REPSWITCH1_Fam/PICTURE_338.png', 'correctAns': 'regalo'}
+146.8353 	EXP 	textBlank500: autoDraw = False
+146.8353 	EXP 	fixationITI: autoDraw = True
+148.0010 	EXP 	fixationITI: autoDraw = False
+148.0010 	EXP 	fixationITI: autoDraw = False
+148.0010 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_338.png'
+148.0010 	EXP 	polygonWhiteFam: autoDraw = True
+148.0010 	EXP 	imageFam: autoDraw = True
+152.4823 	EXP 	textFam: autoDraw = True
+155.0477 	EXP 	polygonWhiteFam: autoDraw = False
+155.0477 	EXP 	imageFam: autoDraw = False
+155.0477 	EXP 	textFam: autoDraw = False
+155.0477 	EXP 	textBlank500: autoDraw = True
+155.4670 	EXP 	New trial (rep=0, index=13): {'image': 'REPSWITCH1_Fam/PICTURE_135.png', 'correctAns': 'traje'}
+155.4825 	EXP 	textBlank500: autoDraw = False
+155.4825 	EXP 	fixationITI: autoDraw = True
+156.6485 	EXP 	fixationITI: autoDraw = False
+156.6485 	EXP 	fixationITI: autoDraw = False
+156.6485 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_135.png'
+156.6485 	EXP 	polygonWhiteFam: autoDraw = True
+156.6485 	EXP 	imageFam: autoDraw = True
+161.1302 	EXP 	textFam: autoDraw = True
+163.7119 	EXP 	polygonWhiteFam: autoDraw = False
+163.7119 	EXP 	imageFam: autoDraw = False
+163.7119 	EXP 	textFam: autoDraw = False
+163.7119 	EXP 	textBlank500: autoDraw = True
+164.1146 	EXP 	New trial (rep=0, index=14): {'image': 'REPSWITCH1_Fam/PICTURE_19.png', 'correctAns': 'pavo'}
+164.1308 	EXP 	textBlank500: autoDraw = False
+164.1308 	EXP 	fixationITI: autoDraw = True
+165.1797 	EXP 	fixationITI: autoDraw = False
+165.1797 	EXP 	fixationITI: autoDraw = False
+165.1797 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_19.png'
+165.1797 	EXP 	polygonWhiteFam: autoDraw = True
+165.1797 	EXP 	imageFam: autoDraw = True
+169.6620 	EXP 	textFam: autoDraw = True
+172.2266 	EXP 	polygonWhiteFam: autoDraw = False
+172.2266 	EXP 	imageFam: autoDraw = False
+172.2266 	EXP 	textFam: autoDraw = False
+172.2266 	EXP 	textBlank500: autoDraw = True
+172.6465 	EXP 	New trial (rep=0, index=15): {'image': 'REPSWITCH1_Fam/PICTURE_178.png', 'correctAns': 'puente'}
+172.6613 	EXP 	textBlank500: autoDraw = False
+172.6613 	EXP 	fixationITI: autoDraw = True
+173.8780 	EXP 	fixationITI: autoDraw = False
+173.8780 	EXP 	fixationITI: autoDraw = False
+173.8780 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_178.png'
+173.8780 	EXP 	polygonWhiteFam: autoDraw = True
+173.8780 	EXP 	imageFam: autoDraw = True
+178.3597 	EXP 	textFam: autoDraw = True
+180.9245 	EXP 	polygonWhiteFam: autoDraw = False
+180.9245 	EXP 	imageFam: autoDraw = False
+180.9245 	EXP 	textFam: autoDraw = False
+180.9245 	EXP 	textBlank500: autoDraw = True
+181.3438 	EXP 	New trial (rep=0, index=16): {'image': 'REPSWITCH1_Practice/PICTURE_612.png', 'correctAns': 'rana'}
+181.3595 	EXP 	textBlank500: autoDraw = False
+181.3595 	EXP 	fixationITI: autoDraw = True
+182.5758 	EXP 	fixationITI: autoDraw = False
+182.5758 	EXP 	fixationITI: autoDraw = False
+182.5758 	EXP 	imageFam: image = 'REPSWITCH1_Practice/PICTURE_612.png'
+182.5758 	EXP 	polygonWhiteFam: autoDraw = True
+182.5758 	EXP 	imageFam: autoDraw = True
+187.0743 	EXP 	textFam: autoDraw = True
+189.6558 	EXP 	polygonWhiteFam: autoDraw = False
+189.6558 	EXP 	imageFam: autoDraw = False
+189.6558 	EXP 	textFam: autoDraw = False
+189.6558 	EXP 	textBlank500: autoDraw = True
+190.0583 	EXP 	New trial (rep=0, index=17): {'image': 'REPSWITCH1_Practice/PICTURE_570.png', 'correctAns': 'toro'}
+190.0741 	EXP 	textBlank500: autoDraw = False
+190.0741 	EXP 	fixationITI: autoDraw = True
+191.2247 	EXP 	fixationITI: autoDraw = False
+191.2247 	EXP 	fixationITI: autoDraw = False
+191.2247 	EXP 	imageFam: image = 'REPSWITCH1_Practice/PICTURE_570.png'
+191.2247 	EXP 	polygonWhiteFam: autoDraw = True
+191.2247 	EXP 	imageFam: autoDraw = True
+195.7225 	EXP 	textFam: autoDraw = True
+198.3039 	EXP 	polygonWhiteFam: autoDraw = False
+198.3039 	EXP 	imageFam: autoDraw = False
+198.3039 	EXP 	textFam: autoDraw = False
+198.3039 	EXP 	textBlank500: autoDraw = True
+198.7068 	EXP 	New trial (rep=0, index=18): {'image': 'REPSWITCH1_Fam/PICTURE_728.png', 'correctAns': 'pulpo'}
+198.7222 	EXP 	textBlank500: autoDraw = False
+198.7222 	EXP 	fixationITI: autoDraw = True
+199.9878 	EXP 	fixationITI: autoDraw = False
+199.9878 	EXP 	fixationITI: autoDraw = False
+199.9878 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_728.png'
+199.9878 	EXP 	polygonWhiteFam: autoDraw = True
+199.9878 	EXP 	imageFam: autoDraw = True
+204.4701 	EXP 	textFam: autoDraw = True
+207.0522 	EXP 	polygonWhiteFam: autoDraw = False
+207.0522 	EXP 	imageFam: autoDraw = False
+207.0522 	EXP 	textFam: autoDraw = False
+207.0522 	EXP 	textBlank500: autoDraw = True
+207.4544 	EXP 	New trial (rep=0, index=19): {'image': 'REPSWITCH1_Fam/PICTURE_319.png', 'correctAns': 'vaca'}
+207.4701 	EXP 	textBlank500: autoDraw = False
+207.4701 	EXP 	fixationITI: autoDraw = True
+208.6359 	EXP 	fixationITI: autoDraw = False
+208.6359 	EXP 	fixationITI: autoDraw = False
+208.6359 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_319.png'
+208.6359 	EXP 	polygonWhiteFam: autoDraw = True
+208.6359 	EXP 	imageFam: autoDraw = True
+213.1178 	EXP 	textFam: autoDraw = True
+215.6829 	EXP 	polygonWhiteFam: autoDraw = False
+215.6829 	EXP 	imageFam: autoDraw = False
+215.6829 	EXP 	textFam: autoDraw = False
+215.6829 	EXP 	textBlank500: autoDraw = True
+216.1024 	EXP 	New trial (rep=0, index=20): {'image': 'REPSWITCH1_Practice/PICTURE_12.png', 'correctAns': 'sirena'}
+216.1179 	EXP 	textBlank500: autoDraw = False
+216.1179 	EXP 	fixationITI: autoDraw = True
+217.3007 	EXP 	fixationITI: autoDraw = False
+217.3007 	EXP 	fixationITI: autoDraw = False
+217.3007 	EXP 	imageFam: image = 'REPSWITCH1_Practice/PICTURE_12.png'
+217.3007 	EXP 	polygonWhiteFam: autoDraw = True
+217.3007 	EXP 	imageFam: autoDraw = True
+221.7992 	EXP 	textFam: autoDraw = True
+224.3644 	EXP 	polygonWhiteFam: autoDraw = False
+224.3644 	EXP 	imageFam: autoDraw = False
+224.3644 	EXP 	textFam: autoDraw = False
+224.3644 	EXP 	textBlank500: autoDraw = True
+224.7836 	EXP 	New trial (rep=0, index=21): {'image': 'REPSWITCH1_Fam/PICTURE_271.png', 'correctAns': 'conejo'}
+224.7992 	EXP 	textBlank500: autoDraw = False
+224.7992 	EXP 	fixationITI: autoDraw = True
+225.9150 	EXP 	fixationITI: autoDraw = False
+225.9150 	EXP 	fixationITI: autoDraw = False
+225.9150 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_271.png'
+225.9150 	EXP 	polygonWhiteFam: autoDraw = True
+225.9150 	EXP 	imageFam: autoDraw = True
+230.3969 	EXP 	textFam: autoDraw = True
+232.9621 	EXP 	polygonWhiteFam: autoDraw = False
+232.9621 	EXP 	imageFam: autoDraw = False
+232.9621 	EXP 	textFam: autoDraw = False
+232.9621 	EXP 	textBlank500: autoDraw = True
+233.3821 	EXP 	New trial (rep=0, index=22): {'image': 'REPSWITCH1_Fam/PICTURE_8.png', 'correctAns': 'pierna'}
+233.3971 	EXP 	textBlank500: autoDraw = False
+233.3971 	EXP 	fixationITI: autoDraw = True
+234.5130 	EXP 	fixationITI: autoDraw = False
+234.5130 	EXP 	fixationITI: autoDraw = False
+234.5130 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_8.png'
+234.5130 	EXP 	polygonWhiteFam: autoDraw = True
+234.5130 	EXP 	imageFam: autoDraw = True
+238.9948 	EXP 	textFam: autoDraw = True
+241.5767 	EXP 	polygonWhiteFam: autoDraw = False
+241.5767 	EXP 	imageFam: autoDraw = False
+241.5767 	EXP 	textFam: autoDraw = False
+241.5767 	EXP 	textBlank500: autoDraw = True
+241.9793 	EXP 	New trial (rep=0, index=23): {'image': 'REPSWITCH1_Fam/PICTURE_35.png', 'correctAns': 'oreja'}
+241.9952 	EXP 	textBlank500: autoDraw = False
+241.9952 	EXP 	fixationITI: autoDraw = True
+243.1950 	EXP 	fixationITI: autoDraw = False
+243.1950 	EXP 	fixationITI: autoDraw = False
+243.1950 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_35.png'
+243.1950 	EXP 	polygonWhiteFam: autoDraw = True
+243.1950 	EXP 	imageFam: autoDraw = True
+247.6766 	EXP 	textFam: autoDraw = True
+250.2414 	EXP 	polygonWhiteFam: autoDraw = False
+250.2414 	EXP 	imageFam: autoDraw = False
+250.2414 	EXP 	textFam: autoDraw = False
+250.2414 	EXP 	textBlank500: autoDraw = True
+250.6607 	EXP 	New trial (rep=0, index=24): {'image': 'REPSWITCH1_Fam/PICTURE_264.png', 'correctAns': 'mano'}
+250.6762 	EXP 	textBlank500: autoDraw = False
+250.6762 	EXP 	fixationITI: autoDraw = True
+251.7589 	EXP 	fixationITI: autoDraw = False
+251.7589 	EXP 	fixationITI: autoDraw = False
+251.7589 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_264.png'
+251.7589 	EXP 	polygonWhiteFam: autoDraw = True
+251.7589 	EXP 	imageFam: autoDraw = True
+256.2410 	EXP 	textFam: autoDraw = True
+258.8058 	EXP 	polygonWhiteFam: autoDraw = False
+258.8058 	EXP 	imageFam: autoDraw = False
+258.8058 	EXP 	textFam: autoDraw = False
+258.8058 	EXP 	textBlank500: autoDraw = True
+259.2260 	EXP 	New trial (rep=0, index=25): {'image': 'REPSWITCH1_Fam/PICTURE_169.png', 'correctAns': 'espalda'}
+259.2410 	EXP 	textBlank500: autoDraw = False
+259.2410 	EXP 	fixationITI: autoDraw = True
+260.4235 	EXP 	fixationITI: autoDraw = False
+260.4235 	EXP 	fixationITI: autoDraw = False
+260.4235 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_169.png'
+260.4235 	EXP 	polygonWhiteFam: autoDraw = True
+260.4235 	EXP 	imageFam: autoDraw = True
+264.9056 	EXP 	textFam: autoDraw = True
+267.4870 	EXP 	polygonWhiteFam: autoDraw = False
+267.4870 	EXP 	imageFam: autoDraw = False
+267.4870 	EXP 	textFam: autoDraw = False
+267.4870 	EXP 	textBlank500: autoDraw = True
+267.8898 	EXP 	New trial (rep=0, index=26): {'image': 'REPSWITCH1_Fam/PICTURE_142.png', 'correctAns': 'vaso'}
+267.9054 	EXP 	textBlank500: autoDraw = False
+267.9054 	EXP 	fixationITI: autoDraw = True
+269.1379 	EXP 	fixationITI: autoDraw = False
+269.1379 	EXP 	fixationITI: autoDraw = False
+269.1379 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_142.png'
+269.1379 	EXP 	polygonWhiteFam: autoDraw = True
+269.1379 	EXP 	imageFam: autoDraw = True
+273.6044 	EXP 	textFam: autoDraw = True
+276.1041 	EXP 	textFam: autoDraw = False
+276.1850 	EXP 	polygonWhiteFam: autoDraw = False
+276.1850 	EXP 	imageFam: autoDraw = False
+276.1850 	EXP 	textFam: autoDraw = False
+276.1850 	EXP 	textBlank500: autoDraw = True
+276.6044 	EXP 	New trial (rep=0, index=27): {'image': 'REPSWITCH1_Fam/PICTURE_517.png', 'correctAns': 'cuerda'}
+276.6201 	EXP 	textBlank500: autoDraw = False
+276.6201 	EXP 	fixationITI: autoDraw = True
+277.8360 	EXP 	fixationITI: autoDraw = False
+277.8360 	EXP 	fixationITI: autoDraw = False
+277.8360 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_517.png'
+277.8360 	EXP 	polygonWhiteFam: autoDraw = True
+277.8360 	EXP 	imageFam: autoDraw = True
+282.3178 	EXP 	textFam: autoDraw = True
+284.8829 	EXP 	polygonWhiteFam: autoDraw = False
+284.8829 	EXP 	imageFam: autoDraw = False
+284.8829 	EXP 	textFam: autoDraw = False
+284.8829 	EXP 	textBlank500: autoDraw = True
+285.3022 	EXP 	New trial (rep=0, index=28): {'image': 'REPSWITCH1_Fam/PICTURE_235.png', 'correctAns': 'aguja'}
+285.3178 	EXP 	textBlank500: autoDraw = False
+285.3178 	EXP 	fixationITI: autoDraw = True
+286.5001 	EXP 	fixationITI: autoDraw = False
+286.5001 	EXP 	fixationITI: autoDraw = False
+286.5001 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_235.png'
+286.5001 	EXP 	polygonWhiteFam: autoDraw = True
+286.5001 	EXP 	imageFam: autoDraw = True
+290.9823 	EXP 	textFam: autoDraw = True
+293.5475 	EXP 	polygonWhiteFam: autoDraw = False
+293.5475 	EXP 	imageFam: autoDraw = False
+293.5475 	EXP 	textFam: autoDraw = False
+293.5475 	EXP 	textBlank500: autoDraw = True
+293.9680 	EXP 	New trial (rep=0, index=29): {'image': 'REPSWITCH1_Fam/PICTURE_446.png', 'correctAns': 'cerdo'}
+293.9832 	EXP 	textBlank500: autoDraw = False
+293.9832 	EXP 	fixationITI: autoDraw = True
+295.3483 	EXP 	fixationITI: autoDraw = False
+295.3483 	EXP 	fixationITI: autoDraw = False
+295.3483 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_446.png'
+295.3483 	EXP 	polygonWhiteFam: autoDraw = True
+295.3483 	EXP 	imageFam: autoDraw = True
+299.8304 	EXP 	textFam: autoDraw = True
+302.3953 	EXP 	polygonWhiteFam: autoDraw = False
+302.3953 	EXP 	imageFam: autoDraw = False
+302.3953 	EXP 	textFam: autoDraw = False
+302.3953 	EXP 	textBlank500: autoDraw = True
+302.8149 	EXP 	New trial (rep=0, index=30): {'image': 'REPSWITCH1_Fam/PICTURE_552.png', 'correctAns': 'manzana'}
+302.8313 	EXP 	textBlank500: autoDraw = False
+302.8313 	EXP 	fixationITI: autoDraw = True
+304.0961 	EXP 	fixationITI: autoDraw = False
+304.0961 	EXP 	fixationITI: autoDraw = False
+304.0961 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_552.png'
+304.0961 	EXP 	polygonWhiteFam: autoDraw = True
+304.0961 	EXP 	imageFam: autoDraw = True
+308.5782 	EXP 	textFam: autoDraw = True
+311.1600 	EXP 	polygonWhiteFam: autoDraw = False
+311.1600 	EXP 	imageFam: autoDraw = False
+311.1600 	EXP 	textFam: autoDraw = False
+311.1600 	EXP 	textBlank500: autoDraw = True
+311.5625 	EXP 	New trial (rep=0, index=31): {'image': 'REPSWITCH1_Fam/PICTURE_128.png', 'correctAns': 'muñeca'}
+311.5795 	EXP 	textBlank500: autoDraw = False
+311.5795 	EXP 	fixationITI: autoDraw = True
+312.7108 	EXP 	fixationITI: autoDraw = False
+312.7108 	EXP 	fixationITI: autoDraw = False
+312.7108 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_128.png'
+312.7108 	EXP 	polygonWhiteFam: autoDraw = True
+312.7108 	EXP 	imageFam: autoDraw = True
+317.1930 	EXP 	textFam: autoDraw = True
+319.7579 	EXP 	polygonWhiteFam: autoDraw = False
+319.7579 	EXP 	imageFam: autoDraw = False
+319.7579 	EXP 	textFam: autoDraw = False
+319.7579 	EXP 	textBlank500: autoDraw = True
+320.1774 	EXP 	New trial (rep=0, index=32): {'image': 'REPSWITCH1_Fam/PICTURE_464.png', 'correctAns': 'goma'}
+320.1930 	EXP 	textBlank500: autoDraw = False
+320.1930 	EXP 	fixationITI: autoDraw = True
+321.3088 	EXP 	fixationITI: autoDraw = False
+321.3088 	EXP 	fixationITI: autoDraw = False
+321.3088 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_464.png'
+321.3088 	EXP 	polygonWhiteFam: autoDraw = True
+321.3088 	EXP 	imageFam: autoDraw = True
+325.7908 	EXP 	textFam: autoDraw = True
+328.3558 	EXP 	polygonWhiteFam: autoDraw = False
+328.3558 	EXP 	imageFam: autoDraw = False
+328.3558 	EXP 	textFam: autoDraw = False
+328.3558 	EXP 	textBlank500: autoDraw = True
+328.7752 	EXP 	New trial (rep=0, index=33): {'image': 'REPSWITCH1_Practice/PICTURE_599.png', 'correctAns': 'nube'}
+328.7910 	EXP 	textBlank500: autoDraw = False
+328.7910 	EXP 	fixationITI: autoDraw = True
+329.8240 	EXP 	fixationITI: autoDraw = False
+329.8240 	EXP 	fixationITI: autoDraw = False
+329.8240 	EXP 	imageFam: image = 'REPSWITCH1_Practice/PICTURE_599.png'
+329.8240 	EXP 	polygonWhiteFam: autoDraw = True
+329.8240 	EXP 	imageFam: autoDraw = True
+334.3222 	EXP 	textFam: autoDraw = True
+336.9035 	EXP 	polygonWhiteFam: autoDraw = False
+336.9035 	EXP 	imageFam: autoDraw = False
+336.9035 	EXP 	textFam: autoDraw = False
+336.9035 	EXP 	textBlank500: autoDraw = True
+337.3071 	EXP 	New trial (rep=0, index=34): {'image': 'REPSWITCH1_Fam/PICTURE_320.png', 'correctAns': 'iglesia'}
+337.3222 	EXP 	textBlank500: autoDraw = False
+337.3222 	EXP 	fixationITI: autoDraw = True
+338.4382 	EXP 	fixationITI: autoDraw = False
+338.4382 	EXP 	fixationITI: autoDraw = False
+338.4382 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_320.png'
+338.4382 	EXP 	polygonWhiteFam: autoDraw = True
+338.4382 	EXP 	imageFam: autoDraw = True
+342.9201 	EXP 	textFam: autoDraw = True
+345.4852 	EXP 	polygonWhiteFam: autoDraw = False
+345.4852 	EXP 	imageFam: autoDraw = False
+345.4852 	EXP 	textFam: autoDraw = False
+345.4852 	EXP 	textBlank500: autoDraw = True
+345.9044 	EXP 	New trial (rep=0, index=35): {'image': 'REPSWITCH1_Fam/PICTURE_30.png', 'correctAns': 'granja'}
+345.9219 	EXP 	textBlank500: autoDraw = False
+345.9219 	EXP 	fixationITI: autoDraw = True
+347.1359 	EXP 	fixationITI: autoDraw = False
+347.1359 	EXP 	fixationITI: autoDraw = False
+347.1359 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_30.png'
+347.1359 	EXP 	polygonWhiteFam: autoDraw = True
+347.1359 	EXP 	imageFam: autoDraw = True
+351.6179 	EXP 	textFam: autoDraw = True
+354.1829 	EXP 	polygonWhiteFam: autoDraw = False
+354.1829 	EXP 	imageFam: autoDraw = False
+354.1829 	EXP 	textFam: autoDraw = False
+354.1829 	EXP 	textBlank500: autoDraw = True
+354.6023 	EXP 	New trial (rep=0, index=36): {'image': 'REPSWITCH1_Fam/PICTURE_152.png', 'correctAns': 'caracol'}
+354.6182 	EXP 	textBlank500: autoDraw = False
+354.6182 	EXP 	fixationITI: autoDraw = True
+355.7170 	EXP 	fixationITI: autoDraw = False
+355.7170 	EXP 	fixationITI: autoDraw = False
+355.7170 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_152.png'
+355.7170 	EXP 	polygonWhiteFam: autoDraw = True
+355.7170 	EXP 	imageFam: autoDraw = True
+360.1992 	EXP 	textFam: autoDraw = True
+362.7810 	EXP 	polygonWhiteFam: autoDraw = False
+362.7810 	EXP 	imageFam: autoDraw = False
+362.7810 	EXP 	textFam: autoDraw = False
+362.7810 	EXP 	textBlank500: autoDraw = True
+363.1841 	EXP 	New trial (rep=0, index=37): {'image': 'REPSWITCH1_Fam/PICTURE_48.png', 'correctAns': 'bombero'}
+363.2008 	EXP 	textBlank500: autoDraw = False
+363.2008 	EXP 	fixationITI: autoDraw = True
+364.4316 	EXP 	fixationITI: autoDraw = False
+364.4316 	EXP 	fixationITI: autoDraw = False
+364.4316 	EXP 	imageFam: image = 'REPSWITCH1_Fam/PICTURE_48.png'
+364.4316 	EXP 	polygonWhiteFam: autoDraw = True
+364.4316 	EXP 	imageFam: autoDraw = True
+368.8971 	EXP 	textFam: autoDraw = True
+371.4000 	EXP 	textFam: autoDraw = False
+371.4958 	EXP 	polygonWhiteFam: autoDraw = False
+371.4958 	EXP 	imageFam: autoDraw = False
+371.4958 	EXP 	textFam: autoDraw = False
+371.4958 	EXP 	textBlank500: autoDraw = True
+371.9000 	EXP 	New trial (rep=0, index=38): {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas'}
+371.9156 	EXP 	textBlank500: autoDraw = False
+371.9156 	EXP 	fixationITI: autoDraw = True
+373.0465 	EXP 	fixationITI: autoDraw = False
+373.0465 	EXP 	fixationITI: autoDraw = False
+373.0465 	EXP 	imageFam: image = 'REPSWITCH1_Practice/PICTURE_733.png'
+373.0465 	EXP 	polygonWhiteFam: autoDraw = True
+373.0465 	EXP 	imageFam: autoDraw = True
+377.5451 	EXP 	textFam: autoDraw = True
+380.1266 	EXP 	polygonWhiteFam: autoDraw = False
+380.1266 	EXP 	imageFam: autoDraw = False
+380.1266 	EXP 	textFam: autoDraw = False
+380.1266 	EXP 	textBlank500: autoDraw = True
+380.5449 	EXP 	textBlank500: autoDraw = False
+380.5449 	EXP 	textBlank500: autoDraw = True
+381.0461 	EXP 	textBlank500: autoDraw = False
+381.0461 	EXP 	textEndFam: autoDraw = True
+388.1919 	EXP 	textEndFam: autoDraw = False
+388.3105 	EXP 	window1: mouseVisible = True

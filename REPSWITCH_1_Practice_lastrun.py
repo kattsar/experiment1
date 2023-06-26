@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Ιούνιος 23, 2023, at 12:38
+This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
+    on Ιούνιος 26, 2023, at 12:45
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -10,6 +10,10 @@ If you publish work using this script the most relevant publication is:
         https://doi.org/10.3758/s13428-018-01193-y
 
 """
+
+import psychopy
+psychopy.useVersion('2022.2.4')
+
 
 # --- Import packages ---
 from psychopy import locale_setup
@@ -34,7 +38,7 @@ from psychopy.hardware import keyboard
 _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 # Store info about the experiment session
-psychopyVersion = '2022.2.5'
+psychopyVersion = '2022.2.4'
 expName = 'REPSWITCH_1_Practice'  # from the Builder filename that created this script
 expInfo = {
     'participant': f"{randint(0, 999999):06.0f}",
@@ -133,7 +137,7 @@ keyInstr3 = keyboard.Keyboard()
 textInstrPractice = visual.TextStim(win=win, name='textInstrPractice',
     text='If the rectangle is blue, you will need to type the name of the picture. The word TYPE will appear above the picture.\n\nIf the rectangle is yellow, you will have to say out loud the name of the picture. The word SPEAK will appear above the picture. \n\n\nPress SPACE to begin!\n',
     font='Open Sans',
-    pos=(0, 0), height=0.03, wrapWidth=None, ori=0.0, 
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=0.0);
@@ -1044,7 +1048,7 @@ for thisTrialsPractice in trialsPractice:
             micPractice.poll()
         if micPractice.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > micPractice.tStartRefresh + 2.0-frameTolerance:
+            if tThisFlipGlobal > micPractice.tStartRefresh + 3-frameTolerance:
                 # keep track of stop time/frame for later
                 micPractice.tStop = t  # not accounting for scr refresh
                 micPractice.frameNStop = frameN  # exact frame index
