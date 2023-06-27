@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούνιος 27, 2023, at 12:02
+    on Ιούνιος 27, 2023, at 12:26
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -39,7 +39,7 @@ _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 # Store info about the experiment session
 psychopyVersion = '2022.2.4'
-expName = 'REPSWITCH1_Practice_2'  # from the Builder filename that created this script
+expName = 'REPSWITCH1_Practice_2_v2022.2.4'  # from the Builder filename that created this script
 expInfo = {
     'participant': f"{randint(0, 999999):06.0f}",
     'session': '001',
@@ -58,7 +58,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='D:\\GitHub\\experiment1\\REPSWITCH1_Practice_2_lastrun.py',
+    originPath='D:\\GitHub\\experiment1\\REPSWITCH1_Practice_2_v2022.2.4_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -483,6 +483,7 @@ for thisTrialsPractice_2 in trialsPractice_2:
     last_len = 0
     key_list = []
     
+    
     polygonText_2.opacity = 0  
     # keep track of which components have finished
     practiceTrial_2Components = [polygonCol_2, polygonWh_2, imagePractice_2, polygonText_2, textPractice_2, keyPractice_2, micPractice_2]
@@ -651,7 +652,7 @@ for thisTrialsPractice_2 in trialsPractice_2:
             last_len = len(keyPractice_2.keys)
             
             #grab the last key added to the keys list
-            key_list.append(keyPractice_2.keys.pop())
+            key_list.append(keyPractice_2.keys.pop(-1))
         
             #check for backspace
             if("backspace" in key_list):
