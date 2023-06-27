@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούνιος 27, 2023, at 12:26
+    on Ιούνιος 27, 2023, at 14:53
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -483,7 +483,6 @@ for thisTrialsPractice_2 in trialsPractice_2:
     last_len = 0
     key_list = []
     
-    
     polygonText_2.opacity = 0  
     # keep track of which components have finished
     practiceTrial_2Components = [polygonCol_2, polygonWh_2, imagePractice_2, polygonText_2, textPractice_2, keyPractice_2, micPractice_2]
@@ -652,7 +651,7 @@ for thisTrialsPractice_2 in trialsPractice_2:
             last_len = len(keyPractice_2.keys)
             
             #grab the last key added to the keys list
-            key_list.append(keyPractice_2.keys.pop(-1))
+            key_list.append(keyPractice_2.keys.pop())
         
             #check for backspace
             if("backspace" in key_list):
