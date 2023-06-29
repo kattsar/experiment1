@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούνιος 28, 2023, at 13:56
+    on Ιούνιος 29, 2023, at 12:49
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -155,7 +155,7 @@ textboxInstrMain1_2 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrMain1_3 = visual.TextBox2(
-     win, text='When you speak, make sure you say only one word, in a clear voice.\n\nTry to keep your hands above the keyboard during the whole session. \n\nAnd please, don’t speak while typing!\n\nYou will be able to take a short break every N minutes.\n\n\nPress SPACE to continue\n\n', font='Open Sans',
+     win, text='\nWhen you speak, make sure you say only one word, in a clear voice.\n\nTry to keep your hands above the keyboard during the whole session. \n\nAnd please, don’t speak while typing!\n\n\nYou will be able to take a short break every N minutes.\n\n\nPress SPACE to continue\n\n', font='Open Sans',
      pos=(0, -0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',

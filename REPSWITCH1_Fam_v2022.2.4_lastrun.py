@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούνιος 27, 2023, at 15:52
+    on Ιούνιος 29, 2023, at 13:00
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -118,13 +118,22 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
     depth=0.0);
 
 # --- Initialize components for Routine "InstructionsFam" ---
-textInstrFam = visual.TextStim(win=win, name='textInstrFam',
-    text='In this experiment you will see pictures on the screen and will have to name them.\nThe pictures will appear one at a time and will stay on screen for a few seconds.\n\nWhen a picture appears, you will have to say its name out loud. \nAfter each picture, you will see its name written below it. \nPlease try and remember to use this name for the rest of the experiment.\n\n\nPress SPACE to start.',
-    font='Open Sans',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
-    color='white', colorSpace='rgb', opacity=None, 
-    languageStyle='LTR',
-    depth=0.0);
+textboxInstrFam = visual.TextBox2(
+     win, text='In this experiment you will see pictures on the screen and will have to name them.\n\nThe pictures will appear one at a time and will stay on screen for a few seconds.\n\nWhen a picture appears, you will have to say its name out loud. \n\nAfter each picture, you will see its name written below it. \n\nPlease try and remember to use this name for the rest of the experiment.\n\n\nPress SPACE to start.', font='Open Sans',
+     pos=(0, 0),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstrFam',
+     autoLog=True,
+)
 keyInstrFam = keyboard.Keyboard()
 
 # --- Initialize components for Routine "blank500" ---
@@ -190,13 +199,22 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
     depth=0.0);
 
 # --- Initialize components for Routine "EndFam" ---
-textEndFam = visual.TextStim(win=win, name='textEndFam',
-    text='Congratulations! \n\nYou finished the first part and you can now move to the second part of the experiment!\n\n\nPress SPACE to continue.',
-    font='Open Sans',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
-    color='white', colorSpace='rgb', opacity=None, 
-    languageStyle='LTR',
-    depth=0.0);
+textboxEndFam = visual.TextBox2(
+     win, text='Congratulations! \n\nYou finished the first part and you can now move to the second part of the experiment!\n\n\nPress SPACE to continue.', font='Open Sans',
+     pos=(0, 0),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxEndFam',
+     autoLog=True,
+)
 keyEndFam = keyboard.Keyboard()
 
 # Create some handy timers
@@ -357,11 +375,12 @@ else:
 continueRoutine = True
 routineForceEnded = False
 # update component parameters for each repeat
+textboxInstrFam.reset()
 keyInstrFam.keys = []
 keyInstrFam.rt = []
 _keyInstrFam_allKeys = []
 # keep track of which components have finished
-InstructionsFamComponents = [textInstrFam, keyInstrFam]
+InstructionsFamComponents = [textboxInstrFam, keyInstrFam]
 for thisComponent in InstructionsFamComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -383,16 +402,16 @@ while continueRoutine:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *textInstrFam* updates
-    if textInstrFam.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+    # *textboxInstrFam* updates
+    if textboxInstrFam.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
-        textInstrFam.frameNStart = frameN  # exact frame index
-        textInstrFam.tStart = t  # local t and not account for scr refresh
-        textInstrFam.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(textInstrFam, 'tStartRefresh')  # time at next scr refresh
+        textboxInstrFam.frameNStart = frameN  # exact frame index
+        textboxInstrFam.tStart = t  # local t and not account for scr refresh
+        textboxInstrFam.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstrFam, 'tStartRefresh')  # time at next scr refresh
         # add timestamp to datafile
-        thisExp.timestampOnFlip(win, 'textInstrFam.started')
-        textInstrFam.setAutoDraw(True)
+        thisExp.timestampOnFlip(win, 'textboxInstrFam.started')
+        textboxInstrFam.setAutoDraw(True)
     
     # *keyInstrFam* updates
     waitOnFlip = False
@@ -928,11 +947,12 @@ else:
 continueRoutine = True
 routineForceEnded = False
 # update component parameters for each repeat
+textboxEndFam.reset()
 keyEndFam.keys = []
 keyEndFam.rt = []
 _keyEndFam_allKeys = []
 # keep track of which components have finished
-EndFamComponents = [textEndFam, keyEndFam]
+EndFamComponents = [textboxEndFam, keyEndFam]
 for thisComponent in EndFamComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -954,16 +974,25 @@ while continueRoutine:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *textEndFam* updates
-    if textEndFam.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+    # *textboxEndFam* updates
+    if textboxEndFam.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
-        textEndFam.frameNStart = frameN  # exact frame index
-        textEndFam.tStart = t  # local t and not account for scr refresh
-        textEndFam.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(textEndFam, 'tStartRefresh')  # time at next scr refresh
+        textboxEndFam.frameNStart = frameN  # exact frame index
+        textboxEndFam.tStart = t  # local t and not account for scr refresh
+        textboxEndFam.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxEndFam, 'tStartRefresh')  # time at next scr refresh
         # add timestamp to datafile
-        thisExp.timestampOnFlip(win, 'textEndFam.started')
-        textEndFam.setAutoDraw(True)
+        thisExp.timestampOnFlip(win, 'textboxEndFam.started')
+        textboxEndFam.setAutoDraw(True)
+    if textboxEndFam.status == STARTED:
+        # is it time to stop? (based on global clock, using actual start)
+        if tThisFlipGlobal > textboxEndFam.tStartRefresh + 1.0-frameTolerance:
+            # keep track of stop time/frame for later
+            textboxEndFam.tStop = t  # not accounting for scr refresh
+            textboxEndFam.frameNStop = frameN  # exact frame index
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'textboxEndFam.stopped')
+            textboxEndFam.setAutoDraw(False)
     
     # *keyEndFam* updates
     waitOnFlip = False
