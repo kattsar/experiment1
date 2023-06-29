@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούνιος 27, 2023, at 11:37
+    on Ιούνιος 29, 2023, at 14:38
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -104,43 +104,479 @@ eyetracker = None
 defaultKeyboard = keyboard.Keyboard(backend='iohub')
 
 # --- Initialize components for Routine "General_Instr_1" ---
-textInstr1 = visual.TextStim(win=win, name='textInstr1',
-    text='In this experiment you will see pictures on the screen and will have to name them. You will have to name each picture either by saying its name out loud or by typing it. \nA colored rectangle around each picture will tell you whether you have to speak or type for this picture. \n\nIf the rectangle is blue, you will need to type. \nIf the rectangle is yellow, you will have to speak.  \n\nYou should name the images as fast and accurately as possible. Pictures will only stay on the screen for a short time. \n\n\nPress SPACE to continue.\n',
-    font='Open Sans',
-    pos=(0, 0), height=0.04, wrapWidth=None, ori=0.0, 
-    color='white', colorSpace='rgb', opacity=None, 
-    languageStyle='LTR',
-    depth=0.0);
+textboxInstr1 = visual.TextBox2(
+     win, text='In this experiment you will see pictures on the screen and will have to name them. \n\nYou will have to name each picture either by saying its name out loud or by typing it. \n\nA colored rectangle around each picture will tell you whether you have to speak or type for this picture. ', font='Open Sans',
+     pos=(0, 0.2),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstr1',
+     autoLog=True,
+)
+textboxInstr1_3 = visual.TextBox2(
+     win, text='If the rectangle is ', font='Open Sans',
+     pos=(0, 0),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstr1_3',
+     autoLog=True,
+)
+textboxInstr1_4 = visual.TextBox2(
+     win, text='blue,', font='Open Sans',
+     pos=(0.245, 0),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color=[-0.4118, -1.0000, 0.0196], colorSpace='rgb',
+     opacity=None,
+     bold=True, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstr1_4',
+     autoLog=True,
+)
+textboxInstr1_5 = visual.TextBox2(
+     win, text=' you will need to ', font='Open Sans',
+     pos=(0.32, 0),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstr1_5',
+     autoLog=True,
+)
+textboxInstr1_6 = visual.TextBox2(
+     win, text='type.', font='Open Sans',
+     pos=(0.55, 0),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=True, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstr1_6',
+     autoLog=True,
+)
+textboxInstr1_7 = visual.TextBox2(
+     win, text='If the rectangle is ', font='Open Sans',
+     pos=(0,-0.1),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstr1_7',
+     autoLog=True,
+)
+textboxInstr1_8 = visual.TextBox2(
+     win, text='yellow,', font='Open Sans',
+     pos=(0.245, -0.1),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color=[1.0000, 1.0000, -1.0000], colorSpace='rgb',
+     opacity=None,
+     bold=True, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstr1_8',
+     autoLog=True,
+)
+textboxInstr1_9 = visual.TextBox2(
+     win, text='you will have to ', font='Open Sans',
+     pos=(0.365, -0.1),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstr1_9',
+     autoLog=True,
+)
+textboxInstr1_10 = visual.TextBox2(
+     win, text='speak.', font='Open Sans',
+     pos=(0.59, -0.1),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=True, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstr1_10',
+     autoLog=True,
+)
+textboxInstr1_11 = visual.TextBox2(
+     win, text='You should name the images as fast and accurately as possible. \n\nPictures will only stay on the screen for a short time. \n\n\nPress SPACE to continue.\n', font='Open Sans',
+     pos=(0, -0.2),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstr1_11',
+     autoLog=True,
+)
 keyInstr1 = keyboard.Keyboard()
 
 # --- Initialize components for Routine "General_Instr_2" ---
-textInstr2 = visual.TextStim(win=win, name='textInstr2',
-    text='A few more instructions!\n\n\nWhen you speak, make sure you say only one word, in a clear voice.\n\nTry to keep your hands above the keyboard during the whole session. And please, don’t speak while typing!\n\n\nPress SPACE to continue.\n',
-    font='Open Sans',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
-    color='white', colorSpace='rgb', opacity=None, 
-    languageStyle='LTR',
-    depth=0.0);
+textboxInstr2 = visual.TextBox2(
+     win, text='A few more instructions!\n\nWhen you speak, make sure you say only one word, in a clear voice.\n\nTry to keep your hands above the keyboard during the whole session. \n\nAnd please, don’t speak while typing!\n\n\nPress SPACE to continue.\n', font='Open Sans',
+     pos=(0, 0),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstr2',
+     autoLog=True,
+)
 keyInstr2 = keyboard.Keyboard()
 
 # --- Initialize components for Routine "General_Instr_3" ---
-textInstr3 = visual.TextStim(win=win, name='textInstr3',
-    text='Let’s practice before we begin!\n\n\nPress SPACE to continue.\n\n',
-    font='Open Sans',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
-    color='white', colorSpace='rgb', opacity=None, 
-    languageStyle='LTR',
-    depth=0.0);
+textboxInstr3 = visual.TextBox2(
+     win, text='Let’s practice before we begin!\n\n\nPress SPACE to continue.\n\n', font='Open Sans',
+     pos=(0, 0),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstr3',
+     autoLog=True,
+)
 keyInstr3 = keyboard.Keyboard()
 
 # --- Initialize components for Routine "InstructionsPractice" ---
-textInstrPractice = visual.TextStim(win=win, name='textInstrPractice',
-    text='If the rectangle is blue, you will need to type the name of the picture. The word TYPE will appear above the picture.\n\nIf the rectangle is yellow, you will have to say out loud the name of the picture. The word SPEAK will appear above the picture. \n\n\nPress SPACE to begin!\n',
-    font='Open Sans',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
-    color='white', colorSpace='rgb', opacity=None, 
-    languageStyle='LTR',
-    depth=0.0);
+textboxInstrPractice = visual.TextBox2(
+     win, text='If the rectangle is ', font='Open Sans',
+     pos=(0, 0.2),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstrPractice',
+     autoLog=True,
+)
+textboxInstrPractice_2 = visual.TextBox2(
+     win, text='blue,', font='Open Sans',
+     pos=(0.245, 0.2),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color=[-0.4118, -1.0000, 0.0196], colorSpace='rgb',
+     opacity=None,
+     bold=True, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstrPractice_2',
+     autoLog=True,
+)
+textboxInstrPractice_3 = visual.TextBox2(
+     win, text=' you will need to ', font='Open Sans',
+     pos=(0.32, 0.2),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstrPractice_3',
+     autoLog=True,
+)
+textboxInstrPractice_4 = visual.TextBox2(
+     win, text='type', font='Open Sans',
+     pos=(0.55, 0.2),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=True, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstrPractice_4',
+     autoLog=True,
+)
+textboxInstrPractice_5 = visual.TextBox2(
+     win, text='the name of the picture.', font='Open Sans',
+     pos=(0.625, 0.2),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstrPractice_5',
+     autoLog=True,
+)
+textboxInstrPractice_6 = visual.TextBox2(
+     win, text='The word ', font='Open Sans',
+     pos=(0, 0.1),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstrPractice_6',
+     autoLog=True,
+)
+textboxInstrPractice_7 = visual.TextBox2(
+     win, text='TYPE', font='Open Sans',
+     pos=(0.1, 0.1),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=True, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstrPractice_7',
+     autoLog=True,
+)
+textboxInstrPractice_8 = visual.TextBox2(
+     win, text='will appear above the picture.', font='Open Sans',
+     pos=(0.2, 0.1),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstrPractice_8',
+     autoLog=True,
+)
+textboxInstrPractice_9 = visual.TextBox2(
+     win, text='If the rectangle is ', font='Open Sans',
+     pos=(0, -0.1),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstrPractice_9',
+     autoLog=True,
+)
+textboxInstrPractice_10 = visual.TextBox2(
+     win, text='yellow,', font='Open Sans',
+     pos=(0.245, -0.1),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color=[1.0000, 1.0000, -1.0000], colorSpace='rgb',
+     opacity=None,
+     bold=True, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstrPractice_10',
+     autoLog=True,
+)
+textboxInstrPractice_11 = visual.TextBox2(
+     win, text='you will have to ', font='Open Sans',
+     pos=(0.365, -0.1),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstrPractice_11',
+     autoLog=True,
+)
+textboxInstrPractice_12 = visual.TextBox2(
+     win, text='say out loud', font='Open Sans',
+     pos=(0.59, -0.1),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=True, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstrPractice_12',
+     autoLog=True,
+)
+textboxInstrPractice_13 = visual.TextBox2(
+     win, text='the name of the picture.', font='Open Sans',
+     pos=(0.78, -0.1),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstrPractice_13',
+     autoLog=True,
+)
+textboxInstrPractice_14 = visual.TextBox2(
+     win, text='The word', font='Open Sans',
+     pos=(0, -0.2),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstrPractice_14',
+     autoLog=True,
+)
+textboxInstrPractice_15 = visual.TextBox2(
+     win, text='SPEAK', font='Open Sans',
+     pos=(0.245, -0.1),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=True, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstrPractice_15',
+     autoLog=True,
+)
+textboxInstrPractice_16 = visual.TextBox2(
+     win, text='will appear above the picture. ', font='Open Sans',
+     pos=(0.32, -0.1),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstrPractice_16',
+     autoLog=True,
+)
+textboxInstrPractice_17 = visual.TextBox2(
+     win, text='Press SPACE to begin!', font='Open Sans',
+     pos=(0, -0.2),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstrPractice_17',
+     autoLog=True,
+)
 keyInstrPractice = keyboard.Keyboard()
 
 # --- Initialize components for Routine "blank500" ---
@@ -226,13 +662,22 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
     depth=0.0);
 
 # --- Initialize components for Routine "EndPractice" ---
-textEndPractice = visual.TextStim(win=win, name='textEndPractice',
-    text='Great! \n\n\nPress SPACE to continue.',
-    font='Open Sans',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
-    color='white', colorSpace='rgb', opacity=None, 
-    languageStyle='LTR',
-    depth=0.0);
+textboxEndPracrice = visual.TextBox2(
+     win, text='Great! \n\n\nPress SPACE to continue.', font='Open Sans',
+     pos=(0, 0),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxEndPracrice',
+     autoLog=True,
+)
 keyEndPractice = keyboard.Keyboard()
 
 # Create some handy timers
@@ -243,11 +688,21 @@ routineTimer = core.Clock()  # to track time remaining of each (possibly non-sli
 continueRoutine = True
 routineForceEnded = False
 # update component parameters for each repeat
+textboxInstr1.reset()
+textboxInstr1_3.reset()
+textboxInstr1_4.reset()
+textboxInstr1_5.reset()
+textboxInstr1_6.reset()
+textboxInstr1_7.reset()
+textboxInstr1_8.reset()
+textboxInstr1_9.reset()
+textboxInstr1_10.reset()
+textboxInstr1_11.reset()
 keyInstr1.keys = []
 keyInstr1.rt = []
 _keyInstr1_allKeys = []
 # keep track of which components have finished
-General_Instr_1Components = [textInstr1, keyInstr1]
+General_Instr_1Components = [textboxInstr1, textboxInstr1_3, textboxInstr1_4, textboxInstr1_5, textboxInstr1_6, textboxInstr1_7, textboxInstr1_8, textboxInstr1_9, textboxInstr1_10, textboxInstr1_11, keyInstr1]
 for thisComponent in General_Instr_1Components:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -269,16 +724,115 @@ while continueRoutine:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *textInstr1* updates
-    if textInstr1.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+    # *textboxInstr1* updates
+    if textboxInstr1.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
-        textInstr1.frameNStart = frameN  # exact frame index
-        textInstr1.tStart = t  # local t and not account for scr refresh
-        textInstr1.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(textInstr1, 'tStartRefresh')  # time at next scr refresh
+        textboxInstr1.frameNStart = frameN  # exact frame index
+        textboxInstr1.tStart = t  # local t and not account for scr refresh
+        textboxInstr1.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstr1, 'tStartRefresh')  # time at next scr refresh
         # add timestamp to datafile
-        thisExp.timestampOnFlip(win, 'textInstr1.started')
-        textInstr1.setAutoDraw(True)
+        thisExp.timestampOnFlip(win, 'textboxInstr1.started')
+        textboxInstr1.setAutoDraw(True)
+    
+    # *textboxInstr1_3* updates
+    if textboxInstr1_3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstr1_3.frameNStart = frameN  # exact frame index
+        textboxInstr1_3.tStart = t  # local t and not account for scr refresh
+        textboxInstr1_3.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstr1_3, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstr1_3.started')
+        textboxInstr1_3.setAutoDraw(True)
+    
+    # *textboxInstr1_4* updates
+    if textboxInstr1_4.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstr1_4.frameNStart = frameN  # exact frame index
+        textboxInstr1_4.tStart = t  # local t and not account for scr refresh
+        textboxInstr1_4.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstr1_4, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstr1_4.started')
+        textboxInstr1_4.setAutoDraw(True)
+    
+    # *textboxInstr1_5* updates
+    if textboxInstr1_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstr1_5.frameNStart = frameN  # exact frame index
+        textboxInstr1_5.tStart = t  # local t and not account for scr refresh
+        textboxInstr1_5.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstr1_5, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstr1_5.started')
+        textboxInstr1_5.setAutoDraw(True)
+    
+    # *textboxInstr1_6* updates
+    if textboxInstr1_6.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstr1_6.frameNStart = frameN  # exact frame index
+        textboxInstr1_6.tStart = t  # local t and not account for scr refresh
+        textboxInstr1_6.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstr1_6, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstr1_6.started')
+        textboxInstr1_6.setAutoDraw(True)
+    
+    # *textboxInstr1_7* updates
+    if textboxInstr1_7.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstr1_7.frameNStart = frameN  # exact frame index
+        textboxInstr1_7.tStart = t  # local t and not account for scr refresh
+        textboxInstr1_7.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstr1_7, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstr1_7.started')
+        textboxInstr1_7.setAutoDraw(True)
+    
+    # *textboxInstr1_8* updates
+    if textboxInstr1_8.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstr1_8.frameNStart = frameN  # exact frame index
+        textboxInstr1_8.tStart = t  # local t and not account for scr refresh
+        textboxInstr1_8.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstr1_8, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstr1_8.started')
+        textboxInstr1_8.setAutoDraw(True)
+    
+    # *textboxInstr1_9* updates
+    if textboxInstr1_9.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstr1_9.frameNStart = frameN  # exact frame index
+        textboxInstr1_9.tStart = t  # local t and not account for scr refresh
+        textboxInstr1_9.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstr1_9, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstr1_9.started')
+        textboxInstr1_9.setAutoDraw(True)
+    
+    # *textboxInstr1_10* updates
+    if textboxInstr1_10.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstr1_10.frameNStart = frameN  # exact frame index
+        textboxInstr1_10.tStart = t  # local t and not account for scr refresh
+        textboxInstr1_10.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstr1_10, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstr1_10.started')
+        textboxInstr1_10.setAutoDraw(True)
+    
+    # *textboxInstr1_11* updates
+    if textboxInstr1_11.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstr1_11.frameNStart = frameN  # exact frame index
+        textboxInstr1_11.tStart = t  # local t and not account for scr refresh
+        textboxInstr1_11.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstr1_11, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstr1_11.started')
+        textboxInstr1_11.setAutoDraw(True)
     
     # *keyInstr1* updates
     waitOnFlip = False
@@ -340,11 +894,12 @@ routineTimer.reset()
 continueRoutine = True
 routineForceEnded = False
 # update component parameters for each repeat
+textboxInstr2.reset()
 keyInstr2.keys = []
 keyInstr2.rt = []
 _keyInstr2_allKeys = []
 # keep track of which components have finished
-General_Instr_2Components = [textInstr2, keyInstr2]
+General_Instr_2Components = [textboxInstr2, keyInstr2]
 for thisComponent in General_Instr_2Components:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -366,16 +921,16 @@ while continueRoutine:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *textInstr2* updates
-    if textInstr2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+    # *textboxInstr2* updates
+    if textboxInstr2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
-        textInstr2.frameNStart = frameN  # exact frame index
-        textInstr2.tStart = t  # local t and not account for scr refresh
-        textInstr2.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(textInstr2, 'tStartRefresh')  # time at next scr refresh
+        textboxInstr2.frameNStart = frameN  # exact frame index
+        textboxInstr2.tStart = t  # local t and not account for scr refresh
+        textboxInstr2.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstr2, 'tStartRefresh')  # time at next scr refresh
         # add timestamp to datafile
-        thisExp.timestampOnFlip(win, 'textInstr2.started')
-        textInstr2.setAutoDraw(True)
+        thisExp.timestampOnFlip(win, 'textboxInstr2.started')
+        textboxInstr2.setAutoDraw(True)
     
     # *keyInstr2* updates
     waitOnFlip = False
@@ -437,11 +992,12 @@ routineTimer.reset()
 continueRoutine = True
 routineForceEnded = False
 # update component parameters for each repeat
+textboxInstr3.reset()
 keyInstr3.keys = []
 keyInstr3.rt = []
 _keyInstr3_allKeys = []
 # keep track of which components have finished
-General_Instr_3Components = [textInstr3, keyInstr3]
+General_Instr_3Components = [textboxInstr3, keyInstr3]
 for thisComponent in General_Instr_3Components:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -463,16 +1019,16 @@ while continueRoutine:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *textInstr3* updates
-    if textInstr3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+    # *textboxInstr3* updates
+    if textboxInstr3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
-        textInstr3.frameNStart = frameN  # exact frame index
-        textInstr3.tStart = t  # local t and not account for scr refresh
-        textInstr3.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(textInstr3, 'tStartRefresh')  # time at next scr refresh
+        textboxInstr3.frameNStart = frameN  # exact frame index
+        textboxInstr3.tStart = t  # local t and not account for scr refresh
+        textboxInstr3.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstr3, 'tStartRefresh')  # time at next scr refresh
         # add timestamp to datafile
-        thisExp.timestampOnFlip(win, 'textInstr3.started')
-        textInstr3.setAutoDraw(True)
+        thisExp.timestampOnFlip(win, 'textboxInstr3.started')
+        textboxInstr3.setAutoDraw(True)
     
     # *keyInstr3* updates
     waitOnFlip = False
@@ -534,11 +1090,28 @@ routineTimer.reset()
 continueRoutine = True
 routineForceEnded = False
 # update component parameters for each repeat
+textboxInstrPractice.reset()
+textboxInstrPractice_2.reset()
+textboxInstrPractice_3.reset()
+textboxInstrPractice_4.reset()
+textboxInstrPractice_5.reset()
+textboxInstrPractice_6.reset()
+textboxInstrPractice_7.reset()
+textboxInstrPractice_8.reset()
+textboxInstrPractice_9.reset()
+textboxInstrPractice_10.reset()
+textboxInstrPractice_11.reset()
+textboxInstrPractice_12.reset()
+textboxInstrPractice_13.reset()
+textboxInstrPractice_14.reset()
+textboxInstrPractice_15.reset()
+textboxInstrPractice_16.reset()
+textboxInstrPractice_17.reset()
 keyInstrPractice.keys = []
 keyInstrPractice.rt = []
 _keyInstrPractice_allKeys = []
 # keep track of which components have finished
-InstructionsPracticeComponents = [textInstrPractice, keyInstrPractice]
+InstructionsPracticeComponents = [textboxInstrPractice, textboxInstrPractice_2, textboxInstrPractice_3, textboxInstrPractice_4, textboxInstrPractice_5, textboxInstrPractice_6, textboxInstrPractice_7, textboxInstrPractice_8, textboxInstrPractice_9, textboxInstrPractice_10, textboxInstrPractice_11, textboxInstrPractice_12, textboxInstrPractice_13, textboxInstrPractice_14, textboxInstrPractice_15, textboxInstrPractice_16, textboxInstrPractice_17, keyInstrPractice]
 for thisComponent in InstructionsPracticeComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -560,16 +1133,192 @@ while continueRoutine:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *textInstrPractice* updates
-    if textInstrPractice.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+    # *textboxInstrPractice* updates
+    if textboxInstrPractice.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
-        textInstrPractice.frameNStart = frameN  # exact frame index
-        textInstrPractice.tStart = t  # local t and not account for scr refresh
-        textInstrPractice.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(textInstrPractice, 'tStartRefresh')  # time at next scr refresh
+        textboxInstrPractice.frameNStart = frameN  # exact frame index
+        textboxInstrPractice.tStart = t  # local t and not account for scr refresh
+        textboxInstrPractice.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstrPractice, 'tStartRefresh')  # time at next scr refresh
         # add timestamp to datafile
-        thisExp.timestampOnFlip(win, 'textInstrPractice.started')
-        textInstrPractice.setAutoDraw(True)
+        thisExp.timestampOnFlip(win, 'textboxInstrPractice.started')
+        textboxInstrPractice.setAutoDraw(True)
+    
+    # *textboxInstrPractice_2* updates
+    if textboxInstrPractice_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstrPractice_2.frameNStart = frameN  # exact frame index
+        textboxInstrPractice_2.tStart = t  # local t and not account for scr refresh
+        textboxInstrPractice_2.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstrPractice_2, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstrPractice_2.started')
+        textboxInstrPractice_2.setAutoDraw(True)
+    
+    # *textboxInstrPractice_3* updates
+    if textboxInstrPractice_3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstrPractice_3.frameNStart = frameN  # exact frame index
+        textboxInstrPractice_3.tStart = t  # local t and not account for scr refresh
+        textboxInstrPractice_3.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstrPractice_3, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstrPractice_3.started')
+        textboxInstrPractice_3.setAutoDraw(True)
+    
+    # *textboxInstrPractice_4* updates
+    if textboxInstrPractice_4.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstrPractice_4.frameNStart = frameN  # exact frame index
+        textboxInstrPractice_4.tStart = t  # local t and not account for scr refresh
+        textboxInstrPractice_4.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstrPractice_4, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstrPractice_4.started')
+        textboxInstrPractice_4.setAutoDraw(True)
+    
+    # *textboxInstrPractice_5* updates
+    if textboxInstrPractice_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstrPractice_5.frameNStart = frameN  # exact frame index
+        textboxInstrPractice_5.tStart = t  # local t and not account for scr refresh
+        textboxInstrPractice_5.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstrPractice_5, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstrPractice_5.started')
+        textboxInstrPractice_5.setAutoDraw(True)
+    
+    # *textboxInstrPractice_6* updates
+    if textboxInstrPractice_6.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstrPractice_6.frameNStart = frameN  # exact frame index
+        textboxInstrPractice_6.tStart = t  # local t and not account for scr refresh
+        textboxInstrPractice_6.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstrPractice_6, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstrPractice_6.started')
+        textboxInstrPractice_6.setAutoDraw(True)
+    
+    # *textboxInstrPractice_7* updates
+    if textboxInstrPractice_7.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstrPractice_7.frameNStart = frameN  # exact frame index
+        textboxInstrPractice_7.tStart = t  # local t and not account for scr refresh
+        textboxInstrPractice_7.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstrPractice_7, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstrPractice_7.started')
+        textboxInstrPractice_7.setAutoDraw(True)
+    
+    # *textboxInstrPractice_8* updates
+    if textboxInstrPractice_8.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstrPractice_8.frameNStart = frameN  # exact frame index
+        textboxInstrPractice_8.tStart = t  # local t and not account for scr refresh
+        textboxInstrPractice_8.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstrPractice_8, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstrPractice_8.started')
+        textboxInstrPractice_8.setAutoDraw(True)
+    
+    # *textboxInstrPractice_9* updates
+    if textboxInstrPractice_9.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstrPractice_9.frameNStart = frameN  # exact frame index
+        textboxInstrPractice_9.tStart = t  # local t and not account for scr refresh
+        textboxInstrPractice_9.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstrPractice_9, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstrPractice_9.started')
+        textboxInstrPractice_9.setAutoDraw(True)
+    
+    # *textboxInstrPractice_10* updates
+    if textboxInstrPractice_10.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstrPractice_10.frameNStart = frameN  # exact frame index
+        textboxInstrPractice_10.tStart = t  # local t and not account for scr refresh
+        textboxInstrPractice_10.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstrPractice_10, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstrPractice_10.started')
+        textboxInstrPractice_10.setAutoDraw(True)
+    
+    # *textboxInstrPractice_11* updates
+    if textboxInstrPractice_11.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstrPractice_11.frameNStart = frameN  # exact frame index
+        textboxInstrPractice_11.tStart = t  # local t and not account for scr refresh
+        textboxInstrPractice_11.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstrPractice_11, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstrPractice_11.started')
+        textboxInstrPractice_11.setAutoDraw(True)
+    
+    # *textboxInstrPractice_12* updates
+    if textboxInstrPractice_12.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstrPractice_12.frameNStart = frameN  # exact frame index
+        textboxInstrPractice_12.tStart = t  # local t and not account for scr refresh
+        textboxInstrPractice_12.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstrPractice_12, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstrPractice_12.started')
+        textboxInstrPractice_12.setAutoDraw(True)
+    
+    # *textboxInstrPractice_13* updates
+    if textboxInstrPractice_13.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstrPractice_13.frameNStart = frameN  # exact frame index
+        textboxInstrPractice_13.tStart = t  # local t and not account for scr refresh
+        textboxInstrPractice_13.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstrPractice_13, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstrPractice_13.started')
+        textboxInstrPractice_13.setAutoDraw(True)
+    
+    # *textboxInstrPractice_14* updates
+    if textboxInstrPractice_14.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstrPractice_14.frameNStart = frameN  # exact frame index
+        textboxInstrPractice_14.tStart = t  # local t and not account for scr refresh
+        textboxInstrPractice_14.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstrPractice_14, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstrPractice_14.started')
+        textboxInstrPractice_14.setAutoDraw(True)
+    
+    # *textboxInstrPractice_15* updates
+    if textboxInstrPractice_15.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstrPractice_15.frameNStart = frameN  # exact frame index
+        textboxInstrPractice_15.tStart = t  # local t and not account for scr refresh
+        textboxInstrPractice_15.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstrPractice_15, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstrPractice_15.started')
+        textboxInstrPractice_15.setAutoDraw(True)
+    
+    # *textboxInstrPractice_16* updates
+    if textboxInstrPractice_16.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstrPractice_16.frameNStart = frameN  # exact frame index
+        textboxInstrPractice_16.tStart = t  # local t and not account for scr refresh
+        textboxInstrPractice_16.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstrPractice_16, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstrPractice_16.started')
+        textboxInstrPractice_16.setAutoDraw(True)
+    
+    # *textboxInstrPractice_17* updates
+    if textboxInstrPractice_17.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstrPractice_17.frameNStart = frameN  # exact frame index
+        textboxInstrPractice_17.tStart = t  # local t and not account for scr refresh
+        textboxInstrPractice_17.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstrPractice_17, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstrPractice_17.started')
+        textboxInstrPractice_17.setAutoDraw(True)
     
     # *keyInstrPractice* updates
     waitOnFlip = False
@@ -1270,11 +2019,12 @@ else:
 continueRoutine = True
 routineForceEnded = False
 # update component parameters for each repeat
+textboxEndPracrice.reset()
 keyEndPractice.keys = []
 keyEndPractice.rt = []
 _keyEndPractice_allKeys = []
 # keep track of which components have finished
-EndPracticeComponents = [textEndPractice, keyEndPractice]
+EndPracticeComponents = [textboxEndPracrice, keyEndPractice]
 for thisComponent in EndPracticeComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -1296,16 +2046,16 @@ while continueRoutine:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *textEndPractice* updates
-    if textEndPractice.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+    # *textboxEndPracrice* updates
+    if textboxEndPracrice.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
-        textEndPractice.frameNStart = frameN  # exact frame index
-        textEndPractice.tStart = t  # local t and not account for scr refresh
-        textEndPractice.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(textEndPractice, 'tStartRefresh')  # time at next scr refresh
+        textboxEndPracrice.frameNStart = frameN  # exact frame index
+        textboxEndPracrice.tStart = t  # local t and not account for scr refresh
+        textboxEndPracrice.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxEndPracrice, 'tStartRefresh')  # time at next scr refresh
         # add timestamp to datafile
-        thisExp.timestampOnFlip(win, 'textEndPractice.started')
-        textEndPractice.setAutoDraw(True)
+        thisExp.timestampOnFlip(win, 'textboxEndPracrice.started')
+        textboxEndPracrice.setAutoDraw(True)
     
     # *keyEndPractice* updates
     waitOnFlip = False
