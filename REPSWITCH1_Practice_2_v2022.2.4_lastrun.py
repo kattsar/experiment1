@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούνιος 29, 2023, at 13:49
+    on Ιούλιος 03, 2023, at 15:24
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -140,7 +140,7 @@ textboxInstrPractice_2_3 = visual.TextBox2(
      win, text='blue,', font='Open Sans',
      pos=(0.245, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
-     color=[-0.4118, -1.0000, 0.0196], colorSpace='rgb',
+     color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
      opacity=None,
      bold=True, italic=False,
      lineSpacing=1.0,

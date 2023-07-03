@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούνιος 29, 2023, at 14:38
+    on Ιούλιος 03, 2023, at 15:20
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -120,13 +120,29 @@ textboxInstr1 = visual.TextBox2(
      name='textboxInstr1',
      autoLog=True,
 )
-textboxInstr1_3 = visual.TextBox2(
+textboxInstr1_2 = visual.TextBox2(
      win, text='If the rectangle is ', font='Open Sans',
-     pos=(0, 0),     letterHeight=0.03,
+     pos=(0, -0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
      bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxInstr1_2',
+     autoLog=True,
+)
+textboxInstr1_3 = visual.TextBox2(
+     win, text='blue,', font='Open Sans',
+     pos=(0.245, -0.03),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
+     opacity=None,
+     bold=True, italic=False,
      lineSpacing=1.0,
      padding=0.0, alignment='center-left',
      anchor='center',
@@ -137,12 +153,12 @@ textboxInstr1_3 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstr1_4 = visual.TextBox2(
-     win, text='blue,', font='Open Sans',
-     pos=(0.245, 0),     letterHeight=0.03,
+     win, text=' you will need to ', font='Open Sans',
+     pos=(0.32, -0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
-     color=[-0.4118, -1.0000, 0.0196], colorSpace='rgb',
+     color='white', colorSpace='rgb',
      opacity=None,
-     bold=True, italic=False,
+     bold=False, italic=False,
      lineSpacing=1.0,
      padding=0.0, alignment='center-left',
      anchor='center',
@@ -153,12 +169,12 @@ textboxInstr1_4 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstr1_5 = visual.TextBox2(
-     win, text=' you will need to ', font='Open Sans',
-     pos=(0.32, 0),     letterHeight=0.03,
+     win, text='type.', font='Open Sans',
+     pos=(0.55, -0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
-     bold=False, italic=False,
+     bold=True, italic=False,
      lineSpacing=1.0,
      padding=0.0, alignment='center-left',
      anchor='center',
@@ -169,12 +185,12 @@ textboxInstr1_5 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstr1_6 = visual.TextBox2(
-     win, text='type.', font='Open Sans',
-     pos=(0.55, 0),     letterHeight=0.03,
+     win, text='If the rectangle is ', font='Open Sans',
+     pos=(0,-0.08),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
-     bold=True, italic=False,
+     bold=False, italic=False,
      lineSpacing=1.0,
      padding=0.0, alignment='center-left',
      anchor='center',
@@ -185,24 +201,8 @@ textboxInstr1_6 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstr1_7 = visual.TextBox2(
-     win, text='If the rectangle is ', font='Open Sans',
-     pos=(0,-0.1),     letterHeight=0.03,
-     size=(None, None), borderWidth=2.0,
-     color='white', colorSpace='rgb',
-     opacity=None,
-     bold=False, italic=False,
-     lineSpacing=1.0,
-     padding=0.0, alignment='center-left',
-     anchor='center',
-     fillColor=None, borderColor=None,
-     flipHoriz=False, flipVert=False, languageStyle='LTR',
-     editable=False,
-     name='textboxInstr1_7',
-     autoLog=True,
-)
-textboxInstr1_8 = visual.TextBox2(
      win, text='yellow,', font='Open Sans',
-     pos=(0.245, -0.1),     letterHeight=0.03,
+     pos=(0.245, -0.08),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color=[1.0000, 1.0000, -1.0000], colorSpace='rgb',
      opacity=None,
@@ -213,12 +213,12 @@ textboxInstr1_8 = visual.TextBox2(
      fillColor=None, borderColor=None,
      flipHoriz=False, flipVert=False, languageStyle='LTR',
      editable=False,
-     name='textboxInstr1_8',
+     name='textboxInstr1_7',
      autoLog=True,
 )
-textboxInstr1_9 = visual.TextBox2(
+textboxInstr1_8 = visual.TextBox2(
      win, text='you will have to ', font='Open Sans',
-     pos=(0.365, -0.1),     letterHeight=0.03,
+     pos=(0.365, -0.08),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -229,12 +229,12 @@ textboxInstr1_9 = visual.TextBox2(
      fillColor=None, borderColor=None,
      flipHoriz=False, flipVert=False, languageStyle='LTR',
      editable=False,
-     name='textboxInstr1_9',
+     name='textboxInstr1_8',
      autoLog=True,
 )
-textboxInstr1_10 = visual.TextBox2(
+textboxInstr1_9 = visual.TextBox2(
      win, text='speak.', font='Open Sans',
-     pos=(0.59, -0.1),     letterHeight=0.03,
+     pos=(0.59, -0.08),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -245,12 +245,12 @@ textboxInstr1_10 = visual.TextBox2(
      fillColor=None, borderColor=None,
      flipHoriz=False, flipVert=False, languageStyle='LTR',
      editable=False,
-     name='textboxInstr1_10',
+     name='textboxInstr1_9',
      autoLog=True,
 )
-textboxInstr1_11 = visual.TextBox2(
-     win, text='You should name the images as fast and accurately as possible. \n\nPictures will only stay on the screen for a short time. \n\n\nPress SPACE to continue.\n', font='Open Sans',
-     pos=(0, -0.2),     letterHeight=0.03,
+textboxInstr1_10 = visual.TextBox2(
+     win, text='You should name the images as fast and accurately as possible. \nPictures will only stay on the screen for a short time. \n\n\nPress SPACE to continue.\n', font='Open Sans',
+     pos=(0, -0.26),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -261,7 +261,7 @@ textboxInstr1_11 = visual.TextBox2(
      fillColor=None, borderColor=None,
      flipHoriz=False, flipVert=False, languageStyle='LTR',
      editable=False,
-     name='textboxInstr1_11',
+     name='textboxInstr1_10',
      autoLog=True,
 )
 keyInstr1 = keyboard.Keyboard()
@@ -325,7 +325,7 @@ textboxInstrPractice_2 = visual.TextBox2(
      win, text='blue,', font='Open Sans',
      pos=(0.245, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
-     color=[-0.4118, -1.0000, 0.0196], colorSpace='rgb',
+     color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
      opacity=None,
      bold=True, italic=False,
      lineSpacing=1.0,
@@ -387,7 +387,7 @@ textboxInstrPractice_5 = visual.TextBox2(
 )
 textboxInstrPractice_6 = visual.TextBox2(
      win, text='The word ', font='Open Sans',
-     pos=(0, 0.1),     letterHeight=0.03,
+     pos=(0, 0.15),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -403,7 +403,7 @@ textboxInstrPractice_6 = visual.TextBox2(
 )
 textboxInstrPractice_7 = visual.TextBox2(
      win, text='TYPE', font='Open Sans',
-     pos=(0.1, 0.1),     letterHeight=0.03,
+     pos=(0.14, 0.15),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -419,7 +419,7 @@ textboxInstrPractice_7 = visual.TextBox2(
 )
 textboxInstrPractice_8 = visual.TextBox2(
      win, text='will appear above the picture.', font='Open Sans',
-     pos=(0.2, 0.1),     letterHeight=0.03,
+     pos=(0.22, 0.15),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -435,7 +435,7 @@ textboxInstrPractice_8 = visual.TextBox2(
 )
 textboxInstrPractice_9 = visual.TextBox2(
      win, text='If the rectangle is ', font='Open Sans',
-     pos=(0, -0.1),     letterHeight=0.03,
+     pos=(0, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -451,7 +451,7 @@ textboxInstrPractice_9 = visual.TextBox2(
 )
 textboxInstrPractice_10 = visual.TextBox2(
      win, text='yellow,', font='Open Sans',
-     pos=(0.245, -0.1),     letterHeight=0.03,
+     pos=(0.245, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color=[1.0000, 1.0000, -1.0000], colorSpace='rgb',
      opacity=None,
@@ -467,7 +467,7 @@ textboxInstrPractice_10 = visual.TextBox2(
 )
 textboxInstrPractice_11 = visual.TextBox2(
      win, text='you will have to ', font='Open Sans',
-     pos=(0.365, -0.1),     letterHeight=0.03,
+     pos=(0.365, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -483,7 +483,7 @@ textboxInstrPractice_11 = visual.TextBox2(
 )
 textboxInstrPractice_12 = visual.TextBox2(
      win, text='say out loud', font='Open Sans',
-     pos=(0.59, -0.1),     letterHeight=0.03,
+     pos=(0.59, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -499,7 +499,7 @@ textboxInstrPractice_12 = visual.TextBox2(
 )
 textboxInstrPractice_13 = visual.TextBox2(
      win, text='the name of the picture.', font='Open Sans',
-     pos=(0.78, -0.1),     letterHeight=0.03,
+     pos=(0.78, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -515,7 +515,7 @@ textboxInstrPractice_13 = visual.TextBox2(
 )
 textboxInstrPractice_14 = visual.TextBox2(
      win, text='The word', font='Open Sans',
-     pos=(0, -0.2),     letterHeight=0.03,
+     pos=(0, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -531,7 +531,7 @@ textboxInstrPractice_14 = visual.TextBox2(
 )
 textboxInstrPractice_15 = visual.TextBox2(
      win, text='SPEAK', font='Open Sans',
-     pos=(0.245, -0.1),     letterHeight=0.03,
+     pos=(0.14, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -547,7 +547,7 @@ textboxInstrPractice_15 = visual.TextBox2(
 )
 textboxInstrPractice_16 = visual.TextBox2(
      win, text='will appear above the picture. ', font='Open Sans',
-     pos=(0.32, -0.1),     letterHeight=0.03,
+     pos=(0.24, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -563,7 +563,7 @@ textboxInstrPractice_16 = visual.TextBox2(
 )
 textboxInstrPractice_17 = visual.TextBox2(
      win, text='Press SPACE to begin!', font='Open Sans',
-     pos=(0, -0.2),     letterHeight=0.03,
+     pos=(0, -0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -689,6 +689,7 @@ continueRoutine = True
 routineForceEnded = False
 # update component parameters for each repeat
 textboxInstr1.reset()
+textboxInstr1_2.reset()
 textboxInstr1_3.reset()
 textboxInstr1_4.reset()
 textboxInstr1_5.reset()
@@ -697,12 +698,11 @@ textboxInstr1_7.reset()
 textboxInstr1_8.reset()
 textboxInstr1_9.reset()
 textboxInstr1_10.reset()
-textboxInstr1_11.reset()
 keyInstr1.keys = []
 keyInstr1.rt = []
 _keyInstr1_allKeys = []
 # keep track of which components have finished
-General_Instr_1Components = [textboxInstr1, textboxInstr1_3, textboxInstr1_4, textboxInstr1_5, textboxInstr1_6, textboxInstr1_7, textboxInstr1_8, textboxInstr1_9, textboxInstr1_10, textboxInstr1_11, keyInstr1]
+General_Instr_1Components = [textboxInstr1, textboxInstr1_2, textboxInstr1_3, textboxInstr1_4, textboxInstr1_5, textboxInstr1_6, textboxInstr1_7, textboxInstr1_8, textboxInstr1_9, textboxInstr1_10, keyInstr1]
 for thisComponent in General_Instr_1Components:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -734,6 +734,17 @@ while continueRoutine:
         # add timestamp to datafile
         thisExp.timestampOnFlip(win, 'textboxInstr1.started')
         textboxInstr1.setAutoDraw(True)
+    
+    # *textboxInstr1_2* updates
+    if textboxInstr1_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        textboxInstr1_2.frameNStart = frameN  # exact frame index
+        textboxInstr1_2.tStart = t  # local t and not account for scr refresh
+        textboxInstr1_2.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxInstr1_2, 'tStartRefresh')  # time at next scr refresh
+        # add timestamp to datafile
+        thisExp.timestampOnFlip(win, 'textboxInstr1_2.started')
+        textboxInstr1_2.setAutoDraw(True)
     
     # *textboxInstr1_3* updates
     if textboxInstr1_3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
@@ -822,17 +833,6 @@ while continueRoutine:
         # add timestamp to datafile
         thisExp.timestampOnFlip(win, 'textboxInstr1_10.started')
         textboxInstr1_10.setAutoDraw(True)
-    
-    # *textboxInstr1_11* updates
-    if textboxInstr1_11.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-        # keep track of start time/frame for later
-        textboxInstr1_11.frameNStart = frameN  # exact frame index
-        textboxInstr1_11.tStart = t  # local t and not account for scr refresh
-        textboxInstr1_11.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(textboxInstr1_11, 'tStartRefresh')  # time at next scr refresh
-        # add timestamp to datafile
-        thisExp.timestampOnFlip(win, 'textboxInstr1_11.started')
-        textboxInstr1_11.setAutoDraw(True)
     
     # *keyInstr1* updates
     waitOnFlip = False

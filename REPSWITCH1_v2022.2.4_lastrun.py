@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούνιος 29, 2023, at 12:49
+    on Ιούλιος 03, 2023, at 15:00
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -209,7 +209,7 @@ textboxInstrMain2_3 = visual.TextBox2(
      win, text='blue,', font='Open Sans',
      pos=(0.245, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
-     color=[-0.4118, -1.0000, 0.0196], colorSpace='rgb',
+     color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
      opacity=None,
      bold=True, italic=False,
      lineSpacing=1.0,
@@ -423,6 +423,9 @@ micResp = sound.microphone.Microphone(
     device=None, channels=None, 
     sampleRateHz=48000, maxRecordingSize=24000.0
 )
+# Run 'Begin Experiment' code from codeMic
+micResp_started = False # Flag to keep track of mic status
+
 
 # --- Initialize components for Routine "blank500" ---
 textBlank500 = visual.TextStim(win=win, name='textBlank500',
@@ -434,13 +437,22 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
     depth=0.0);
 
 # --- Initialize components for Routine "pause" ---
-textPause = visual.TextStim(win=win, name='textPause',
-    text='Short break!\n\nPress SPACE to continue.',
-    font='Open Sans',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
-    color='white', colorSpace='rgb', opacity=None, 
-    languageStyle='LTR',
-    depth=0.0);
+textboxPause = visual.TextBox2(
+     win, text='Short break!\n\nPress SPACE to continue.', font='Open Sans',
+     pos=(0, 0),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxPause',
+     autoLog=True,
+)
 keyPause = keyboard.Keyboard()
 
 # --- Initialize components for Routine "blank500" ---
@@ -453,13 +465,22 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
     depth=0.0);
 
 # --- Initialize components for Routine "Goodbye" ---
-textGoodbye = visual.TextStim(win=win, name='textGoodbye',
-    text='This is the end of the experiment!\n\nThank you for participating!',
-    font='Open Sans',
-    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
-    color='white', colorSpace='rgb', opacity=None, 
-    languageStyle='LTR',
-    depth=0.0);
+textboxGoodbye = visual.TextBox2(
+     win, text='This is the end of the experiment!\n\nThank you for participating!', font='Open Sans',
+     pos=(0, 0),     letterHeight=0.03,
+     size=(None, None), borderWidth=2.0,
+     color='white', colorSpace='rgb',
+     opacity=None,
+     bold=False, italic=False,
+     lineSpacing=1.0,
+     padding=0.0, alignment='center-left',
+     anchor='center',
+     fillColor=None, borderColor=None,
+     flipHoriz=False, flipVert=False, languageStyle='LTR',
+     editable=False,
+     name='textboxGoodbye',
+     autoLog=True,
+)
 
 # Create some handy timers
 globalClock = core.Clock()  # to track the time since experiment started
@@ -1153,6 +1174,10 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     
     polygonType.opacity = 0  
     
+    # Run 'Begin Routine' code from codeMic
+    if micResp.status == STARTED:
+        micResp.stop()
+        micResp_started = False # Check if the mic is running before stopping it
     # keep track of which components have finished
     trialComponents = [polygonColour, polygonWhite, imageObject, polygonType, textInput, keyResp, micResp]
     for thisComponent in trialComponents:
@@ -1509,6 +1534,7 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     continueRoutine = True
     routineForceEnded = False
     # update component parameters for each repeat
+    textboxPause.reset()
     keyPause.keys = []
     keyPause.rt = []
     _keyPause_allKeys = []
@@ -1520,7 +1546,7 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
         #If either of these conditions is true, the continueRoutine variable is set to False, 
         #indicating that some loop or routine should be skipped or terminated.
     # keep track of which components have finished
-    pauseComponents = [textPause, keyPause]
+    pauseComponents = [textboxPause, keyPause]
     for thisComponent in pauseComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -1542,16 +1568,25 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
         
-        # *textPause* updates
-        if textPause.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # *textboxPause* updates
+        if textboxPause.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
-            textPause.frameNStart = frameN  # exact frame index
-            textPause.tStart = t  # local t and not account for scr refresh
-            textPause.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(textPause, 'tStartRefresh')  # time at next scr refresh
+            textboxPause.frameNStart = frameN  # exact frame index
+            textboxPause.tStart = t  # local t and not account for scr refresh
+            textboxPause.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(textboxPause, 'tStartRefresh')  # time at next scr refresh
             # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'textPause.started')
-            textPause.setAutoDraw(True)
+            thisExp.timestampOnFlip(win, 'textboxPause.started')
+            textboxPause.setAutoDraw(True)
+        if textboxPause.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > textboxPause.tStartRefresh + 1.0-frameTolerance:
+                # keep track of stop time/frame for later
+                textboxPause.tStop = t  # not accounting for scr refresh
+                textboxPause.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'textboxPause.stopped')
+                textboxPause.setAutoDraw(False)
         
         # *keyPause* updates
         waitOnFlip = False
@@ -1691,8 +1726,9 @@ else:
 continueRoutine = True
 routineForceEnded = False
 # update component parameters for each repeat
+textboxGoodbye.reset()
 # keep track of which components have finished
-GoodbyeComponents = [textGoodbye]
+GoodbyeComponents = [textboxGoodbye]
 for thisComponent in GoodbyeComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -1714,25 +1750,25 @@ while continueRoutine and routineTimer.getTime() < 2.0:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *textGoodbye* updates
-    if textGoodbye.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+    # *textboxGoodbye* updates
+    if textboxGoodbye.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
-        textGoodbye.frameNStart = frameN  # exact frame index
-        textGoodbye.tStart = t  # local t and not account for scr refresh
-        textGoodbye.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(textGoodbye, 'tStartRefresh')  # time at next scr refresh
+        textboxGoodbye.frameNStart = frameN  # exact frame index
+        textboxGoodbye.tStart = t  # local t and not account for scr refresh
+        textboxGoodbye.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textboxGoodbye, 'tStartRefresh')  # time at next scr refresh
         # add timestamp to datafile
-        thisExp.timestampOnFlip(win, 'textGoodbye.started')
-        textGoodbye.setAutoDraw(True)
-    if textGoodbye.status == STARTED:
+        thisExp.timestampOnFlip(win, 'textboxGoodbye.started')
+        textboxGoodbye.setAutoDraw(True)
+    if textboxGoodbye.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > textGoodbye.tStartRefresh + 2-frameTolerance:
+        if tThisFlipGlobal > textboxGoodbye.tStartRefresh + 2-frameTolerance:
             # keep track of stop time/frame for later
-            textGoodbye.tStop = t  # not accounting for scr refresh
-            textGoodbye.frameNStop = frameN  # exact frame index
+            textboxGoodbye.tStop = t  # not accounting for scr refresh
+            textboxGoodbye.frameNStop = frameN  # exact frame index
             # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'textGoodbye.stopped')
-            textGoodbye.setAutoDraw(False)
+            thisExp.timestampOnFlip(win, 'textboxGoodbye.stopped')
+            textboxGoodbye.setAutoDraw(False)
     
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):

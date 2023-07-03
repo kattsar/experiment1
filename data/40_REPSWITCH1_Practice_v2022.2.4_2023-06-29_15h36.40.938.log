@@ -1,0 +1,61 @@
+8.5256 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000016C4EE08850>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000016C50D8F460>, multiSample=False, name='window1', numSamples=2, pos=(192, 108), screen=0, size=array([1536,  864]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.5258 	EXP 	window1: mouseVisible = True
+8.5260 	EXP 	window1: mouseVisible = True
+8.5260 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.5260 	EXP 	window1: recordFrameIntervals = False
+8.6907 	EXP 	window1: recordFrameIntervals = True
+8.8744 	EXP 	Screen (0) actual frame rate measured at 60.07Hz
+8.8745 	EXP 	window1: recordFrameIntervals = False
+8.9060 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+11.7637 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.7653 	EXP 	Created fixationITI = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixationITI', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+11.7665 	EXP 	Created polygonCol = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygonCol', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.55, 0.55]), units='height', vertices=ndarray(...), win=Window(...))
+11.7678 	EXP 	Created polygonWh = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygonWh', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+11.7684 	EXP 	Created textCue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textCue', opacity=1.0, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.7763 	EXP 	Created imagePractice = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imagePractice', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+11.7777 	EXP 	Created polygonText = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([0.9216, 0.9216, 0.9216]), fillColorSpace='rgb', fillRGB=array([0.9216, 0.9216, 0.9216]), interpolate=True, lineColor=array([0.9216, 0.9216, 0.9216]), lineColorSpace='rgb', lineRGB=array([0.9216, 0.9216, 0.9216]), lineWidth=1.0, name='polygonText', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.1]), units='height', vertices=ndarray(...), win=Window(...))
+11.7786 	EXP 	Created textPractice = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textPractice', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.1509 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.1539 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.2247 	EXP 	textboxInstr1: autoLog = True
+13.2247 	EXP 	textboxInstr1_3: autoLog = True
+13.2247 	EXP 	textboxInstr1_4: autoLog = True
+13.2247 	EXP 	textboxInstr1_5: autoLog = True
+13.2247 	EXP 	textboxInstr1_6: autoLog = True
+13.2247 	EXP 	textboxInstr1_7: autoLog = True
+13.2247 	EXP 	textboxInstr1_8: autoLog = True
+13.2247 	EXP 	textboxInstr1_9: autoLog = True
+13.2247 	EXP 	textboxInstr1_10: autoLog = True
+13.2247 	EXP 	textboxInstr1_11: autoLog = True
+13.2247 	EXP 	textboxInstr2: autoLog = True
+13.2247 	EXP 	textboxInstr3: autoLog = True
+13.2247 	EXP 	textboxInstrPractice: autoLog = True
+13.2247 	EXP 	textboxInstrPractice_2: autoLog = True
+13.2247 	EXP 	textboxInstrPractice_3: autoLog = True
+13.2247 	EXP 	textboxInstrPractice_4: autoLog = True
+13.2247 	EXP 	textboxInstrPractice_5: autoLog = True
+13.2247 	EXP 	textboxInstrPractice_6: autoLog = True
+13.2247 	EXP 	textboxInstrPractice_7: autoLog = True
+13.2247 	EXP 	textboxInstrPractice_8: autoLog = True
+13.2247 	EXP 	textboxInstrPractice_9: autoLog = True
+13.2247 	EXP 	textboxInstrPractice_10: autoLog = True
+13.2247 	EXP 	textboxInstrPractice_11: autoLog = True
+13.2247 	EXP 	textboxInstrPractice_12: autoLog = True
+13.2247 	EXP 	textboxInstrPractice_13: autoLog = True
+13.2247 	EXP 	textboxInstrPractice_14: autoLog = True
+13.2247 	EXP 	textboxInstrPractice_15: autoLog = True
+13.2247 	EXP 	textboxInstrPractice_16: autoLog = True
+13.2247 	EXP 	textboxInstrPractice_17: autoLog = True
+13.2247 	EXP 	textboxEndPracrice: autoLog = True
+13.2247 	EXP 	textboxInstr1: autoDraw = True
+13.2247 	EXP 	textboxInstr1_3: autoDraw = True
+13.2247 	EXP 	textboxInstr1_4: autoDraw = True
+13.2247 	EXP 	textboxInstr1_5: autoDraw = True
+13.2247 	EXP 	textboxInstr1_6: autoDraw = True
+13.2247 	EXP 	textboxInstr1_7: autoDraw = True
+13.2247 	EXP 	textboxInstr1_8: autoDraw = True
+13.2247 	EXP 	textboxInstr1_9: autoDraw = True
+13.2247 	EXP 	textboxInstr1_10: autoDraw = True
+13.2247 	EXP 	textboxInstr1_11: autoDraw = True
+29.6624 	DATA 	Keypress: escape
+31.3638 	EXP 	window1: mouseVisible = True
