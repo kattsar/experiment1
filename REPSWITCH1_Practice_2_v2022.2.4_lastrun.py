@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούλιος 03, 2023, at 15:24
+    on Ιούλιος 05, 2023, at 15:21
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -826,7 +826,7 @@ for thisTrialsPractice_2 in trialsPractice_2:
     frameN = -1
     
     # --- Run Routine "practiceTrial_2" ---
-    while continueRoutine and routineTimer.getTime() < 3.0:
+    while continueRoutine and routineTimer.getTime() < 4.0:
         # get current time
         t = routineTimer.getTime()
         tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -1026,7 +1026,7 @@ for thisTrialsPractice_2 in trialsPractice_2:
             micPractice_2.poll()
         if micPractice_2.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > micPractice_2.tStartRefresh + 3-frameTolerance:
+            if tThisFlipGlobal > micPractice_2.tStartRefresh + 4-frameTolerance:
                 # keep track of stop time/frame for later
                 micPractice_2.tStop = t  # not accounting for scr refresh
                 micPractice_2.frameNStop = frameN  # exact frame index
@@ -1035,6 +1035,9 @@ for thisTrialsPractice_2 in trialsPractice_2:
                 # stop recording with micPractice_2
                 micPractice_2.stop()
                 micPractice_2.status = FINISHED
+        # Run 'Each Frame' code from codeMicPractice_2
+        if t > 3:
+            continueRoutine = False
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1086,7 +1089,7 @@ for thisTrialsPractice_2 in trialsPractice_2:
     if routineForceEnded:
         routineTimer.reset()
     else:
-        routineTimer.addTime(-3.000000)
+        routineTimer.addTime(-4.000000)
     
     # --- Prepare to start Routine "blank500" ---
     continueRoutine = True

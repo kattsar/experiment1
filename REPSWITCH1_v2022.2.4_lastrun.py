@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούλιος 03, 2023, at 15:00
+    on Ιούλιος 04, 2023, at 12:14
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -423,9 +423,6 @@ micResp = sound.microphone.Microphone(
     device=None, channels=None, 
     sampleRateHz=48000, maxRecordingSize=24000.0
 )
-# Run 'Begin Experiment' code from codeMic
-micResp_started = False # Flag to keep track of mic status
-
 
 # --- Initialize components for Routine "blank500" ---
 textBlank500 = visual.TextStim(win=win, name='textBlank500',
@@ -1174,10 +1171,6 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     
     polygonType.opacity = 0  
     
-    # Run 'Begin Routine' code from codeMic
-    if micResp.status == STARTED:
-        micResp.stop()
-        micResp_started = False # Check if the mic is running before stopping it
     # keep track of which components have finished
     trialComponents = [polygonColour, polygonWhite, imageObject, polygonType, textInput, keyResp, micResp]
     for thisComponent in trialComponents:

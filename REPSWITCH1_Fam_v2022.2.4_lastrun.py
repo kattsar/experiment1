@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούλιος 03, 2023, at 15:05
+    on Ιούλιος 05, 2023, at 15:38
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -655,7 +655,7 @@ for thisFamTrial in famTrials:
     frameN = -1
     
     # --- Run Routine "famPhase" ---
-    while continueRoutine and routineTimer.getTime() < 6.0:
+    while continueRoutine and routineTimer.getTime() < 7.0:
         # get current time
         t = routineTimer.getTime()
         tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -742,7 +742,7 @@ for thisFamTrial in famTrials:
             micFam.poll()
         if micFam.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > micFam.tStartRefresh + 6-frameTolerance:
+            if tThisFlipGlobal > micFam.tStartRefresh + 7-frameTolerance:
                 # keep track of stop time/frame for later
                 micFam.tStop = t  # not accounting for scr refresh
                 micFam.frameNStop = frameN  # exact frame index
@@ -751,6 +751,9 @@ for thisFamTrial in famTrials:
                 # stop recording with micFam
                 micFam.stop()
                 micFam.status = FINISHED
+        # Run 'Each Frame' code from codeFam
+        if t > 6:
+            continueRoutine = False
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -787,7 +790,7 @@ for thisFamTrial in famTrials:
     if routineForceEnded:
         routineTimer.reset()
     else:
-        routineTimer.addTime(-6.000000)
+        routineTimer.addTime(-7.000000)
     
     # --- Prepare to start Routine "blank500" ---
     continueRoutine = True
@@ -984,15 +987,6 @@ while continueRoutine:
         # add timestamp to datafile
         thisExp.timestampOnFlip(win, 'textboxEndFam.started')
         textboxEndFam.setAutoDraw(True)
-    if textboxEndFam.status == STARTED:
-        # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > textboxEndFam.tStartRefresh + 1.0-frameTolerance:
-            # keep track of stop time/frame for later
-            textboxEndFam.tStop = t  # not accounting for scr refresh
-            textboxEndFam.frameNStop = frameN  # exact frame index
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'textboxEndFam.stopped')
-            textboxEndFam.setAutoDraw(False)
     
     # *keyEndFam* updates
     waitOnFlip = False

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούλιος 03, 2023, at 16:03
+    on Ιούλιος 04, 2023, at 12:25
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -1443,13 +1443,13 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     thisExp.addData('subjResponse', respDisplay)
     # tell mic to keep hold of current recording in micResp.clips and transcript (if applicable) in micResp.scripts
     # this will also update micResp.lastClip and micResp.lastScript
-    # micResp.stop()
-    # tag = data.utils.getDateStr()
-    # micRespClip = micResp.bank(
-       # tag=tag, transcribe='None',
-       # config=None
-    #)
-    #trialsREPSWITCH.addData('micResp.clip', os.path.join(micRespRecFolder, 'recording_micResp_%s.wav' % tag))
+    #micResp.stop()
+    tag = data.utils.getDateStr()
+    micRespClip = micResp.bank(
+        tag=tag, transcribe='None',
+        config=None
+    )
+    trialsREPSWITCH.addData('micResp.clip', os.path.join(micRespRecFolder, 'recording_micResp_%s.wav' % tag))
     # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
     if routineForceEnded:
         routineTimer.reset()
@@ -1789,6 +1789,7 @@ if routineForceEnded:
     routineTimer.reset()
 else:
     routineTimer.addTime(-2.000000)
+
 
 # --- End experiment ---
 # Flip one final time so any remaining win.callOnFlip() 
