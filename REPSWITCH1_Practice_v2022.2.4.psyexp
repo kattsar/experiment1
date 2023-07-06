@@ -1506,6 +1506,23 @@
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="codeMicPractice" valType="code" updates="None" name="name"/>
       </CodeComponent>
+      <CodeComponent name="codeSavePractice">
+        <Param val="count = 0" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="count = 0;&amp;#10;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="count = count + 1" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="clipFilename = &quot;recording_&quot; + str(count) + &quot;.wav&quot;&amp;#10;micPractice.lastClip.save(os.path.join(micPracticeRecFolder, clipFilename))&amp;#10;&amp;#10;'''&amp;#10;# save mic recordings&amp;#10;for tag in mic.clips:&amp;#10;    for i, clip in enumerate(mic.clips[tag]):&amp;#10;        clipFilename = 'recording_mic_%s.wav' % tag&amp;#10;        # if there's more than 1 clip with this tag, append a counter for all beyond the first&amp;#10;        if i &gt; 0:&amp;#10;            clipFilename += '_%s' % i&amp;#10;        clip.save(os.path.join(micRecFolder, clipFilename))&amp;#10;        &amp;#10;'''" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="codeSavePractice" valType="code" updates="None" name="name"/>
+      </CodeComponent>
     </Routine>
     <Routine name="EndPractice">
       <TextboxComponent name="textboxEndPracrice">
