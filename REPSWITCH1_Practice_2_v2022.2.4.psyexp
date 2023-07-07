@@ -24,7 +24,7 @@
     <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
     <Param val="False" valType="bool" updates="None" name="Show mouse"/>
     <Param val="height" valType="str" updates="None" name="Units"/>
-    <Param val="2022.2.4" valType="str" updates="None" name="Use version"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
     <Param val="[1536, 864]" valType="list" updates="None" name="Window size (pixels)"/>
     <Param val="avg" valType="str" updates="None" name="blendMode"/>
     <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
@@ -330,7 +330,7 @@
         <Param val="True" valType="bool" updates="constant" name="bold"/>
         <Param val="None" valType="color" updates="constant" name="borderColor"/>
         <Param val="2" valType="num" updates="constant" name="borderWidth"/>
-        <Param val="1.0000, 1.0000, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="1.0000, 0.6863, -1.0000" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
         <Param val="1" valType="num" updates="constant" name="contrast"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
@@ -805,7 +805,7 @@
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="clipFilename = &quot;recording_&quot; + str(count) + &quot;.wav&quot;&amp;#10;micPractice2.lastClip.save(os.path.join(micPractice2RecFolder, clipFilename))&amp;#10;&amp;#10;'''&amp;#10;# save mic recordings&amp;#10;for tag in mic.clips:&amp;#10;    for i, clip in enumerate(mic.clips[tag]):&amp;#10;        clipFilename = 'recording_mic_%s.wav' % tag&amp;#10;        # if there's more than 1 clip with this tag, append a counter for all beyond the first&amp;#10;        if i &gt; 0:&amp;#10;            clipFilename += '_%s' % i&amp;#10;        clip.save(os.path.join(micRecFolder, clipFilename))&amp;#10;        &amp;#10;'''" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="clipFilename = clipFilename = 'recording_mic_%s.wav' % tag&amp;#10;#&quot;recording_&quot; + str(count) + &quot;.wav&quot;&amp;#10;micPractice2.lastClip.save(os.path.join(micPractice2RecFolder, clipFilename))&amp;#10;&amp;#10;'''&amp;#10;# save mic recordings&amp;#10;for tag in mic.clips:&amp;#10;    for i, clip in enumerate(mic.clips[tag]):&amp;#10;        clipFilename = 'recording_mic_%s.wav' % tag&amp;#10;        # if there's more than 1 clip with this tag, append a counter for all beyond the first&amp;#10;        if i &gt; 0:&amp;#10;            clipFilename += '_%s' % i&amp;#10;        clip.save(os.path.join(micRecFolder, clipFilename))&amp;#10;        &amp;#10;'''" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="codeSavePractice2" valType="code" updates="None" name="name"/>
       </CodeComponent>
@@ -873,7 +873,7 @@
     <Routine name="blank500"/>
     <LoopInitiator loopType="TrialHandler" name="trialsPractice_2">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[{'image': 'REPSWITCH1_Practice/PICTURE_12.png', 'correctAns': 'sirena', 'respModal': 'SPEAK', 'frameColor': 'yellow'}, {'image': 'REPSWITCH1_Practice/PICTURE_12.png', 'correctAns': 'sirena', 'respModal': 'TYPE', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_599.png', 'correctAns': 'nube', 'respModal': 'SPEAK', 'frameColor': 'yellow'}, {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas', 'respModal': 'TYPE', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_614.png', 'correctAns': 'reina', 'respModal': 'TYPE', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_612.png', 'correctAns': 'rana', 'respModal': 'TYPE', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_612.png', 'correctAns': 'rana', 'respModal': 'SPEAK', 'frameColor': 'yellow'}, {'image': 'REPSWITCH1_Practice/PICTURE_570.png', 'correctAns': 'toro', 'respModal': 'TYPE', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_110.png', 'correctAns': 'mesa', 'respModal': 'SPEAK', 'frameColor': 'yellow'}, {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas', 'respModal': 'SPEAK', 'frameColor': 'yellow'}, {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas', 'respModal': 'TYPE', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_614.png', 'correctAns': 'reina', 'respModal': 'SPEAK', 'frameColor': 'yellow'}]" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'image': 'REPSWITCH1_Practice/PICTURE_12.png', 'correctAns': 'sirena', 'respModal': 'SPEAK', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_12.png', 'correctAns': 'sirena', 'respModal': 'TYPE', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_599.png', 'correctAns': 'nube', 'respModal': 'SPEAK', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas', 'respModal': 'TYPE', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_614.png', 'correctAns': 'reina', 'respModal': 'TYPE', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_612.png', 'correctAns': 'rana', 'respModal': 'TYPE', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_612.png', 'correctAns': 'rana', 'respModal': 'SPEAK', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_570.png', 'correctAns': 'toro', 'respModal': 'TYPE', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_110.png', 'correctAns': 'mesa', 'respModal': 'SPEAK', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas', 'respModal': 'SPEAK', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas', 'respModal': 'TYPE', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_614.png', 'correctAns': 'reina', 'respModal': 'SPEAK', 'frameColor': 'gold'}]" valType="str"/>
       <Param name="conditionsFile" updates="None" val="repswitch_practice_2.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
