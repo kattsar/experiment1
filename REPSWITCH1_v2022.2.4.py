@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούλιος 10, 2023, at 12:15
+    on Ιούλιος 07, 2023, at 12:44
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -56,7 +56,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='D:\\GitHub\\experiment1\\REPSWITCH1_v2022.2.4_lastrun.py',
+    originPath='D:\\GitHub\\experiment1\\REPSWITCH1_v2022.2.4.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -103,9 +103,9 @@ defaultKeyboard = keyboard.Keyboard(backend='iohub')
 
 # --- Initialize components for Routine "Welcome" ---
 textWelcome = visual.TextStim(win=win, name='textWelcome',
-    text='¡Ahora vamos a comenzar con el experimento!',
+    text='We are going to start the experiment!',
     font='Open Sans',
-    pos=(0, 0), height=0.04, wrapWidth=None, ori=0.0, 
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
     languageStyle='LTR',
     depth=0.0);
@@ -121,7 +121,7 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
 
 # --- Initialize components for Routine "InstructionsMain1" ---
 textboxInstrMain1 = visual.TextBox2(
-     win, text='Algunos aspectos que debes recordar antes de empezar: \n\nDebes nombrar las imágenes ', font='Open Sans',
+     win, text='A few reminders before we start: \n\nYou should name the images ', font='Open Sans',
      pos=(0, 0.3),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -137,7 +137,7 @@ textboxInstrMain1 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrMain1_2 = visual.TextBox2(
-     win, text='con la mayor rapidez y precisión posibles.\n', font='Open Sans',
+     win, text='as fast and accurately as possible.\n', font='Open Sans',
      pos=(0.4, 0.2358),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -153,7 +153,7 @@ textboxInstrMain1_2 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrMain1_3 = visual.TextBox2(
-     win, text='\nCuando hables, asegúrate de decir solo una palabra, con voz clara.\n\nIntenta mantener las manos sobre el teclado durante toda la sesión.  \n\nY, por favor, ¡no hables mientras escribes!\n\nPodrás hacer una breve pausa cada 10 minutos.\n\n\n\nPulsa la BARRA ESPACIADORA para continuar.\n\n', font='Open Sans',
+     win, text='\nWhen you speak, make sure you say only one word, in a clear voice.\n\nTry to keep your hands above the keyboard during the whole session. \n\nAnd please, don’t speak while typing!\n\n\nYou will be able to take a short break every N minutes.\n\n\nPress SPACE to continue\n\n', font='Open Sans',
      pos=(0, -0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -172,7 +172,7 @@ keyInstrMain = keyboard.Keyboard()
 
 # --- Initialize components for Routine "InstructionsMain2" ---
 textboxInstrMain2 = visual.TextBox2(
-     win, text='Recuerda:', font='Open Sans',
+     win, text='Remember: ', font='Open Sans',
      pos=(0, 0.3),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -188,7 +188,7 @@ textboxInstrMain2 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrMain2_2 = visual.TextBox2(
-     win, text='Si el rectángulo es\n', font='Open Sans',
+     win, text='If the rectangle is ', font='Open Sans',
      pos=(0, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -204,8 +204,8 @@ textboxInstrMain2_2 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrMain2_3 = visual.TextBox2(
-     win, text='azul,\n', font='Open Sans',
-     pos=(0.255, 0.2),     letterHeight=0.03,
+     win, text='blue,', font='Open Sans',
+     pos=(0.245, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
      opacity=None,
@@ -220,8 +220,8 @@ textboxInstrMain2_3 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrMain2_4 = visual.TextBox2(
-     win, text=' deberás \n', font='Open Sans',
-     pos=(0.33, 0.2),     letterHeight=0.03,
+     win, text=' you will need to ', font='Open Sans',
+     pos=(0.32, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -236,8 +236,8 @@ textboxInstrMain2_4 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrMain2_5 = visual.TextBox2(
-     win, text='teclear\n', font='Open Sans',
-     pos=(0.46, 0.2),     letterHeight=0.03,
+     win, text='type', font='Open Sans',
+     pos=(0.55, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -252,8 +252,8 @@ textboxInstrMain2_5 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrMain2_6 = visual.TextBox2(
-     win, text='el nombre de la imagen.  \n', font='Open Sans',
-     pos=(0.58, 0.2),     letterHeight=0.03,
+     win, text='the name of the picture.', font='Open Sans',
+     pos=(0.625, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -268,7 +268,7 @@ textboxInstrMain2_6 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrMain2_7 = visual.TextBox2(
-     win, text='Si el rectángulo es ', font='Open Sans',
+     win, text='If the rectangle is ', font='Open Sans',
      pos=(0, 0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -284,8 +284,8 @@ textboxInstrMain2_7 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrMain2_8 = visual.TextBox2(
-     win, text='amarillo,', font='Open Sans',
-     pos=(0.255, 0.1),     letterHeight=0.03,
+     win, text='yellow,', font='Open Sans',
+     pos=(0.245, 0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color=[1.0000, 0.6863, -1.0000], colorSpace='rgb',
      opacity=None,
@@ -300,8 +300,8 @@ textboxInstrMain2_8 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrMain2_9 = visual.TextBox2(
-     win, text=' deberás ', font='Open Sans',
-     pos=(0.39, 0.1),     letterHeight=0.03,
+     win, text='you will have to ', font='Open Sans',
+     pos=(0.365, 0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -316,8 +316,8 @@ textboxInstrMain2_9 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrMain2_10 = visual.TextBox2(
-     win, text='repetir en voz alta ', font='Open Sans',
-     pos=(0.53, 0.1),     letterHeight=0.03,
+     win, text='say out loud', font='Open Sans',
+     pos=(0.59, 0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -332,8 +332,8 @@ textboxInstrMain2_10 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrMain2_11 = visual.TextBox2(
-     win, text='el nombre de la imagen.  ', font='Open Sans',
-     pos=(0.81, 0.1),     letterHeight=0.03,
+     win, text='the name of the picture.', font='Open Sans',
+     pos=(0.78, 0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -348,7 +348,7 @@ textboxInstrMain2_11 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrMain2_12 = visual.TextBox2(
-     win, text='Pulsa la BARRA ESPACIADORA para continuar.', font='Open Sans',
+     win, text='Press SPACE to begin!', font='Open Sans',
      pos=(0, -0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -433,7 +433,7 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
 
 # --- Initialize components for Routine "pause" ---
 textboxPause = visual.TextBox2(
-     win, text='¡Ahora puedes tomarte un breve descanso!\n\n\nPulsa la BARRA ESPACIADORA para continuar.', font='Open Sans',
+     win, text='Short break!\n\nPress SPACE to continue.', font='Open Sans',
      pos=(0, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -461,7 +461,7 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
 
 # --- Initialize components for Routine "Goodbye" ---
 textboxGoodbye = visual.TextBox2(
-     win, text='¡Has finalizado el experimento!\n\n¡Gracias por participar!', font='Open Sans',
+     win, text='This is the end of the experiment!\n\nThank you for participating!', font='Open Sans',
      pos=(0, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -500,7 +500,7 @@ _timeToFirstFrame = win.getFutureFlipTime(clock="now")
 frameN = -1
 
 # --- Run Routine "Welcome" ---
-while continueRoutine and routineTimer.getTime() < 2.5:
+while continueRoutine and routineTimer.getTime() < 2.0:
     # get current time
     t = routineTimer.getTime()
     tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -520,7 +520,7 @@ while continueRoutine and routineTimer.getTime() < 2.5:
         textWelcome.setAutoDraw(True)
     if textWelcome.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > textWelcome.tStartRefresh + 2.5-frameTolerance:
+        if tThisFlipGlobal > textWelcome.tStartRefresh + 2-frameTolerance:
             # keep track of stop time/frame for later
             textWelcome.tStop = t  # not accounting for scr refresh
             textWelcome.frameNStop = frameN  # exact frame index
@@ -554,7 +554,7 @@ for thisComponent in WelcomeComponents:
 if routineForceEnded:
     routineTimer.reset()
 else:
-    routineTimer.addTime(-2.500000)
+    routineTimer.addTime(-2.000000)
 
 # --- Prepare to start Routine "blank500" ---
 continueRoutine = True

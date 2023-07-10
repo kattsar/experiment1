@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούλιος 05, 2023, at 15:21
+    on Ιούλιος 10, 2023, at 11:42
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -10,10 +10,6 @@ If you publish work using this script the most relevant publication is:
         https://doi.org/10.3758/s13428-018-01193-y
 
 """
-
-import psychopy
-psychopy.useVersion('2022.2.4')
-
 
 # --- Import packages ---
 from psychopy import locale_setup
@@ -32,6 +28,8 @@ import sys  # to get file system encoding
 import psychopy.iohub as io
 from psychopy.hardware import keyboard
 
+# Run 'Before Experiment' code from codeSavePractice2
+count = 0
 
 
 # Ensure that relative paths start from the same directory as this script
@@ -69,10 +67,10 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 frameTolerance = 0.001  # how close to onset before 'same' frame
 
 # Start Code - component code to be run after the window creation
-# Make folder to store recordings from micPractice_2
-micPractice_2RecFolder = filename + '_micPractice_2_recorded'
-if not os.path.isdir(micPractice_2RecFolder):
-    os.mkdir(micPractice_2RecFolder)
+# Make folder to store recordings from micPractice2
+micPractice2RecFolder = filename + '_micPractice2_recorded'
+if not os.path.isdir(micPractice2RecFolder):
+    os.mkdir(micPractice2RecFolder)
 
 # --- Setup the Window ---
 win = visual.Window(
@@ -105,7 +103,7 @@ defaultKeyboard = keyboard.Keyboard(backend='iohub')
 
 # --- Initialize components for Routine "InstructionsPractice_2" ---
 textboxInstrPractice_2 = visual.TextBox2(
-     win, text='Let’s practice some more before we start!\nRemember:', font='Open Sans',
+     win, text='¡Vamos a practicar un poco más ante de empezar!\n\nRecuerda:', font='Open Sans',
      pos=(0, 0.3),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -121,8 +119,8 @@ textboxInstrPractice_2 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_2_2 = visual.TextBox2(
-     win, text='If the rectangle is ', font='Open Sans',
-     pos=(0, 0.2),     letterHeight=0.03,
+     win, text='Si el rectángulo es ', font='Open Sans',
+     pos=(0, 0.18),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -137,8 +135,8 @@ textboxInstrPractice_2_2 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_2_3 = visual.TextBox2(
-     win, text='blue,', font='Open Sans',
-     pos=(0.245, 0.2),     letterHeight=0.03,
+     win, text='azul,', font='Open Sans',
+     pos=(0.255, 0.18),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
      opacity=None,
@@ -153,8 +151,8 @@ textboxInstrPractice_2_3 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_2_4 = visual.TextBox2(
-     win, text=' you will need to ', font='Open Sans',
-     pos=(0.32, 0.2),     letterHeight=0.03,
+     win, text='deberás ', font='Open Sans',
+     pos=(0.33, 0.18),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -169,8 +167,8 @@ textboxInstrPractice_2_4 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_2_5 = visual.TextBox2(
-     win, text='type', font='Open Sans',
-     pos=(0.55, 0.2),     letterHeight=0.03,
+     win, text='teclear', font='Open Sans',
+     pos=(0.45, 0.18),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -185,8 +183,8 @@ textboxInstrPractice_2_5 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_2_6 = visual.TextBox2(
-     win, text='the name of the picture.', font='Open Sans',
-     pos=(0.625, 0.2),     letterHeight=0.03,
+     win, text='el nombre de la imagen.  ', font='Open Sans',
+     pos=(0.56, 0.18),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -201,7 +199,7 @@ textboxInstrPractice_2_6 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_2_7 = visual.TextBox2(
-     win, text='If the rectangle is ', font='Open Sans',
+     win, text='Si el rectángulo es ', font='Open Sans',
      pos=(0, 0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -217,10 +215,10 @@ textboxInstrPractice_2_7 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_2_8 = visual.TextBox2(
-     win, text='yellow,', font='Open Sans',
-     pos=(0.245, 0.1),     letterHeight=0.03,
+     win, text='amarillo,', font='Open Sans',
+     pos=(0.255, 0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
-     color=[1.0000, 1.0000, -1.0000], colorSpace='rgb',
+     color=[1.0000, 0.6863, -1.0000], colorSpace='rgb',
      opacity=None,
      bold=True, italic=False,
      lineSpacing=1.0,
@@ -233,8 +231,8 @@ textboxInstrPractice_2_8 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_2_9 = visual.TextBox2(
-     win, text='you will have to ', font='Open Sans',
-     pos=(0.365, 0.1),     letterHeight=0.03,
+     win, text='deberás ', font='Open Sans',
+     pos=(0.39, 0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -249,8 +247,8 @@ textboxInstrPractice_2_9 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_2_10 = visual.TextBox2(
-     win, text='say out loud', font='Open Sans',
-     pos=(0.59, 0.1),     letterHeight=0.03,
+     win, text='repetir en voz alta ', font='Open Sans',
+     pos=(0.51, 0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -265,8 +263,8 @@ textboxInstrPractice_2_10 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_2_11 = visual.TextBox2(
-     win, text='the name of the picture.', font='Open Sans',
-     pos=(0.78, 0.1),     letterHeight=0.03,
+     win, text='el nombre de la imagen.  ', font='Open Sans',
+     pos=(0.79, 0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -281,7 +279,7 @@ textboxInstrPractice_2_11 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_2_12 = visual.TextBox2(
-     win, text='This time, you won’t see the words TYPE or SPEAK and only have to use the colors.\n\n\nPress SPACE to begin!', font='Open Sans',
+     win, text='En esta ocasión, no verás las palabras TECLEA o HABLA y solo deberás utilizar los colores. \n\n\nPulsa la BARRA ESPACIADORA para continuar.', font='Open Sans',
      pos=(0, -0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -350,7 +348,7 @@ textPractice_2 = visual.TextStim(win=win, name='textPractice_2',
     languageStyle='LTR',
     depth=-4.0);
 keyPractice_2 = keyboard.Keyboard()
-micPractice_2 = sound.microphone.Microphone(
+micPractice2 = sound.microphone.Microphone(
     device=None, channels=None, 
     sampleRateHz=48000, maxRecordingSize=24000.0
 )
@@ -375,7 +373,7 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
 
 # --- Initialize components for Routine "EndPractice_2" ---
 textboxEndPractice_2 = visual.TextBox2(
-     win, text='Great! \n\n\nPress SPACE to continue.', font='Open Sans',
+     win, text='¡Genial! \n\n\nPulsa la BARRA ESPACIADORA para continuar.', font='Open Sans',
      pos=(0, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -811,8 +809,10 @@ for thisTrialsPractice_2 in trialsPractice_2:
     key_list = []
     
     polygonText_2.opacity = 0  
+    # Run 'Begin Routine' code from codeSavePractice2
+    count = count + 1
     # keep track of which components have finished
-    practiceTrial_2Components = [polygonCol_2, polygonWh_2, imagePractice_2, polygonText_2, textPractice_2, keyPractice_2, micPractice_2]
+    practiceTrial_2Components = [polygonCol_2, polygonWh_2, imagePractice_2, polygonText_2, textPractice_2, keyPractice_2, micPractice2]
     for thisComponent in practiceTrial_2Components:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -1009,33 +1009,33 @@ for thisTrialsPractice_2 in trialsPractice_2:
         if len(key_list) > 0:
             polygonText_2.opacity = 1
         
-        # micPractice_2 updates
-        if micPractice_2.status == NOT_STARTED and t >= 0.0-frameTolerance:
+        # micPractice2 updates
+        if micPractice2.status == NOT_STARTED and t >= 0.0-frameTolerance:
             # keep track of start time/frame for later
-            micPractice_2.frameNStart = frameN  # exact frame index
-            micPractice_2.tStart = t  # local t and not account for scr refresh
-            micPractice_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(micPractice_2, 'tStartRefresh')  # time at next scr refresh
+            micPractice2.frameNStart = frameN  # exact frame index
+            micPractice2.tStart = t  # local t and not account for scr refresh
+            micPractice2.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(micPractice2, 'tStartRefresh')  # time at next scr refresh
             # add timestamp to datafile
-            thisExp.addData('micPractice_2.started', t)
-            # start recording with micPractice_2
-            micPractice_2.start()
-            micPractice_2.status = STARTED
-        if micPractice_2.status == STARTED:
-            # update recorded clip for micPractice_2
-            micPractice_2.poll()
-        if micPractice_2.status == STARTED:
+            thisExp.addData('micPractice2.started', t)
+            # start recording with micPractice2
+            micPractice2.start()
+            micPractice2.status = STARTED
+        if micPractice2.status == STARTED:
+            # update recorded clip for micPractice2
+            micPractice2.poll()
+        if micPractice2.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > micPractice_2.tStartRefresh + 4-frameTolerance:
+            if tThisFlipGlobal > micPractice2.tStartRefresh + 4-frameTolerance:
                 # keep track of stop time/frame for later
-                micPractice_2.tStop = t  # not accounting for scr refresh
-                micPractice_2.frameNStop = frameN  # exact frame index
+                micPractice2.tStop = t  # not accounting for scr refresh
+                micPractice2.frameNStop = frameN  # exact frame index
                 # add timestamp to datafile
-                thisExp.addData('micPractice_2.stopped', t)
-                # stop recording with micPractice_2
-                micPractice_2.stop()
-                micPractice_2.status = FINISHED
-        # Run 'Each Frame' code from codeMicPractice_2
+                thisExp.addData('micPractice2.stopped', t)
+                # stop recording with micPractice2
+                micPractice2.stop()
+                micPractice2.status = FINISHED
+        # Run 'Each Frame' code from codeMicPractice2
         if t > 3:
             continueRoutine = False
         
@@ -1076,15 +1076,31 @@ for thisTrialsPractice_2 in trialsPractice_2:
         trialsPractice_2.addData('keyPractice_2.rt', keyPractice_2.rt)
     # Run 'End Routine' code from codePractice_2
     thisExp.addData('subjResponse', respDisplay)
-    # tell mic to keep hold of current recording in micPractice_2.clips and transcript (if applicable) in micPractice_2.scripts
-    # this will also update micPractice_2.lastClip and micPractice_2.lastScript
-    micPractice_2.stop()
+    # tell mic to keep hold of current recording in micPractice2.clips and transcript (if applicable) in micPractice2.scripts
+    # this will also update micPractice2.lastClip and micPractice2.lastScript
+    micPractice2.stop()
     tag = data.utils.getDateStr()
-    micPractice_2Clip = micPractice_2.bank(
+    micPractice2Clip = micPractice2.bank(
         tag=tag, transcribe='None',
         config=None
     )
-    trialsPractice_2.addData('micPractice_2.clip', os.path.join(micPractice_2RecFolder, 'recording_micPractice_2_%s.wav' % tag))
+    trialsPractice_2.addData('micPractice2.clip', os.path.join(micPractice2RecFolder, 'recording_micPractice2_%s.wav' % tag))
+    # Run 'End Routine' code from codeSavePractice2
+    clipFilename = clipFilename = 'recording_mic_%s.wav' % tag
+    #"recording_" + str(count) + ".wav"
+    micPractice2.lastClip.save(os.path.join(micPractice2RecFolder, clipFilename))
+    
+    '''
+    # save mic recordings
+    for tag in mic.clips:
+        for i, clip in enumerate(mic.clips[tag]):
+            clipFilename = 'recording_mic_%s.wav' % tag
+            # if there's more than 1 clip with this tag, append a counter for all beyond the first
+            if i > 0:
+                clipFilename += '_%s' % i
+            clip.save(os.path.join(micRecFolder, clipFilename))
+            
+    '''
     # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
     if routineForceEnded:
         routineTimer.reset()
@@ -1342,14 +1358,14 @@ if keyEndPractice_2.keys != None:  # we had a response
 thisExp.nextEntry()
 # the Routine "EndPractice_2" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
-# save micPractice_2 recordings
-for tag in micPractice_2.clips:
-    for i, clip in enumerate(micPractice_2.clips[tag]):
-        clipFilename = 'recording_micPractice_2_%s.wav' % tag
+# save micPractice2 recordings
+for tag in micPractice2.clips:
+    for i, clip in enumerate(micPractice2.clips[tag]):
+        clipFilename = 'recording_micPractice2_%s.wav' % tag
         # if there's more than 1 clip with this tag, append a counter for all beyond the first
         if i > 0:
             clipFilename += '_%s' % i
-        clip.save(os.path.join(micPractice_2RecFolder, clipFilename))
+        clip.save(os.path.join(micPractice2RecFolder, clipFilename))
 
 # --- End experiment ---
 # Flip one final time so any remaining win.callOnFlip() 

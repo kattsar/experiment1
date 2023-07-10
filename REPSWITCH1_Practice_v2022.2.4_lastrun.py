@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούλιος 05, 2023, at 15:18
+    on Ιούλιος 10, 2023, at 11:06
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -10,10 +10,6 @@ If you publish work using this script the most relevant publication is:
         https://doi.org/10.3758/s13428-018-01193-y
 
 """
-
-import psychopy
-psychopy.useVersion('2022.2.4')
-
 
 # --- Import packages ---
 from psychopy import locale_setup
@@ -32,6 +28,8 @@ import sys  # to get file system encoding
 import psychopy.iohub as io
 from psychopy.hardware import keyboard
 
+# Run 'Before Experiment' code from codeSavePractice
+count = 0
 
 
 # Ensure that relative paths start from the same directory as this script
@@ -105,8 +103,8 @@ defaultKeyboard = keyboard.Keyboard(backend='iohub')
 
 # --- Initialize components for Routine "General_Instr_1" ---
 textboxInstr1 = visual.TextBox2(
-     win, text='In this experiment you will see pictures on the screen and will have to name them. \n\nYou will have to name each picture either by saying its name out loud or by typing it. \n\nA colored rectangle around each picture will tell you whether you have to speak or type for this picture. ', font='Open Sans',
-     pos=(0, 0.2),     letterHeight=0.03,
+     win, text='En este experimento verás imágenes en la pantalla y tendrás que nombrarlas. \n\nTendrás que nombrar cada imagen diciendo su nombre en voz alta o escribiéndolo. \n\nUn rectángulo de color alrededor de cada imagen te indicará si tienes que decirla en voz alta o teclearla. ', font='Open Sans',
+     pos=(0, 0.25),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -121,8 +119,8 @@ textboxInstr1 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstr1_2 = visual.TextBox2(
-     win, text='If the rectangle is ', font='Open Sans',
-     pos=(0, -0.03),     letterHeight=0.03,
+     win, text='Si el rectángulo es', font='Open Sans',
+     pos=(0, 0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -137,8 +135,8 @@ textboxInstr1_2 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstr1_3 = visual.TextBox2(
-     win, text='blue,', font='Open Sans',
-     pos=(0.245, -0.03),     letterHeight=0.03,
+     win, text='azul,', font='Open Sans',
+     pos=(0.255, 0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
      opacity=None,
@@ -153,8 +151,8 @@ textboxInstr1_3 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstr1_4 = visual.TextBox2(
-     win, text=' you will need to ', font='Open Sans',
-     pos=(0.32, -0.03),     letterHeight=0.03,
+     win, text=' tendrás que  ', font='Open Sans',
+     pos=(0.33, 0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -169,8 +167,8 @@ textboxInstr1_4 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstr1_5 = visual.TextBox2(
-     win, text='type.', font='Open Sans',
-     pos=(0.55, -0.03),     letterHeight=0.03,
+     win, text='escribirlo con el teclado.', font='Open Sans',
+     pos=(0.51, 0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -185,8 +183,8 @@ textboxInstr1_5 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstr1_6 = visual.TextBox2(
-     win, text='If the rectangle is ', font='Open Sans',
-     pos=(0,-0.08),     letterHeight=0.03,
+     win, text='Si el rectángulo es ', font='Open Sans',
+     pos=(0,-0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -201,10 +199,10 @@ textboxInstr1_6 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstr1_7 = visual.TextBox2(
-     win, text='yellow,', font='Open Sans',
-     pos=(0.245, -0.08),     letterHeight=0.03,
+     win, text='amarillo,', font='Open Sans',
+     pos=(0.255, -0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
-     color=[1.0000, 1.0000, -1.0000], colorSpace='rgb',
+     color=[1.0000, 0.6863, -1.0000], colorSpace='rgb',
      opacity=None,
      bold=True, italic=False,
      lineSpacing=1.0,
@@ -217,8 +215,8 @@ textboxInstr1_7 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstr1_8 = visual.TextBox2(
-     win, text='you will have to ', font='Open Sans',
-     pos=(0.365, -0.08),     letterHeight=0.03,
+     win, text=' tendrás que ', font='Open Sans',
+     pos=(0.39, -0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -233,8 +231,8 @@ textboxInstr1_8 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstr1_9 = visual.TextBox2(
-     win, text='speak.', font='Open Sans',
-     pos=(0.59, -0.08),     letterHeight=0.03,
+     win, text='decirlo en voz alta. ', font='Open Sans',
+     pos=(0.57, -0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -249,8 +247,8 @@ textboxInstr1_9 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstr1_10 = visual.TextBox2(
-     win, text='You should name the images as fast and accurately as possible. \nPictures will only stay on the screen for a short time. \n\n\nPress SPACE to continue.\n', font='Open Sans',
-     pos=(0, -0.26),     letterHeight=0.03,
+     win, text='Deberás nombrar las imágenes lo más rápido y con la mayor precisión posible. \n\nLas imágenes solo permanecerán en la pantalla durante unos instantes. \n\n\nPulsa la BARRA ESPACIADORA para continuar.\n', font='Open Sans',
+     pos=(0, -0.27),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -268,7 +266,7 @@ keyInstr1 = keyboard.Keyboard()
 
 # --- Initialize components for Routine "General_Instr_2" ---
 textboxInstr2 = visual.TextBox2(
-     win, text='A few more instructions!\n\nWhen you speak, make sure you say only one word, in a clear voice.\n\nTry to keep your hands above the keyboard during the whole session. \n\nAnd please, don’t speak while typing!\n\n\nPress SPACE to continue.\n', font='Open Sans',
+     win, text='Algunas instrucciones más.\n\nCuando hables, asegúrate de decir una sola palabra, con voz clara.\n\nIntenta mantener las manos sobre el teclado durante toda la sesión.\n\nY, por favor, ¡no hables mientras escribes!\n\n\nPulsa la BARRA ESPACIADORA para continuar.\n', font='Open Sans',
      pos=(0, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -287,7 +285,7 @@ keyInstr2 = keyboard.Keyboard()
 
 # --- Initialize components for Routine "General_Instr_3" ---
 textboxInstr3 = visual.TextBox2(
-     win, text='Let’s practice before we begin!\n\n\nPress SPACE to continue.\n\n', font='Open Sans',
+     win, text='Practiquemos antes de empezar.\n\nPulsa la BARRA ESPACIADORA para continuar.\n', font='Open Sans',
      pos=(0, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -306,7 +304,7 @@ keyInstr3 = keyboard.Keyboard()
 
 # --- Initialize components for Routine "InstructionsPractice" ---
 textboxInstrPractice = visual.TextBox2(
-     win, text='If the rectangle is ', font='Open Sans',
+     win, text='Si el rectángulo es', font='Open Sans',
      pos=(0, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -322,8 +320,8 @@ textboxInstrPractice = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_2 = visual.TextBox2(
-     win, text='blue,', font='Open Sans',
-     pos=(0.245, 0.2),     letterHeight=0.03,
+     win, text='azul,', font='Open Sans',
+     pos=(0.255, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
      opacity=None,
@@ -338,8 +336,8 @@ textboxInstrPractice_2 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_3 = visual.TextBox2(
-     win, text=' you will need to ', font='Open Sans',
-     pos=(0.32, 0.2),     letterHeight=0.03,
+     win, text=' deberás ', font='Open Sans',
+     pos=(0.33, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -354,8 +352,8 @@ textboxInstrPractice_3 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_4 = visual.TextBox2(
-     win, text='type', font='Open Sans',
-     pos=(0.55, 0.2),     letterHeight=0.03,
+     win, text='teclear', font='Open Sans',
+     pos=(0.46, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -370,8 +368,8 @@ textboxInstrPractice_4 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_5 = visual.TextBox2(
-     win, text='the name of the picture.', font='Open Sans',
-     pos=(0.625, 0.2),     letterHeight=0.03,
+     win, text='el nombre de la imagen. ', font='Open Sans',
+     pos=(0.575, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -386,7 +384,7 @@ textboxInstrPractice_5 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_6 = visual.TextBox2(
-     win, text='The word ', font='Open Sans',
+     win, text='La palabra', font='Open Sans',
      pos=(0, 0.15),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -402,8 +400,8 @@ textboxInstrPractice_6 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_7 = visual.TextBox2(
-     win, text='TYPE', font='Open Sans',
-     pos=(0.14, 0.15),     letterHeight=0.03,
+     win, text='TECLEA', font='Open Sans',
+     pos=(0.155, 0.15),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -418,8 +416,8 @@ textboxInstrPractice_7 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_8 = visual.TextBox2(
-     win, text='will appear above the picture.', font='Open Sans',
-     pos=(0.22, 0.15),     letterHeight=0.03,
+     win, text='aparecerá encima de la imagen.', font='Open Sans',
+     pos=(0.27, 0.15),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -434,7 +432,7 @@ textboxInstrPractice_8 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_9 = visual.TextBox2(
-     win, text='If the rectangle is ', font='Open Sans',
+     win, text='Si el rectángulo es ', font='Open Sans',
      pos=(0, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -450,10 +448,10 @@ textboxInstrPractice_9 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_10 = visual.TextBox2(
-     win, text='yellow,', font='Open Sans',
-     pos=(0.245, 0.05),     letterHeight=0.03,
+     win, text='amarillo,', font='Open Sans',
+     pos=(0.255, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
-     color=[1.0000, 1.0000, -1.0000], colorSpace='rgb',
+     color=[1.0000, 0.6863, -1.0000], colorSpace='rgb',
      opacity=None,
      bold=True, italic=False,
      lineSpacing=1.0,
@@ -466,8 +464,8 @@ textboxInstrPractice_10 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_11 = visual.TextBox2(
-     win, text='you will have to ', font='Open Sans',
-     pos=(0.365, 0.05),     letterHeight=0.03,
+     win, text=' tendrás que ', font='Open Sans',
+     pos=(0.39, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -482,8 +480,8 @@ textboxInstrPractice_11 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_12 = visual.TextBox2(
-     win, text='say out loud', font='Open Sans',
-     pos=(0.59, 0.05),     letterHeight=0.03,
+     win, text='decir en voz alta ', font='Open Sans',
+     pos=(0.57, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -498,8 +496,8 @@ textboxInstrPractice_12 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_13 = visual.TextBox2(
-     win, text='the name of the picture.', font='Open Sans',
-     pos=(0.78, 0.05),     letterHeight=0.03,
+     win, text='el nombre de la imagen. ', font='Open Sans',
+     pos=(0.82, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -514,7 +512,7 @@ textboxInstrPractice_13 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_14 = visual.TextBox2(
-     win, text='The word', font='Open Sans',
+     win, text='La palabra', font='Open Sans',
      pos=(0, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -530,8 +528,8 @@ textboxInstrPractice_14 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_15 = visual.TextBox2(
-     win, text='SPEAK', font='Open Sans',
-     pos=(0.14, 0),     letterHeight=0.03,
+     win, text='HABLA', font='Open Sans',
+     pos=(0.15, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -546,8 +544,8 @@ textboxInstrPractice_15 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_16 = visual.TextBox2(
-     win, text='will appear above the picture. ', font='Open Sans',
-     pos=(0.24, 0),     letterHeight=0.03,
+     win, text='aparecerá encima de la imagen. ', font='Open Sans',
+     pos=(0.26, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -562,7 +560,7 @@ textboxInstrPractice_16 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_17 = visual.TextBox2(
-     win, text='Press SPACE to begin!', font='Open Sans',
+     win, text='Pulsa la BARRA ESPACIADORA para empezar.', font='Open Sans',
      pos=(0, -0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -663,10 +661,10 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
 
 # --- Initialize components for Routine "EndPractice" ---
 textboxEndPracrice = visual.TextBox2(
-     win, text='Great! \n\n\nPress SPACE to continue.', font='Open Sans',
+     win, text='¡Genial! \n\n\nPulsa la BARRA ESPACIADORA para continuar.', font='Open Sans',
      pos=(0, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
-     color='white', colorSpace='rgb',
+     color=[1.0000, 1.0000, 1.0000], colorSpace='rgb',
      opacity=None,
      bold=False, italic=False,
      lineSpacing=1.0,
@@ -1562,6 +1560,8 @@ for thisTrialsPractice in trialsPractice:
     key_list = []
     
     polygonText.opacity = 0  
+    # Run 'Begin Routine' code from codeSavePractice
+    count = count + 1
     # keep track of which components have finished
     practiceTrialComponents = [polygonCol, polygonWh, textCue, imagePractice, polygonText, textPractice, keyPractice, micPractice]
     for thisComponent in practiceTrialComponents:
@@ -1858,6 +1858,22 @@ for thisTrialsPractice in trialsPractice:
         config=None
     )
     trialsPractice.addData('micPractice.clip', os.path.join(micPracticeRecFolder, 'recording_micPractice_%s.wav' % tag))
+    # Run 'End Routine' code from codeSavePractice
+    clipFilename = clipFilename = 'recording_mic_%s.wav' % tag
+    #"recording_" + str(count) + ".wav"
+    micPractice.lastClip.save(os.path.join(micPracticeRecFolder, clipFilename))
+    
+    '''
+    # save mic recordings
+    for tag in mic.clips:
+        for i, clip in enumerate(mic.clips[tag]):
+            clipFilename = 'recording_mic_%s.wav' % tag
+            # if there's more than 1 clip with this tag, append a counter for all beyond the first
+            if i > 0:
+                clipFilename += '_%s' % i
+            clip.save(os.path.join(micRecFolder, clipFilename))
+            
+    '''
     # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
     if routineForceEnded:
         routineTimer.reset()

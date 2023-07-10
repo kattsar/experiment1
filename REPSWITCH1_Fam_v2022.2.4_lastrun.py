@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούλιος 06, 2023, at 15:50
+    on Ιούλιος 10, 2023, at 10:03
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -103,7 +103,7 @@ defaultKeyboard = keyboard.Keyboard(backend='iohub')
 
 # --- Initialize components for Routine "WelcomeFam" ---
 textWelcomeFam = visual.TextStim(win=win, name='textWelcomeFam',
-    text='Welcome to the experiment!',
+    text='Bienvenido/a al experimento!',
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
     color='white', colorSpace='rgb', opacity=None, 
@@ -121,7 +121,7 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
 
 # --- Initialize components for Routine "InstructionsFam" ---
 textboxInstrFam = visual.TextBox2(
-     win, text='In this experiment you will see pictures on the screen and will have to name them.\n\nThe pictures will appear one at a time and will stay on screen for a few seconds.\n\nWhen a picture appears, you will have to say its name out loud. \n\nAfter each picture, you will see its name written below it. \n\nPlease try and remember to use this name for the rest of the experiment.\n\n\nPress SPACE to start.', font='Open Sans',
+     win, text='En este experimento verás imágenes en la pantalla y tendrás que nombrarlas.\n\nLas imágenes aparecerán de una en una y permanecerán en pantalla durante unos segundos.\n\nCuando aparezca una imagen, tendrás que decir su nombre en voz alta. \n\nDespués de cada imagen, verás su nombre escrito debajo.  \n\nIntenta recordar este nombre durante el resto del experimento.\n\n\nPulsa ESPACIO para empezar.', font='Open Sans',
      pos=(0, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -202,7 +202,7 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
 
 # --- Initialize components for Routine "EndFam" ---
 textboxEndFam = visual.TextBox2(
-     win, text='Congratulations! \n\nYou finished the first part and you can now move to the second part of the experiment!\n\n\nPress SPACE to continue.', font='Open Sans',
+     win, text='¡Enhorabuena!\n\nHas terminado la primera parte y ahora puedes pasar a la segunda parte del experimento.\n\n\nPulsa ESPACIO para continuar.', font='Open Sans',
      pos=(0, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -792,7 +792,8 @@ for thisFamTrial in famTrials:
     )
     famTrials.addData('micFam.clip', os.path.join(micFamRecFolder, 'recording_micFam_%s.wav' % tag))
     # Run 'End Routine' code from codeSaveFam
-    clipFilename = "recording_" + str(count) + ".wav"
+    clipFilename = 'recording_mic_%s.wav' % tag
+    #"recording_" + str(count) + ".wav"
     micFam.lastClip.save(os.path.join(micFamRecFolder, clipFilename))
     
     '''
