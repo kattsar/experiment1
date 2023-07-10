@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούλιος 10, 2023, at 12:15
+    on Ιούλιος 10, 2023, at 16:08
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -1551,12 +1551,20 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     keyPause.rt = []
     _keyPause_allKeys = []
     # Run 'Begin Routine' code from codePause
-    if trialsREPSWITCH.thisN == 0 or trialsREPSWITCH.thisN % 95 != 0:
+    if (trialsREPSWITCH.thisN + 1) % 96 != 0 and trialsREPSWITCH.thisN + 1 != trialsREPSWITCH.nTotal:
         continueRoutine = False
         
-        #checks if the value of trialsREPSWITCH.thisN is either 0 or not divisible evenly by 95
-        #If either of these conditions is true, the continueRoutine variable is set to False, 
-        #indicating that some loop or routine should be skipped or terminated.
+        #trialsREPSWITCH.thisN + 1 is used to account for the fact that thisN starts from 0. 
+        #The expression (trialsREPSWITCH.thisN + 1) % 96 != 0 checks if the current trial number plus one is not divisible evenly by 96. 
+        #If it's true, the routine will be skipped.
+        
+        # trialsREPSWITCH.nTotal represents the total number of trials in your experiment. 
+        #By adding trialsREPSWITCH.thisN + 1 != trialsREPSWITCH.nTotal to the condition, 
+        #you're checking if the current trial number plus one is not only divisible evenly by 96 but also ensuring it's not the last trial.
+        #With this modification, the break will occur after every 96 trials except for the last set of 96 trials, 
+        #where the closing message will be displayed instead of a break.
+        
+        
     # keep track of which components have finished
     pauseComponents = [textboxPause, keyPause]
     for thisComponent in pauseComponents:
