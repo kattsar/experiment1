@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούλιος 10, 2023, at 10:03
+    on Ιούλιος 13, 2023, at 12:02
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -121,7 +121,7 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
 
 # --- Initialize components for Routine "InstructionsFam" ---
 textboxInstrFam = visual.TextBox2(
-     win, text='En este experimento verás imágenes en la pantalla y tendrás que nombrarlas.\n\nLas imágenes aparecerán de una en una y permanecerán en pantalla durante unos segundos.\n\nCuando aparezca una imagen, tendrás que decir su nombre en voz alta. \n\nDespués de cada imagen, verás su nombre escrito debajo.  \n\nIntenta recordar este nombre durante el resto del experimento.\n\n\nPulsa ESPACIO para empezar.', font='Open Sans',
+     win, text='En este experimento verás imágenes en la pantalla y tendrás que nombrarlas.\n\nLas imágenes aparecerán de una en una y permanecerán en pantalla durante unos segundos.\n\nCuando aparezca una imagen, tendrás que decir su nombre en voz alta. \n\nDespués de cada imagen, verás su nombre escrito debajo.  \n\nIntenta recordar este nombre durante el resto del experimento.\n\n\nPulsa la BARRA ESPACIADORA para empezar.', font='Open Sans',
      pos=(0, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -202,7 +202,7 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
 
 # --- Initialize components for Routine "EndFam" ---
 textboxEndFam = visual.TextBox2(
-     win, text='¡Enhorabuena!\n\nHas terminado la primera parte y ahora puedes pasar a la segunda parte del experimento.\n\n\nPulsa ESPACIO para continuar.', font='Open Sans',
+     win, text='¡Enhorabuena!\n\nHas terminado la primera parte y ahora puedes pasar a la segunda parte del experimento.\n\n\nPulsa la BARRA ESPACIADORA para continuar.', font='Open Sans',
      pos=(0, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
