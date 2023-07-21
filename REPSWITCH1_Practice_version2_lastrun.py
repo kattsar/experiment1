@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούλιος 18, 2023, at 15:54
+    on Ιούλιος 21, 2023, at 10:26
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -29,6 +29,8 @@ import psychopy.iohub as io
 from psychopy.hardware import keyboard
 
 # Run 'Before Experiment' code from codeSavePractice
+import pandas as pd
+
 count = 0
 
 
@@ -37,7 +39,7 @@ _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 # Store info about the experiment session
 psychopyVersion = '2022.2.4'
-expName = 'REPSWITCH1_Practice_v2022.2.4'  # from the Builder filename that created this script
+expName = 'REPSWITCH1_Practice_version2'  # from the Builder filename that created this script
 expInfo = {
     'participant': f"{randint(0, 999999):06.0f}",
     'session': '001',
@@ -56,7 +58,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='D:\\GitHub\\experiment1\\REPSWITCH1_Practice_v2022.2.4_lastrun.py',
+    originPath='D:\\GitHub\\experiment1\\REPSWITCH1_Practice_version2_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -67,10 +69,10 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 frameTolerance = 0.001  # how close to onset before 'same' frame
 
 # Start Code - component code to be run after the window creation
-# Make folder to store recordings from micPractice
-micPracticeRecFolder = filename + '_micPractice_recorded'
-if not os.path.isdir(micPracticeRecFolder):
-    os.mkdir(micPracticeRecFolder)
+# Make folder to store recordings from micPracticev2
+micPracticev2RecFolder = filename + '_micPracticev2_recorded'
+if not os.path.isdir(micPracticev2RecFolder):
+    os.mkdir(micPracticev2RecFolder)
 
 # --- Setup the Window ---
 win = visual.Window(
@@ -135,10 +137,10 @@ textboxInstr1_2 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstr1_3 = visual.TextBox2(
-     win, text='azul,', font='Open Sans',
+     win, text='amarillo,', font='Open Sans',
      pos=(0.255, 0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
-     color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
+     color=[1.0000, 0.6863, -1.0000], colorSpace='rgb',
      opacity=None,
      bold=True, italic=False,
      lineSpacing=1.0,
@@ -152,7 +154,7 @@ textboxInstr1_3 = visual.TextBox2(
 )
 textboxInstr1_4 = visual.TextBox2(
      win, text=' tendrás que  ', font='Open Sans',
-     pos=(0.33, 0.03),     letterHeight=0.03,
+     pos=(0.39, 0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -168,7 +170,7 @@ textboxInstr1_4 = visual.TextBox2(
 )
 textboxInstr1_5 = visual.TextBox2(
      win, text='escribirlo con el teclado.', font='Open Sans',
-     pos=(0.51, 0.03),     letterHeight=0.03,
+     pos=(0.57, 0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -199,10 +201,10 @@ textboxInstr1_6 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstr1_7 = visual.TextBox2(
-     win, text='amarillo,', font='Open Sans',
+     win, text='azul,', font='Open Sans',
      pos=(0.255, -0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
-     color=[1.0000, 0.6863, -1.0000], colorSpace='rgb',
+     color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
      opacity=None,
      bold=True, italic=False,
      lineSpacing=1.0,
@@ -216,7 +218,7 @@ textboxInstr1_7 = visual.TextBox2(
 )
 textboxInstr1_8 = visual.TextBox2(
      win, text=' tendrás que ', font='Open Sans',
-     pos=(0.39, -0.03),     letterHeight=0.03,
+     pos=(0.33, -0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -232,7 +234,7 @@ textboxInstr1_8 = visual.TextBox2(
 )
 textboxInstr1_9 = visual.TextBox2(
      win, text='decirlo en voz alta. ', font='Open Sans',
-     pos=(0.57, -0.03),     letterHeight=0.03,
+     pos=(0.51, -0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -320,10 +322,10 @@ textboxInstrPractice = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_2 = visual.TextBox2(
-     win, text='azul,', font='Open Sans',
+     win, text='amarillo,', font='Open Sans',
      pos=(0.255, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
-     color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
+     color=[1.0000, 0.6863, -1.0000], colorSpace='rgb',
      opacity=None,
      bold=True, italic=False,
      lineSpacing=1.0,
@@ -337,7 +339,7 @@ textboxInstrPractice_2 = visual.TextBox2(
 )
 textboxInstrPractice_3 = visual.TextBox2(
      win, text=' deberás ', font='Open Sans',
-     pos=(0.33, 0.2),     letterHeight=0.03,
+     pos=(0.39, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -353,7 +355,7 @@ textboxInstrPractice_3 = visual.TextBox2(
 )
 textboxInstrPractice_4 = visual.TextBox2(
      win, text='teclear', font='Open Sans',
-     pos=(0.46, 0.2),     letterHeight=0.03,
+     pos=(0.52, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -369,7 +371,7 @@ textboxInstrPractice_4 = visual.TextBox2(
 )
 textboxInstrPractice_5 = visual.TextBox2(
      win, text='el nombre de la imagen. ', font='Open Sans',
-     pos=(0.575, 0.2),     letterHeight=0.03,
+     pos=(0.635, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -400,7 +402,7 @@ textboxInstrPractice_6 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_7 = visual.TextBox2(
-     win, text='TECLEA', font='Open Sans',
+     win, text='HABLA', font='Open Sans',
      pos=(0.155, 0.15),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -417,7 +419,7 @@ textboxInstrPractice_7 = visual.TextBox2(
 )
 textboxInstrPractice_8 = visual.TextBox2(
      win, text='aparecerá encima de la imagen.', font='Open Sans',
-     pos=(0.27, 0.15),     letterHeight=0.03,
+     pos=(0.265, 0.15),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -448,10 +450,10 @@ textboxInstrPractice_9 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_10 = visual.TextBox2(
-     win, text='amarillo,', font='Open Sans',
+     win, text='azul,', font='Open Sans',
      pos=(0.255, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
-     color=[1.0000, 0.6863, -1.0000], colorSpace='rgb',
+     color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
      opacity=None,
      bold=True, italic=False,
      lineSpacing=1.0,
@@ -465,7 +467,7 @@ textboxInstrPractice_10 = visual.TextBox2(
 )
 textboxInstrPractice_11 = visual.TextBox2(
      win, text=' tendrás que ', font='Open Sans',
-     pos=(0.39, 0.05),     letterHeight=0.03,
+     pos=(0.33, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -481,7 +483,7 @@ textboxInstrPractice_11 = visual.TextBox2(
 )
 textboxInstrPractice_12 = visual.TextBox2(
      win, text='decir en voz alta ', font='Open Sans',
-     pos=(0.57, 0.05),     letterHeight=0.03,
+     pos=(0.51, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -497,7 +499,7 @@ textboxInstrPractice_12 = visual.TextBox2(
 )
 textboxInstrPractice_13 = visual.TextBox2(
      win, text='el nombre de la imagen. ', font='Open Sans',
-     pos=(0.82, 0.05),     letterHeight=0.03,
+     pos=(0.76, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -528,7 +530,7 @@ textboxInstrPractice_14 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_15 = visual.TextBox2(
-     win, text='HABLA', font='Open Sans',
+     win, text='TECLEA', font='Open Sans',
      pos=(0.15, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -545,7 +547,7 @@ textboxInstrPractice_15 = visual.TextBox2(
 )
 textboxInstrPractice_16 = visual.TextBox2(
      win, text='aparecerá encima de la imagen. ', font='Open Sans',
-     pos=(0.26, 0),     letterHeight=0.03,
+     pos=(0.265, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -636,10 +638,17 @@ textPractice = visual.TextStim(win=win, name='textPractice',
     languageStyle='LTR',
     depth=-5.0);
 keyPractice = keyboard.Keyboard()
-micPractice = sound.microphone.Microphone(
+micPracticev2 = sound.microphone.Microphone(
     device=None, channels=None, 
     sampleRateHz=48000, maxRecordingSize=24000.0
 )
+# Run 'Begin Experiment' code from codeSavePractice
+# Read the excel file and store it in a pandas DataFrame
+data_file = "repswitch_practice_version2.xlsx" 
+df = pd.read_excel(data_file)
+
+# Get the participant number from the experiment info dialog
+participant_number = expInfo['participant']
 
 # --- Initialize components for Routine "blank500" ---
 textBlank500 = visual.TextStim(win=win, name='textBlank500',
@@ -1452,7 +1461,7 @@ else:
 # set up handler to look after randomisation of conditions etc
 trialsPractice = data.TrialHandler(nReps=1.0, method='sequential', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('repswitch_practice.xlsx'),
+    trialList=data.importConditions('repswitch_practice_version2.xlsx'),
     seed=None, name='trialsPractice')
 thisExp.addLoop(trialsPractice)  # add the loop to the experiment
 thisTrialsPractice = trialsPractice.trialList[0]  # so we can initialise stimuli with some values
@@ -1562,8 +1571,12 @@ for thisTrialsPractice in trialsPractice:
     polygonText.opacity = 0  
     # Run 'Begin Routine' code from codeSavePractice
     count = count + 1
+    
+    #Retrieve the value of 'correctAns' for the current trial
+    correctAns = df.loc[count - 1, 'correctAns']
+    
     # keep track of which components have finished
-    practiceTrialComponents = [polygonCol, polygonWh, textCue, imagePractice, polygonText, textPractice, keyPractice, micPractice]
+    practiceTrialComponents = [polygonCol, polygonWh, textCue, imagePractice, polygonText, textPractice, keyPractice, micPracticev2]
     for thisComponent in practiceTrialComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -1782,32 +1795,32 @@ for thisTrialsPractice in trialsPractice:
         if len(key_list) > 0:
             polygonText.opacity = 1
         
-        # micPractice updates
-        if micPractice.status == NOT_STARTED and t >= 0.0-frameTolerance:
+        # micPracticev2 updates
+        if micPracticev2.status == NOT_STARTED and t >= 0.0-frameTolerance:
             # keep track of start time/frame for later
-            micPractice.frameNStart = frameN  # exact frame index
-            micPractice.tStart = t  # local t and not account for scr refresh
-            micPractice.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(micPractice, 'tStartRefresh')  # time at next scr refresh
+            micPracticev2.frameNStart = frameN  # exact frame index
+            micPracticev2.tStart = t  # local t and not account for scr refresh
+            micPracticev2.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(micPracticev2, 'tStartRefresh')  # time at next scr refresh
             # add timestamp to datafile
-            thisExp.addData('micPractice.started', t)
-            # start recording with micPractice
-            micPractice.start()
-            micPractice.status = STARTED
-        if micPractice.status == STARTED:
-            # update recorded clip for micPractice
-            micPractice.poll()
-        if micPractice.status == STARTED:
+            thisExp.addData('micPracticev2.started', t)
+            # start recording with micPracticev2
+            micPracticev2.start()
+            micPracticev2.status = STARTED
+        if micPracticev2.status == STARTED:
+            # update recorded clip for micPracticev2
+            micPracticev2.poll()
+        if micPracticev2.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > micPractice.tStartRefresh + 4-frameTolerance:
+            if tThisFlipGlobal > micPracticev2.tStartRefresh + 4-frameTolerance:
                 # keep track of stop time/frame for later
-                micPractice.tStop = t  # not accounting for scr refresh
-                micPractice.frameNStop = frameN  # exact frame index
+                micPracticev2.tStop = t  # not accounting for scr refresh
+                micPracticev2.frameNStop = frameN  # exact frame index
                 # add timestamp to datafile
-                thisExp.addData('micPractice.stopped', t)
-                # stop recording with micPractice
-                micPractice.stop()
-                micPractice.status = FINISHED
+                thisExp.addData('micPracticev2.stopped', t)
+                # stop recording with micPracticev2
+                micPracticev2.stop()
+                micPracticev2.status = FINISHED
         # Run 'Each Frame' code from codeMicPractice
         if t > 3:
             continueRoutine = False
@@ -1849,31 +1862,20 @@ for thisTrialsPractice in trialsPractice:
         trialsPractice.addData('keyPractice.rt', keyPractice.rt)
     # Run 'End Routine' code from codePractice
     thisExp.addData('subjResponse', respDisplay)
-    # tell mic to keep hold of current recording in micPractice.clips and transcript (if applicable) in micPractice.scripts
-    # this will also update micPractice.lastClip and micPractice.lastScript
-    micPractice.stop()
+    # tell mic to keep hold of current recording in micPracticev2.clips and transcript (if applicable) in micPracticev2.scripts
+    # this will also update micPracticev2.lastClip and micPracticev2.lastScript
+    micPracticev2.stop()
     tag = data.utils.getDateStr()
-    micPracticeClip = micPractice.bank(
+    micPracticev2Clip = micPracticev2.bank(
         tag=tag, transcribe='None',
         config=None
     )
-    trialsPractice.addData('micPractice.clip', os.path.join(micPracticeRecFolder, 'recording_micPractice_%s.wav' % tag))
+    trialsPractice.addData('micPracticev2.clip', os.path.join(micPracticev2RecFolder, 'recording_micPracticev2_%s.wav' % tag))
     # Run 'End Routine' code from codeSavePractice
-    clipFilename = clipFilename = 'recording_mic_%s.wav' % tag
+    clipFilename = f"recording_Practice1v2_p{participant_number}_trial{str(count)}_{correctAns}_%s.wav" % tag
     #"recording_" + str(count) + ".wav"
-    micPractice.lastClip.save(os.path.join(micPracticeRecFolder, clipFilename))
+    micPracticev2.lastClip.save(os.path.join(micPracticev2RecFolder, clipFilename))
     
-    '''
-    # save mic recordings
-    for tag in mic.clips:
-        for i, clip in enumerate(mic.clips[tag]):
-            clipFilename = 'recording_mic_%s.wav' % tag
-            # if there's more than 1 clip with this tag, append a counter for all beyond the first
-            if i > 0:
-                clipFilename += '_%s' % i
-            clip.save(os.path.join(micRecFolder, clipFilename))
-            
-    '''
     # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
     if routineForceEnded:
         routineTimer.reset()
@@ -2131,14 +2133,14 @@ if keyEndPractice.keys != None:  # we had a response
 thisExp.nextEntry()
 # the Routine "EndPractice" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
-# save micPractice recordings
-for tag in micPractice.clips:
-    for i, clip in enumerate(micPractice.clips[tag]):
-        clipFilename = 'recording_micPractice_%s.wav' % tag
+# save micPracticev2 recordings
+for tag in micPracticev2.clips:
+    for i, clip in enumerate(micPracticev2.clips[tag]):
+        clipFilename = 'recording_micPracticev2_%s.wav' % tag
         # if there's more than 1 clip with this tag, append a counter for all beyond the first
         if i > 0:
             clipFilename += '_%s' % i
-        clip.save(os.path.join(micPracticeRecFolder, clipFilename))
+        clip.save(os.path.join(micPracticev2RecFolder, clipFilename))
 
 # --- End experiment ---
 # Flip one final time so any remaining win.callOnFlip() 

@@ -39,7 +39,7 @@
     <Param val="False" valType="bool" updates="None" name="elSimMode"/>
     <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
     <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
-    <Param val="REPSWITCH1_Practice_2_v2022.2.4" valType="str" updates="None" name="expName"/>
+    <Param val="REPSWITCH1_Practice_2_version2" valType="str" updates="None" name="expName"/>
     <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
     <Param val="None" valType="str" updates="None" name="eyetracker"/>
     <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
@@ -145,7 +145,7 @@
         <Param val="True" valType="bool" updates="constant" name="bold"/>
         <Param val="None" valType="color" updates="constant" name="borderColor"/>
         <Param val="2" valType="num" updates="constant" name="borderWidth"/>
-        <Param val="-1.0000, -1.0000, 0.0902" valType="color" updates="constant" name="color"/>
+        <Param val="1.0000, 0.6863, -1.0000" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
         <Param val="1" valType="num" updates="constant" name="contrast"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
@@ -172,7 +172,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="azul," valType="str" updates="constant" name="text"/>
+        <Param val="amarillo," valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
       </TextboxComponent>
       <TextboxComponent name="textboxInstrPractice_2_4">
@@ -200,7 +200,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.33, 0.18)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.39, 0.18)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -237,7 +237,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.45, 0.18)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.51, 0.18)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -274,7 +274,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.56, 0.18)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.62, 0.18)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -330,7 +330,7 @@
         <Param val="True" valType="bool" updates="constant" name="bold"/>
         <Param val="None" valType="color" updates="constant" name="borderColor"/>
         <Param val="2" valType="num" updates="constant" name="borderWidth"/>
-        <Param val="1.0000, 0.6863, -1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="-1.0000, -1.0000, 0.0902" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
         <Param val="1" valType="num" updates="constant" name="contrast"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
@@ -357,7 +357,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="amarillo," valType="str" updates="constant" name="text"/>
+        <Param val="azul," valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
       </TextboxComponent>
       <TextboxComponent name="textboxInstrPractice_2_9">
@@ -385,7 +385,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.39, 0.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.33, 0.1)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -422,7 +422,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.51, 0.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.45, 0.1)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -459,7 +459,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.79, 0.1)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.73, 0.1)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -752,13 +752,13 @@
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="codePractice_2" valType="code" updates="None" name="name"/>
       </CodeComponent>
-      <MicrophoneComponent name="micPractice2">
+      <MicrophoneComponent name="micPractice2v2">
         <Param val="auto" valType="str" updates="None" name="channels"/>
         <Param val="default" valType="str" updates="None" name="device"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="24000" valType="num" updates="None" name="maxSize"/>
-        <Param val="micPractice2" valType="code" updates="None" name="name"/>
+        <Param val="micPractice2v2" valType="code" updates="None" name="name"/>
         <Param val="default" valType="code" updates="None" name="outputType"/>
         <Param val="DVD Audio (48kHz)" valType="num" updates="None" name="sampleRate"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
@@ -793,19 +793,19 @@
         <Param val="codeMicPractice2" valType="code" updates="None" name="name"/>
       </CodeComponent>
       <CodeComponent name="codeSavePractice2">
-        <Param val="count = 0" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="import pandas as pd&amp;#10;&amp;#10;count = 0" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="# Read the excel file and store it in a pandas DataFrame&amp;#10;data_file = &quot;repswitch_practice_2_version2.xlsx&quot;  &amp;#10;df = pd.read_excel(data_file)&amp;#10;&amp;#10;# Get the participant number from the experiment info dialog&amp;#10;participant_number = expInfo['participant']" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="count = count + 1" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="count = count + 1&amp;#10;&amp;#10;#Retrieve the value of 'correctAns' for the current trial&amp;#10;correctAns = df.loc[count - 1, 'correctAns']" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Py" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="clipFilename = clipFilename = 'recording_mic_%s.wav' % tag&amp;#10;#&quot;recording_&quot; + str(count) + &quot;.wav&quot;&amp;#10;micPractice2.lastClip.save(os.path.join(micPractice2RecFolder, clipFilename))&amp;#10;&amp;#10;'''&amp;#10;# save mic recordings&amp;#10;for tag in mic.clips:&amp;#10;    for i, clip in enumerate(mic.clips[tag]):&amp;#10;        clipFilename = 'recording_mic_%s.wav' % tag&amp;#10;        # if there's more than 1 clip with this tag, append a counter for all beyond the first&amp;#10;        if i &gt; 0:&amp;#10;            clipFilename += '_%s' % i&amp;#10;        clip.save(os.path.join(micRecFolder, clipFilename))&amp;#10;        &amp;#10;'''" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="clipFilename = f&quot;recording_Practice2v2_p{participant_number}_trial{str(count)}_{correctAns}_%s.wav&quot; % tag&amp;#10;#&quot;recording_&quot; + str(count) + &quot;.wav&quot;&amp;#10;micPractice2v2.lastClip.save(os.path.join(micPractice2v2RecFolder, clipFilename))&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="codeSavePractice2" valType="code" updates="None" name="name"/>
       </CodeComponent>
@@ -873,8 +873,8 @@
     <Routine name="blank500"/>
     <LoopInitiator loopType="TrialHandler" name="trialsPractice_2">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[{'image': 'REPSWITCH1_Practice/PICTURE_12.png', 'correctAns': 'sirena', 'respModal': 'SPEAK', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_12.png', 'correctAns': 'sirena', 'respModal': 'TYPE', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_599.png', 'correctAns': 'nube', 'respModal': 'SPEAK', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas', 'respModal': 'TYPE', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_614.png', 'correctAns': 'reina', 'respModal': 'TYPE', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_612.png', 'correctAns': 'rana', 'respModal': 'TYPE', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_612.png', 'correctAns': 'rana', 'respModal': 'SPEAK', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_570.png', 'correctAns': 'toro', 'respModal': 'TYPE', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_110.png', 'correctAns': 'mesa', 'respModal': 'SPEAK', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas', 'respModal': 'SPEAK', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas', 'respModal': 'TYPE', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_614.png', 'correctAns': 'reina', 'respModal': 'SPEAK', 'frameColor': 'gold'}]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="repswitch_practice_2.xlsx" valType="file"/>
+      <Param name="conditions" updates="None" val="[{'image': 'REPSWITCH1_Practice/PICTURE_12.png', 'correctAns': 'sirena', 'respModal': 'SPEAK', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_12.png', 'correctAns': 'sirena', 'respModal': 'TYPE', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_599.png', 'correctAns': 'nube', 'respModal': 'SPEAK', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas', 'respModal': 'TYPE', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_614.png', 'correctAns': 'reina', 'respModal': 'TYPE', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_612.png', 'correctAns': 'rana', 'respModal': 'TYPE', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_612.png', 'correctAns': 'rana', 'respModal': 'SPEAK', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_570.png', 'correctAns': 'toro', 'respModal': 'TYPE', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_110.png', 'correctAns': 'mesa', 'respModal': 'SPEAK', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas', 'respModal': 'SPEAK', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas', 'respModal': 'TYPE', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_614.png', 'correctAns': 'reina', 'respModal': 'SPEAK', 'frameColor': 'darkblue'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="repswitch_practice_2_version2.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="sequential" valType="str"/>

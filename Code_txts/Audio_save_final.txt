@@ -1,0 +1,86 @@
+FAMILIARISATION
+
+
+
+
+PRACTICE1
+
+**BEFORE EXPERIMENT**
+import pandas as pd
+
+count = 0
+
+**BEGIN EXPERIMENT**
+# Read the excel file and store it in a pandas DataFrame
+data_file = "repswitch_practice_version1.xlsx" #"repswitch_practice_version2.xlsx"
+df = pd.read_excel(data_file)
+
+# Get the participant number from the experiment info dialog
+participant_number = expInfo['participant']
+
+**BEGIN ROUTINE**
+count = count + 1
+
+#Retrieve the value of 'correctAns' for the current trial
+correctAns = df.loc[count - 1, 'correctAns']
+
+**END ROUTINE**
+clipFilename = f"recording_p{participant_number}_trial{str(count)}_{correctAns}_%s.wav" % tag
+#"recording_" + str(count) + ".wav"
+micPractice.lastClip.save(os.path.join(micPracticeRecFolder, clipFilename))
+
+
+
+
+PRACTICE2
+
+**BEFORE EXPERIMENT**
+import pandas as pd
+
+count = 0
+
+**BEGIN EXPERIMENT**
+# Read the excel file and store it in a pandas DataFrame
+data_file = "repswitch_practice_2_version1.xlsx" #"repswitch_practice_2_version2.xlsx" 
+df = pd.read_excel(data_file)
+
+# Get the participant number from the experiment info dialog
+participant_number = expInfo['participant']
+
+**BEGIN ROUTINE**
+count = count + 1
+
+#Retrieve the value of 'correctAns' for the current trial
+correctAns = df.loc[count - 1, 'correctAns']
+
+**END ROUTINE**
+clipFilename = f"recording_p{participant_number}_trial{str(count)}_{correctAns}_%s.wav" % tag
+#"recording_" + str(count) + ".wav"
+micPractice2.lastClip.save(os.path.join(micPractice2RecFolder, clipFilename))
+
+
+PNT
+
+**BEFORE EXPERIMENT**
+import pandas as pd
+
+count = 0
+
+**BEGIN EXPERIMENT**
+# Read the excel file and store it in a pandas DataFrame
+data_file = "repswitch_V1L1.xlsx" # the rest accordingly
+df = pd.read_excel(data_file)
+
+# Get the participant number from the experiment info dialog
+participant_number = expInfo['participant']
+
+**BEGIN ROUTINE**
+count = count + 1
+
+#Retrieve the value of 'correctAns' for the current trial
+correctAns = df.loc[count - 1, 'correctAns']
+
+**END ROUTINE**
+clipFilename = f"recording_p{participant_number}_trial{str(count)}_{correctAns}_%s.wav" % tag
+#"recording_" + str(count) + ".wav"
+micResp.lastClip.save(os.path.join(micRespRecFolder, clipFilename))

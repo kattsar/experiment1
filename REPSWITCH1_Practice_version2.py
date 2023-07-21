@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούλιος 18, 2023, at 15:54
+    on Ιούλιος 21, 2023, at 10:12
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -29,6 +29,8 @@ import psychopy.iohub as io
 from psychopy.hardware import keyboard
 
 # Run 'Before Experiment' code from codeSavePractice
+import pandas as pd
+
 count = 0
 
 
@@ -56,7 +58,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='D:\\GitHub\\experiment1\\REPSWITCH1_Practice_v2022.2.4_lastrun.py',
+    originPath='D:\\GitHub\\experiment1\\REPSWITCH1_Practice_version2.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -135,10 +137,10 @@ textboxInstr1_2 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstr1_3 = visual.TextBox2(
-     win, text='azul,', font='Open Sans',
+     win, text='amarillo,', font='Open Sans',
      pos=(0.255, 0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
-     color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
+     color=[1.0000, 0.6863, -1.0000], colorSpace='rgb',
      opacity=None,
      bold=True, italic=False,
      lineSpacing=1.0,
@@ -152,7 +154,7 @@ textboxInstr1_3 = visual.TextBox2(
 )
 textboxInstr1_4 = visual.TextBox2(
      win, text=' tendrás que  ', font='Open Sans',
-     pos=(0.33, 0.03),     letterHeight=0.03,
+     pos=(0.39, 0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -168,7 +170,7 @@ textboxInstr1_4 = visual.TextBox2(
 )
 textboxInstr1_5 = visual.TextBox2(
      win, text='escribirlo con el teclado.', font='Open Sans',
-     pos=(0.51, 0.03),     letterHeight=0.03,
+     pos=(0.57, 0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -199,10 +201,10 @@ textboxInstr1_6 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstr1_7 = visual.TextBox2(
-     win, text='amarillo,', font='Open Sans',
+     win, text='azul,', font='Open Sans',
      pos=(0.255, -0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
-     color=[1.0000, 0.6863, -1.0000], colorSpace='rgb',
+     color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
      opacity=None,
      bold=True, italic=False,
      lineSpacing=1.0,
@@ -216,7 +218,7 @@ textboxInstr1_7 = visual.TextBox2(
 )
 textboxInstr1_8 = visual.TextBox2(
      win, text=' tendrás que ', font='Open Sans',
-     pos=(0.39, -0.03),     letterHeight=0.03,
+     pos=(0.33, -0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -232,7 +234,7 @@ textboxInstr1_8 = visual.TextBox2(
 )
 textboxInstr1_9 = visual.TextBox2(
      win, text='decirlo en voz alta. ', font='Open Sans',
-     pos=(0.57, -0.03),     letterHeight=0.03,
+     pos=(0.51, -0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -320,10 +322,10 @@ textboxInstrPractice = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_2 = visual.TextBox2(
-     win, text='azul,', font='Open Sans',
+     win, text='amarillo,', font='Open Sans',
      pos=(0.255, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
-     color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
+     color=[1.0000, 0.6863, -1.0000], colorSpace='rgb',
      opacity=None,
      bold=True, italic=False,
      lineSpacing=1.0,
@@ -337,7 +339,7 @@ textboxInstrPractice_2 = visual.TextBox2(
 )
 textboxInstrPractice_3 = visual.TextBox2(
      win, text=' deberás ', font='Open Sans',
-     pos=(0.33, 0.2),     letterHeight=0.03,
+     pos=(0.39, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -353,7 +355,7 @@ textboxInstrPractice_3 = visual.TextBox2(
 )
 textboxInstrPractice_4 = visual.TextBox2(
      win, text='teclear', font='Open Sans',
-     pos=(0.46, 0.2),     letterHeight=0.03,
+     pos=(0.52, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -369,7 +371,7 @@ textboxInstrPractice_4 = visual.TextBox2(
 )
 textboxInstrPractice_5 = visual.TextBox2(
      win, text='el nombre de la imagen. ', font='Open Sans',
-     pos=(0.575, 0.2),     letterHeight=0.03,
+     pos=(0.635, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -400,7 +402,7 @@ textboxInstrPractice_6 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_7 = visual.TextBox2(
-     win, text='TECLEA', font='Open Sans',
+     win, text='HABLA', font='Open Sans',
      pos=(0.155, 0.15),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -417,7 +419,7 @@ textboxInstrPractice_7 = visual.TextBox2(
 )
 textboxInstrPractice_8 = visual.TextBox2(
      win, text='aparecerá encima de la imagen.', font='Open Sans',
-     pos=(0.27, 0.15),     letterHeight=0.03,
+     pos=(0.265, 0.15),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -448,10 +450,10 @@ textboxInstrPractice_9 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_10 = visual.TextBox2(
-     win, text='amarillo,', font='Open Sans',
+     win, text='azul,', font='Open Sans',
      pos=(0.255, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
-     color=[1.0000, 0.6863, -1.0000], colorSpace='rgb',
+     color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
      opacity=None,
      bold=True, italic=False,
      lineSpacing=1.0,
@@ -465,7 +467,7 @@ textboxInstrPractice_10 = visual.TextBox2(
 )
 textboxInstrPractice_11 = visual.TextBox2(
      win, text=' tendrás que ', font='Open Sans',
-     pos=(0.39, 0.05),     letterHeight=0.03,
+     pos=(0.33, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -481,7 +483,7 @@ textboxInstrPractice_11 = visual.TextBox2(
 )
 textboxInstrPractice_12 = visual.TextBox2(
      win, text='decir en voz alta ', font='Open Sans',
-     pos=(0.57, 0.05),     letterHeight=0.03,
+     pos=(0.51, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -497,7 +499,7 @@ textboxInstrPractice_12 = visual.TextBox2(
 )
 textboxInstrPractice_13 = visual.TextBox2(
      win, text='el nombre de la imagen. ', font='Open Sans',
-     pos=(0.82, 0.05),     letterHeight=0.03,
+     pos=(0.76, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -528,7 +530,7 @@ textboxInstrPractice_14 = visual.TextBox2(
      autoLog=True,
 )
 textboxInstrPractice_15 = visual.TextBox2(
-     win, text='HABLA', font='Open Sans',
+     win, text='TECLEA', font='Open Sans',
      pos=(0.15, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
@@ -545,7 +547,7 @@ textboxInstrPractice_15 = visual.TextBox2(
 )
 textboxInstrPractice_16 = visual.TextBox2(
      win, text='aparecerá encima de la imagen. ', font='Open Sans',
-     pos=(0.26, 0),     letterHeight=0.03,
+     pos=(0.265, 0),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -640,6 +642,13 @@ micPractice = sound.microphone.Microphone(
     device=None, channels=None, 
     sampleRateHz=48000, maxRecordingSize=24000.0
 )
+# Run 'Begin Experiment' code from codeSavePractice
+# Read the excel file and store it in a pandas DataFrame
+data_file = "repswitch_practice_version2.xlsx" 
+df = pd.read_excel(data_file)
+
+# Get the participant number from the experiment info dialog
+participant_number = expInfo['participant']
 
 # --- Initialize components for Routine "blank500" ---
 textBlank500 = visual.TextStim(win=win, name='textBlank500',
@@ -1452,7 +1461,7 @@ else:
 # set up handler to look after randomisation of conditions etc
 trialsPractice = data.TrialHandler(nReps=1.0, method='sequential', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('repswitch_practice.xlsx'),
+    trialList=data.importConditions('repswitch_practice_version2.xlsx'),
     seed=None, name='trialsPractice')
 thisExp.addLoop(trialsPractice)  # add the loop to the experiment
 thisTrialsPractice = trialsPractice.trialList[0]  # so we can initialise stimuli with some values
@@ -1562,6 +1571,10 @@ for thisTrialsPractice in trialsPractice:
     polygonText.opacity = 0  
     # Run 'Begin Routine' code from codeSavePractice
     count = count + 1
+    
+    #Retrieve the value of 'correctAns' for the current trial
+    correctAns = df.loc[count - 1, 'correctAns']
+    
     # keep track of which components have finished
     practiceTrialComponents = [polygonCol, polygonWh, textCue, imagePractice, polygonText, textPractice, keyPractice, micPractice]
     for thisComponent in practiceTrialComponents:
@@ -1859,21 +1872,10 @@ for thisTrialsPractice in trialsPractice:
     )
     trialsPractice.addData('micPractice.clip', os.path.join(micPracticeRecFolder, 'recording_micPractice_%s.wav' % tag))
     # Run 'End Routine' code from codeSavePractice
-    clipFilename = clipFilename = 'recording_mic_%s.wav' % tag
+    clipFilename = f"recording_p{participant_number}_trial{str(count)}_{correctAns}_%s.wav" % tag
     #"recording_" + str(count) + ".wav"
     micPractice.lastClip.save(os.path.join(micPracticeRecFolder, clipFilename))
     
-    '''
-    # save mic recordings
-    for tag in mic.clips:
-        for i, clip in enumerate(mic.clips[tag]):
-            clipFilename = 'recording_mic_%s.wav' % tag
-            # if there's more than 1 clip with this tag, append a counter for all beyond the first
-            if i > 0:
-                clipFilename += '_%s' % i
-            clip.save(os.path.join(micRecFolder, clipFilename))
-            
-    '''
     # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
     if routineForceEnded:
         routineTimer.reset()
