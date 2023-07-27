@@ -126,7 +126,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0, 0.03)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0, -0.03)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -163,7 +163,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.255, 0.03)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.255, -0.03)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -200,7 +200,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.39, 0.03)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.39, -0.03)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -237,7 +237,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.57, 0.03)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.57, -0.03)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -274,7 +274,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0,-0.03)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0, 0.03)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -311,7 +311,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.255, -0.03)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.255, 0.03)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -348,7 +348,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.33, -0.03)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.33, 0.03)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -385,7 +385,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.51, -0.03)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.51, 0.03)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -593,7 +593,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0, 0.2)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0, 0.05)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -630,7 +630,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.255, 0.2)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.255, 0.05)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -667,7 +667,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.39, 0.2)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.39, 0.05)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -704,7 +704,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.52, 0.2)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.52, 0.05)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -741,7 +741,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.635, 0.2)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.635, 0.05)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -889,7 +889,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0, 0.05)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0, 0.2)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -926,7 +926,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.255, 0.05)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.255, 0.2)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -963,7 +963,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.33, 0.05)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.33, 0.2)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -1000,7 +1000,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.51, 0.05)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.51, 0.2)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -1037,7 +1037,7 @@
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="0" valType="num" updates="constant" name="padding"/>
-        <Param val="(0.76, 0.05)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0.76, 0.2)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="(None, None)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>

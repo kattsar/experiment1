@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούλιος 21, 2023, at 09:29
+    on Ιούλιος 21, 2023, at 14:14
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -29,8 +29,6 @@ import psychopy.iohub as io
 from psychopy.hardware import keyboard
 
 # Run 'Before Experiment' code from codeSaveFam
-import pandas as pd
-
 count = 0
 
 
@@ -39,7 +37,7 @@ _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 # Store info about the experiment session
 psychopyVersion = '2022.2.4'
-expName = 'Fam'  # from the Builder filename that created this script
+expName = 'REPSWITCH1_Fam'  # from the Builder filename that created this script
 expInfo = {
     'participant': f"{randint(0, 999999):06.0f}",
     'session': '001',
@@ -184,10 +182,6 @@ micFam = sound.microphone.Microphone(
     sampleRateHz=48000, maxRecordingSize=24000.0
 )
 # Run 'Begin Experiment' code from codeSaveFam
-# Read the excel file and store it in a pandas DataFrame
-data_file = "repswitch_fam.xlsx"
-df = pd.read_excel(data_file)
-
 # Get the participant number from the experiment info dialog
 participant_number = expInfo['participant']
 
@@ -657,8 +651,7 @@ for thisFamTrial in famTrials:
     # Run 'Begin Routine' code from codeSaveFam
     count = count + 1
     
-    #Retrieve the value of 'correctAns' for the current trial
-    correctAns = df.loc[count - 1, 'correctAns']
+    
     # keep track of which components have finished
     famPhaseComponents = [polygonWhiteFam, imageFam, textFam, micFam]
     for thisComponent in famPhaseComponents:
@@ -806,21 +799,11 @@ for thisFamTrial in famTrials:
     )
     famTrials.addData('micFam.clip', os.path.join(micFamRecFolder, 'recording_micFam_%s.wav' % tag))
     # Run 'End Routine' code from codeSaveFam
-    clipFilename = f"recording_p{participant_number}_trial{str(count)}_{correctAns}_%s.wav" % tag
+    clipFilename = f"recording_p{participant_number}_trial{str(count)}_%s.wav" % tag
     #"recording_" + str(count) + ".wav"
     micFam.lastClip.save(os.path.join(micFamRecFolder, clipFilename))
     
-    '''
-    # save mic recordings
-    for tag in mic.clips:
-        for i, clip in enumerate(mic.clips[tag]):
-            clipFilename = 'recording_mic_%s.wav' % tag
-            # if there's more than 1 clip with this tag, append a counter for all beyond the first
-            if i > 0:
-                clipFilename += '_%s' % i
-            clip.save(os.path.join(micRecFolder, clipFilename))
-            
-    '''
+    
     # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
     if routineForceEnded:
         routineTimer.reset()

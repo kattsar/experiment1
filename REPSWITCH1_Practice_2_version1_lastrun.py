@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούλιος 21, 2023, at 10:18
+    on Ιούλιος 27, 2023, at 11:23
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -1098,7 +1098,7 @@ for thisTrialsPractice_2 in trialsPractice_2:
     )
     trialsPractice_2.addData('micPractice2v1.clip', os.path.join(micPractice2v1RecFolder, 'recording_micPractice2v1_%s.wav' % tag))
     # Run 'End Routine' code from codeSavePractice2
-    clipFilename = f"recording_p{participant_number}_trial{str(count)}_{correctAns}_%s.wav" % tag
+    clipFilename = f"recording_Practice2v1_p{participant_number}_trial{str(count)}_{correctAns}_%s.wav" % tag
     #"recording_" + str(count) + ".wav"
     micPractice2v1.lastClip.save(os.path.join(micPractice2v1RecFolder, clipFilename))
     

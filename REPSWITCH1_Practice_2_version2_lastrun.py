@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούλιος 21, 2023, at 10:21
+    on Ιούλιος 27, 2023, at 11:25
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -122,7 +122,7 @@ textboxInstrPractice_2 = visual.TextBox2(
 )
 textboxInstrPractice_2_2 = visual.TextBox2(
      win, text='Si el rectángulo es ', font='Open Sans',
-     pos=(0, 0.18),     letterHeight=0.03,
+     pos=(0, 0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -138,7 +138,7 @@ textboxInstrPractice_2_2 = visual.TextBox2(
 )
 textboxInstrPractice_2_3 = visual.TextBox2(
      win, text='amarillo,', font='Open Sans',
-     pos=(0.255, 0.18),     letterHeight=0.03,
+     pos=(0.255, 0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color=[1.0000, 0.6863, -1.0000], colorSpace='rgb',
      opacity=None,
@@ -154,7 +154,7 @@ textboxInstrPractice_2_3 = visual.TextBox2(
 )
 textboxInstrPractice_2_4 = visual.TextBox2(
      win, text='deberás ', font='Open Sans',
-     pos=(0.39, 0.18),     letterHeight=0.03,
+     pos=(0.39, 0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -170,7 +170,7 @@ textboxInstrPractice_2_4 = visual.TextBox2(
 )
 textboxInstrPractice_2_5 = visual.TextBox2(
      win, text='teclear', font='Open Sans',
-     pos=(0.51, 0.18),     letterHeight=0.03,
+     pos=(0.51, 0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -186,7 +186,7 @@ textboxInstrPractice_2_5 = visual.TextBox2(
 )
 textboxInstrPractice_2_6 = visual.TextBox2(
      win, text='el nombre de la imagen.  ', font='Open Sans',
-     pos=(0.62, 0.18),     letterHeight=0.03,
+     pos=(0.62, 0.1),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -202,7 +202,7 @@ textboxInstrPractice_2_6 = visual.TextBox2(
 )
 textboxInstrPractice_2_7 = visual.TextBox2(
      win, text='Si el rectángulo es ', font='Open Sans',
-     pos=(0, 0.1),     letterHeight=0.03,
+     pos=(0, 0.18),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -218,7 +218,7 @@ textboxInstrPractice_2_7 = visual.TextBox2(
 )
 textboxInstrPractice_2_8 = visual.TextBox2(
      win, text='azul,', font='Open Sans',
-     pos=(0.255, 0.1),     letterHeight=0.03,
+     pos=(0.255, 0.18),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
      opacity=None,
@@ -234,7 +234,7 @@ textboxInstrPractice_2_8 = visual.TextBox2(
 )
 textboxInstrPractice_2_9 = visual.TextBox2(
      win, text='deberás ', font='Open Sans',
-     pos=(0.33, 0.1),     letterHeight=0.03,
+     pos=(0.33, 0.18),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -250,7 +250,7 @@ textboxInstrPractice_2_9 = visual.TextBox2(
 )
 textboxInstrPractice_2_10 = visual.TextBox2(
      win, text='repetir en voz alta ', font='Open Sans',
-     pos=(0.45, 0.1),     letterHeight=0.03,
+     pos=(0.45, 0.18),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -266,7 +266,7 @@ textboxInstrPractice_2_10 = visual.TextBox2(
 )
 textboxInstrPractice_2_11 = visual.TextBox2(
      win, text='el nombre de la imagen.  ', font='Open Sans',
-     pos=(0.73, 0.1),     letterHeight=0.03,
+     pos=(0.73, 0.18),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,

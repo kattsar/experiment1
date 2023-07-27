@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούλιος 17, 2023, at 10:34
+    on Ιούλιος 21, 2023, at 14:05
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -29,6 +29,8 @@ import psychopy.iohub as io
 from psychopy.hardware import keyboard
 
 # Run 'Before Experiment' code from codeSaveResp
+import pandas as pd
+
 count = 0 
 
 
@@ -421,6 +423,13 @@ micResp = sound.microphone.Microphone(
     device=None, channels=None, 
     sampleRateHz=48000, maxRecordingSize=24000.0
 )
+# Run 'Begin Experiment' code from codeSaveResp
+# Read the excel file and store it in a pandas DataFrame
+data_file = "repswitch_V1L1.xlsx" # the rest accordingly
+df = pd.read_excel(data_file)
+
+# Get the participant number from the experiment info dialog
+participant_number = expInfo['participant']
 
 # --- Initialize components for Routine "blank500" ---
 textBlank500 = visual.TextStim(win=win, name='textBlank500',
@@ -1061,7 +1070,7 @@ else:
 # set up handler to look after randomisation of conditions etc
 trialsREPSWITCH = data.TrialHandler(nReps=1.0, method='sequential', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('repswitch.xlsx'),
+    trialList=data.importConditions('repswitch_V1L1.xlsx'),
     seed=None, name='trialsREPSWITCH')
 thisExp.addLoop(trialsREPSWITCH)  # add the loop to the experiment
 thisTrialsREPSWITCH = trialsREPSWITCH.trialList[0]  # so we can initialise stimuli with some values
@@ -1171,6 +1180,9 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     
     # Run 'Begin Routine' code from codeSaveResp
     count = count + 1
+    
+    #Retrieve the value of 'correctAns' for the current trial
+    correctAns = df.loc[count - 1, 'correctAns']
     # keep track of which components have finished
     trialComponents = [polygonColour, polygonWhite, imageObject, polygonType, textInput, keyResp, micResp]
     for thisComponent in trialComponents:
@@ -1446,21 +1458,11 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     )
     trialsREPSWITCH.addData('micResp.clip', os.path.join(micRespRecFolder, 'recording_micResp_%s.wav' % tag))
     # Run 'End Routine' code from codeSaveResp
-    clipFilename = clipFilename = 'recording_mic_%s.wav' % tag
+    clipFilename = f"recording_p{participant_number}_trial{str(count)}_{correctAns}_%s.wav" % tag
     #"recording_" + str(count) + ".wav"
     micResp.lastClip.save(os.path.join(micRespRecFolder, clipFilename))
     
-    '''
-    # save mic recordings
-    for tag in mic.clips:
-        for i, clip in enumerate(mic.clips[tag]):
-            clipFilename = 'recording_mic_%s.wav' % tag
-            # if there's more than 1 clip with this tag, append a counter for all beyond the first
-            if i > 0:
-                clipFilename += '_%s' % i
-            clip.save(os.path.join(micRecFolder, clipFilename))
-            
-    '''
+    
     # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
     if routineForceEnded:
         routineTimer.reset()
@@ -1554,17 +1556,13 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
     if (trialsREPSWITCH.thisN + 1) % 96 != 0 or trialsREPSWITCH.thisN == trialsREPSWITCH.nTotal - 1:
         continueRoutine = False
         
-        #trialsREPSWITCH.thisN + 1 is used to account for the fact that thisN starts from 0. 
-        #The expression (trialsREPSWITCH.thisN + 1) % 96 != 0 checks if the current trial number plus one is not divisible evenly by 96. 
-        #If it's true, the routine will be skipped.
+        # (trialsREPSWITCH.thisN + 1) % 96 !=0 checks if the current trial number plus one is not divisible evenly
+        # by 96. If TRUE, continueRoutine is set to FALSE to skip the break message.
         
-        # trialsREPSWITCH.nTotal represents the total number of trials in your experiment. 
-        #By adding trialsREPSWITCH.thisN + 1 != trialsREPSWITCH.nTotal to the condition, 
-        #you're checking if the current trial number plus one is not only divisible evenly by 96 but also ensuring it's not the last trial.
-        #With this modification, the break will occur after every 96 trials except for the last set of 96 trials, 
-        #where the closing message will be displayed instead of a break.
-        
-        
+        # trialsREPSWITCH.thisN == trialsREPSWITCH.nTotal - 1 checks if the current trial is the ladt trial of the 
+        # entire experiment; if TRUE, continueRoutine is set to FALSE to skip the break message.
+        # So the break message will appear after every set of 96 trials except for the last set, where the break
+        # message will be skipped.
     # keep track of which components have finished
     pauseComponents = [textboxPause, keyPause]
     for thisComponent in pauseComponents:

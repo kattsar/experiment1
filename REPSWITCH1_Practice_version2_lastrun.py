@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούλιος 21, 2023, at 10:26
+    on Ιούλιος 27, 2023, at 10:48
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -122,7 +122,7 @@ textboxInstr1 = visual.TextBox2(
 )
 textboxInstr1_2 = visual.TextBox2(
      win, text='Si el rectángulo es', font='Open Sans',
-     pos=(0, 0.03),     letterHeight=0.03,
+     pos=(0, -0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -138,7 +138,7 @@ textboxInstr1_2 = visual.TextBox2(
 )
 textboxInstr1_3 = visual.TextBox2(
      win, text='amarillo,', font='Open Sans',
-     pos=(0.255, 0.03),     letterHeight=0.03,
+     pos=(0.255, -0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color=[1.0000, 0.6863, -1.0000], colorSpace='rgb',
      opacity=None,
@@ -154,7 +154,7 @@ textboxInstr1_3 = visual.TextBox2(
 )
 textboxInstr1_4 = visual.TextBox2(
      win, text=' tendrás que  ', font='Open Sans',
-     pos=(0.39, 0.03),     letterHeight=0.03,
+     pos=(0.39, -0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -170,7 +170,7 @@ textboxInstr1_4 = visual.TextBox2(
 )
 textboxInstr1_5 = visual.TextBox2(
      win, text='escribirlo con el teclado.', font='Open Sans',
-     pos=(0.57, 0.03),     letterHeight=0.03,
+     pos=(0.57, -0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -186,7 +186,7 @@ textboxInstr1_5 = visual.TextBox2(
 )
 textboxInstr1_6 = visual.TextBox2(
      win, text='Si el rectángulo es ', font='Open Sans',
-     pos=(0,-0.03),     letterHeight=0.03,
+     pos=(0, 0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -202,7 +202,7 @@ textboxInstr1_6 = visual.TextBox2(
 )
 textboxInstr1_7 = visual.TextBox2(
      win, text='azul,', font='Open Sans',
-     pos=(0.255, -0.03),     letterHeight=0.03,
+     pos=(0.255, 0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
      opacity=None,
@@ -218,7 +218,7 @@ textboxInstr1_7 = visual.TextBox2(
 )
 textboxInstr1_8 = visual.TextBox2(
      win, text=' tendrás que ', font='Open Sans',
-     pos=(0.33, -0.03),     letterHeight=0.03,
+     pos=(0.33, 0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -234,7 +234,7 @@ textboxInstr1_8 = visual.TextBox2(
 )
 textboxInstr1_9 = visual.TextBox2(
      win, text='decirlo en voz alta. ', font='Open Sans',
-     pos=(0.51, -0.03),     letterHeight=0.03,
+     pos=(0.51, 0.03),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -307,7 +307,7 @@ keyInstr3 = keyboard.Keyboard()
 # --- Initialize components for Routine "InstructionsPractice" ---
 textboxInstrPractice = visual.TextBox2(
      win, text='Si el rectángulo es', font='Open Sans',
-     pos=(0, 0.2),     letterHeight=0.03,
+     pos=(0, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -323,7 +323,7 @@ textboxInstrPractice = visual.TextBox2(
 )
 textboxInstrPractice_2 = visual.TextBox2(
      win, text='amarillo,', font='Open Sans',
-     pos=(0.255, 0.2),     letterHeight=0.03,
+     pos=(0.255, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color=[1.0000, 0.6863, -1.0000], colorSpace='rgb',
      opacity=None,
@@ -339,7 +339,7 @@ textboxInstrPractice_2 = visual.TextBox2(
 )
 textboxInstrPractice_3 = visual.TextBox2(
      win, text=' deberás ', font='Open Sans',
-     pos=(0.39, 0.2),     letterHeight=0.03,
+     pos=(0.39, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -355,7 +355,7 @@ textboxInstrPractice_3 = visual.TextBox2(
 )
 textboxInstrPractice_4 = visual.TextBox2(
      win, text='teclear', font='Open Sans',
-     pos=(0.52, 0.2),     letterHeight=0.03,
+     pos=(0.52, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -371,7 +371,7 @@ textboxInstrPractice_4 = visual.TextBox2(
 )
 textboxInstrPractice_5 = visual.TextBox2(
      win, text='el nombre de la imagen. ', font='Open Sans',
-     pos=(0.635, 0.2),     letterHeight=0.03,
+     pos=(0.635, 0.05),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -435,7 +435,7 @@ textboxInstrPractice_8 = visual.TextBox2(
 )
 textboxInstrPractice_9 = visual.TextBox2(
      win, text='Si el rectángulo es ', font='Open Sans',
-     pos=(0, 0.05),     letterHeight=0.03,
+     pos=(0, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -451,7 +451,7 @@ textboxInstrPractice_9 = visual.TextBox2(
 )
 textboxInstrPractice_10 = visual.TextBox2(
      win, text='azul,', font='Open Sans',
-     pos=(0.255, 0.05),     letterHeight=0.03,
+     pos=(0.255, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color=[-1.0000, -1.0000, 0.0902], colorSpace='rgb',
      opacity=None,
@@ -467,7 +467,7 @@ textboxInstrPractice_10 = visual.TextBox2(
 )
 textboxInstrPractice_11 = visual.TextBox2(
      win, text=' tendrás que ', font='Open Sans',
-     pos=(0.33, 0.05),     letterHeight=0.03,
+     pos=(0.33, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -483,7 +483,7 @@ textboxInstrPractice_11 = visual.TextBox2(
 )
 textboxInstrPractice_12 = visual.TextBox2(
      win, text='decir en voz alta ', font='Open Sans',
-     pos=(0.51, 0.05),     letterHeight=0.03,
+     pos=(0.51, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
@@ -499,7 +499,7 @@ textboxInstrPractice_12 = visual.TextBox2(
 )
 textboxInstrPractice_13 = visual.TextBox2(
      win, text='el nombre de la imagen. ', font='Open Sans',
-     pos=(0.76, 0.05),     letterHeight=0.03,
+     pos=(0.76, 0.2),     letterHeight=0.03,
      size=(None, None), borderWidth=2.0,
      color='white', colorSpace='rgb',
      opacity=None,
