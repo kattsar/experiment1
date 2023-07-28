@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Ιούλιος 27, 2023, at 11:22
+    on Ιούλιος 28, 2023, at 12:07
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -1574,6 +1574,9 @@ for thisTrialsPractice in trialsPractice:
     
     #Retrieve the value of 'correctAns' for the current trial
     correctAns = df.loc[count - 1, 'correctAns']
+    
+    #Retrieve the value of 'respModal' for the current trial
+    respModal = df.loc[count - 1, 'respModal']
     # keep track of which components have finished
     practiceTrialComponents = [polygonCol, polygonWh, textCue, imagePractice, polygonText, textPractice, keyPractice, micPracticev1]
     for thisComponent in practiceTrialComponents:
@@ -1871,7 +1874,7 @@ for thisTrialsPractice in trialsPractice:
     )
     trialsPractice.addData('micPracticev1.clip', os.path.join(micPracticev1RecFolder, 'recording_micPracticev1_%s.wav' % tag))
     # Run 'End Routine' code from codeSavePractice
-    clipFilename = f"recording_Practice1v1_p{participant_number}_trial{str(count)}_{correctAns}_%s.wav" % tag
+    clipFilename = f"recording_Practice1v1_p{participant_number}_trial{str(count)}_{respModal}{correctAns}_%s.wav" % tag
     #"recording_" + str(count) + ".wav"
     micPracticev1.lastClip.save(os.path.join(micPracticev1RecFolder, clipFilename))
     

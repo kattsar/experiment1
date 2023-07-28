@@ -1512,14 +1512,14 @@
         <Param val="# Read the excel file and store it in a pandas DataFrame&amp;#10;data_file = &quot;repswitch_practice_version2.xlsx&quot; &amp;#10;df = pd.read_excel(data_file)&amp;#10;&amp;#10;# Get the participant number from the experiment info dialog&amp;#10;participant_number = expInfo['participant']" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="count = count + 1&amp;#10;&amp;#10;#Retrieve the value of 'correctAns' for the current trial&amp;#10;correctAns = df.loc[count - 1, 'correctAns']&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="count = count + 1&amp;#10;&amp;#10;#Retrieve the value of 'correctAns' for the current trial&amp;#10;correctAns = df.loc[count - 1, 'correctAns']&amp;#10;&amp;#10;#Retrieve the value of 'respModal' for the current trial&amp;#10;respModal = df.loc[count - 1, 'respModal']" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Py" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="clipFilename = f&quot;recording_Practice1v2_p{participant_number}_trial{str(count)}_{correctAns}_%s.wav&quot; % tag&amp;#10;#&quot;recording_&quot; + str(count) + &quot;.wav&quot;&amp;#10;micPracticev2.lastClip.save(os.path.join(micPracticev2RecFolder, clipFilename))&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="clipFilename = f&quot;recording_Practice1v2_p{participant_number}_tr{str(count)}_{respModal}_{correctAns}_%s.wav&quot; % tag&amp;#10;#&quot;recording_&quot; + str(count) + &quot;.wav&quot;&amp;#10;micPracticev2.lastClip.save(os.path.join(micPracticev2RecFolder, clipFilename))&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="codeSavePractice" valType="code" updates="None" name="name"/>
       </CodeComponent>
