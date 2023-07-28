@@ -1,0 +1,22 @@
+---
+title: "REPSWITCH1_Clean"
+author: "Katerina Tsaroucha"
+date: "2023-07-28"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+pilot <- read.csv("D:\\GitHub\\experiment1\\data\\010100_REPSWITCH1_pilot.csv", header = TRUE, sep = ";") %>% 
+  rename(image = ο.Ώimage) %>% 
+  select(-c(12:46, 53:58, 61:65, 71:72)) %>% 
+  filter(!row_number() %in% c(1, 2)) %>% 
+  mutate_if(is.character, as.factor) %>% 
+  mutate_if(is.logical, as.factor)
+  
+```
+
+
