@@ -1,0 +1,125 @@
+line	trial_count	RT	Duration	tmin	tier	text	tmax
+1	1	0,000	#VALUE!	0	silences	silent	0.564273
+4		0,000	#VALUE!	0	transcription	[articulation]	0.564273
+2		0,564	0,605	0,564	silences	sounding	1,170
+5		0.564273	#VALUE!	0.564273	transcription	guante	1.169.545
+3		1169545,000	1870455,000	1.169.545	silences	silent	3.040.000
+6		1169545,000	1870455,000	1.169.545	transcription	?	3.040.000
+1	2	0,000	3000000,000	0	silences	sounding	3.000.000
+2		0,000	3,000	0,000	transcription	[type]	3,000
+1	3	0,000	#VALUE!	0	silences	silent	0.668655
+4		0,000	#VALUE!	0	transcription	?	0.668655
+2		0,669	0,577	0,669	silences	sounding	1,245
+5		0.668655	#VALUE!	0.668655	transcription	bombero	1.245.262
+3		1245262,000	1754738,000	1.245.262	silences	silent	3.000.000
+6		1245262,000	1754738,000	1.245.262	transcription	?	3.000.000
+1	4	0,000	#VALUE!	0	silences	silent	0.666199
+4		0,000	#VALUE!	0	transcription	?	0.666199
+2		0,666	0,532	0,666	silences	sounding	1,198
+5		0.666199	#VALUE!	0.666199	transcription	vaca	1.198.042
+3		1198042,000	1801958,000	1.198.042	silences	silent	3.000.000
+6		1198042,000	1801958,000	1.198.042	transcription	?	3.000.000
+1	5	0,000	#VALUE!	0	silences	silent	0.511426
+4		0,000	#VALUE!	0	transcription	[articulation]	0.511426
+2		0,511	0,545	0,511	silences	sounding	1,056
+5		0.511426	#VALUE!	0.511426	transcription	vaca	1.056.383
+3		1056383,000	1943617,000	1.056.383	silences	silent	3.000.000
+6		1056383,000	1943617,000	1.056.383	transcription	?	3.000.000
+1	6	0,000	3010000,000	0	silences	sounding	3.010.000
+2		0,000	3,010	0,000	transcription	[type]	3,010
+1	7	0,000	#VALUE!	0	silences	silent	0.876553
+4		0,000	#VALUE!	0	transcription	?	0.876553
+2		0,877	0,579	0,877	silences	sounding	1,456
+5		0.876553	#VALUE!	0.876553	transcription	regalo	1.455.781
+3		1455781,000	1584219,000	1.455.781	silences	silent	3.040.000
+6		1455781,000	1584219,000	1.455.781	transcription	[breath]	3.040.000
+1	8	0,000	3000000,000	0	silences	sounding	3.000.000
+2		0,000	3,000	0,000	transcription	[type_breath]	3,000
+1	9	0,000	3000000,000	0	silences	sounding	3.000.000
+2		0,000	3,000	0,000	transcription	[type]	3,000
+1	10	0,000	3010000,000	0	silences	sounding	3.010.000
+2		0,000	3,010	0,000	transcription	[type_yawn]	3,010
+1	11	0,000	#VALUE!	0	silences	silent	0.733005
+4		0,000	#VALUE!	0	transcription	[articulation]	0.733005
+2		0,733	0,555	0,733	silences	sounding	1,288
+5		0.733005	#VALUE!	0.733005	transcription	oreja	1.288.029
+3		1288029,000	1751971,000	1.288.029	silences	silent	3.040.000
+6		1288029,000	1751971,000	1.288.029	transcription	[tongue, breath]	3.040.000
+1	12	0,000	3010000,000	0	silences	sounding	3.010.000
+2		0,000	3,010	0,000	transcription	[type]	3,010
+1	13	0,000	#VALUE!	0	silences	silent	0.842405
+4		0,000	#VALUE!	0	transcription	[breath pre articulation]	0.842405
+2		0,842	0,445	0,842	silences	sounding	1,287
+5		0.842405	#VALUE!	0.842405	transcription	taza	1.287.049
+3		1287049,000	1752951,000	1.287.049	silences	silent	3.040.000
+6		1287049,000	1752951,000	1.287.049	transcription	[breath]	3.040.000
+1	14	0,000	#VALUE!	0	silences	silent	0.670843
+4		0,000	#VALUE!	0	transcription	[tongue]	0.670843
+2		0,671	0,566	0,671	silences	sounding	1,237
+5		0.670843	#VALUE!	0.670843	transcription	vaso	1.236.945
+3		1236945,000	1773055,000	1.236.945	silences	silent	3.010.000
+6		1236945,000	1773055,000	1.236.945	transcription	[swallows]	3.010.000
+1	15	0,000	#VALUE!	0	silences	silent	0.639463
+4		0,000	#VALUE!	0	transcription	[ts]	0.639463
+2		0,639	0,483	0,639	silences	sounding	1,123
+5		0.639463	#VALUE!	0.639463	transcription	vaso	1.122.678
+3		1122678,000	1917322,000	1.122.678	silences	silent	3.040.000
+6		1122678,000	1917322,000	1.122.678	transcription	?	3.040.000
+1	16	0,000	3010000,000	0	silences	sounding	3.010.000
+2		0,000	3,010	0,000	transcription	[type]	3,010
+1	17	0,000	3040000,000	0	silences	sounding	3.040.000
+2		0,000	3,040	0,000	transcription	[type_breath]	3,040
+1	18	0,000	1054138,000	0	silences	silent	1.054.138
+4		0,000	1054138,000	0	transcription	[ts]	1.054.138
+2		1,054	0,544	1,054	silences	sounding	1,599
+5		1054138,000	544487,000	1.054.138	transcription	cazador	1.598.625
+3		1598625,000	1411375,000	1.598.625	silences	silent	3.010.000
+6		1598625,000	1411375,000	1.598.625	transcription	?	3.010.000
+1	19	0,000	#VALUE!	0	silences	silent	0.760261
+4		0,000	#VALUE!	0	transcription	[tongue]	0.760261
+2		0,760	0,648	0,760	silences	sounding	1,409
+5		0.760261	#VALUE!	0.760261	transcription	cazador	1.408.745
+3		1408745,000	1631255,000	1.408.745	silences	silent	3.040.000
+6		1408745,000	1631255,000	1.408.745	transcription	?	3.040.000
+1	20	0,000	#VALUE!	0	silences	silent	0.725613
+4		0,000	#VALUE!	0	transcription	[tongue]	0.725613
+2		0,726	0,632	0,726	silences	sounding	1,357
+5		0.725613	#VALUE!	0.725613	transcription	espalda	1.357.423
+3		1357423,000	1642577,000	1.357.423	silences	silent	3.000.000
+6		1357423,000	1642577,000	1.357.423	transcription	[breath]	3.000.000
+1	21	0,000	3000000,000	0	silences	sounding	3.000.000
+2		0,000	3,000	0,000	transcription	[type]	3,000
+1	22	0,000	#VALUE!	0	silences	silent	0.744000
+4		0,000	#VALUE!	0	transcription	[tongue]	0.744000
+2		0,744	0,544	0,744	silences	sounding	1,288
+5		0.744000	#VALUE!	0.744000	transcription	camisa	1.287.511
+3		1287511,000	1712489,000	1.287.511	silences	silent	3.000.000
+6		1287511,000	1712489,000	1.287.511	transcription	?	3.000.000
+1	23	0,000	3010000,000	0	silences	sounding	3.010.000
+2		0,000	3,010	0,000	transcription	[type]	3,010
+1	24	0,000	#VALUE!	0	silences	silent	0.924402
+4		0,000	#VALUE!	0	transcription	?	0.924402
+2		0,924	0,554	0,924	silences	sounding	1,478
+5		0.924402	#VALUE!	0.924402	transcription	puente	1.478.447
+3		1478447,000	1561553,000	1.478.447	silences	silent	3.040.000
+6		1478447,000	1561553,000	1.478.447	transcription	?	3.040.000
+1	25	0,000	#VALUE!	0	silences	silent	0.764109
+4		0,000	#VALUE!	0	transcription	?	0.764109
+2		0,764	0,613	0,764	silences	sounding	1,377
+5		0.764109	#VALUE!	0.764109	transcription	mu?eca	1.376.980
+3		1376980,000	1623020,000	1.376.980	silences	silent	3.000.000
+6		1376980,000	1623020,000	1.376.980	transcription	?	3.000.000
+1	26	0,000	3010000,000	0	silences	sounding	3.010.000
+2		0,000	3,010	0,000	transcription	[type]	3,010
+1	27	0,000	3040000,000	0	silences	sounding	3.040.000
+2		0,000	3,040	0,000	transcription	[type]	3,040
+1	28	0,000	#VALUE!	0	silences	silent	0.699880
+4		0,000	#VALUE!	0	transcription	?	0.699880
+2		0,700	0,548	0,700	silences	sounding	1,248
+5		0.699880	#VALUE!	0.699880	transcription	pulpo	1.247.671
+3		1247671,000	1752329,000	1.247.671	silences	silent	3.000.000
+6		1247671,000	1752329,000	1.247.671	transcription	[breath]	3.000.000
+1	29	0,000	3010000,000	0	silences	sounding	3.010.000
+2		0,000	3,010	0,000	transcription	[type]	3,010
+1	30	0,000	3040000,000	0	silences	sounding	3.040.000
+2		0,000	3,040	0,000	transcription	[type_breath]	3,040

@@ -1,0 +1,125 @@
+line	trial_count	RT	Duration	tmin	tier	text	tmax	
+1	1	0	3.050.000,00	0	silences	sounding	3.050.000	
+2		0,000	3,05	0	transcription	[type]	3,05	
+1	2	0	1.355.376,00	0	silences	silent	1.355.376	
+4		0	1.355.376,00	0	transcription	[swallow, tongue tap]	1.355.376	
+2		1,355	0,43	1,355	silences	sounding	1,787	
+5		1355376	432.075,00	1.355.376	transcription	mano	1.787.451	
+3		1787451	1.252.549,00	1.787.451	silences	silent	3.040.000	
+6		1787451	1.252.549,00	1.787.451	transcription	?	3.040.000	
+1	3	0	#VALUE!	0	silences	silent	0.984000	
+4		0	#VALUE!	0	transcription	[tongue tap]	0.984000	
+2		0,984	0,52	0,984	silences	sounding	1,500	
+5		0.984000	#VALUE!	0.984000	transcription	cuerda	1.499.855	
+3		1499855	1.500.145,00	1.499.855	silences	silent	3.000.000	
+6		1499855	1.500.145,00	1.499.855	transcription	?	3.000.000	
+1	4	0	3.000.000,00	0	silences	sounding	3.000.000	
+2		0,000	3,00	0	transcription	[type]	3,00	
+1	5	0	1.288.000,00	0	silences	silent	1.288.000	
+4		0	1.288.000,00	0	transcription	?	1.288.000	
+2		1,288	0,51	1,288	silences	sounding	1,799	
+5		1288000	511.288,00	1.288.000	transcription	traje	1.799.288	
+3		1799288	1.200.712,00	1.799.288	silences	silent	3.000.000	
+6		1799288	1.200.712,00	1.799.288	transcription	?	3.000.000	
+1	6	0	3.010.000,00	0	silences	sounding	3.010.000	
+2		0,000	3,01	0	transcription	[type_breath out, lip sound]	3,01	
+1	7	0	1.138.407,00	0	silences	silent	1.138.407	
+4		0	1.138.407,00	0	transcription	[tonge tap]	1.138.407	
+2		1,138	0,65	1,138	silences	sounding	1,790	
+5		1138407	651.371,00	1.138.407	transcription	granja	1.789.778	
+3		1789778	1.260.222,00	1.789.778	silences	silent	3.050.000	
+6		1789778	1.260.222,00	1.789.778	transcription	?	3.050.000	
+1	8	0	3.040.000,00	0	silences	sounding	3.040.000	
+2		0,000	3,04	0	transcription	[type_breath out]	3,04	
+1	9	0	3.010.000,00	0	silences	sounding	3.010.000	
+2		0,000	3,01	0	transcription	[type_breath out]	3,01	
+1	10	0	1.075.409,00	0	silences	silent	1.075.409	
+4		0	1.075.409,00	0	transcription	[breath out, swallows]	1.075.409	
+2		1,075	0,62	1,075	silences	sounding	1,698	
+5		1075409	622.382,00	1.075.409	transcription	manzana	1.697.791	
+3		1697791	1.352.209,00	1.697.791	silences	silent	3.050.000	
+6		1697791	1.352.209,00	1.697.791	transcription	[breath out]	3.050.000	
+1	11	0	1.065.631,00	0	silences	silent	1.065.631	
+4		0	1.065.631,00	0	transcription	[tongue tap, lip sound]	1.065.631	
+2		1,066	0,83	1,066	silences	sounding	1,892	
+5		1065631	826.393,00	1.065.631	transcription	manzana	1.892.024	
+3		1892024	1.157.976,00	1.892.024	silences	silent	3.050.000	
+6		1892024	1.157.976,00	1.892.024	transcription	[breath in]	3.050.000	
+1	12	0	3.050.000,00	0	silences	sounding	3.050.000	
+2		0,000	3,05	0	transcription	[type, breath]	3,05	
+1	13	0	1.268.651,00	0	silences	silent	1.268.651	
+4		0	1.268.651,00	0	transcription	[tongue tap]	1.268.651	
+2		1,269	0,62	1,269	silences	sounding	1,890	
+5		1268651	620.850,00	1.268.651	transcription	cerdo	1.889.501	
+3		1889501	1.160.499,00	1.889.501	silences	silent	3.050.000	
+6		1889501	1.160.499,00	1.889.501	transcription	?	3.050.000	
+1	14	0	#VALUE!	0	silences	silent	0.897729	
+4		0	#VALUE!	0	transcription	[tongue sound]	0.897729	
+2		0,898	0,60	0,898	silences	sounding	1,500	
+5		0.897729	#VALUE!	0.897729	transcription	cerdo	1.500.200	
+3		1500200	1.539.800,00	1.500.200	silences	silent	3.040.000	
+6		1500200	1.539.800,00	1.500.200	transcription	[breath in]	3.040.000	
+1	15	0	#VALUE!	0	silences	silent	0.895301	
+4		0	#VALUE!	0	transcription	[breath out before articulation]	0.895301	
+2		0,895	0,57	0,895	silences	sounding	1,464	
+5		0.895301	#VALUE!	0.895301	transcription	vaso	1.464.075	
+3		1464075	1.545.925,00	1.464.075	silences	silent	3.010.000	
+6		1464075	1.545.925,00	1.464.075	transcription	[breath in]	3.010.000	
+1	16	0	3.040.000,00	0	silences	sounding	3.040.000	
+2		0,000	3,04	0	transcription	[type_breath in to speak, didn't]	3,04	
+1	17	0	1.284.375,00	0	silences	silent	1.284.375	
+4		0	1.284.375,00	0	transcription	[breath in]	1.284.375	
+2		1,284	0,62	1,284	silences	sounding	1,905	
+5		1284375	620.176,00	1.284.375	transcription	falda	1.904.551	
+3		1904551	1.105.449,00	1.904.551	silences	silent	3.010.000	
+6		1904551	1.105.449,00	1.904.551	transcription	[mic sound]	3.010.000	
+1	18	0	3.050.000,00	0	silences	silent	3.050.000	
+2		0,000	3,05	0	transcription	[type_lip sound, mic sound]	3,05	
+1	19	0	3.040.000,00	0	silences	sounding	3.040.000	
+2		0,000	3,04	0	transcription	[type]	3,04	
+1	20	0	#VALUE!	0	silences	silent	0.854018	
+4		0	#VALUE!	0	transcription	[tonge tap]	0.854018	
+2		0,854	0,63	0,854	silences	sounding	1,484	 
+5		0.854018	#VALUE!	0.854018	transcription	guante	1.483.840	
+3		1483840	1.526.160,00	1.483.840	silences	silent	3.010.000	
+6		1483840	1.526.160,00	1.483.840	transcription	[breath in]	3.010.000	
+1	21	0	#VALUE!	0	silences	silent	0.880129	
+4		0	#VALUE!	0	transcription	[tonge tap]	0.880129	
+2		0,880	0,59	0,880	silences	sounding	1,466	
+5		0.880129	#VALUE!	0.880129	transcription	miel	1.465.944	
+3		1465944	1.574.056,00	1.465.944	silences	silent	3.040.000	
+6		1465944	1.574.056,00	1.465.944	transcription	[breath in]	3.040.000	
+1	22	0	3.010.000,00	0	silences	sounding	3.010.000	
+2		0,000	3,01	0	transcription	[type]	3,01	
+1	23	0	3.040.000,00	0	silences	sounding	3.040.000	
+2		0,000	3,04	0	transcription	[type_breath out]	3,04	
+1	24	0	3.000.000,00	0	silences	sounding	3.000.000	
+2		0,000	3,00	0	transcription	[type_breath]	3,00	
+1	25	0	#VALUE!	0	silences	silent	0.934889	
+4		0	#VALUE!	0	transcription	[tonge tap]	0.934889	
+2		0,935	0,59	0,935	silences	sounding	1,523	
+5		0.934889	#VALUE!	0.934889	transcription	cartero	1.522.544	
+3		1522544	1.487.456,00	1.522.544	silences	silent	3.010.000	
+6		1522544	1.487.456,00	1.522.544	transcription	[breath in]	3.010.000	
+1	26	0	3.040.000,00	0	silences	sounding	3.040.000	
+2		0,000	3,04	0	transcription	[type_breath]	3,04	
+1	27	0	1.270.888,00	0	silences	silent	1.270.888	
+4		0	1.270.888,00	0	transcription	[tongue tap]	1.270.888	
+2		1,271	0,65	1,271	silences	sounding	1,923	
+5		1270888	652.433,00	1.270.888	transcription	aguja	1.923.321	
+3		1923321	1.076.679,00	1.923.321	silences	silent	3.000.000	
+6		1923321	1.076.679,00	1.923.321	transcription	[breath in]	3.000.000	
+1	28	0	1.005.249,00	0	silences	silent	1.005.249	
+4		0	1.005.249,00	0	transcription	[articulation sound]	1.005.249	
+2		1,005	0,67	1,005	silences	sounding	1,671	
+5		1005249	665.297,00	1.005.249	transcription	aguja	1.670.546	
+3		1670546	1.339.454,00	1.670.546	silences	silent	3.010.000	
+6		1670546	1.339.454,00	1.670.546	transcription	[breath in]	3.010.000	
+1	29	0	#VALUE!	0	silences	silent	0.873501	
+4		0	#VALUE!	0	transcription	[tongue tap]	0.873501	
+2		0,874	0,55	0,874	silences	sounding	1,423	
+5		0.873501	#VALUE!	0.873501	transcription	mano	1.423.202	
+3		1423202	1.616.798,00	1.423.202	silences	silent	3.040.000	
+6		1423202	1.616.798,00	1.423.202	transcription	[breath in]	3.040.000	
+1	30	0	3.010.000,00	0	silences	sounding	3.010.000	
+2		0	3,01	0	transcription	[type]	3,01	
