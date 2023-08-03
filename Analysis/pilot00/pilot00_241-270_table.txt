@@ -1,0 +1,124 @@
+line	trial_count	RT	Duration	tmin	tier	text	tmax
+1	1	0,000	3040000,000	0	silences	sounding	3.040.000
+2		0,000	3,040	0,000	transcription	[type_breath]	3,040
+1	2	0,000	#VALUE!	0	silences	silent	0.566976
+4		0,000	#VALUE!	0	transcription	?	0.566976
+2		0,567	0,618	0,567	silences	sounding	1,185
+5		0.566976	#VALUE!	0.566976	transcription	aguja	1.184.545
+3		1184545,000	1815455,000	1.184.545	silences	silent	3.000.000
+6		1184545,000	1815455,000	1.184.545	transcription	?	3.000.000
+1	3	0,000	#VALUE!	0	silences	silent	0.943505
+4		0,000	#VALUE!	0	transcription	[articulation, breath]	0.943505
+2		0,944	0,559	0,944	silences	sounding	1,503
+5		0.943505	#VALUE!	0.943505	transcription	cerdo	1.502.997
+3		1502997,000	1497003,000	1.502.997	silences	silent	3.000.000
+6		1502997,000	1497003,000	1.502.997	transcription	?	3.000.000
+1	4	0,000	3010000,000	0	silences	sounding	3.010.000
+2		0,000	3,010	0,000	transcription	[type]	3,010
+1	5	0,000	#VALUE!	0	silences	silent	0.817000
+4		0,000	#VALUE!	0	transcription	[articulation]	0.817000
+2		0,817	0,549	0,817	silences	sounding	1,366
+5		0.817000	#VALUE!	0.817000	transcription	conejo	1.366.452
+3		1366452,000	1683548,000	1.366.452	silences	silent	3.050.000
+6		1366452,000	1683548,000	1.366.452	transcription	?	3.050.000
+1	6	0,000	3050000,000	0	silences	sounding	3.050.000
+2		0,000	3,050	0,000	transcription	[type_breath]	3,050
+1	7	0,000	3040000,000	0	silences	sounding	3.040.000
+2		0,000	3,040	0,000	transcription	[type]	3,040
+1	8	0,000	1263591,000	0	silences	silent	1.263.591
+4		0,000	1263591,000	0	transcription	?	1.263.591
+2		1,264	0,405	1,264	silences	sounding	1,669
+5		1263591,000	405095,000	1.263.591	transcription	miel	1.668.686
+3		1668686,000	1331314,000	1.668.686	silences	silent	3.000.000
+6		1668686,000	1331314,000	1.668.686	transcription	?	3.000.000
+1	9	0,000	3010000,000	0	silences	sounding	3.010.000
+2		0,000	3,010	0,000	transcription	[type_breath]	3,010
+1	10	0,000	#VALUE!	0	silences	silent	0.665574
+4		0,000	#VALUE!	0	transcription	[breath, tongue]	0.665574
+2		0,666	0,518	0,666	silences	sounding	1,184
+5		0.665574	#VALUE!	0.665574	transcription	goma	1.183.504
+3		1183504,000	1856496,000	1.183.504	silences	silent	3.040.000
+6		1183504,000	1856496,000	1.183.504	transcription	?	3.040.000
+1	11	0,000	#VALUE!	0	silences	silent	0.600124
+4		0,000	#VALUE!	0	transcription	[tongue]	0.600124
+2		0,600	0,405	0,600	silences	sounding	1,005
+5		0.600124	#VALUE!	0.600124	transcription	goma	1.004.699
+3		1004699,000	2005301,000	1.004.699	silences	silent	3.010.000
+6		1004699,000	2005301,000	1.004.699	transcription	[breath]	3.010.000
+1	12	0,000	3040000,000	0	silences	sounding	3.040.000
+2		0,000	3,040	0,000	transcription	[type]	3,040
+1	13	0,000	#VALUE!	0	silences	silent	0.792947
+4		0,000	#VALUE!	0	transcription	?	0.792947
+2		0,793	0,557	0,793	silences	sounding	1,350
+5		0.792947	#VALUE!	0.792947	transcription	falda	1.349.642
+3		1349642,000	1650358,000	1.349.642	silences	silent	3.000.000
+6		1349642,000	1650358,000	1.349.642	transcription	?	3.000.000
+1	14	0,000	3010000,000	0	silences	sounding	3.010.000
+2		0,000	3,010	0,000	transcription	[type]	3,010
+1	15	0,000	#VALUE!	0	silences	silent	0.995711
+4		0,000	#VALUE!	0	transcription	[tongue]	0.995711
+2		0,996	0,629	0,996	silences	sounding	1,625
+5		0.995711	#VALUE!	0.995711	transcription	iglesia	1.624.803
+3		1624803,000	1425197,000	1.624.803	silences	silent	3.050.000
+6		1624803,000	1425197,000	1.624.803	transcription	?	3.050.000
+1	16	0,000	#VALUE!	0	silences	silent	0.613418
+4		0,000	#VALUE!	0	transcription	[tongue]	0.613418
+2		0,613	0,645	0,613	silences	sounding	1,258
+5		0.613418	#VALUE!	0.613418	transcription	iglesia	1.258.006
+3		1258006,000	1791994,000	1.258.006	silences	silent	3.050.000
+6		1258006,000	1791994,000	1.258.006	transcription	[breath]	3.050.000
+1	17	0,000	#VALUE!	0	silences	silent	0.573934
+4		0,000	#VALUE!	0	transcription	[breath, ts]	0.573934
+2		0,574	0,616	0,574	silences	sounding	1,190
+5		0.573934	#VALUE!	0.573934	transcription	oreja	1.189.679
+3		1189679,000	1850321,000	1.189.679	silences	silent	3.040.000
+6		1189679,000	1850321,000	1.189.679	transcription	?	3.040.000
+1	18	0,000	3010000,000	0	silences	sounding	3.010.000
+2		0,000	3,010	0,000	transcription	[type]	3,010
+1	19	0,000	3040000,000	0	silences	sounding	3.040.000
+2		0,000	3,040	0,000	transcription	[type]	3,040
+1	20	0,000	3010000,000	0	silences	sounding	3.010.000
+2		0,000	3,010	0,000	transcription	[type]	3,010
+1	21	0,000	#VALUE!	0	silences	silent	0.632269
+4		0,000	#VALUE!	0	transcription	?	0.632269
+2		0,632	0,456	0,632	silences	sounding	1,088
+5		0.632269	#VALUE!	0.632269	transcription	mano	1.088.097
+3		1088097,000	1951903,000	1.088.097	silences	silent	3.040.000
+6		1088097,000	1951903,000	1.088.097	transcription	[breath]	3.040.000
+1	22	0,000	3010000,000	0	silences	sounding	3.010.000
+2		0,000	3,010	0,000	transcription	[type_breath]	3,010
+1	23	0,000	3040000,000	0	silences	sounding	3.040.000
+2		0,000	3,040	0,000	transcription	[type]	3,040
+1	24	0,000	#VALUE!	0	silences	silent	0.632000
+4		0,000	#VALUE!	0	transcription	[breath]	0.632000
+2		0,632	0,487	0,632	silences	sounding	1,119
+5		0.632000	#VALUE!	0.632000	transcription	pintor	1.118.514
+3		1118514,000	1881486,000	1.118.514	silences	silent	3.000.000
+6		1118514,000	1881486,000	1.118.514	transcription	[breath]	3.000.000
+1	25	0,000	3010000,000	0	silences	sounding	3.010.000
+2		0,000	3,010	0,000	transcription	[type_breath]	3,010
+1	26	0,000	3040000,000	0	silences	sounding	3.040.000
+2		0,000	3,040	0,000	transcription	[type_mic sound]	3,040
+1	27	0,000	#VALUE!	0	silences	silent	0.832515
+4		0,000	#VALUE!	0	transcription	[tongue]	0.832515
+2		0,833	1,111	0,833	silences	sounding	1,943
+5		0.832515	#VALUE!	0.832515	transcription	a...guja	1.943.421
+3		1943421,000	1056579,000	1.943.421	silences	silent	3.000.000
+6		1943421,000	1056579,000	1.943.421	transcription	?	3.000.000
+1	28	0,000	2593000,000	0	silences	sounding	2.593.000
+5		0,000	3010000,000	0	transcription	[type_loud breath]	3.010.000
+2		2,593	0,280	2,593	silences	silent	2,873
+3		2873000,000	24000,000	2.873.000	silences	sounding	2.897.000
+4		2897000,000	113000,000	2.897.000	silences	silent	3.010.000
+1	29	0,000	#VALUE!	0	silences	silent	0.814843
+4		0,000	#VALUE!	0	transcription	?	0.814843
+2		0,815	0,579	0,815	silences	sounding	1,393
+5		0.814843	#VALUE!	0.814843	transcription	regalo	1.393.450
+3		1393450,000	1656550,000	1.393.450	silences	silent	3.050.000
+6		1393450,000	1656550,000	1.393.450	transcription	[mic sound]	3.050.000
+1	30	0,000	#VALUE!	0	silences	silent	0.688692
+4		0,000	#VALUE!	0	transcription	?	0.688692
+2		0,689	0,583	0,689	silences	sounding	1,272
+5		0.688692	#VALUE!	0.688692	transcription	ba?o	1.271.698
+3		1271698,000	1768302,000	1.271.698	silences	silent	3.040.000
+6		1271698,000	1768302,000	1.271.698	transcription	?	3.040.000

@@ -1,0 +1,114 @@
+line	trial_count	RT	Duration	tmin	tier	text	tmax		
+1	1	0	3010000	0	silences	sounding	3.010.000		
+2		0	3,01	0	transcription	[type_breath]	3,01		
+1	2	0	#VALUE!	0	silences	silent	0.597250		
+4		0	#VALUE!	0	transcription	[breath]	0.597250		
+2		0,597	0,595	0,597	silences	sounding	1,192		
+5		0.597250	#VALUE!	0.597250	transcription	bombero	1.191.903		
+3		1191903	1848097	1.191.903	silences	silent	3.040.000		
+6		1191903	1848097	1.191.903	transcription	[breath]	3.040.000		
+1	3	0	3010000	0	silences	sounding	3.010.000		
+2		0	3,01	0	transcription	[type]	3,01		
+1	4	0	3040000	0	silences	sounding	3.040.000		
+2		0	3,04	0	transcription	[type]	3,04		
+1	5	0	3010000	0	silences	sounding	3.010.000		
+2		0	3,01	0	transcription	[type]	3,01		
+1	6	0	#VALUE!	0	silences	silent	0.753000		
+4		0	#VALUE!	0	transcription	?	0.753000		
+2		0,753	0,306	0,753	silences	sounding	1,059		
+5		0.753000	#VALUE!	0.753000	transcription	pavo	1.059.498		
+3		1059498	1990502	1.059.498	silences	silent	3.050.000		
+6		1059498	1990502	1.059.498	transcription	[breath]	3.050.000		
+1	7	0	3050000	0	silences	sounding	3.050.000		
+2		0	3,05	0	transcription	[type_breath]	3,05		
+1	8	0	3050000	0	silences	sounding	3.050.000		
+2		0	3,05	0	transcription	[type]	3,05		
+1	9	0	#VALUE!	0	silences	silent	0.830363		
+4		0	#VALUE!	0	transcription	[ts]	0.830363		
+2		0,83	0,549	0,83	silences	sounding	1,379		
+5		0.830363	#VALUE!	0.830363	transcription	vaso	1.379.371		 
+3		1379371	1660629	1.379.371	silences	silent	3.040.000		
+6		1379371	1660629	1.379.371	transcription	[breath]	3.040.000		
+1	10	0	2608000	0	silences	silent	2.608.000		
+3		0	2608000	0	transcription	[tongue]	2.608.000		
+2		2,608	0,392	2,608	silences	sounding	3		
+4		2608000	392000	2.608.000	transcription	cazado[r]	3.000.000		
+1	11	0	3010000	0	silences	sounding	3.010.000		
+2		0	3,01	0	transcription	[type]	3,01		
+1	12	0	3050000	0	silences	sounding	3.050.000		
+2		0	3,05	0	transcription	[type]	3,05		
+1	13	0	3040000	0	silences	sounding	3.040.000		
+2		0	3,04	0	transcription	[type]	3,04		
+1	14	0	#VALUE!	0	silences	silent	0.673655		
+4		0	#VALUE!	0	transcription	[tongue]	0.673655		
+2		0,674	0,569	0,674	silences	sounding	1,243		
+5		0.673655	#VALUE!	0.673655	transcription	cuerda	1.242.777		
+3		1242777	1757223	1.242.777	silences	silent	3.000.000		
+6		1242777	1757223	1.242.777	transcription	[breath]	3.000.000		
+1	15	0	3010000	0	silences	sounding	3.010.000		
+1	16	0	#VALUE!	0	silences	silent	0.818532		
+4		0	#VALUE!	0	transcription	[tongue]	0.818532		
+2		0,819	0,643	0,819	silences	sounding	1,461		
+5		0.818532	#VALUE!	0.818532	transcription	granja	1.461.035		
+3		1461035	1578965	1.461.035	silences	silent	3.040.000		
+6		1461035	1578965	1.461.035	transcription	?	3.040.000		
+1	17	0	3010000	0	silences	sounding	3.010.000		
+2		0	3,01	0	transcription	[type]	3,01		
+1	18	0	3050000	0	silences	sounding	3.050.000		
+2		0	3,05	0	transcription	[type]	3,05		
+1	19	0	#VALUE!	0	silences	silent	0.511387		
+4		0	#VALUE!	0	transcription	?	0.511387		
+2		0,511	0,655	0,511	silences	sounding	1,166		
+5		0.511387	#VALUE!	0.511387	transcription	falda	1.166.167		
+3		1166167	1873833	1.166.167	silences	silent	3.040.000		
+6		1166167	1873833	1.166.167	transcription	[breath]	3.040.000		
+1	20	0	#VALUE!	0	silences	silent	0.956865		
+4		0	#VALUE!	0	transcription	?	0.956865		
+2		0,957	0,642	0,957	silences	sounding	1,599		
+5		0.956865	#VALUE!	0.956865	transcription	puente	1.599.301		
+3		1599301	1400699	1.599.301	silences	silent	3.000.000		
+6		1599301	1400699	1.599.301	transcription	[breath]	3.000.000		
+1	21	0	3000000	0	silences	sounding	3.000.000		
+2		0	3	0	transcription	[type]	3		
+1	22	0	1207673	0	silences	silent	1.207.673		
+4		0	1207673	0	transcription	articulation	1.207.673		
+2		1,208	0,63	1,208	silences	sounding	1,837		
+5		1207673	629699	1.207.673	transcription	caracol	1.837.372		
+3		1837372	1162628	1.837.372	silences	silent	3.000.000		
+6		1837372	1162628	1.837.372	transcription	?	3.000.000		
+1	23	0	#VALUE!	0	silences	silent	0.729548		
+4		0	#VALUE!	0	transcription	[articulation]	0.729548		
+2		0,73	0,582	0,73	silences	sounding	1,311		
+5		0.729548	#VALUE!	0.729548	transcription	caracol	1.311.128		
+3		1311128	1698872	1.311.128	silences	silent	3.010.000		
+6		1311128	1698872	1.311.128	transcription	?	3.010.000		
+1	24	0	3040000	0	silences	sounding	3.040.000		
+2		0	3,04	0	transcription	[type]	3,04		
+1	25	0	#VALUE!	0	silences	silent	0.919073		
+4		0	#VALUE!	0	transcription	[breath]	0.919073		
+2		0,919	0,594	0,919	silences	sounding	1,513		
+5		0.919073	#VALUE!	0.919073	transcription	pintor	1.513.048		
+3		1513048	1486952	1.513.048	silences	silent	3.000.000		
+6		1513048	1486952	1.513.048	transcription	[breath]	3.000.000		
+1	26	0	#VALUE!	0	silences	silent	0.632000		
+4		0	#VALUE!	0	transcription	[tongue]	0.632000		
+2		0,632	0,536	0,632	silences	sounding	1,168		
+5		0.632000	#VALUE!	0.632000	transcription	pintor	1.168.219		
+3		1168219	1831781	1.168.219	silences	silent	3.000.000		
+6		1168219	1831781	1.168.219	transcription	?	3.000.000		
+1	27	0	#VALUE!	0	silences	silent	0.651288		
+4		0	#VALUE!	0	transcription	[breath]	0.651288		
+2		0,651	0,5	0,651	silences	sounding	1,151		
+5		0.651288	#VALUE!	0.651288	transcription	mano	1.151.247		
+3		1151247	1848753	1.151.247	silences	silent	3.000.000		
+6		1151247	1848753	1.151.247	transcription	?	3.000.000		
+1	28	0	3010000	0	silences	sounding	3.010.000		
+2		0	3,01	0	transcription	[type]	3,01		
+1	29	0	3040000	0	silences	sounding	3.040.000		
+2		0	3,04	0	transcription	[type]	3,04		
+1	30	0	#VALUE!	0	silences	silent	0.706899		
+4		0	#VALUE!	0	transcription	[tongue]	0.706899		
+2		0,707	0,41	0,707	silences	sounding	1,117		
+5		0.706899	#VALUE!	0.706899	transcription	pavo	1.117.256		
+3		1117256	1892744	1.117.256	silences	silent	3.010.000		
+6		1117256	1892744	1.117.256	transcription	[breath]	3.010.000		

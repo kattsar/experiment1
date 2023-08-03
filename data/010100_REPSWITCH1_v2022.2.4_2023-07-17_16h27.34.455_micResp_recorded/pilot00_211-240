@@ -1,0 +1,1051 @@
+File type = "ooTextFile"
+Object class = "Collection"
+
+size = 30 
+item []: 
+    item [1]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h47_02_389" 
+        xmin = 0 
+        xmax = 3.01 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.01 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.01 
+                    text = "sounding" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.01 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.01 
+                    text = "[type_breath]" 
+    item [2]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h47_07_033" 
+        xmin = 0 
+        xmax = 3.04 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.04 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.5972497731669094 
+                    text = "silent" 
+                intervals [2]:
+                    xmin = 0.5972497731669094 
+                    xmax = 1.191903340997426 
+                    text = "sounding" 
+                intervals [3]:
+                    xmin = 1.191903340997426 
+                    xmax = 3.04 
+                    text = "silent" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.04 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.5972497731669094 
+                    text = "[breath]" 
+                intervals [2]:
+                    xmin = 0.5972497731669094 
+                    xmax = 1.191903340997426 
+                    text = "bombero" 
+                intervals [3]:
+                    xmin = 1.191903340997426 
+                    xmax = 3.04 
+                    text = "[breath]" 
+    item [3]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h47_11_648" 
+        xmin = 0 
+        xmax = 3.01 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.01 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.01 
+                    text = "sounding" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.01 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.01 
+                    text = "[type]" 
+    item [4]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h47_16_347" 
+        xmin = 0 
+        xmax = 3.04 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.04 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.04 
+                    text = "sounding" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.04 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.04 
+                    text = "[type]" 
+    item [5]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h47_20_886" 
+        xmin = 0 
+        xmax = 3.01 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.01 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.01 
+                    text = "sounding" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.01 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.01 
+                    text = "[type]" 
+    item [6]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h47_25_601" 
+        xmin = 0 
+        xmax = 3.05 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.05 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.7529999999999999 
+                    text = "silent" 
+                intervals [2]:
+                    xmin = 0.7529999999999999 
+                    xmax = 1.0594977514197181 
+                    text = "sounding" 
+                intervals [3]:
+                    xmin = 1.0594977514197181 
+                    xmax = 3.05 
+                    text = "silent" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.05 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.7529999999999999 
+                    text = "" 
+                intervals [2]:
+                    xmin = 0.7529999999999999 
+                    xmax = 1.0594977514197181 
+                    text = "pavo" 
+                intervals [3]:
+                    xmin = 1.0594977514197181 
+                    xmax = 3.05 
+                    text = "[breath]" 
+    item [7]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h47_30_206" 
+        xmin = 0 
+        xmax = 3.05 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.05 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.05 
+                    text = "sounding" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.05 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.05 
+                    text = "[type_breath]" 
+    item [8]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h47_34_831" 
+        xmin = 0 
+        xmax = 3.05 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.05 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.05 
+                    text = "sounding" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.05 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.05 
+                    text = "[type]" 
+    item [9]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h47_39_495" 
+        xmin = 0 
+        xmax = 3.04 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.04 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.8303629018809477 
+                    text = "silent" 
+                intervals [2]:
+                    xmin = 0.8303629018809477 
+                    xmax = 1.3793707485174873 
+                    text = "sounding" 
+                intervals [3]:
+                    xmin = 1.3793707485174873 
+                    xmax = 3.04 
+                    text = "silent" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.04 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.8303629018809477 
+                    text = "[ts]" 
+                intervals [2]:
+                    xmin = 0.8303629018809477 
+                    xmax = 1.3793707485174873 
+                    text = "vaso" 
+                intervals [3]:
+                    xmin = 1.3793707485174873 
+                    xmax = 3.04 
+                    text = "[breath]" 
+    item [10]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h47_44_066" 
+        xmin = 0 
+        xmax = 3 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3 
+                intervals: size = 2 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 2.608 
+                    text = "silent" 
+                intervals [2]:
+                    xmin = 2.608 
+                    xmax = 3 
+                    text = "sounding" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3 
+                intervals: size = 2 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 2.608 
+                    text = "[tongue]" 
+                intervals [2]:
+                    xmin = 2.608 
+                    xmax = 3 
+                    text = "cazado[r]" 
+    item [11]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h47_48_798" 
+        xmin = 0 
+        xmax = 3.01 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.01 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.01 
+                    text = "sounding" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.01 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.01 
+                    text = "[type]" 
+    item [12]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h47_53_437" 
+        xmin = 0 
+        xmax = 3.05 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.05 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.05 
+                    text = "sounding" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.05 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.05 
+                    text = "[type]" 
+    item [13]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h47_57_998" 
+        xmin = 0 
+        xmax = 3.04 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.04 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.04 
+                    text = "sounding" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.04 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.04 
+                    text = "[type]" 
+    item [14]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h48_02_609" 
+        xmin = 0 
+        xmax = 3 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.6736550473503929 
+                    text = "silent" 
+                intervals [2]:
+                    xmin = 0.6736550473503929 
+                    xmax = 1.242776834288017 
+                    text = "sounding" 
+                intervals [3]:
+                    xmin = 1.242776834288017 
+                    xmax = 3 
+                    text = "silent" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.6736550473503929 
+                    text = "[tongue]" 
+                intervals [2]:
+                    xmin = 0.6736550473503929 
+                    xmax = 1.242776834288017 
+                    text = "cuerda" 
+                intervals [3]:
+                    xmin = 1.242776834288017 
+                    xmax = 3 
+                    text = "[breath]" 
+    item [15]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h48_07_245" 
+        xmin = 0 
+        xmax = 3.01 
+        tiers? <exists> 
+        size = 1 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.01 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.01 
+                    text = "sounding" 
+    item [16]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h48_11_854" 
+        xmin = 0 
+        xmax = 3.04 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.04 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.8185321972981249 
+                    text = "silent" 
+                intervals [2]:
+                    xmin = 0.8185321972981249 
+                    xmax = 1.4610350728630193 
+                    text = "sounding" 
+                intervals [3]:
+                    xmin = 1.4610350728630193 
+                    xmax = 3.04 
+                    text = "silent" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.04 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.8185321972981249 
+                    text = "[tongue]" 
+                intervals [2]:
+                    xmin = 0.8185321972981249 
+                    xmax = 1.4610350728630193 
+                    text = "granja" 
+                intervals [3]:
+                    xmin = 1.4610350728630193 
+                    xmax = 3.04 
+                    text = "" 
+    item [17]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h48_16_587" 
+        xmin = 0 
+        xmax = 3.01 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.01 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.01 
+                    text = "sounding" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.01 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.01 
+                    text = "[type]" 
+    item [18]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h48_21_226" 
+        xmin = 0 
+        xmax = 3.05 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.05 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.05 
+                    text = "sounding" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.05 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.05 
+                    text = "[type]" 
+    item [19]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h48_25_930" 
+        xmin = 0 
+        xmax = 3.04 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.04 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.5113869606516795 
+                    text = "silent" 
+                intervals [2]:
+                    xmin = 0.5113869606516795 
+                    xmax = 1.1661669612273682 
+                    text = "sounding" 
+                intervals [3]:
+                    xmin = 1.1661669612273682 
+                    xmax = 3.04 
+                    text = "silent" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.04 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.5113869606516795 
+                    text = "" 
+                intervals [2]:
+                    xmin = 0.5113869606516795 
+                    xmax = 1.1661669612273682 
+                    text = "falda" 
+                intervals [3]:
+                    xmin = 1.1661669612273682 
+                    xmax = 3.04 
+                    text = "[breath]" 
+    item [20]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h48_30_515" 
+        xmin = 0 
+        xmax = 3 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.9568648868377567 
+                    text = "silent" 
+                intervals [2]:
+                    xmin = 0.9568648868377567 
+                    xmax = 1.599301489123241 
+                    text = "sounding" 
+                intervals [3]:
+                    xmin = 1.599301489123241 
+                    xmax = 3 
+                    text = "silent" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.9568648868377567 
+                    text = "" 
+                intervals [2]:
+                    xmin = 0.9568648868377567 
+                    xmax = 1.599301489123241 
+                    text = "puente" 
+                intervals [3]:
+                    xmin = 1.599301489123241 
+                    xmax = 3 
+                    text = "[breath]" 
+    item [21]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h48_35_245" 
+        xmin = 0 
+        xmax = 3 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3 
+                    text = "sounding" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3 
+                    text = "[type]" 
+    item [22]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h48_39_849" 
+        xmin = 0 
+        xmax = 3 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 1.2076727066002706 
+                    text = "silent" 
+                intervals [2]:
+                    xmin = 1.2076727066002706 
+                    xmax = 1.83737241299905 
+                    text = "sounding" 
+                intervals [3]:
+                    xmin = 1.83737241299905 
+                    xmax = 3 
+                    text = "silent" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 1.2076727066002706 
+                    text = "articulation" 
+                intervals [2]:
+                    xmin = 1.2076727066002706 
+                    xmax = 1.83737241299905 
+                    text = "caracol" 
+                intervals [3]:
+                    xmin = 1.83737241299905 
+                    xmax = 3 
+                    text = "" 
+    item [23]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h48_44_513" 
+        xmin = 0 
+        xmax = 3.01 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.01 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.729547500473414 
+                    text = "silent" 
+                intervals [2]:
+                    xmin = 0.729547500473414 
+                    xmax = 1.3111278762845053 
+                    text = "sounding" 
+                intervals [3]:
+                    xmin = 1.3111278762845053 
+                    xmax = 3.01 
+                    text = "silent" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.01 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.729547500473414 
+                    text = "[articulation]" 
+                intervals [2]:
+                    xmin = 0.729547500473414 
+                    xmax = 1.3111278762845053 
+                    text = "caracol" 
+                intervals [3]:
+                    xmin = 1.3111278762845053 
+                    xmax = 3.01 
+                    text = "" 
+    item [24]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h48_49_226" 
+        xmin = 0 
+        xmax = 3.04 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.04 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.04 
+                    text = "sounding" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.04 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.04 
+                    text = "[type]" 
+    item [25]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h48_53_774" 
+        xmin = 0 
+        xmax = 3 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.9190732851673815 
+                    text = "silent" 
+                intervals [2]:
+                    xmin = 0.9190732851673815 
+                    xmax = 1.5130475518839412 
+                    text = "sounding" 
+                intervals [3]:
+                    xmin = 1.5130475518839412 
+                    xmax = 3 
+                    text = "silent" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.9190732851673815 
+                    text = "[breath]" 
+                intervals [2]:
+                    xmin = 0.9190732851673815 
+                    xmax = 1.5130475518839412 
+                    text = "pintor" 
+                intervals [3]:
+                    xmin = 1.5130475518839412 
+                    xmax = 3 
+                    text = "[breath]" 
+    item [26]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h48_58_310" 
+        xmin = 0 
+        xmax = 3 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.632 
+                    text = "silent" 
+                intervals [2]:
+                    xmin = 0.632 
+                    xmax = 1.1682193949512103 
+                    text = "sounding" 
+                intervals [3]:
+                    xmin = 1.1682193949512103 
+                    xmax = 3 
+                    text = "silent" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.632 
+                    text = "[tongue]" 
+                intervals [2]:
+                    xmin = 0.632 
+                    xmax = 1.1682193949512103 
+                    text = "pintor" 
+                intervals [3]:
+                    xmin = 1.1682193949512103 
+                    xmax = 3 
+                    text = "" 
+    item [27]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h49_02_866" 
+        xmin = 0 
+        xmax = 3 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.6512878155493509 
+                    text = "silent" 
+                intervals [2]:
+                    xmin = 0.6512878155493509 
+                    xmax = 1.1512471403423332 
+                    text = "sounding" 
+                intervals [3]:
+                    xmin = 1.1512471403423332 
+                    xmax = 3 
+                    text = "silent" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.6512878155493509 
+                    text = "[breath]" 
+                intervals [2]:
+                    xmin = 0.6512878155493509 
+                    xmax = 1.1512471403423332 
+                    text = "mano" 
+                intervals [3]:
+                    xmin = 1.1512471403423332 
+                    xmax = 3 
+                    text = "" 
+    item [28]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h49_07_592" 
+        xmin = 0 
+        xmax = 3.01 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.01 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.01 
+                    text = "sounding" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.01 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.01 
+                    text = "[type]" 
+    item [29]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h49_12_242" 
+        xmin = 0 
+        xmax = 3.04 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.04 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.04 
+                    text = "sounding" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.04 
+                intervals: size = 1 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 3.04 
+                    text = "[type]" 
+    item [30]:
+        class = "TextGrid" 
+        name = "recording_mic_2023-07-17_16h49_16_808" 
+        xmin = 0 
+        xmax = 3.01 
+        tiers? <exists> 
+        size = 2 
+        item []: 
+            item [1]:
+                class = "IntervalTier" 
+                name = "silences" 
+                xmin = 0 
+                xmax = 3.01 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.7068993746106428 
+                    text = "silent" 
+                intervals [2]:
+                    xmin = 0.7068993746106428 
+                    xmax = 1.1172557525690106 
+                    text = "sounding" 
+                intervals [3]:
+                    xmin = 1.1172557525690106 
+                    xmax = 3.01 
+                    text = "silent" 
+            item [2]:
+                class = "IntervalTier" 
+                name = "transcription" 
+                xmin = 0 
+                xmax = 3.01 
+                intervals: size = 3 
+                intervals [1]:
+                    xmin = 0 
+                    xmax = 0.7068993746106428 
+                    text = "[tongue]" 
+                intervals [2]:
+                    xmin = 0.7068993746106428 
+                    xmax = 1.1172557525690106 
+                    text = "pavo" 
+                intervals [3]:
+                    xmin = 1.1172557525690106 
+                    xmax = 3.01 
+                    text = "[breath]" 
