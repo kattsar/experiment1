@@ -29,7 +29,7 @@ pilot <- read.csv("D:\\GitHub\\experiment1\\data\\010100_REPSWITCH1_pilot.csv", 
 ```{r}
 speak <- filter(pilot, respModal == "speak")
 
-write_csv(speak, "D:\\GitHub\\experiment1\\data\\speak_pilot00.csv")
+#write_csv(speak, "D:\\GitHub\\experiment1\\data\\speak_pilot00.csv")
 ```
 
 ```{r}
@@ -46,7 +46,12 @@ type <- read.csv("D:\\GitHub\\experiment1\\data\\type_pilot00.csv", header = TRU
   mutate(across(c("keyResp_rt"), substr, 2, nchar(keyResp_rt))) %>% #remove 1st char([) in the beginning of each string in the column
   mutate(str_sub(keyResp_rt, start = 1, end = -1)) %>% #remove last char(]) in the beginning of each string in the column
   separate(keyResp_rt, c("key1", "key2", "key3", "key4", "key5", "key6", "key7", "key8", "key9", "key10", "key11", "key12", "key13", "key14", "key15"), 
-           ", ", extra = "merge", fill = "right") #https://tidyr.tidyverse.org/reference/separate.html
+           ", ", extra = "merge", fill = "right") %>% #https://tidyr.tidyverse.org/reference/separate.html
+  mutate(key1 = as.numeric(key1), key2 = as.numeric(key2), key3 = as.numeric(key3), key4 = as.numeric(key4),
+         key5 = as.numeric(key5), key6 = as.numeric(key6), key7 = as.numeric(key7), key8 = as.numeric(key8),
+         key9 = as.numeric(key9), key10 = as.numeric(key10), key11 = as.numeric(key11), key12 = as.numeric(key12),
+         key13 = as.numeric(key13), key14 = as.numeric(key14), key15 = as.numeric(key1)
+         )
         
 
 write_csv(type, "D:\\GitHub\\experiment1\\data\\type_pilot00_clean.csv")
