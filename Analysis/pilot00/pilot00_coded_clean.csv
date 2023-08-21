@@ -1,0 +1,119 @@
+Column2;Column1;Response;Image;respModal;Target;RepSwitch;Accuracy;RT;Duration;Notes
+1;2;puente;puente;speak;T;repeat;1;1,34;0,5858;NA
+2;5;vaso;vaso;speak;T;repeat;1;0,945;0,6479;NA
+3;8;traje;traje;type;T;switch;1;1,126;0,719;NA
+4;10;muneca;muneca;speak;T;switch;1;1,157;0,7885;NA
+5;13;pavo;pavo;type;T;switch;1;1,127;0,784;NA
+6;19;vaso;vaso;type;T;repeat;1;1,123;0,513;NA
+7;22;esplada;espalda;speak;T;switch;1;1,257;0,6848;NA
+8;27;pintor;pintor;type;T;repeat;1;1,411;1,376;NA
+9;30;caracol;caracol;type;T;repeat;1;0,732;1,055;NA
+10;32;mano;mano;speak;T;switch;1;1,355;0,4321;NA
+11;34;cuerda;cuerda;type;T;switch;1;1,006;0,785;NA
+12;37;granja;granja;speak;T;switch;1;1,138;0,6514;NA
+13;41;manzana;manzana;speak;T;repeat;1;1,066;0,8264;NA
+14;44;cerdo;cerdo;speak;T;repeat;1;0,898;0,6025;NA
+15;48;falda;falda;type;T;switch;1;0,982;0,56;NA
+16;50;guante;guante;speak;T;switch;1;0,854;0,6298;NA
+17;52;miel;miel;type;T;switch;1;0,927;0,385;NA
+18;55;cartero;cartero;speak;T;switch;1;0,935;0,5877;"rising intonation at the end; sounds like having accent in /e/ and /o/"
+19;58;aguja;aguja;speak;T;repeat;1;1,005;0,6653;NA
+20;63;oreja;oreja;speak;T;repeat;1;0,697;0,5572;NA
+21;65;goma;goma;type;T;switch;1;1,033;0,368;NA
+22;72;iglesia;iglesia;type;T;repeat;1;0,941;1,056;NA
+23;75;vaca;vaca;type;T;repeat;1;0,879;0,641;NA
+24;77;bano;bano;speak;T;switch;1;0,878;0,508;NA
+25;81;pierna;pierna;speak;T;repeat;1;0,667;0,5511;NA
+26;83;taza;taza;type;T;switch;1;1,211;0,448;NA
+27;86;camisa;camisa;speak;T;switch;1;1,208;0,6301;NA
+28;88;regalo;regalo;speak;T;repeat;1;0,855;0,6007;NA
+29;93;bombero;bombero;type;T;switch;1;1,268;0,88;NA
+30;96;pulpo;pulpo;type;T;repeat;1;1,121;0,895;NA
+31;99;muneca;muneca;speak;T;repeat;1;0,621;0,6344;NA
+32;103;traje;traje;speak;T;repeat;1;0,504;0,4708;NA
+33;108;vaso;vaso;speak;T;switch;1;0,667;0,4101;NA
+34;110;puente;puente;type;T;switch;1;1,415;0,848;/ts/ sound - check accuracy - 56_778
+35;116;pavo;pavo;type;T;repeat;1;0,867;0,447;NA
+36;120;vaso;vaso;speak;T;switch;1;0,683;0,4707;exhalation at the end of the word passing to the last silent part (42_923)
+37;126;mano;mano;type;T;repeat;1;0,855;0,288;NA
+38;128;pintor;pintor;speak;T;switch;1;0,684;0,5622;NA
+39;131;cerdo;cerdo;type;T;switch;1;0,964;0,56;NA
+40;133;caracol;caracol;speak;T;switch;1;0,867;0,6218;NA
+41;137;cuerda;cuerda;speak;T;repeat;1;0,483;0,6573;mic sound - yawns while speaking (01_422)
+42;140;falda;falda;speak;T;repeat;1;0,63;0,4907;weird sound quality (15_357)
+43;145;manzana;manzana;type;T;switch;1;0,945;0,704;NA
+44;148;goma;goma;speak;T;switch;1;0,85;0,5865;weird sound quality (52_337)
+45;151;aguja;aguja;type;T;switch;1;1,052;1,216;NA
+46;153;iglesia;iglesia;speak;T;switch;1;0,78;0,6133;NA
+47;156;conejo;conejo;speak;T;repeat;1;0,872;0,5721;NA
+48;160;guante;guante;speak;T;repeat;1;0,708;0,6321;NA
+49;162;cartero;cartero;type;T;switch;1;0,886;0,992;NA
+50;168;miel;miel;type;T;repeat;1;1,084;0,335;NA
+51;172;pierna;pierna;type;T;repeat;1;0,796;0,672;NA
+52;174;pulpo;pulpo;speak;T;switch;1;1,02;0,5038;NA
+53;177;taza;taza;speak;T;repeat;1;0,733;0,565;NA
+54;179;bano;bano;type;T;switch;1;1,141;1,295;NA
+55;184;bombero;bombero;speak;T;switch;1;0,669;0,5766;NA
+56;186;vaca;vaca;speak;T;repeat;1;0,511;0,545;NA
+57;189;regalo;regalo;type;T;switch;1;0,793;0,768;NA
+58;191;camisa;camisa;type;T;repeat;1;0,833;0,544;NA
+59;197;vaso;vaso;speak;T;repeat;1;0,639;0,4832;NA
+60;201;cazador;cazador;speak;T;repeat;1;0,76;0,6485;NA
+61;206;puente;puente;speak;T;switch;1;0,924;0,554;NA
+62;212;vaso;vaso;type;T;repeat;1;0,783;0,401;NA
+63;216;traje;traje;type;T;repeat;1;0,812;0,704;NA
+64;218;pavo;pavo;speak;T;switch;1;0,753;0,3065;NA
+65;220;cerdo;cerdo;type;T;repeat;1;1,017;0,545;NA
+66;224;manzana;manzana;type;T;repeat;1;0,915;0,672;NA
+67;226;cuerda;cuerda;speak;T;switch;1;0,674;0,5691;NA
+68;229;granja;granja;type;T;switch;1;0,919;0,816;NA
+69;231;falda;falda;speak;T;switch;1;0,511;0,6548;NA
+70;235;caracol;caracol;speak;T;repeat;1;0,73;0,5816;NA
+71;238;pintor;pintor;speak;T;repeat;1;0,632;0,5362;NA
+72;240;mano;mano;type;T;switch;1;0,809;0,496;NA
+73;244;aguja;aguja;speak;T;switch;1;0,567;0,6176;NA
+74;248;conejo;conejo;type;T;switch;1;0,991;0,704;NA
+75;250;miel;miel;speak;T;switch;1;1,264;0,4051;NA
+76;253;goma;goma;speak;T;repeat;1;0,6;0,4046;NA
+77;258;iglesia;iglesia;speak;T;repeat;1;0,613;0,6446;NA
+78;260;oreja;oreja;type;T;switch;1;1,694;0,545;NA
+79;265;guante;guante;type;T;repeat;1;0,937;0,768;NA
+80;268;taza;taza;type;T;repeat;1;0,754;0,593;NA
+81;271;regalo;regalo;speak;T;switch;1;0,815;0,5786;weird sound quality (31_039)
+82;273;bano;bano;speak;T;repeat;1;0,496;0,5293;NA
+83;277;camisa;camisa;type;T;switch;1;0,9;0,56;NA
+84;279;vaca;vaca;speak;T;switch;1;0,619;0,4049;NA
+85;282;pulpo;pulpo;speak;T;repeat;1;0,836;0,4394;NA
+86;285;pierna;pierna;type;T;switch;1;0,87;0,672;NA
+87;287;bombero;bombero;type;T;repeat;1;0,834;0,72;NA
+88;294;pavo;pavo;speak;T;repeat;1;0,695;0,3979;NA
+89;299;espalda;espalda;speak;T;repeat;1;0,485;0,7152;too close to the mic (24_204)
+90;301;vaso;vaso;type;T;switch;1;0,805;0,448;NA
+91;304;traje;traje;speak;T;switch;1;0,642;0,5945;probably too close to the mic -- very bad sound quality (47_205)
+92;306;vaso;vaso;type;T;switch;1;0,952;0,464;NA
+93;309;muneca;muneca;type;T;repeat;1;1,141;1,552;NA
+94;315;cazador;cazador;speak;T;switch;1;0,927;0,6785;too close to the mic (37_857)
+95;317;falda;falda;type;T;repeat;1;1,296;0,511;NA
+96;320;cuerda;cuerda;type;T;repeat;1;0,721;0,705;NA
+97;323;manzana;manzana;speak;T;switch;1;0,822;0,7435;too close to the mic (14_836)
+98;325;caracol;caracol;type;T;switch;1;0,967;1,088;NA
+99;330;cerdo;cerdo;speak;T;switch;1;0,639;0,668;NA
+100;332;mano;mano;speak;T;repeat;1;0,607;0,7437;NA
+101;335;granja;granja;speak;T;repeat;1;1,258;0,6484;too close to the mic (10_499)
+102;339;pintor;pintor;type;T;switch;1;1,213;0,769;NA
+103;341;oreja;oreja;speak;T;switch;1;0,793;0,5578;too close to the mic (38_133)
+104;343;guante;guante;type;T;switch;1;0,975;0,72;NA
+105;347;conejo;conejo;speak;T;switch;1;1,249;0,6271;NA
+106;350;cartero;cartero;speak;T;repeat;1;0,594;0,6348;NA
+107;354;miel;miel;speak;T;repeat;1;0,728;0,636;NA
+108;356;iglesia;iglesia;type;T;switch;1;1,342;0,719;NA
+109;360;goma;goma;type;T;repeat;1;0,9;0,785;NA
+110;363;aguja;aguja;type;T;repeat;1;0,724;0,737;NA
+111;367;regalo;regalo;type;T;repeat;1;0,799;0,704;NA
+112;369;pierna;pierna;speak;T;switch;1;0,872;0,5923;NA
+113;372;camisa;camisa;speak;T;repeat;1;0,615;0,6828;NA
+114;374;vaca;vaca;type;T;switch;1;0,81;0,592;NA
+115;377;taza;taza;speak;T;switch;1;0,998;0,5205;NA
+116;379;bombero;bombero;speak;T;repeat;1;0,822;0,6579;NA
+117;385;bano;bano;type;T;repeat;1;0,869;1,04;NA
+;;;;;;;;;;
