@@ -8,6 +8,9 @@ output: html_document
 ```{r}
 library(tidyverse)
 library(readr)
+library(readxl)
+library(dplyr)
+library(ggplot2)
 ```
 
 ```{r}
@@ -57,5 +60,68 @@ type <- read.csv("D:\\GitHub\\experiment1\\data\\type_pilot00.csv", header = TRU
 write_csv(type, "D:\\GitHub\\experiment1\\data\\type_pilot00_clean.csv")
 ```
 
+```{r}
+type_clean <- read.csv("D:\\GitHub\\experiment1\\Analysis\\pilot00\\type_pilot00_clean.csv", header = TRUE, sep = ";"#, fileEncoding = "UTF-8"
+                       ) %>% 
+   filter(!row_number() %in% c(193:199))
 
+```
+
+```{r}
+coded <- readxl::read_xlsx("D:\\GitHub\\experiment1\\Analysis\\pilot00\\pilot00_coded.xlsx", sheet = 1) %>% 
+  filter(!row_number() %in% c(388:393)) %>% 
+  select(-c(10:12))
+```
+
+
+```{r}
+#identify the type rows in coded and extract the relevant data from type_clean
+type_rows <- coded$respModal == "type"
+type_data <- type_clean[type_clean$respModal == "type", c("RT", "Duration")]
+```
+
+
+```{r}
+#update RT and Duration for type in coded
+coded[type_rows, c("RT", "Duration")] <- type_data
+```
+
+```{r}
+#updated coded file including values for RT and Duration for type
+write.csv(coded, "D:\\GitHub\\experiment1\\Analysis\\pilot00\\pilot00_coded_updated.csv")
+```
+
+```{r}
+pilot_data <- read.csv("D:\\GitHub\\experiment1\\Analysis\\pilot00\\pilot00_coded_updated.csv", header = TRUE, sep = ";"#, fileEncoding = "UTF-8"
+                       ) %>%
+  filter(Accuracy == 1) %>% 
+  filter(RepSwitch %in% c("switch", "repeat"),
+         respModal %in% c("speak", "type")) #%>% 
+  #group_by(RepSwitch, respModal) %>% 
+  #mutate(RT = as.numeric(RT))
+
+write.csv(pilot_data, "D:\\GitHub\\experiment1\\Analysis\\pilot00\\pilot00_coded_clean.csv")
+```
+
+```{r}
+data <- readxl::read_xlsx("D:\\GitHub\\experiment1\\Analysis\\pilot00\\pilot00_coded_updated.xlsx", sheet = 5) %>% 
+  mutate(Condition = as.factor(Condition), 
+         Modality = as.factor(Modality))
+```
+
+```{r}
+t.test(Mean_RT ~ Condition, data = data)
+```
+
+```{r}
+t.test(Mean_RT ~ Modality, data = data)
+```
+
+```{r}
+t.test(Mean_Duration ~ Condition, data = data)
+```
+
+```{r}
+t.test(Mean_Duration ~ Modality, data = data)
+```
 
