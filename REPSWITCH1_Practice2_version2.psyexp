@@ -39,7 +39,7 @@
     <Param val="False" valType="bool" updates="None" name="elSimMode"/>
     <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
     <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
-    <Param val="REPSWITCH1_Practice_2_version2" valType="str" updates="None" name="expName"/>
+    <Param val="REPSWITCH1_Practice2_version2" valType="str" updates="None" name="expName"/>
     <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
     <Param val="None" valType="str" updates="None" name="eyetracker"/>
     <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
@@ -795,7 +795,7 @@
       <CodeComponent name="codeSavePractice2">
         <Param val="import pandas as pd&amp;#10;&amp;#10;count = 0" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="# Read the excel file and store it in a pandas DataFrame&amp;#10;data_file = &quot;repswitch_practice_2_version2.xlsx&quot;  &amp;#10;df = pd.read_excel(data_file)&amp;#10;&amp;#10;# Get the participant number from the experiment info dialog&amp;#10;participant_number = expInfo['participant']" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="# Read the excel file and store it in a pandas DataFrame&amp;#10;data_file = &quot;repswitch_practice2_version2.xlsx&quot;  &amp;#10;df = pd.read_excel(data_file)&amp;#10;&amp;#10;# Get the participant number from the experiment info dialog&amp;#10;participant_number = expInfo['participant']" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="count = count + 1&amp;#10;&amp;#10;#Retrieve the value of 'correctAns' for the current trial&amp;#10;correctAns = df.loc[count - 1, 'correctAns']&amp;#10;&amp;#10;#Retrieve the value of 'respModal' for the current trial&amp;#10;respModal = df.loc[count - 1, 'respModal']" valType="extendedCode" updates="constant" name="Begin Routine"/>
@@ -874,7 +874,7 @@
     <LoopInitiator loopType="TrialHandler" name="trialsPractice_2">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="[{'image': 'REPSWITCH1_Practice/PICTURE_12.png', 'correctAns': 'sirena', 'respModal': 'SPEAK', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_12.png', 'correctAns': 'sirena', 'respModal': 'TYPE', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_599.png', 'correctAns': 'nube', 'respModal': 'SPEAK', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas', 'respModal': 'TYPE', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_614.png', 'correctAns': 'reina', 'respModal': 'TYPE', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_612.png', 'correctAns': 'rana', 'respModal': 'TYPE', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_612.png', 'correctAns': 'rana', 'respModal': 'SPEAK', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_570.png', 'correctAns': 'toro', 'respModal': 'TYPE', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_110.png', 'correctAns': 'mesa', 'respModal': 'SPEAK', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas', 'respModal': 'SPEAK', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas', 'respModal': 'TYPE', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_614.png', 'correctAns': 'reina', 'respModal': 'SPEAK', 'frameColor': 'darkblue'}]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="repswitch_practice_2_version2.xlsx" valType="file"/>
+      <Param name="conditionsFile" updates="None" val="repswitch_practice2_version2.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="sequential" valType="str"/>
