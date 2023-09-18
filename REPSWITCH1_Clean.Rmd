@@ -104,10 +104,112 @@ write.csv(pilot_data, "D:\\GitHub\\experiment1\\Analysis\\pilot00\\pilot00_coded
 ```
 
 ```{r}
-data <- readxl::read_xlsx("D:\\GitHub\\experiment1\\Analysis\\pilot00\\pilot00_coded_updated.xlsx", sheet = 5) %>% 
-  mutate(Condition = as.factor(Condition), 
-         Modality = as.factor(Modality))
+data <- readxl::read_xlsx("D:\\GitHub\\experiment1\\Analysis\\pilot00\\pilot00_coded_updated.xlsx", sheet = 1) %>% 
+  filter(Accuracy == 1) %>% 
+  filter(RepSwitch %in% c("switch", "repeat"),
+         respModal %in% c ("speak", "type")) %>% 
+  mutate(RT = as.numeric(RT))
 ```
+
+```{r}
+ggplot(data, aes(x = RepSwitch, y = RT, fill = respModal)) +
+  geom_bar(colour = "black", stat = "identity", width = 0.5, position = "dodge") +
+  scale_fill_brewer(palette = "Set1") +
+  labs(x ='Condition', y='Mean RTs (ms)', title = 'RTs of modality across conditions')
+
+```
+
+
+```{r}
+speak <- readxl::read_xlsx("D:\\GitHub\\experiment1\\Analysis\\pilot00\\pilot00_coded_updated.xlsx", sheet = 1) %>% 
+  filter(Accuracy == 1) %>% 
+  filter(RepSwitch %in% c("switch", "repeat"),
+         respModal %in% c ("speak")) %>% 
+  mutate(RT = as.numeric(RT))
+  #mutate(Condition = as.factor(Condition), 
+         #Modality = as.factor(Modality))
+```
+
+```{r}
+min(speak$RT)
+max(speak$RT)
+```
+
+
+```{r}
+#RT distribution, http://www.cookbook-r.com/Graphs/Plotting_distributions_(ggplot2)/
+RTspeak <- ggplot(speak, aes(x = RT)) +
+  geom_histogram(binwidth = 0.1,
+                 colour = "black", fill = "white") +
+  #geom_density(alpha = 0.2, fill = "#FF6666") + # Overlay with transparent density plot
+  geom_vline(aes(xintercept = mean(RT, na.rm = T)),
+             colour = "red", linetype = "dashed", size = 1) +
+  xlab("RT speak (ms)") +
+  ggtitle("RT distribution of Speak trials")
+
+RTspeak
+```
+
+```{r}
+#RT distribution, http://www.cookbook-r.com/Graphs/Plotting_distributions_(ggplot2)/
+ggplot(data, aes(x = RT)) +
+  geom_histogram(binwidth = 0.1,
+                 colour = "black", fill = "white") +
+  #geom_density(alpha = 0.2, fill = "#FF6666") + # Overlay with transparent density plot
+  geom_vline(aes(xintercept = mean(RT, na.rm = T)),
+             colour = "red", linetype = "dashed", size = 1) + facet_wrap(~respModal)+
+  xlab("RT (ms)") +
+  ggtitle("RT distribution")
+
+ggplot(data, aes(x = RT)) +
+  geom_histogram(binwidth = 0.1,
+                 colour = "black", fill = "white") +
+  #geom_density(alpha = 0.2, fill = "#FF6666") + # Overlay with transparent density plot
+  # geom_vline(aes(xintercept = mean(RT, na.rm = T)),
+             # colour = "red", linetype = "dashed", size = 1) + 
+  facet_grid(rows = vars(respModal), cols = vars(RepSwitch))+
+  xlab("RT (ms)") +
+  ggtitle("RT distribution")
+
+ggplot(data, aes(x = RT, fill = respModal)) +
+  geom_histogram(binwidth = 0.1, position = "dodge") +
+  #geom_density(alpha = 0.2, fill = "#FF6666") + # Overlay with transparent density plot
+  # geom_vline(aes(xintercept = mean(RT, na.rm = T)),
+             # colour = "red", linetype = "dashed", size = 1) + 
+  facet_grid(cols = vars(RepSwitch))+
+  xlab("RT (ms)") +
+  ggtitle("RT distribution")
+
+```
+
+
+```{r}
+type <- readxl::read_xlsx("D:\\GitHub\\experiment1\\Analysis\\pilot00\\pilot00_coded_updated.xlsx", sheet = 1) %>% 
+  filter(Accuracy == 1) %>% 
+  filter(RepSwitch %in% c("switch", "repeat"),
+         respModal %in% c ("type")) %>% 
+  mutate(RT = as.numeric(RT))
+```
+
+```{r}
+min(type$RT)
+max(type$RT)
+```
+
+```{r}
+RTtype <- ggplot(type, aes(x = RT)) +
+  geom_histogram(binwidth = 0.1,
+                 colour = "black", fill = "white") +
+  #geom_density(alpha = 0.2, fill = "#FF6666") + # Overlay with transparent density plot
+  geom_vline(aes(xintercept = mean(RT, na.rm = T)),
+             colour = "red", linetype = "dashed", size = 1) +
+  xlab("RT type (ms)") +
+  ggtitle("RT distribution of Type trials")
+
+RTtype
+```
+
+
 
 ```{r}
 t.test(Mean_RT ~ Condition, data = data)
