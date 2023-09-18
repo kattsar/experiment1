@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on August 29, 2023, at 16:22
+    on September 15, 2023, at 12:06
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -58,7 +58,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\Experimental User\\Desktop\\experiment\\REPSWITCH1_Practice2_version2_lastrun.py',
+    originPath='C:\\2023\\REPSWITCH12092023\\REPSWITCH_excgange\\REPSWITCH_excgange\\REPSWITCH1_Practice2_version2_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -76,12 +76,12 @@ if not os.path.isdir(micPractice2v2RecFolder):
 
 # --- Setup the Window ---
 win = visual.Window(
-    size=[1536, 864], fullscr=False, screen=0, 
+    size=[1920, 1080], fullscr=True, screen=0, 
     winType='pyglet', allowStencil=False,
     monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
     blendMode='avg', useFBO=True, 
     units='height')
-win.mouseVisible = True
+win.mouseVisible = False
 # store frame rate of monitor if we can measure it
 expInfo['frameRate'] = win.getActualFrameRate()
 if expInfo['frameRate'] != None:
@@ -362,8 +362,8 @@ df = pd.read_excel(data_file)
 # Get the participant number from the experiment info dialog
 participant_number = expInfo['participant']
 
-# --- Initialize components for Routine "blank500" ---
-textBlank500 = visual.TextStim(win=win, name='textBlank500',
+# --- Initialize components for Routine "blankLoop" ---
+textBlankLoop = visual.TextStim(win=win, name='textBlankLoop',
     text=None,
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
@@ -371,8 +371,8 @@ textBlank500 = visual.TextStim(win=win, name='textBlank500',
     languageStyle='LTR',
     depth=0.0);
 
-# --- Initialize components for Routine "blank500" ---
-textBlank500 = visual.TextStim(win=win, name='textBlank500',
+# --- Initialize components for Routine "blank500_2" ---
+textBlank2 = visual.TextStim(win=win, name='textBlank2',
     text=None,
     font='Open Sans',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0.0, 
@@ -1112,13 +1112,13 @@ for thisTrialsPractice_2 in trialsPractice_2:
     else:
         routineTimer.addTime(-4.000000)
     
-    # --- Prepare to start Routine "blank500" ---
+    # --- Prepare to start Routine "blankLoop" ---
     continueRoutine = True
     routineForceEnded = False
     # update component parameters for each repeat
     # keep track of which components have finished
-    blank500Components = [textBlank500]
-    for thisComponent in blank500Components:
+    blankLoopComponents = [textBlankLoop]
+    for thisComponent in blankLoopComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
         thisComponent.tStartRefresh = None
@@ -1130,7 +1130,7 @@ for thisTrialsPractice_2 in trialsPractice_2:
     _timeToFirstFrame = win.getFutureFlipTime(clock="now")
     frameN = -1
     
-    # --- Run Routine "blank500" ---
+    # --- Run Routine "blankLoop" ---
     while continueRoutine and routineTimer.getTime() < 0.5:
         # get current time
         t = routineTimer.getTime()
@@ -1139,25 +1139,25 @@ for thisTrialsPractice_2 in trialsPractice_2:
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
         
-        # *textBlank500* updates
-        if textBlank500.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # *textBlankLoop* updates
+        if textBlankLoop.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
             # keep track of start time/frame for later
-            textBlank500.frameNStart = frameN  # exact frame index
-            textBlank500.tStart = t  # local t and not account for scr refresh
-            textBlank500.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(textBlank500, 'tStartRefresh')  # time at next scr refresh
+            textBlankLoop.frameNStart = frameN  # exact frame index
+            textBlankLoop.tStart = t  # local t and not account for scr refresh
+            textBlankLoop.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(textBlankLoop, 'tStartRefresh')  # time at next scr refresh
             # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'textBlank500.started')
-            textBlank500.setAutoDraw(True)
-        if textBlank500.status == STARTED:
+            thisExp.timestampOnFlip(win, 'textBlankLoop.started')
+            textBlankLoop.setAutoDraw(True)
+        if textBlankLoop.status == STARTED:
             # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > textBlank500.tStartRefresh + .5-frameTolerance:
+            if tThisFlipGlobal > textBlankLoop.tStartRefresh + .5-frameTolerance:
                 # keep track of stop time/frame for later
-                textBlank500.tStop = t  # not accounting for scr refresh
-                textBlank500.frameNStop = frameN  # exact frame index
+                textBlankLoop.tStop = t  # not accounting for scr refresh
+                textBlankLoop.frameNStop = frameN  # exact frame index
                 # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'textBlank500.stopped')
-                textBlank500.setAutoDraw(False)
+                thisExp.timestampOnFlip(win, 'textBlankLoop.stopped')
+                textBlankLoop.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1168,7 +1168,7 @@ for thisTrialsPractice_2 in trialsPractice_2:
             routineForceEnded = True
             break
         continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in blank500Components:
+        for thisComponent in blankLoopComponents:
             if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
                 continueRoutine = True
                 break  # at least one component has not yet finished
@@ -1177,8 +1177,8 @@ for thisTrialsPractice_2 in trialsPractice_2:
         if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
             win.flip()
     
-    # --- Ending Routine "blank500" ---
-    for thisComponent in blank500Components:
+    # --- Ending Routine "blankLoop" ---
+    for thisComponent in blankLoopComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
@@ -1191,13 +1191,13 @@ for thisTrialsPractice_2 in trialsPractice_2:
 # completed 1.0 repeats of 'trialsPractice_2'
 
 
-# --- Prepare to start Routine "blank500" ---
+# --- Prepare to start Routine "blank500_2" ---
 continueRoutine = True
 routineForceEnded = False
 # update component parameters for each repeat
 # keep track of which components have finished
-blank500Components = [textBlank500]
-for thisComponent in blank500Components:
+blank500_2Components = [textBlank2]
+for thisComponent in blank500_2Components:
     thisComponent.tStart = None
     thisComponent.tStop = None
     thisComponent.tStartRefresh = None
@@ -1209,7 +1209,7 @@ t = 0
 _timeToFirstFrame = win.getFutureFlipTime(clock="now")
 frameN = -1
 
-# --- Run Routine "blank500" ---
+# --- Run Routine "blank500_2" ---
 while continueRoutine and routineTimer.getTime() < 0.5:
     # get current time
     t = routineTimer.getTime()
@@ -1218,25 +1218,25 @@ while continueRoutine and routineTimer.getTime() < 0.5:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *textBlank500* updates
-    if textBlank500.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+    # *textBlank2* updates
+    if textBlank2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
-        textBlank500.frameNStart = frameN  # exact frame index
-        textBlank500.tStart = t  # local t and not account for scr refresh
-        textBlank500.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(textBlank500, 'tStartRefresh')  # time at next scr refresh
+        textBlank2.frameNStart = frameN  # exact frame index
+        textBlank2.tStart = t  # local t and not account for scr refresh
+        textBlank2.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(textBlank2, 'tStartRefresh')  # time at next scr refresh
         # add timestamp to datafile
-        thisExp.timestampOnFlip(win, 'textBlank500.started')
-        textBlank500.setAutoDraw(True)
-    if textBlank500.status == STARTED:
+        thisExp.timestampOnFlip(win, 'textBlank2.started')
+        textBlank2.setAutoDraw(True)
+    if textBlank2.status == STARTED:
         # is it time to stop? (based on global clock, using actual start)
-        if tThisFlipGlobal > textBlank500.tStartRefresh + .5-frameTolerance:
+        if tThisFlipGlobal > textBlank2.tStartRefresh + .5-frameTolerance:
             # keep track of stop time/frame for later
-            textBlank500.tStop = t  # not accounting for scr refresh
-            textBlank500.frameNStop = frameN  # exact frame index
+            textBlank2.tStop = t  # not accounting for scr refresh
+            textBlank2.frameNStop = frameN  # exact frame index
             # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'textBlank500.stopped')
-            textBlank500.setAutoDraw(False)
+            thisExp.timestampOnFlip(win, 'textBlank2.stopped')
+            textBlank2.setAutoDraw(False)
     
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1247,7 +1247,7 @@ while continueRoutine and routineTimer.getTime() < 0.5:
         routineForceEnded = True
         break
     continueRoutine = False  # will revert to True if at least one component still running
-    for thisComponent in blank500Components:
+    for thisComponent in blank500_2Components:
         if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
             continueRoutine = True
             break  # at least one component has not yet finished
@@ -1256,8 +1256,8 @@ while continueRoutine and routineTimer.getTime() < 0.5:
     if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
         win.flip()
 
-# --- Ending Routine "blank500" ---
-for thisComponent in blank500Components:
+# --- Ending Routine "blank500_2" ---
+for thisComponent in blank500_2Components:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
 # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
