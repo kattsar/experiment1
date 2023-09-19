@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.4),
-    on Σεπτέμβριος 19, 2023, at 12:43
+    on Σεπτέμβριος 18, 2023, at 16:21
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -58,7 +58,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='D:\\GitHub\\experiment1\\REPSWITCH1_version1_list1_lastrun.py',
+    originPath='D:\\GitHub\\experiment1\\REPSWITCH1_version1_list1.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -76,7 +76,7 @@ if not os.path.isdir(micRespv1l1RecFolder):
 
 # --- Setup the Window ---
 win = visual.Window(
-    size=[1536, 864], fullscr=True, screen=0, 
+    size=[1920, 1080], fullscr=True, screen=0, 
     winType='pyglet', allowStencil=False,
     monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
     blendMode='avg', useFBO=True, 
@@ -1301,14 +1301,14 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
             polygonType.opacity = 1
         
         # micRespv1l1 updates
-        if micRespv1l1.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        if micRespv1l1.status == NOT_STARTED and t >= 0.0-frameTolerance:
             # keep track of start time/frame for later
             micRespv1l1.frameNStart = frameN  # exact frame index
             micRespv1l1.tStart = t  # local t and not account for scr refresh
             micRespv1l1.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(micRespv1l1, 'tStartRefresh')  # time at next scr refresh
             # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'micRespv1l1.started')
+            thisExp.addData('micRespv1l1.started', t)
             # start recording with micRespv1l1
             micRespv1l1.start()
             micRespv1l1.status = STARTED
@@ -1322,7 +1322,7 @@ for thisTrialsREPSWITCH in trialsREPSWITCH:
                 micRespv1l1.tStop = t  # not accounting for scr refresh
                 micRespv1l1.frameNStop = frameN  # exact frame index
                 # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'micRespv1l1.stopped')
+                thisExp.addData('micRespv1l1.stopped', t)
                 # stop recording with micRespv1l1
                 micRespv1l1.stop()
                 micRespv1l1.status = FINISHED
