@@ -924,7 +924,6 @@
   </Routines>
   <Flow>
     <Routine name="InstructionsPractice_2"/>
-    <Routine name="blank500"/>
     <LoopInitiator loopType="TrialHandler" name="trialsPractice_2">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="[{'image': 'REPSWITCH1_Practice/PICTURE_12.png', 'correctAns': 'sirena', 'respModal': 'SPEAK', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_12.png', 'correctAns': 'sirena', 'respModal': 'TYPE', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_599.png', 'correctAns': 'nube', 'respModal': 'SPEAK', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas', 'respModal': 'TYPE', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_614.png', 'correctAns': 'reina', 'respModal': 'TYPE', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_612.png', 'correctAns': 'rana', 'respModal': 'TYPE', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_612.png', 'correctAns': 'rana', 'respModal': 'SPEAK', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_570.png', 'correctAns': 'toro', 'respModal': 'TYPE', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_110.png', 'correctAns': 'mesa', 'respModal': 'SPEAK', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas', 'respModal': 'SPEAK', 'frameColor': 'darkblue'}, {'image': 'REPSWITCH1_Practice/PICTURE_733.png', 'correctAns': 'gafas', 'respModal': 'TYPE', 'frameColor': 'gold'}, {'image': 'REPSWITCH1_Practice/PICTURE_614.png', 'correctAns': 'reina', 'respModal': 'SPEAK', 'frameColor': 'darkblue'}]" valType="str"/>
@@ -940,7 +939,6 @@
     <Routine name="practiceTrial_2"/>
     <Routine name="blankLoop"/>
     <LoopTerminator name="trialsPractice_2"/>
-    <Routine name="blank500_2"/>
     <Routine name="EndPractice_2"/>
   </Flow>
 </PsychoPy2experiment>
