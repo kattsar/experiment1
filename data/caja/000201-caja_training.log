@@ -1,0 +1,75 @@
+Scenario - caja_training.sce
+Logfile written - 10/06/2023 10:17:20
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+000201	1	Response	98	37383	27314	1
+000201	3	Sound	snd_mono	41849	318	248			0		other	0
+000201	3	Key Input	78	52903	11371	1
+000201	3	Key Input	73	54823	13291	1
+000201	3	Key Input	66	57862	16330	1
+000201	3	Key Input	73	59463	17931	1
+000201	3	Text Input	NIBI	71532	30000	0
+000201	5	Sound	snd_casa	75939	305	1			0		other	0
+000201	5	Key Input	88	82503	6869	1
+000201	5	Key Input	88	83943	8309	1
+000201	5	Text Input	XX	105633	30000	0
+000201	7	Sound	snd_mono	109738	10	1			0		other	0
+000201	7	Key Input	66	118182	8453	1
+000201	7	Text Input	B	139729	30000	0
+000201	9	Sound	snd_casa	143908	7	1			0		other	0
+000201	9	Key Input	88	156422	12522	1
+000201	9	Text Input	X	173901	30000	0
+000201	11	Sound	snd_puente	178010	6	1			0		other	0
+000201	11	Key Input	79	186822	8819	1
+000201	11	Key Input	89	191622	13619	1
+000201	11	Key Input	87	193383	15379	1
+000201	11	Text Input	OYW	208004	30000	0
+000201	13	Sound	snd_puente	212182	4	1			0		other	0
+000201	13	Key Input	79	219462	7285	1
+000201	13	Key Input	85	223622	11444	1
+000201	13	Key Input	87	226822	14644	1
+000201	13	Key Input	66	229222	17044	1
+000201	13	Key Input	84	232742	20564	1
+000201	13	Key Input	69	234182	22004	1
+000201	13	Text Input	OUWBTE	242178	30000	0
+000201	15	Sound	snd_pulpo	246591	311	1			0		other	0
+000201	15	Key Input	79	254023	7742	1
+000201	15	Key Input	85	257702	11422	1
+000201	15	Key Input	75	260423	14142	1
+000201	15	Key Input	79	262662	16382	1
+000201	15	Key Input	73	266983	20702	1
+000201	15	Text Input	OUKOI	276281	30000	0
+000201	17	Sound	snd_pulpo	280453	6	1			0		other	0
+000201	17	Key Input	80	287782	7336	1
+000201	17	Key Input	73	291142	10696	1
+000201	17	Key Input	76	294662	14215	1
+000201	17	Key Input	80	298023	17576	1
+000201	17	Key Input	79	300742	20296	1
+000201	17	Text Input	PILPO	310447	30000	0
+000201	19	Response	98	386502	71949	1
+
+Visual picture detection failed over to using scan line information only at the following times:
+type	time	timeout	presentation
+fail	3743.39	34.725	2
+restore	4147.31	0	3
+fail	4153.17	34.725	3
+restore	4255.69	0	4
+fail	5486.67	34.725	6
+restore	5786.56	0	7
+fail	5792.27	34.725	7
+restore	5946.58	0	8
+fail	7153.56	34.725	9
+restore	7556.75	0	10
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Sound	snd_mono	other				41849	248			0
+Sound	snd_casa	other				75939	1			0
+Sound	snd_mono	other				109738	1			0
+Sound	snd_casa	other				143908	1			0
+Sound	snd_puente	other				178010	1			0
+Sound	snd_puente	other				212182	1			0
+Sound	snd_pulpo	other				246591	1			0
+Sound	snd_pulpo	other				280453	1			0
