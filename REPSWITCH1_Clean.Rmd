@@ -4,6 +4,10 @@ author: "Katerina Tsaroucha"
 date: "2023-07-28"
 output: html_document
 ---
+```{r}
+rm(list = ls())
+```
+
 
 ```{r}
 library(tidyverse)
@@ -14,8 +18,9 @@ library(ggplot2)
 ```
 
 ```{r}
-pilot1 <- read.csv("D:\\GitHub\\experiment1\\Analysis\\pilot000101(9028)\\000101_REPSWITCH1_version1_list1_2023-09-28_10h57.15.798.csv", header = TRUE, sep = ";", encoding = "UTF-8") %>% 
-  rename(RespModal = respModal,
+keyboard <- read.csv("C:\\Users\\Κατερίνα\\Nextcloud\\REPSWITCH_Analysis\\301023\\301023_REPSWITCH1_version1_list3_2023-10-30_10h16.57.694.csv", header = TRUE, sep = ";", encoding = "UTF-8") %>% 
+  rename(Image = X.U.FEFF.image,
+         RespModal = respModal,
          FrameColor = frameColor,
          RepSwitch = repSwitch,
          Trial_no = trial_no,
@@ -24,8 +29,8 @@ pilot1 <- read.csv("D:\\GitHub\\experiment1\\Analysis\\pilot000101(9028)\\000101
          KeyResp_keys = keyResp.keys,
          KeyResp_rt = keyResp.rt,
          Target = target) %>% 
-  select(-c(1, 16:43, 54, 57:70, 72, 75, 77)) %>% 
-  filter(!row_number() %in% c(1, 2, 411)) %>% 
+  select(-c(1, 16:52, 54, 57:71, 74:76)) %>% 
+  filter(!row_number() %in% c(1, 2, 104)) %>% 
   relocate(Trial_no) %>% #move columns to the front
   relocate(SubjResponse, .after = CorrectAns) %>% 
   relocate(KeyResp_keys, .after = SubjResponse) %>% 
@@ -45,40 +50,44 @@ pilot1 <- read.csv("D:\\GitHub\\experiment1\\Analysis\\pilot000101(9028)\\000101
   mutate(Item_correct = if_else(CorrectAns == SubjResponse & Backspace == "0", "1", "0")) %>% 
   relocate(Item_correct, .after = Backspace) %>% 
   relocate(RespModal, .after = Item_correct)
-#if RespModal speak and KeyResp_keys != "None", "0", "1" for Modality_Correct
-#move RespModal after SubjResponse
-#if backspace in KeyResp_keys, Error_corrected 1
-#can R calculate duration for type trials automatically?
-#check again item correct for speak trials
 
-write.csv(pilot1, "D:\\GitHub\\experiment1\\Analysis\\pilot000101(9028)\\pilot000101(9028)_cleaned.csv", fileEncoding = "UTF-8")
+#write.csv(keyboard, "C:\\Users\\Κατερίνα\\Nextcloud\\REPSWITCH_Analysis\\301023\\keyboard_cleaned.csv", fileEncoding = "UTF-8")
 ```
 
 
 ```{r}
-coded_pilot1 <- readxl::read_xlsx("D:\\GitHub\\experiment1\\Analysis\\pilot000101(9028)\\pilot000101_coded.xlsx", sheet = 1)
+coded_keyboard <- read.csv("C:\\Users\\Κατερίνα\\Nextcloud\\REPSWITCH_Analysis\\301023\\301023_coded.csv", header = TRUE, sep = ";", encoding = "UTF-8") %>% 
+  rename(Filename = X.U.FEFF.Filename) %>% 
+  mutate(Trial_no = as.numeric(gsub(".*tr(\\d+).*", "\\1", Filename))) %>% 
+  relocate(Trial_no) %>% 
+  arrange(Trial_no)
 ```
 
 ```{r}
-merged_pilot1 <- merge(x = pilot1, y = coded_pilot1, by = "Trial_no", all = TRUE) %>% 
-  select(-c(24:31, 34:41, 43:51, 53, 55)) %>% 
-  rename(CorrectAns = CorrectAns.x,
-         SubjResponse = SubjResponse.x,
-         Backspace = Backspace.x,
-         RespModal = RespModal.x,
-         RepSwitch = RepSwitch.x,
+merged_keyboard <- merge(x = keyboard, y = coded_keyboard, by = "Trial_no", all = TRUE) %>% 
+  select(-c(24:31, 34, 35)) %>% 
+  rename(Duration = Duration..ms..#CorrectAns = CorrectAns.x,
+         #SubjResponse = SubjResponse.x,
+         #Backspace = Backspace.x,
+         #RespModal = RespModal.x,
+         #RepSwitch = RepSwitch.x,
          ) %>% 
-  relocate(Modality_Correct, .after = Item_correct) %>%
-  relocate(Error_Corrected, .after = Modality_Correct) %>% 
-  relocate(Hesitation, .after = Error_Corrected) %>% 
+  relocate(Item_correct, .after = Backspace) %>% 
+  relocate(Modality_Correct, .after = Backspace) %>%
+  #relocate(Error_Corrected, .after = Modality_Correct) %>% 
+  relocate(Hesitation, .after = Item_correct) %>% 
   relocate(RT, .after = Hesitation) %>% 
   relocate(Duration, .after = RT) %>% 
-  relocate(Notes, .after = SubjResponse)
+  mutate(SubjResponse.x = ifelse(SubjResponse.x == "", SubjResponse.y, SubjResponse.x)) %>% 
+  rename(SubjResponse = SubjResponse.x) %>% 
+  relocate(Notes, .after = SubjResponse) %>%
+  filter(!row_number() %in% c(102))
+  #select(-c(33:39))
 
-write_csv(merged_pilot1, "D:\\GitHub\\experiment1\\Analysis\\pilot000101(9028)\\pilot000101_merged_coded.csv")
+write.csv(merged_keyboard, "C:\\Users\\Κατερίνα\\Nextcloud\\REPSWITCH_Analysis\\301023\\301023_merged_coded.csv", fileEncoding = "UTF-8")
 ```
 
-  
+
 
 ```{r}
 pilot_data <- read.csv("D:\\GitHub\\experiment1\\Analysis\\pilot00\\pilot00_coded_updated.csv", header = TRUE, sep = ";"#, fileEncoding = "UTF-8"

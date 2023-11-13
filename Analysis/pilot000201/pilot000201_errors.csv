@@ -1,0 +1,30 @@
+Column1;Trial_no;CorrectAns;SubjResponse;Notes;RespModal;RepSwitch
+1;1;espejo;espejio;;type;filler
+2;8;ba?o;na?o;;type;filler
+3;12;mu?eca;u?eac;;type;nontarget
+4;17;cazador;cazado;deep breath;type;nontarget
+5;32;caracol;carcaol;;type;repeat
+6;38;traje;trajhe;;type;filler
+7;61;cuerda;vuerda;;type;filler
+8;68;tenedor;tenedoir;;type;filler
+9;104;mu?eca;muneco;;speak;nontarget
+10;107;traje;camisa traje;;speak;nontarget
+11;109;tenedor;tenedor;;type;filler
+12;119;espalda;espalda;;type;nontarget
+13;122;pavo;pavo;;type;nontarget
+14;142;fresa;fresa ;;speak;filler
+15;145;cuerda;cuerda ;;speak;repeat
+16;181;pierna;perina;;type;nontarget
+17;197;cartero;ccartero;;type;filler
+18;223;fresa;fressa;;type;nontarget
+19;237;manzana;mazana;;type;repeat
+20;252;pavo;pavo;;speak;filler
+21;256;aguja;agujha;;type;nontarget
+22;259;conejo;conejo ;tongue;speak;nontarget
+23;266;caracol;carcaol;;type;filler
+24;276;guante;gyante;;type;nontarget
+25;295;iglesia;ihlesia;;type;filler
+26;314;pulpo;pulo;;type;filler
+27;323;camisa;traje camisa;said traje first, then corrected to camisa;speak;filler
+28;345;fresa;feesa;;type;filler
+29;353;tronco;troinco;;type;filler

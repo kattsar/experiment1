@@ -1,0 +1,29 @@
+Column1;Trial_no;CorrectAns;SubjResponse;Notes;RespModal;RepSwitch
+1;6;fresa;fr(esa};started typing, then spoke;speak;nontarget
+2;24;pulpo;pulp;;type;filler
+3;28;pintor;pinmtor;;type;nontarget
+4;48;escoba;escob;;type;filler
+5;52;guante;gunate;;type;nontarget
+6;95;columna;column;;type;filler
+7;102;goma;gomsa;;type;filler
+8;125;regalo;reg;;type;filler
+9;129;granja;franja;;type;nontarget
+10;163;pintor;pinmtor;breathing at the beginning of the trial;type;filler
+11;172;cuerda;cuerda ;;speak;filler
+12;193;guante;guante;;type;filler
+13;206;espejo;espeko;;type;filler
+14;213;bano;bal;;type;filler
+15;215;espalda;espalda;;type;switch
+16;224;fresa;f;;type;repeat
+17;228;traje;treje;;type;repeat
+18;242;granja;granja;;type;switch
+19;271;cuerda;cu;;speak;filler
+20;276;guante;guanyte;;type;nontarget
+21;286;conejo;conejo;sigh;type;filler
+22;296;guante;guante ;;speak;filler
+23;318;traje;treje;;type;nontarget
+24;329;cazador;cazadoirt;;type;nontarget
+25;360;falda;fal ;item accuracy from the back-up file, included, NR duration;speak;filler
+26;377;goma;gomna;;type;nontarget
+27;382;guante;guna;;type;filler
+28;389;conejo;coneko;;type;filler

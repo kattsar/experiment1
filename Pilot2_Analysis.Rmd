@@ -1,0 +1,411 @@
+---
+title: "Pilot2_Analysis"
+author: "Katerina Tsaroucha"
+date: "2023-10-25"
+output: html_document
+---
+
+```{r}
+rm(list = ls())
+```
+
+```{r}
+library(tidyverse)
+library(readr)
+library(readxl)
+library(dplyr)
+library(ggplot2)
+library(stringr)
+```
+
+```{r}
+pilot2_analysis <- read.csv("D:\\GitHub\\experiment1\\Analysis\\pilot000201\\pilot000201_final.csv", header = TRUE, sep = ";", encoding = "UTF-8") %>% 
+  #select(-c(1)) %>% 
+  #mutate(Backspace = if_else(str_detect(KeyResp_keys, "backspace"), "1", "0")) %>% 
+  mutate(Item_correct = if_else(CorrectAns == SubjResponse & Backspace == "0", "1", "0")) %>% #conditions for Item_correct (1,0)
+  relocate(RepSwitch, .after = Modality_Correct) %>% #move RepSwitch after Modality_correct
+  mutate(Exclude = ifelse(
+    Item_correct == 0 | #if Item_correct == 0
+    (RepSwitch == "repeat" & lag(Item_correct == 0)) | #AND the previous trial from a RepSwitch "repeat" trial is Item_correct == 0 
+    (RepSwitch == "switch" & lag(Item_correct == 0)), #AND the previous trial from a RepSwitch "switch" trial is Item_correct == 0
+    "1","0")) %>% # then Exclude is 1 (yes), otherwise no (0)
+  relocate(Exclude, .after = Modality_Correct) %>% #move Exclude after Modality_Correct
+  mutate(Experiment_part = case_when( #create column Experiment_part with 3 levels (First, Second, Third) -- divide 408 trials / 3
+    between(Trial_no, 1, 136) ~ "First",  #first 136 trials
+    between(Trial_no, 137, 272) ~ "Second", #second 136 trials
+    between(Trial_no, 273, 408) ~ "Third" #third 136 trials
+  )) %>% 
+  relocate(Experiment_part, .after = Exclude) #move Experiment_part after Exclude
+
+#write.csv(pilot2_analysis, "D:\\GitHub\\experiment1\\Analysis\\pilot000201\\pilot000201_analysis.csv", fileEncoding = "UTF-8")
+```
+
+```{r}
+#get SD for RTs and plot it
+pilot2_SD <- pilot2_analysis %>% 
+  group_by(RespModal, RepSwitch) %>% 
+  summarise(sd_RT = sd(RT),
+            se_RT = sd(RT) / sqrt(n()))
+
+ggplot(pilot2_SD, aes(x = RespModal, y = sd_RT, fill = RepSwitch)) +
+  geom_bar(stat = "identity", width = 0.5, position = "dodge") +
+  geom_errorbar(aes(ymin = sd_RT - se_RT, ymax = sd_RT + se_RT),
+                position = position_dodge(width = 0.5), width = 0.25) +
+  labs(title = "Standard Deviation of RT Data by RespModal and RepSwitch", x = "Response Modality", y = "SD", fill = "Condition") +
+  theme_minimal()
+```
+
+
+```{r}
+#check for RTs quicker than 150ms and slower than 2500ms -- show percentage of data
+filtered_RT <- pilot2_analysis %>%
+  filter(RT < 0.150 | RT > 2.5) #%>% 
+  #summarize(percentage = (n() / nrow(pilot2_analysis)) * 100)
+```
+
+
+
+```{r}
+pilot2_analysis %>%
+  group_by(RepSwitch, Exclude) %>%
+  summarise(Count = n()) %>%
+  ggplot(aes(x = RepSwitch, y = Count, fill = Exclude)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Distribution of excluded items by RepSwitch", y = "Count") +
+  theme_minimal()
+```
+
+
+
+```{r}
+plot_pilot2 <- pilot2_analysis %>% 
+  filter(Modality_Correct == 1,
+         Item_correct == 1,
+         Exclude == 0,
+         RepSwitch %in% c("switch", "repeat"))
+```
+
+```{r}
+#get SD for RTs and plot it
+pilot2_SD <- plot_pilot2 %>% 
+  group_by(RespModal, RepSwitch) %>% 
+  summarise(sd_RT = sd(RT),
+            se_RT = sd(RT) / sqrt(n()))
+
+ggplot(pilot2_SD, aes(x = RespModal, y = sd_RT, fill = RepSwitch)) +
+  geom_bar(stat = "identity", width = 0.5, position = "dodge") +
+  geom_errorbar(aes(ymin = sd_RT - se_RT, ymax = sd_RT + se_RT),
+                position = position_dodge(width = 0.5), width = 0.25) +
+  labs(title = "Standard Deviation of RT Data by RespModal and RepSwitch", x = "Response Modality", y = "SD", fill = "Condition") +
+  theme_minimal()
+```
+
+```{r}
+RT_means2 <- plot_pilot2 %>% 
+  group_by(RespModal, RepSwitch) %>% 
+  summarize(Mean_RT = mean(RT)) %>% # Using 1.96 as a multiplier for a 95% confidence interval
+  mutate(Mean_RT = round(Mean_RT * 1000, 0), .groups = "keep")
+
+```
+
+
+```{r}
+ggplot(RT_means2, aes(x = RespModal, y = Mean_RT, fill = RepSwitch)) +
+  geom_bar(stat = "identity", width = 0.5, position = "dodge") +
+  geom_text(aes(label = Mean_RT), vjust = -0.5, position = position_dodge(width = 0.5)) +
+  scale_fill_brewer(palette = "Set1") +
+  labs(x ='Response Modality', y='Mean RTs (ms)', title = 'Mean RTs of modality across conditions')
+```
+
+
+```{r}
+differences2 <- RT_means2 %>%
+  group_by(RespModal) %>%
+  summarize(Diff = Mean_RT[RepSwitch == "switch"] - Mean_RT[RepSwitch == "repeat"])
+```
+
+```{r}
+# Calculate the "Repeat" mean RT for each Modality
+repeat_means2 <- RT_means2 %>%
+  filter(RepSwitch == "repeat") %>%
+  select(RespModal, Mean_RT) %>%
+  distinct()
+
+# Merge the differences and repeat_means data frames by Modality
+final_result2 <- differences2 %>%
+  left_join(repeat_means2, by = "RespModal") %>%
+  mutate(Divided_Diff = Diff / Mean_RT) %>% 
+  mutate(Divided_Diff_Percent = Divided_Diff * 100) 
+
+write.csv(final_result, "D:\\GitHub\\experiment1\\Analysis\\pilot000201\\pilot000201_normalised_diff.csv", fileEncoding = "UTF-8")
+
+# pilot1 is 10.36% slower to switch to speak than stay in speak; 4.83% slower to switch to type than stay in type
+# pilot2 8.5% slower to switch to speak; 6.2% slower to switch to type
+
+```
+
+
+```{r}
+ggplot(final_result2, aes(x = RespModal, y = Divided_Diff_Percent, fill = RespModal)) +
+  geom_bar(stat = "identity", width = 0.5) +
+  geom_text(aes(label = round(Divided_Diff_Percent, 2)), vjust = -0.5, position = position_dodge(width = 0.5)) +
+  labs(title = "Percentage Slow in Switching within Modality", x = NULL, y = "Difference %") +
+  theme_minimal() +
+  scale_fill_manual(values = c("red", "blue"))
+
+```
+
+```{r}
+RT_dur2 <- plot_pilot2 %>% 
+  group_by(RespModal, RepSwitch) %>% 
+  summarize(Mean_dur = mean(Duration)) %>% # Using 1.96 as a multiplier for a 95% confidence interval
+  mutate(Mean_dur = round(Mean_dur * 1000, 0), .groups = "keep")
+
+```
+
+
+```{r}
+ggplot(RT_dur2, aes(x = RespModal, y = Mean_dur, fill = RepSwitch)) +
+  geom_bar(stat = "identity", width = 0.5, position = "dodge") +
+  geom_text(aes(label = Mean_dur), vjust = -0.5, position = position_dodge(width = 0.5)) +
+  scale_fill_brewer(palette = "Set1") +
+  labs(x ='Response Modality', y='Mean durations (ms)', title = 'Mean durations of modality across conditions')
+```
+
+
+```{r}
+dur_differences2 <- RT_dur2 %>%
+  group_by(RespModal) %>%
+  summarize(Diff = Mean_dur[RepSwitch == "switch"] - Mean_dur[RepSwitch == "repeat"])
+```
+
+```{r}
+# Calculate the "Repeat" mean RT for each Modality
+repeat_dur2 <- RT_dur2 %>%
+  filter(RepSwitch == "repeat") %>%
+  select(RespModal, Mean_dur) %>%
+  distinct()
+
+# Merge the differences and repeat_means data frames by Modality
+final_dur2 <- dur_differences2 %>%
+  left_join(repeat_dur2, by = "RespModal") %>%
+  mutate(Divided_Diff = Diff / Mean_dur) %>% 
+  mutate(Divided_Diff_Percent = Divided_Diff * 100) 
+
+write.csv(final_result, "D:\\GitHub\\experiment1\\Analysis\\pilot000201\\pilot000201_normalised_diff.csv", fileEncoding = "UTF-8")
+
+# pilot1 is 10.36% slower to switch to speak than stay in speak; 4.83% slower to switch to type than stay in type
+# pilot2 8.5% slower to switch to speak; 6.2% slower to switch to type
+
+```
+
+
+```{r}
+ggplot(final_dur2, aes(x = RespModal, y = Divided_Diff_Percent, fill = RespModal)) +
+  geom_bar(stat = "identity", width = 0.5) +
+  geom_text(aes(label = round(Divided_Diff_Percent, 2)), vjust = -0.5, position = position_dodge(width = 0.5)) +
+  labs(title = "Difference in Durations within Modality", x = NULL, y = "Difference %") +
+  theme_minimal() +
+  scale_fill_manual(values = c("red", "blue"))
+
+```
+```{r}
+error_rates <- pilot2_analysis %>%
+  group_by(RespModal, RepSwitch) %>%
+  summarize(Error_Rate = mean(Modality_Correct == 0) * 100)
+
+# Create a bar plot to visualize error rates
+ggplot(data = error_rates, aes(x = RespModal, y = Error_Rate, fill = RepSwitch)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Error Rate by RespModal and RepSwitch",
+       y = "Error Rate (%)",
+       fill = "RepSwitch") +
+  theme_minimal()
+```
+```{r}
+error_item <- pilot2_analysis %>%
+  group_by(RespModal, RepSwitch) %>%
+  summarize(Error_Rate = mean(Item_correct == 0) * 100)
+
+# Create a bar plot to visualize error rates
+ggplot(data = error_item, aes(x = RespModal, y = Error_Rate, fill = RepSwitch)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Item Error Rate by RespModal and RepSwitch",
+       y = "Error Rate (%)",
+       fill = "RepSwitch") +
+  theme_minimal()
+```
+
+```{r}
+error_items <- pilot2_analysis %>%
+  filter(Item_correct == 0) %>%
+  select(Trial_no, CorrectAns, SubjResponse, Notes, RespModal, RepSwitch)
+
+write.csv(error_items, "D:\\GitHub\\experiment1\\Analysis\\pilot000201\\pilot000201_errors.csv", fileEncoding = "UTF-8")
+```
+
+
+```{r}
+baseline2 <- pilot2_analysis %>% 
+  filter(baseline == 1 | lead(baseline, default = 0) == 1) %>% 
+  relocate(baseline, .after = Exclude) %>% 
+  relocate(baseline_condition, .after = baseline) %>% 
+  mutate(Exclude = ifelse(
+    Item_correct == 0 |
+    (baseline == 1 & lag(Item_correct == 0)),
+    "1","0")) %>% 
+  filter(Modality_Correct == 1,
+         Exclude == 0,
+         baseline == 1) 
+```
+
+
+```{r}
+RT_baseline2 <- baseline2 %>% 
+  group_by(RespModal, baseline_condition) %>% 
+  summarize(Mean_RT_baseline = mean(RT)) %>% 
+  mutate(Mean_RT_baseline = round(Mean_RT_baseline * 1000, 0), .groups = "keep")
+```
+
+
+```{r}
+ggplot(RT_baseline2, aes(x = RespModal, y = Mean_RT_baseline, fill = baseline_condition)) +
+  geom_bar(stat = "identity", width = 0.5, position = "dodge") +
+  geom_text(aes(label = round(Mean_RT_baseline, 2)), vjust = -0.5, position = position_dodge(width = 0.5)) +
+  labs(title = "Baseline RTs by RespModal and RepSwitch", x = "Response Modality", y = "RTs (ms)") +
+  theme_minimal() +
+  scale_fill_brewer(palette = "Set1")
+```
+
+
+```{r}
+baseline_RT_diff2 <- RT_baseline2 %>%
+  group_by(RespModal) %>%
+  summarize(Diff = Mean_RT_baseline[baseline_condition == "switch"] - Mean_RT_baseline[baseline_condition == "repeat"])
+```
+
+```{r}
+# Calculate the "Repeat" mean RT for each Modality
+repeat_RT_baseline2 <- RT_baseline2 %>%
+  filter(baseline_condition == "repeat") %>%
+  select(RespModal, Mean_RT_baseline) %>%
+  distinct()
+
+# Merge the differences and repeat_means data frames by Modality
+final_baseline2 <- baseline_RT_diff2 %>%
+  left_join(repeat_RT_baseline2, by = "RespModal") %>%
+  mutate(Divided_Diff = Diff / Mean_RT_baseline) %>% 
+  mutate(Divided_Diff_Percent = Divided_Diff * 100) 
+```
+
+```{r}
+ggplot(final_baseline2, aes(x = RespModal, y = Divided_Diff_Percent, fill = RespModal)) +
+  geom_bar(stat = "identity", width = 0.3) +
+  geom_text(aes(label = round(Divided_Diff_Percent, 2)), vjust = -0.5, position = position_dodge(width = 0.5)) +
+  labs(title = "Difference in Baseline RTs within Modality", x = NULL, y = "Difference %") +
+  theme_minimal() +
+  scale_fill_manual(values = c("red", "blue"))
+```
+
+
+```{r}
+dur_baseline2 <- baseline2 %>% 
+  group_by(RespModal, baseline_condition) %>% 
+  summarize(Mean_dur_baseline = mean(Duration)) %>% 
+  mutate(Mean_dur_baseline = round(Mean_dur_baseline * 1000, 0), .groups = "keep")
+```
+
+
+```{r}
+ggplot(dur_baseline2, aes(x = RespModal, y = Mean_dur_baseline, fill = baseline_condition)) +
+  geom_bar(stat = "identity", width = 0.5, position = "dodge") +
+  geom_text(aes(label = round(Mean_dur_baseline, 2)), vjust = -0.5, position = position_dodge(width = 0.5)) +
+  labs(title = "Baseline Durations by RespModal and RepSwitch", x = "Response Modality", y = "Durations (ms)") +
+  theme_minimal() +
+  scale_fill_brewer(palette = "Set1")
+```
+
+
+```{r}
+baseline_dur_diff2 <- dur_baseline2 %>%
+  group_by(RespModal) %>%
+  summarize(Diff = Mean_dur_baseline[baseline_condition == "switch"] - Mean_dur_baseline[baseline_condition == "repeat"])
+```
+
+```{r}
+# Calculate the "Repeat" mean RT for each Modality
+repeat_dur_baseline2 <- dur_baseline2 %>%
+  filter(baseline_condition == "repeat") %>%
+  select(RespModal, Mean_dur_baseline) %>%
+  distinct()
+
+# Merge the differences and repeat_means data frames by Modality
+final_dur_baseline2 <- baseline_dur_diff2 %>%
+  left_join(repeat_dur_baseline2, by = "RespModal") %>%
+  mutate(Divided_Diff = Diff / Mean_dur_baseline) %>% 
+  mutate(Divided_Diff_Percent = Divided_Diff * 100) 
+```
+
+```{r}
+ggplot(final_dur_baseline2, aes(x = RespModal, y = Divided_Diff_Percent, fill = RespModal)) +
+  geom_bar(stat = "identity", width = 0.3) +
+  geom_text(aes(label = round(Divided_Diff_Percent, 2)), vjust = -0.5, position = position_dodge(width = 0.5)) +
+  labs(title = "Difference in Baseline RTs within Modality", x = NULL, y = "Difference %") +
+  theme_minimal() +
+  scale_fill_manual(values = c("red", "blue"))
+```
+
+
+```{r}
+#calculating the mean RTs across conditions RespModal, RepSwitch, Experiment_part-- converting decimal RTs into 1000
+RT_fatigue2 <- plot_pilot2 %>% 
+  group_by(RespModal, RepSwitch, Experiment_part) %>% 
+  summarize(Mean_RT = mean(RT)) %>% 
+  mutate(Mean_RT = round(Mean_RT * 1000, 0), .groups = "keep")
+```
+
+```{r}
+#plot mean RTs across conditions
+ggplot(RT_fatigue2, aes(x = RespModal, y = Mean_RT, fill = RepSwitch)) +
+  geom_bar(stat = "identity", width = 0.5, position = "dodge") +
+  geom_text(aes(label = Mean_RT), vjust = -0.5, position = position_dodge(width = 0.5)) +
+  scale_fill_brewer(palette = "Set1") +
+  labs(x ='Response Modality', y='Mean RTs (ms)', title = 'Mean RTs of modality across conditions') +
+  facet_wrap(~ Experiment_part)
+```
+
+```{r}
+#calculating ΔSpeak & ΔType
+differences_fatigue2 <- RT_fatigue2 %>%
+  group_by(RespModal, Experiment_part) %>%
+  summarize(Diff = Mean_RT[RepSwitch == "switch"] - Mean_RT[RepSwitch == "repeat"])
+```
+
+
+```{r}
+# Calculate the "Repeat" mean RT for each Modality across Experiment_part
+repeat_means_fatigue2 <- RT_fatigue2 %>%
+  group_by(RespModal) %>% 
+  filter(RepSwitch == "repeat") %>%
+  select(Experiment_part, Mean_RT) %>%
+  distinct()
+
+# Merge the differences and repeat_means data frames by Modality and Experiment_part
+final_result_fatigue2 <- differences_fatigue2 %>%
+  left_join(repeat_means_fatigue2, by = c("RespModal", "Experiment_part")) %>%
+  mutate(Divided_Diff = Diff / Mean_RT) %>% 
+  mutate(Divided_Diff_Percent = Divided_Diff * 100) 
+
+#write.csv(final_result, "D:\\GitHub\\experiment1\\Analysis\\pilot000101\\pilot000101_normalised_diff.csv", fileEncoding = "UTF-8")
+
+```
+
+```{r}
+#plot normalised differences for Speak & Type
+ggplot(final_result_fatigue2, aes(x = RespModal, y = Divided_Diff_Percent, fill = RespModal)) +
+  geom_bar(stat = "identity", width = 0.5, position = "dodge") +
+  geom_text(aes(label = round(Divided_Diff_Percent, 2)), vjust = -0.5, position = position_dodge(width = 0.5)) +
+  labs(title = "Percentage Slow in Switching within Modality", x = NULL, y = "Difference %") +
+  scale_fill_manual(values = c("red", "blue"))+
+  facet_wrap(~ Experiment_part)
+```
