@@ -22,7 +22,7 @@ textDir$	= soundDir$
 
 
 # Get the lists of all the signal in files in the given directory
-Create Strings as file list... list 'soundDir$'/*type*.wav
+Create Strings as file list... list 'soundDir$'/*speak*.wav
 
 
 # get number of files to process
