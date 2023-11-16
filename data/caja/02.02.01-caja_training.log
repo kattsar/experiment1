@@ -1,0 +1,68 @@
+Scenario - caja_training.sce
+Logfile written - 11/10/2023 16:17:53
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+02.02.01	1	Response	98	57433	47363	1
+02.02.01	3	Sound	snd_pulpo	61542	7	232			0		other	0
+02.02.01	3	Key Input	43	80924	19389	1
+02.02.01	3	Key Input	80	86303	24769	1
+02.02.01	3	Text Input	+P	91534	30000	0
+02.02.01	5	Sound	snd_mono	95636	0	1			0		other	0
+02.02.01	5	Key Input	46	106183	10547	1
+02.02.01	5	Key Input	44	112693	17057	1
+02.02.01	5	Key Input	77	119523	23887	1
+02.02.01	5	Key Input	80	123743	28107	1
+02.02.01	5	Text Input	.,MP	125636	30000	0
+02.02.01	7	Sound	snd_puente	129738	0	1			0		other	0
+02.02.01	7	Key Input	80	138633	8896	1
+02.02.01	7	Key Input	73	143623	13886	1
+02.02.01	7	Key Input	82	147303	17565	1
+02.02.01	7	Key Input	78	154833	25095	1
+02.02.01	7	Text Input	PIRN	159738	30000	0
+02.02.01	9	Sound	snd_pulpo	163840	0	1			0		other	0
+02.02.01	9	Key Input	80	171293	7454	1
+02.02.01	9	Key Input	85	177423	13584	1
+02.02.01	9	Key Input	76	182673	18834	1
+02.02.01	9	Key Input	80	186153	22314	1
+02.02.01	9	Key Input	73	191253	27414	1
+02.02.01	9	Text Input	PULPI	193839	30000	0
+02.02.01	11	Sound	snd_puente	197941	0	1			0		other	0
+02.02.01	11	Key Input	80	205103	7162	1
+02.02.01	11	Key Input	85	210173	12232	1
+02.02.01	11	Key Input	82	215153	17212	1
+02.02.01	11	Key Input	78	222103	24162	1
+02.02.01	11	Key Input	89	227433	29492	1
+02.02.01	11	Text Input	PURNY	227941	30000	0
+02.02.01	13	Sound	snd_mono	232113	0	1			0		other	0
+02.02.01	13	Key Input	78	242673	10561	1
+02.02.01	13	Key Input	79	245933	13821	1
+02.02.01	13	Key Input	66	250843	18731	1
+02.02.01	13	Key Input	78	257673	25561	1
+02.02.01	13	Text Input	NOBN	262112	30000	0
+02.02.01	15	Sound	snd_casa	266214	0	1			0		other	0
+02.02.01	15	Key Input	67	275513	9299	1
+02.02.01	15	Key Input	83	277243	11029	1
+02.02.01	15	Key Input	68	282782	16568	1
+02.02.01	15	Key Input	83	285503	19289	1
+02.02.01	15	Key Input	65	292183	25969	1
+02.02.01	15	Text Input	CSDSA	296214	30000	0
+02.02.01	17	Sound	snd_casa	300455	0	1			0		other	0
+02.02.01	17	Key Input	88	309663	9209	1
+02.02.01	17	Key Input	65	312173	11719	1
+02.02.01	17	Key Input	68	316093	15639	1
+02.02.01	17	Key Input	65	318313	17859	1
+02.02.01	17	Text Input	XADA	330455	30000	0
+02.02.01	19	Response	98	496563	162007	1
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Sound	snd_pulpo	other				61542	232			0
+Sound	snd_mono	other				95636	1			0
+Sound	snd_puente	other				129738	1			0
+Sound	snd_pulpo	other				163840	1			0
+Sound	snd_puente	other				197941	1			0
+Sound	snd_mono	other				232113	1			0
+Sound	snd_casa	other				266214	1			0
+Sound	snd_casa	other				300455	1			0
