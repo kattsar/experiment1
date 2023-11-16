@@ -10,7 +10,7 @@
 
 
 
-soundDir$	= "D:\GitHub\experiment1\data\010101_REPSWITCH1_version1_list1_2023-11-10_13h54.48.695_micRespv1l1_recorded"
+soundDir$	= "D:\GitHub\experiment1\data\02.02.01_REPSWITCH1_version2_list1_2023-11-10_15h41.55.444_micRespv2l1_recorded"
 textDir$	= soundDir$
 
 
@@ -22,7 +22,7 @@ textDir$	= soundDir$
 
 
 # Get the lists of all the signal in files in the given directory
-Create Strings as file list... list 'soundDir$'/*speak*.wav
+Create Strings as file list... list 'soundDir$'/*type*.wav
 
 
 # get number of files to process
