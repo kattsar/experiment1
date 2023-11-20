@@ -14,9 +14,9 @@ Object class = "TextGrid"
 0.544
 "silent"
 0.544
-1.048
+1.0626980095733323
 "sounding"
-1.048
+1.0626980095733323
 3
 "silent"
 "IntervalTier"
@@ -26,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"vaso"
 "IntervalTier"
 "'Modality_Correct'"
 0
