@@ -9,20 +9,14 @@ Object class = "TextGrid"
 "silences"
 0
 3
-5
+3
 0
-1.24
+1.2351376596990253
 "silent"
-1.24
-1.608
+1.2351376596990253
+1.6904279589517544
 "sounding"
-1.608
-2.392
-"silent"
-2.392
-2.536
-"sounding"
-2.536
+1.6904279589517544
 3
 "silent"
 "IntervalTier"
@@ -32,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"pintor"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -64,7 +58,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"mic sound at the end of the audio file"
 "IntervalTier"
 "'Exclude'"
 0
