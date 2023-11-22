@@ -1,0 +1,74 @@
+Scenario - caja_training.sce
+Logfile written - 11/20/2023 10:19:00
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+070104	1	Response	98	50668	40599	1
+070104	3	Sound	snd_pulpo	54805	7	226			0		other	0
+070104	3	Key Input	80	65978	11181	1
+070104	3	Key Input	85	70719	15921	1
+070104	3	Key Input	76	74548	19751	1
+070104	3	Key Input	80	76118	21320	1
+070104	3	Key Input	79	77438	22640	1
+070104	3	Text Input	PULPO	84798	30000	0
+070104	5	Sound	snd_casa	88969	0	1			0		other	0
+070104	5	Key Input	67	102648	13680	1
+070104	5	Key Input	65	105218	16249	1
+070104	5	Key Input	83	109668	20699	1
+070104	5	Key Input	65	111848	22879	1
+070104	5	Text Input	CASA	118969	30000	0
+070104	7	Sound	snd_pulpo	123071	0	1			0		other	0
+070104	7	Key Input	80	130067	6997	1
+070104	7	Key Input	73	134438	11368	1
+070104	7	Key Input	76	139728	16658	1
+070104	7	Key Input	80	143938	20868	1
+070104	7	Key Input	79	145208	22137	1
+070104	7	Text Input	PILPO	153070	30000	0
+070104	9	Sound	snd_puente	157242	0	1			0		other	0
+070104	9	Key Input	80	165198	7957	1
+070104	9	Key Input	85	167658	10417	1
+070104	9	Key Input	69	170808	13567	1
+070104	9	Key Input	78	171688	14447	1
+070104	9	Key Input	84	179088	21847	1
+070104	9	Key Input	69	180148	22907	1
+070104	9	Text Input	PUENTE	187242	30000	0
+070104	11	Sound	snd_mono	191413	0	1			0		other	0
+070104	11	Key Input	77	198938	7526	1
+070104	11	Key Input	79	200788	9375	1
+070104	11	Key Input	78	203868	12456	1
+070104	11	Key Input	79	205228	13816	1
+070104	11	Text Input	MONO	221413	30000	0
+070104	13	Sound	snd_casa	225515	0	1			0		other	0
+070104	13	Key Input	67	232898	7384	1
+070104	13	Key Input	65	236488	10974	1
+070104	13	Key Input	83	239928	14414	1
+070104	13	Key Input	65	243478	17964	1
+070104	13	Text Input	CASA	255514	30000	0
+070104	15	Sound	snd_mono	259616	0	1			0		other	0
+070104	15	Key Input	77	267158	7542	1
+070104	15	Key Input	79	268278	8662	1
+070104	15	Key Input	66	273188	13572	1
+070104	15	Key Input	8	285218	25602	1
+070104	15	Key Input	78	287758	28142	1
+070104	15	Text Input	MON	289616	30000	0
+070104	17	Sound	snd_puente	293787	0	1			0		other	0
+070104	17	Key Input	80	301468	7681	1
+070104	17	Key Input	85	303478	9691	1
+070104	17	Key Input	69	308958	15171	1
+070104	17	Key Input	78	310438	16651	1
+070104	17	Key Input	84	312198	18411	1
+070104	17	Key Input	69	313738	19951	1
+070104	17	Text Input	PUENTE	323787	30000	0
+070104	19	Response	98	366008	38119	1
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Sound	snd_pulpo	other				54805	226			0
+Sound	snd_casa	other				88969	1			0
+Sound	snd_pulpo	other				123071	1			0
+Sound	snd_puente	other				157242	1			0
+Sound	snd_mono	other				191413	1			0
+Sound	snd_casa	other				225515	1			0
+Sound	snd_mono	other				259616	1			0
+Sound	snd_puente	other				293787	1			0
