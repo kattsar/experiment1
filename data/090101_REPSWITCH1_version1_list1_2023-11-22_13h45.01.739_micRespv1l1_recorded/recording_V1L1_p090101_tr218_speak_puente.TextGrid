@@ -11,12 +11,12 @@ Object class = "TextGrid"
 3
 3
 0
-0.7200000000000001
+0.6529776750402734
 "silent"
-0.7200000000000001
-1.016
+0.6529776750402734
+1.0425176041011914
 "sounding"
-1.016
+1.0425176041011914
 3
 "silent"
 "IntervalTier"
@@ -26,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"pu(e)nte"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -58,7 +58,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"the /u/ is bearily perceptible"
 "IntervalTier"
 "'Exclude'"
 0

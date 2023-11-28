@@ -11,7 +11,7 @@
 
 ##  Specify the directory containing your sound files in the next line:
 
-inDirectory$ = "D:\GitHub\experiment1\data\080204_REPSWITCH1_version2_list4_2023-11-21_12h09.29.714_micRespv2l4_recorded\"
+inDirectory$ = "D:\GitHub\experiment1\data\090101_REPSWITCH1_version1_list1_2023-11-22_13h45.01.739_micRespv1l1_recorded\"
 outDirectory$ = inDirectory$ 
 
 

@@ -11,12 +11,12 @@ Object class = "TextGrid"
 3
 3
 0
-0.8320000000000001
+0.6468278674275457
 "silent"
-0.8320000000000001
-1.056
+0.6468278674275457
+1.0605589704269602
 "sounding"
-1.056
+1.0605589704269602
 3
 "silent"
 "IntervalTier"
@@ -26,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"cartero"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -58,7 +58,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"deep inhale before word"
 "IntervalTier"
 "'Exclude'"
 0
