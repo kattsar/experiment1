@@ -10,7 +10,7 @@
 
 
 
-soundDir$	= "D:\GitHub\experiment1\data\090101_REPSWITCH1_version1_list1_2023-11-22_13h45.01.739_micRespv1l1_recorded"
+soundDir$	= "D:\GitHub\experiment1\data\100201_REPSWITCH1_version2_list1_2023-11-23_12h46.02.229_micRespv2l1_recorded"
 textDir$	= soundDir$
 
 
