@@ -14,9 +14,9 @@ Object class = "TextGrid"
 1.448
 "silent"
 1.448
-1.776
+1.7967418408064866
 "sounding"
-1.776
+1.7967418408064866
 3
 "silent"
 "IntervalTier"
@@ -26,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"(vale madre mia) taza"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -66,4 +66,4 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"??"

@@ -9,17 +9,11 @@ Object class = "TextGrid"
 "silences"
 0
 3
-5
+3
 0
-1.3760000000000001
+1.380806624613294
 "silent"
-1.3760000000000001
-1.856
-"sounding"
-1.856
-2.008
-"silent"
-2.008
+1.380806624613294
 2.488
 "sounding"
 2.488
@@ -32,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"colum na"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -64,7 +58,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"made a weird pause after /m/ - super long duration "
 "IntervalTier"
 "'Exclude'"
 0
