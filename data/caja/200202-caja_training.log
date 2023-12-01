@@ -1,0 +1,66 @@
+Scenario - caja_training.sce
+Logfile written - 11/30/2023 16:32:52
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+200202	1	Response	98	38932	28863	1
+200202	3	Sound	snd_casa	43334	344	228			0		other	0
+200202	3	Key Input	88	58752	15762	1
+200202	3	Key Input	65	60902	17912	1
+200202	3	Key Input	83	66562	23572	1
+200202	3	Key Input	68	66562	23572	1
+200202	3	Key Input	83	67262	24271	1
+200202	3	Text Input	XASDS	72990	30000	0
+200202	5	Sound	snd_mono	77092	0	1			0		other	0
+200202	5	Key Input	78	88552	11460	1
+200202	5	Key Input	66	97192	20100	1
+200202	5	Key Input	73	101172	24080	1
+200202	5	Text Input	NBI	107092	30000	0
+200202	7	Sound	snd_mono	111263	0	1			0		other	0
+200202	7	Key Input	78	124672	13409	1
+200202	7	Key Input	73	129712	18449	1
+200202	7	Key Input	66	132872	21609	1
+200202	7	Key Input	73	135112	23849	1
+200202	7	Text Input	NIBI	141263	30000	0
+200202	9	Sound	snd_pulpo	145365	0	1			0		other	0
+200202	9	Key Input	80	160852	15487	1
+200202	9	Key Input	85	167642	22277	1
+200202	9	Key Input	75	172772	27407	1
+200202	9	Text Input	PUK	175365	30000	0
+200202	11	Sound	snd_casa	179536	0	1			0		other	0
+200202	11	Key Input	67	192442	12906	1
+200202	11	Key Input	65	195142	15606	1
+200202	11	Key Input	83	197692	18156	1
+200202	11	Key Input	65	199132	19596	1
+200202	11	Text Input	CASA	209536	30000	0
+200202	13	Sound	snd_pulpo	213638	0	1			0		other	0
+200202	13	Key Input	80	223552	9914	1
+200202	13	Key Input	73	227872	14234	1
+200202	13	Key Input	76	232032	18394	1
+200202	13	Key Input	80	238232	24594	1
+200202	13	Text Input	PILP	243638	30000	0
+200202	15	Sound	snd_puente	247740	0	1			0		other	0
+200202	15	Key Input	80	259302	11563	1
+200202	15	Key Input	73	264202	16462	1
+200202	15	Key Input	85	271792	24053	1
+200202	15	Key Input	87	275782	28042	1
+200202	15	Text Input	PIUW	277739	30000	0
+200202	17	Sound	snd_puente	281841	0	1			0		other	0
+200202	19	Response	98	377082	61070	1
+
+Visual picture detection failed over to using scan line information only at the following times:
+type	time	timeout	presentation
+fail	4299.02	34.725	3
+restore	4399.49	0	4
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Sound	snd_casa	other				43334	228			0
+Sound	snd_mono	other				77092	1			0
+Sound	snd_mono	other				111263	1			0
+Sound	snd_pulpo	other				145365	1			0
+Sound	snd_casa	other				179536	1			0
+Sound	snd_pulpo	other				213638	1			0
+Sound	snd_puente	other				247740	1			0
+Sound	snd_puente	other				281841	1			0

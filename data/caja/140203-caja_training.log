@@ -1,0 +1,59 @@
+Scenario - caja_training.sce
+Logfile written - 11/28/2023 14:02:19
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+140203	1	Response	98	74668	64599	1
+140203	3	Sound	snd_puente	78836	7	218			0		other	0
+140203	3	Key Input	79	92279	13451	1
+140203	3	Key Input	85	105089	26261	1
+140203	3	Key Input	69	108198	29370	1
+140203	3	Text Input	OUE	108828	30000	0
+140203	5	Sound	snd_pulpo	113000	0	1			0		other	0
+140203	5	Key Input	80	125169	12170	1
+140203	5	Key Input	85	129148	16149	1
+140203	5	Key Input	76	133209	20209	1
+140203	5	Key Input	80	137888	24889	1
+140203	5	Key Input	80	139158	26159	1
+140203	5	Key Input	65	142779	29779	1
+140203	5	Text Input	PULPPA	143000	30000	0
+140203	7	Sound	snd_mono	147171	0	1			0		other	0
+140203	7	Key Input	77	157329	10158	1
+140203	7	Key Input	79	163748	16577	1
+140203	7	Key Input	77	167749	20578	1
+140203	7	Key Input	161	175828	28658	1
+140203	7	Text Input	MOM¡	177171	30000	0
+140203	9	Sound	snd_puente	181273	0	1			0		other	0
+140203	11	Sound	snd_pulpo	215374	0	1			0		other	0
+140203	11	Key Input	73	231398	16024	1
+140203	11	Key Input	85	242849	27475	1
+140203	11	Text Input	IU	245374	30000	0
+140203	13	Sound	snd_casa	249545	0	1			0		other	0
+140203	13	Key Input	86	259119	9573	1
+140203	13	Key Input	83	278478	28933	1
+140203	13	Text Input	VS	279545	30000	0
+140203	15	Sound	snd_casa	283647	0	1			0		other	0
+140203	15	Key Input	86	295238	11592	1
+140203	15	Key Input	83	304198	20552	1
+140203	15	Key Input	70	307159	23512	1
+140203	15	Key Input	65	311638	27991	1
+140203	15	Text Input	VSFA	313647	30000	0
+140203	17	Sound	snd_mono	317888	0	1			0		other	0
+140203	17	Key Input	77	328768	10881	1
+140203	17	Key Input	79	336878	18991	1
+140203	17	Key Input	78	340217	22330	1
+140203	17	Key Input	79	343318	25430	1
+140203	17	Text Input	MONO	347888	30000	0
+140203	19	Response	98	432888	80899	1
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Sound	snd_puente	other				78836	218			0
+Sound	snd_pulpo	other				113000	1			0
+Sound	snd_mono	other				147171	1			0
+Sound	snd_puente	other				181273	1			0
+Sound	snd_pulpo	other				215374	1			0
+Sound	snd_casa	other				249545	1			0
+Sound	snd_casa	other				283647	1			0
+Sound	snd_mono	other				317888	1			0
