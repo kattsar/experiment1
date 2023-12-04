@@ -11,12 +11,12 @@ Object class = "TextGrid"
 3
 3
 0
-0.6880000000000001
+1.1054113711527946
 "silent"
-0.6880000000000001
-1.32
+1.1054113711527946
+1.4093517616621096
 "sounding"
-1.32
+1.4093517616621096
 3
 "silent"
 "IntervalTier"
@@ -26,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"(gran (eh)) granja"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -34,7 +34,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"1"
 "IntervalTier"
 "'Item_Correct'"
 0
@@ -50,7 +50,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"1"
 "IntervalTier"
 "'Notes'"
 0
@@ -58,7 +58,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"started saying granja, hesitated, then said granja"
 "IntervalTier"
 "'Exclude'"
 0
@@ -66,4 +66,4 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"?????"

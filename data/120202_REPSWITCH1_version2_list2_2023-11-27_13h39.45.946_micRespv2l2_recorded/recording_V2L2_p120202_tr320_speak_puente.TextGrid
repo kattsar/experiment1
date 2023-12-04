@@ -9,20 +9,14 @@ Object class = "TextGrid"
 "silences"
 0
 3
-5
+3
 0
-0.552
+1.550863493921967
 "silent"
-0.552
-0.744
+1.550863493921967
+1.796496952374393
 "sounding"
-0.744
-1.3760000000000001
-"silent"
-1.3760000000000001
-1.6880000000000002
-"sounding"
-1.6880000000000002
+1.796496952374393
 3
 "silent"
 "IntervalTier"
@@ -32,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"(puente oh si) puente"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -40,7 +34,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"1"
 "IntervalTier"
 "'Item_Correct'"
 0
@@ -56,7 +50,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"1"
 "IntervalTier"
 "'Notes'"
 0
@@ -64,7 +58,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"started saying puente, hesitated, said puente"
 "IntervalTier"
 "'Exclude'"
 0
@@ -72,4 +66,4 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"???"
