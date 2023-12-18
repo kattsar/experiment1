@@ -6,7 +6,7 @@
 # brings up form that prompts the user to enter directory name
 # creates variable
 
-soundDir$	= "D:\GitHub\experiment1\data\180201_REPSWITCH1_version2_list1_2023-11-30_11h32.58.730_micRespv2l1_recorded"
+soundDir$	= "D:\GitHub\experiment1\data\190102_REPSWITCH1_version1_list2_2023-11-30_12h48.08.240_micRespv1l2_recorded"
 textDir$	= soundDir$
 
 pattern$ 	= ""
