@@ -9,20 +9,8 @@ Object class = "TextGrid"
 "silences"
 0
 3
-5
+1
 0
-0.272
-"sounding"
-0.272
-0.392
-"silent"
-0.392
-1.864
-"sounding"
-1.864
-2.504
-"silent"
-2.504
 3
 "sounding"
 "IntervalTier"
@@ -32,7 +20,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"[type]"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -64,7 +52,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"exhale beginning of audio"
 "IntervalTier"
 "'Exclude'"
 0
