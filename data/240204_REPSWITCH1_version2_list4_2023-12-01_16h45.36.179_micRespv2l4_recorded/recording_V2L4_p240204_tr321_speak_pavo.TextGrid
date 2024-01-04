@@ -11,12 +11,12 @@ Object class = "TextGrid"
 3
 3
 0
-1.352
+1.3435586948049483
 "silent"
-1.352
-1.616
+1.3435586948049483
+1.6291261566689312
 "sounding"
-1.616
+1.6291261566689312
 3
 "silent"
 "IntervalTier"
@@ -26,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"pavo"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -34,7 +34,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"0"
 "IntervalTier"
 "'Item_Correct'"
 0
@@ -58,7 +58,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"typed first, then spoke, backspace after word"
 "IntervalTier"
 "'Exclude'"
 0
@@ -66,4 +66,4 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"1"

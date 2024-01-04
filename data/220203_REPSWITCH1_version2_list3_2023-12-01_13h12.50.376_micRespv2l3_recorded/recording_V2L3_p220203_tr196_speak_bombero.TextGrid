@@ -11,12 +11,12 @@ Object class = "TextGrid"
 3
 3
 0
-0.8480000000000001
+0.8302256699576869
 "silent"
-0.8480000000000001
-1.336
+0.8302256699576869
+1.3446720013816529
 "sounding"
-1.336
+1.3446720013816529
 3
 "silent"
 "IntervalTier"
@@ -26,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"bombero"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -58,7 +58,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"clears throat end of audio"
 "IntervalTier"
 "'Exclude'"
 0

@@ -9,17 +9,11 @@ Object class = "TextGrid"
 "silences"
 0
 3
-5
+3
 0
-1.1760000000000002
+1.966840720264598
 "silent"
-1.1760000000000002
-1.4160000000000001
-"sounding"
-1.4160000000000001
-1.6800000000000002
-"silent"
-1.6800000000000002
+1.966840720264598
 2.248
 "sounding"
 2.248
@@ -32,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"cuerda: osea cadena"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -40,7 +34,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"1"
 "IntervalTier"
 "'Item_Correct'"
 0
@@ -48,7 +42,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"0"
 "IntervalTier"
 "'Hesitation'"
 0
@@ -64,7 +58,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"said a different word before the expected one"
 "IntervalTier"
 "'Exclude'"
 0
@@ -72,4 +66,4 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"1"

@@ -9,19 +9,16 @@ Object class = "TextGrid"
 "silences"
 0
 3
-4
-0
-1.256
-"silent"
-1.256
-1.56
-"sounding"
-1.56
-2.896
-"silent"
-2.896
 3
+0
+1.2417476866621369
+"silent"
+1.2417476866621369
+1.5720126642961347
 "sounding"
+1.5720126642961347
+3
+"silent"
 "IntervalTier"
 "'SubjResponse'"
 0
@@ -29,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"pulpo"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -37,7 +34,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"0"
 "IntervalTier"
 "'Item_Correct'"
 0
@@ -61,7 +58,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"first typed, then spoke, corrected after word, mic sound end of audio"
 "IntervalTier"
 "'Exclude'"
 0
@@ -69,4 +66,4 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"1"
