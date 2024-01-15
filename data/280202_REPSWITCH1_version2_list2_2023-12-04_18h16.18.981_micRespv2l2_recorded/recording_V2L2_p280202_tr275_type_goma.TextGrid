@@ -12,7 +12,7 @@ Object class = "TextGrid"
 1
 0
 3
-"silent"
+"sounding"
 "IntervalTier"
 "'SubjResponse'"
 0
@@ -20,7 +20,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"[type]"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -52,7 +52,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"inhale while typing"
 "IntervalTier"
 "'Exclude'"
 0
