@@ -20,7 +20,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"-"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -28,7 +28,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"0"
 "IntervalTier"
 "'Item_Correct'"
 0
@@ -36,7 +36,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"0"
 "IntervalTier"
 "'Hesitation'"
 0
@@ -52,7 +52,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"did nothing"
 "IntervalTier"
 "'Exclude'"
 0
@@ -60,4 +60,4 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"1"

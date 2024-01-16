@@ -32,7 +32,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"[espejo oi mierda, type]"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -40,7 +40,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"0"
 "IntervalTier"
 "'Item_Correct'"
 0
@@ -64,7 +64,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"spoke first, then typed"
 "IntervalTier"
 "'Exclude'"
 0
@@ -72,4 +72,4 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"1"

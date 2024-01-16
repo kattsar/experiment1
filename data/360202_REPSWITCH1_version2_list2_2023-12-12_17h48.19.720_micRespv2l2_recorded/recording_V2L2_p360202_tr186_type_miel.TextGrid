@@ -20,7 +20,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"[type]"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -52,7 +52,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"heavily breathing throughout the trial"
 "IntervalTier"
 "'Exclude'"
 0
