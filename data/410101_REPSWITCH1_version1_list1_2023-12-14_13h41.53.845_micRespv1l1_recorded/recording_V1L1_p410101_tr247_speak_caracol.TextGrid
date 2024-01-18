@@ -9,20 +9,14 @@ Object class = "TextGrid"
 "silences"
 0
 3
-5
+3
 0
 0.9760000000000001
 "silent"
 0.9760000000000001
-1.512
+1.5271498255768594
 "sounding"
-1.512
-2.384
-"silent"
-2.384
-2.552
-"sounding"
-2.552
+1.5271498255768594
 3
 "silent"
 "IntervalTier"
@@ -32,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"caracol"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -64,7 +58,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"slightly yawns while saying the word, not slower though, mic sound end of audio"
 "IntervalTier"
 "'Exclude'"
 0

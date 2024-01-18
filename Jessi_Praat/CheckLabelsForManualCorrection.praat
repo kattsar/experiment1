@@ -18,7 +18,7 @@ ext$		= ""
 
 
 
-Create Strings as file list... list 'soundDir$'/*type*.wav
+Create Strings as file list... list 'soundDir$'/*speak*.wav
 
 numberOfFiles = Get number of strings
 

@@ -32,7 +32,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"(bra) pierna"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -40,7 +40,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"1"
 "IntervalTier"
 "'Item_Correct'"
 0
@@ -48,7 +48,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"0"
 "IntervalTier"
 "'Hesitation'"
 0
@@ -64,7 +64,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"started saying brazo, corrected it to pierna"
 "IntervalTier"
 "'Exclude'"
 0
@@ -72,4 +72,4 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"1"
