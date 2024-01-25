@@ -11,9 +11,9 @@ Object class = "TextGrid"
 3
 3
 0
-0.7200000000000001
+0.7057035175879397
 "silent"
-0.7200000000000001
+0.7057035175879397
 1.104
 "sounding"
 1.104
@@ -26,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"mano"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -58,7 +58,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"meddling with the mic through out the audio -- the word is heard clearly"
 "IntervalTier"
 "'Exclude'"
 0

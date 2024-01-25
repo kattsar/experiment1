@@ -26,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 2.98
-""
+"roble"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -34,7 +34,7 @@ Object class = "TextGrid"
 1
 0
 2.98
-""
+"1"
 "IntervalTier"
 "'Item_Correct'"
 0
@@ -42,7 +42,7 @@ Object class = "TextGrid"
 1
 0
 2.98
-""
+"0"
 "IntervalTier"
 "'Hesitation'"
 0
@@ -58,7 +58,7 @@ Object class = "TextGrid"
 1
 0
 2.98
-""
+"did not say the expected word"
 "IntervalTier"
 "'Exclude'"
 0
@@ -66,4 +66,4 @@ Object class = "TextGrid"
 1
 0
 2.98
-""
+"1"
