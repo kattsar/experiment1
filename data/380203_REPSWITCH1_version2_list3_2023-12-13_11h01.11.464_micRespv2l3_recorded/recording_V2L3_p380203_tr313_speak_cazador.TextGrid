@@ -11,12 +11,12 @@ Object class = "TextGrid"
 3
 3
 0
-0.8560000000000001
+0.8647914687238537
 "silent"
-0.8560000000000001
-1.336
+0.8647914687238537
+1.4596692996015146
 "sounding"
-1.336
+1.4596692996015146
 3
 "silent"
 "IntervalTier"
@@ -26,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"cazador"
 "IntervalTier"
 "'Modality_Correct'"
 0
