@@ -1,7 +1,0 @@
-line	tmin	tier	text	tmax
-1	0	silences	silent	0.560000
-4	0	transcription	[tongue]	0.560000
-2	0.560000	silences	sounding	1.053492
-5	0.560000	transcription	traje	1.053492
-3	1.053492	silences	silent	3.000000
-6	1.053492	transcription	[breath]	3.000000

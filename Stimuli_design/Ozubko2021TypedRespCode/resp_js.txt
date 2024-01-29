@@ -1,0 +1,56 @@
+BEGIN ROUTINE:
+
+respDisplay = "";
+maxDigits = 6;
+
+//key logger defaults
+last_len = 0
+key_list = []
+
+
+EVERY FRAME:
+
+//if a new key has been pressed since last time
+if(keyResp.keys != undefined && keyResp.keys.length > last_len) {
+
+    //increment the key logger length
+    last_len = keyResp.keys.length
+    
+    //grab the last key added to the keys list
+    key_list.push(keyResp.keys.pop())
+
+    //check for backspace
+    if(key_list.indexOf("backspace") != -1) {
+        key_list.splice(key_list.indexOf("backspace"), 1)
+        
+        //if we have at least 1 character, remove it
+        if (key_list.length > 0) {
+            key_list.pop();
+        }
+    }
+    else
+    //if enter is pressed then...
+    if(key_list.indexOf("return") != -1) {
+        //remove the enter key
+        key_list.pop();
+        
+        //and end the trial if we have at least 2 digits
+        if (key_list.length >= 2) {
+            continueRoutine = false;
+        }
+    }
+
+    //now loop through and remove any extra characters that may exist
+    while (key_list.length > maxDigits) {
+        key_list.pop();
+    }
+
+    //create a variable to display
+    respDisplay = key_list.join("");
+}
+
+
+
+END ROUTINE:
+
+psychoJS.experiment.addData("subjResponse", respDisplay);

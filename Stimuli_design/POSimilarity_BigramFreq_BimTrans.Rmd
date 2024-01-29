@@ -1,0 +1,93 @@
+---
+title: "Phon & Orth Similarity"
+author: "Katerina Tsaroucha"
+date: "11/11/2022"
+output: html_document
+---
+
+```{r}
+library(alineR)
+library(stringdist)
+library(xlsx)
+library(ggplot2)
+library(tidyverse)
+library(hrbrthemes)
+library(ggpubr)
+library(vctrs)
+library(ggeffects)
+library(tidyverse)
+```
+
+```{r}
+#Insert table with lists of items and their characteristics
+itemlength <- readxl::read_xlsx("C:\\Users\\Κατερίνα\\Nextcloud\\Multipic_Exp_1\\Phon_Orth_Similarity_03_05_023.xlsx", sheet = 2)
+```
+
+```{r}
+#Remove empty line from dataset
+#itemlength <- itemlength[-c(80:90), ]
+
+#Remove columns from dataset
+#itemlength <- itemlength[, -c(28:36)]
+```
+
+
+```{r}
+#distribution of bimanual transitions (histogram)
+ggplot(data = itemlength, aes(x = Bimanual_Transitions)) + 
+  geom_histogram(bins = 20, colour = "white", fill = "blue") +
+  labs(x ='Bimanual transitions', y='Count (%)', title = 'Distribution of bimanual transitions')
+
+
+#distribution of bimanual transitions (histogram)
+ggplot(data = itemlength, aes(x = Bimanual_Transitions)) + 
+  geom_histogram(bins = 10, colour = "white", fill = "blue") +
+  labs(x ='Bimanual transitions', y='Count (%)', title = 'Distribution of bimanual transitions')
+
+```
+
+```{r}
+#token bigram frequency(histogram)
+ggplot(data = itemlength, aes(x = abs_tok_MBOF)) + 
+  geom_histogram(bins = 10, colour = "white", fill = "darkgreen") +
+  labs(x ='Token bigram frequency', y='Count', title = 'Distribution of token birgam frequency')
+```
+```{r}
+#type bigram frequency(histogram)
+ggplot(data = itemlength, aes(x = abs_type_MBOF)) + 
+  geom_histogram(bins = 20, colour = "white", fill = "darkred") +
+  labs(x ='Type bigram frequency', y='Count', title = 'Distribution of type birgam frequency')
+```
+
+```{r}
+#ggplot(itemlength, aes(x = abs_tok_MBOF, y = abs_type_MBOF)) +
+#  geom_point() +
+#  geom_smooth(method = lm, color = "red") +
+#  theme_ipsum()
+```
+
+```{r}
+ggscatter(itemlength, x = "abs_tok_MBOF", y = "abs_type_MBOF", 
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "pearson",
+          xlab = "Token bigram frequency", ylab = "Type bigram frequency")
+```
+
+
+```{r}
+#Get Levenshtein and Aline distances for items
+itemlength$Phon_Similarity <- aline(itemlength$IPA_SP, itemlength$IPA_ENG, m1 = intToUtf8(609, 946), m2 = intToUtf8(609, 946))
+
+
+itemlength$Orth_Similarity <- aline(itemlength$Spanish, itemlength$English, m1 = intToUtf8(241, 252), m2 = intToUtf8(241, 252))
+
+itemlength$Levenshtein <- stringdist(itemlength$Spanish, itemlength$English, method = "lv")
+
+itemlength$Levenshtein_Basque <- stringdist(itemlength$Spanish, itemlength$Basque_translation, method = "lv")
+```
+
+```{r}
+library(xlsx)
+write.xlsx(itemlength, "C:\\Users\\Κατερίνα\\Nextcloud\\Multipic_Exp_1\\Phon_Orth_Similarity_03_05_023.xlsx", sheetName = "Sheet1", col.names = TRUE, row.names = TRUE, append = FALSE, showNA = TRUE, password = NULL)
+```
+

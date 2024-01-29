@@ -1,0 +1,409 @@
+Trial_no;CorrectAns;SubjResponse;Notes;Backspace;Item_correct;Modality_Correct;Exclude;Experiment_part;RepSwitch;Error_Corrected;Hesitation;RT;Duration;RespModal;KeyResp_keys;key1;key2;key3;key4;key5;key6;key7;key8;key9;key10;key11;key12;key13;key14;key15;baseline;baseline_condition;micRespv1l1.started
+1;espejo;espejo;;0;1;1;0;First;filler;0;0;1.1562615;0.895465;type;['e', 's', 'p', 'e', 'j', 'o'];1.1562615;1.2998903;1.4761257;1.5721227;1.8596902;2.0517265;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;245305766
+2;cadena;cadena;;0;1;1;0;First;filler;0;0;1.208;0.451187;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;2917699
+3;puente;puente;;0;1;1;0;First;nontarget;0;0;1.009;0.449831;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;337956932
+4;puente;puente;;0;1;1;0;First;repeat;0;0;1.113;0.520737;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;384908744
+5;vaca;vaca;;0;1;1;0;First;filler;0;0;1.0228119;0.5122477;type;['v', 'a', 'c', 'a'];1.0228119;1.1507497;1.4387506;1.5350596;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;430958672
+6;fresa;fr(esa};started typing, then spoke;0;0;0;1;First;nontarget;1;0;1.900556;0.384911;speak;['f', 'r'];1.1624933;1.3375314;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;478045381
+7;fresa;fresa;;0;1;1;1;First;repeat;0;0;1.20712;0.44088;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;523744323
+8;bano;bano;;0;1;1;0;First;filler;0;0;1.0619044;0.8637799;type;['b', 'a', 'n', 'o'];1.0619044;1.1738465;1.7176914;1.9256843;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;569443785
+9;traje;traje;;0;1;1;0;First;nontarget;0;0;1.224;0.461926;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;616743967
+10;traje;traje;;0;1;1;0;First;switch;0;0;1.0531189;0.6889526;type;['t', 'r', 'a', 'j', 'e'];1.0531189;1.2290729;1.2930979;1.6452155;1.7420715;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;663137064
+11;camisa;camisa;;0;1;1;0;First;filler;0;0;1.185472;0.543944;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;709392548
+12;muneca;muneca;;0;1;1;0;First;nontarget;0;0;1.2712538;1.4079534;type;['m', 'u', 'n', 'e', 'c', 'a'];1.2712538;1.5275862;1.9430791;2.1836469;2.5517615;2.6792072;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;755510774
+13;muneca;muneca;;0;1;1;0;First;switch;0;0;0.856415;0.625391;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;801974443
+14;pierna;pierna;;0;1;1;0;First;filler;0;0;1.193;0.491683;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;847884485
+15;pavo;pavo;;0;1;1;0;First;nontarget;0;0;1.310171;0.386262;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;894417953
+16;pavo;pavo;;0;1;1;0;First;switch;0;0;1.1791784;1.3595593;type;['p', 'a', 'v', 'o'];1.1791784;1.8351718;2.4107786;2.5387377;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;940118736
+17;cazador;cazador;;0;1;1;0;First;nontarget;0;0;1.1018073;1.1207068;type;['c', 'a', 'z', 'a', 'd', 'o', 'r'];1.1018073;1.229812;1.4370688;1.6137321;1.8376605;2.0616342;2.2225141;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;986170988
+18;cazador;cazador;;0;1;1;0;First;repeat;0;0;1.3816164;1.1205105;type;['c', 'a', 'z', 'a', 'd', 'o', 'r'];1.3816164;1.4776187;1.6696169;1.8456799;2.0857947;2.3101251;2.5021269;NA;NA;NA;NA;NA;NA;NA;NA;0;None;103200511
+19;taza;taza;;0;1;1;0;First;filler;0;0;0.960018;0.477417;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1078125912
+20;bombero;bombero;;0;1;1;0;First;filler;0;0;1.293945;1.6635633;type;['b', 'o', 'm', 'b', 'e', 'r', 'o'];1.293945;1.4859041;1.7262316;2.4773421;2.5895448;2.7495459;2.9575083;NA;NA;NA;NA;NA;NA;NA;NA;0;None;112472607
+21;vaso;vaso;;0;1;1;0;First;nontarget;0;0;1.2698062;0.464407;type;['v', 'a', 's', 'o'];1.2698062;1.3497686;1.5257617;1.7342132;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1172162543
+22;vaso;vaso;;0;1;1;0;First;repeat;0;0;0.8024195;0.4480066;type;['v', 'a', 's', 'o'];0.8024195;0.8824213;1.0424035;1.2504261;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;121828122
+23;regalo;regalo;;0;1;1;0;First;filler;0;0;1.046637;0.600114;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1264256766
+24;pulpo;pulp;;0;0;1;1;First;filler;0;0;2.0580738;0.863001;type;['p', 'u', 'l', 'p'];2.0580738;2.3450395;2.745127;2.9210748;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1309889396
+25;espalda;espalda;;0;1;1;0;First;nontarget;0;0;1.306085;1.0879593;type;['e', 's', 'p', 'a', 'l', 'd', 'a'];1.306085;1.4822349;1.6102109;1.7062112;1.898004;2.1859987;2.3940443;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;135788148
+26;espalda;espalda;;0;1;1;0;First;switch;0;0;0.538784;0.843341;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1404275782
+27;puente;puente;;0;1;1;0;First;filler;0;0;1.176;0.480735;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1451574833
+28;pintor;pinmtor;;0;0;1;1;First;nontarget;0;0;1.2692992;0.9432986;type;['p', 'i', 'n', 'm', 't', 'o', 'r'];1.2692992;1.5087501;1.7168069;1.7342603;1.9571593;2.0686;2.2125978;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1498733848
+29;pintor;pintor;;0;1;1;1;First;repeat;0;0;0.7563113;1.6157648;type;['p', 'i', 'n', 't', 'o', 'r'];0.7563113;0.9957539;1.3000714;1.4920737;1.6200775;2.3720761;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1544502386
+30;fresa;fresa;;0;1;1;0;First;filler;0;0;1.412745;0.47938;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1591245273
+31;caracol;caracol;;0;1;1;0;First;nontarget;0;0;1.1854427;1.0085063;type;['c', 'a', 'r', 'a', 'c', 'o', 'l'];1.1854427;1.2814466;1.4733624;1.5533489;1.7939271;2.0179664;2.193949;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1638127194
+32;caracol;caracol;;0;1;1;0;First;repeat;0;0;1.037181;1.0398341;type;['c', 'a', 'r', 'a', 'c', 'o', 'l'];1.037181;1.1332059;1.3410483;1.4210611;1.6770476;1.9330169;2.0770151;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1684730118
+33;muneca;muneca;;0;1;1;0;First;filler;0;0;1.32;0.592684;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1730778494
+34;mano;mano;;0;1;1;0;First;nontarget;0;0;1.0756309;0.5602119;type;['m', 'a', 'n', 'o'];1.0756309;1.1885769;1.4113324;1.6358428;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1777306696
+35;mano;mano;;0;1;1;0;First;switch;0;0;0.864;0.392986;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1823427412
+36;cuerda;cuerda;;0;1;1;0;First;nontarget;0;0;2.104124;0.48378;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1869684452
+37;cuerda;cuerda;;0;1;1;0;First;switch;0;0;1.0478686;0.8957387;type;['c', 'u', 'e', 'r', 'd', 'a'];1.0478686;1.2557779;1.4155634;1.5755948;1.7675951;1.9436073;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1916147798
+38;traje;traje;;0;1;1;0;First;filler;0;0;1.1048667;0.671135;type;['t', 'r', 'a', 'j', 'e'];1.1048667;1.2800492;1.3280333;1.6799917;1.7760017;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1963099958
+39;granja;granja;;0;1;1;0;First;nontarget;0;0;1.562864;0.8154471;type;['g', 'r', 'a', 'n', 'j', 'a'];1.562864;1.7710517;1.834322;2.138346;2.3303423;2.3783111;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;2009075785
+40;granja;granja;;0;1;1;0;First;switch;0;0;1.025988;0.603652;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;205580928
+41;vaso;vaso;;0;1;1;0;First;filler;0;0;1.0645484;0.3999791;type;['v', 'a', 's', 'o'];1.0645484;1.1285279;1.3044909;1.4645275;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;2102214559
+42;pavo;pavo;;0;1;1;0;First;filler;0;0;1.161;0.391416;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;2148053355
+43;manzana;manzana;;0;1;1;0;First;nontarget;0;0;0.932731;0.725895;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;2194647051
+44;manzana;manzana;;0;1;1;0;First;repeat;0;0;0.834933;0.827289;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;2241189745
+45;cazador;cazador;;0;1;1;0;First;filler;0;0;1.5104561;1.3439817;type;['c', 'a', 'z', 'a', 'd', 'o', 'r'];1.5104561;1.5744495;1.7664493;1.9744507;2.6144581;2.6784421;2.8544378;NA;NA;NA;NA;NA;NA;NA;NA;0;None;2286882687
+46;cerdo;cerdo;;0;1;1;0;First;nontarget;0;0;0.940357;0.695201;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;233349297
+47;cerdo;cerdo;;0;1;1;0;First;repeat;0;0;0.957768;0.667841;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;2380375826
+48;escoba;escob;;0;0;1;1;First;filler;0;0;1.3868176;0.8636872;type;['e', 's', 'c', 'o', 'b'];1.3868176;1.546777;1.7548055;1.9628117;2.2505048;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;2427958392
+49;espalda;espalda;;0;1;1;0;First;filler;0;0;1.237986;0.689087;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;247469318
+50;falda;falda;;0;1;1;0;First;nontarget;0;0;1.770345;0.502834;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;2521157618
+51;falda;falda;;0;1;1;0;First;switch;0;0;0.9036267;0.9920437;type;['f', 'a', 'l', 'd', 'a'];0.9036267;0.9995974;1.4637049;1.6717048;1.8956704;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;256782953
+52;guante;gunate;;0;0;1;1;First;nontarget;0;0;1.4708002;0.7528999;type;['g', 'u', 'n', 'a', 't', 'e'];1.4708002;1.631701;1.8237007;1.9357108;2.1437042;2.2237001;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;2647910223
+53;guante;guante;;0;1;1;1;First;switch;0;0;0.886102;0.572147;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;2694443352
+54;tronco;tronco;;0;1;1;0;First;filler;0;0;1.161;0.554878;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;2741464261
+55;miel;miel;;0;1;1;0;First;nontarget;0;0;1.215023;0.48267;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;2787710493
+56;miel;miel;;0;1;1;0;First;switch;0;0;1.0395256;0.4319736;type;['m', 'i', 'e', 'l'];1.0395256;1.2475101;1.3915008;1.4714992;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;2834949561
+57;pintor;pintor;;0;1;1;0;First;filler;0;0;1.2454453;1.5208048;type;['p', 'i', 'n', 't', 'o', 'r'];1.2454453;1.4534186;2.2702687;2.4942522;2.5912517;2.7662501;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;2881204421
+58;cartero;cartero;;0;1;1;0;First;nontarget;0;0;1.4775428;1.0559002;type;['c', 'a', 'r', 't', 'e', 'r', 'o'];1.4775428;1.6055414;1.7498365;1.9262677;2.1655493;2.4055501;2.533443;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;2927045222
+59;cartero;cartero;;0;1;1;0;First;switch;0;0;0.979764;0.514092;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;297350266
+60;caracol;caracol;;0;1;1;0;First;filler;0;0;1.132497;0.495902;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;3019625309
+61;cuerda;cuerda;;0;1;1;0;First;filler;0;0;1.259886;1.2633287;type;['c', 'u', 'e', 'r', 'd', 'a'];1.259886;1.7392499;1.8992201;2.1232182;2.2999587;2.5232147;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;306650763
+62;aguja;aguja;;0;1;1;0;First;nontarget;0;0;1.715152;0.647746;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;3112900731
+63;aguja;aguja;;0;1;1;0;First;repeat;0;0;0.936;0.736246;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;3158670789
+64;granja;granja;;0;1;1;0;First;filler;0;0;1.4768208;0.8799894;type;['g', 'r', 'a', 'n', 'j', 'a'];1.4768208;1.6688076;1.7328101;2.1168228;2.3248066;2.3568102;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;3205135608
+65;manzana;manzana;;0;1;1;0;First;filler;0;0;0.959196;0.767482;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;3251599343
+66;oreja;oreja;;0;1;1;0;First;nontarget;0;0;1.009;0.51035;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;3297577614
+67;oreja;oreja;;0;1;1;0;First;repeat;0;0;0.750432;0.545568;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;3344251047
+68;tenedor;tenedor;;0;1;1;0;First;filler;0;0;1.2081318;1.1367205;type;['t', 'e', 'n', 'e', 'd', 'o', 'r'];1.2081318;1.3041359;1.5759755;1.656009;1.8799999;2.1995325;2.3448523;NA;NA;NA;NA;NA;NA;NA;NA;0;None;3389743131
+69;goma;goma;;0;1;1;0;First;nontarget;0;0;1.381853;0.462017;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;3435791919
+70;goma;goma;;0;1;1;0;First;switch;0;0;0.8016195;0.3989721;type;['g', 'o', 'm', 'a'];0.8016195;0.9456201;1.1205862;1.2005916;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;3481492197
+71;mano;mano;;0;1;1;0;First;filler;0;0;1.14496;0.42404;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;3528512251
+72;conejo;conejo;;0;1;1;0;First;nontarget;0;0;1.0039236;1.1204024;type;['c', 'o', 'n', 'e', 'j', 'o'];1.0039236;1.243989;1.5013621;1.6287567;1.9002511;2.124326;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;3575461585
+73;conejo;conejo;;0;1;1;0;First;repeat;0;0;0.8396935;0.9762942;type;['c', 'o', 'n', 'e', 'j', 'o'];0.8396935;0.9994571;1.2250071;1.3520219;1.6080181;1.8159877;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;3620944043
+74;cerdo;cerdo;;0;1;1;0;First;filler;0;0;0.949614;0.622266;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;3667836627
+75;falda;falda;;0;1;1;0;First;filler;0;0;1.541329;0.7523048;type;['f', 'a', 'l', 'd', 'a'];1.541329;1.781362;1.8773637;2.101374;2.2936338;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;3714090066
+76;iglesia;iglesia;;0;1;1;0;First;nontarget;0;0;1.1440384;1.2801027;type;['i', 'g', 'l', 'e', 's', 'i', 'a'];1.1440384;1.4802499;1.848225;2.0401685;2.200164;2.2961644;2.4241411;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;3760139277
+77;iglesia;iglesia;;0;1;1;0;First;repeat;0;0;0.958025;1.040029;type;['i', 'g', 'l', 'e', 's', 'i', 'a'];0.958025;1.246017;1.3740123;1.5980439;1.7900487;1.8860163;1.998054;NA;NA;NA;NA;NA;NA;NA;NA;0;None;3805838774
+78;guante;guante;;0;1;1;0;First;filler;0;0;0.84831;0.50741;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;3851391152
+79;vaca;vaca;;0;1;1;0;First;nontarget;0;0;0.9959561;0.352235;type;['v', 'a', 'c', 'a'];0.9959561;1.1249902;1.2519476;1.3481911;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;3898419979
+80;vaca;vaca;;0;1;1;0;First;repeat;0;0;1.0232266;0.3045189;type;['v', 'a', 'c', 'a'];1.0232266;1.1032379;1.2637547;1.3277455;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;3945509432
+81;bano;bano;;0;1;1;0;First;nontarget;0;0;1.1313663;0.784214;type;['b', 'a', 'n', 'o'];1.1313663;1.2113998;1.7236211;1.9155803;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;399162709
+82;bano;bano;;0;1;1;0;First;switch;0;0;1.044197;0.464396;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;4038164334
+83;cartero;cartero;;0;1;1;0;First;filler;0;0;0.794081;0.522827;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;408434715
+84;miel;miel;;0;1;1;0;First;filler;0;0;1.1568778;0.431228;type;['m', 'i', 'e', 'l'];1.1568778;1.3488766;1.4928436;1.5881058;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;4130257449
+85;pierna;pierna;;0;1;1;0;First;nontarget;0;0;1.368;0.424;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;4176581565
+86;pierna;pierna;;0;1;1;0;First;repeat;0;0;1.065;0.472;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;4223601218
+87;taza;taza;;0;1;1;0;First;nontarget;0;0;1.001;0.415263;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;4269788351
+88;taza;taza;;0;1;1;0;First;switch;0;0;1.2529728;0.4470693;type;['t', 'a', 'z', 'a'];1.2529728;1.3809351;1.620985;1.7000421;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;4315697165
+89;aguja;aguja;;0;1;1;0;First;filler;0;0;1.48;0.596999;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;4363412715
+90;oreja;oreja;;0;1;1;0;First;filler;0;0;1.5267112;0.7039974;type;['o', 'r', 'e', 'j', 'a'];1.5267112;1.8466829;2.0066738;2.1507023;2.2307086;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;4409598373
+91;camisa;camisa;;0;1;1;0;First;nontarget;0;0;1.0402456;0.8801125;type;['c', 'a', 'm', 'i', 's', 'a'];1.0402456;1.0882396;1.4878349;1.6636859;1.7605452;1.9203581;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;4456061862
+92;camisa;camisa;;0;1;1;0;First;switch;0;0;0.64;0.598803;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;4502665187
+93;regalo;regalo;;0;1;1;0;First;nontarget;0;0;1.257936;0.683793;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;4548921407
+94;regalo;regalo;;0;1;1;0;First;repeat;0;0;0.829301;0.541254;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;4594682341
+95;columna;column;;0;0;1;1;First;filler;0;0;1.2917243;1.135592;type;['c', 'o', 'l', 'u', 'm', 'n'];1.2917243;1.4996262;1.6914617;1.9311171;2.1873028;2.4273163;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;4641225714
+96;conejo;conejo;;0;1;1;0;First;filler;0;0;1.189307;0.493108;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;4687553062
+97;bombero;bombero;;0;1;1;0;First;nontarget;0;0;1.345458;0.726525;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;4733946739
+98;bombero;bombero;;0;1;1;0;First;switch;0;0;1.2446712;1.2483789;type;['b', 'o', 'm', 'b', 'e', 'r', 'o'];1.2446712;1.4206534;1.6450514;1.9490601;2.1250511;2.3650552;2.4930501;NA;NA;NA;NA;NA;NA;NA;NA;0;None;4780410195
+99;pulpo;pulpo;;0;1;1;0;First;nontarget;0;0;1.4084064;1.0079887;type;['p', 'u', 'l', 'p', 'o'];1.4084064;1.6963981;2.0804673;2.2564053;2.4163951;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;4826457744
+100;pulpo;pulpo;;0;1;1;0;First;repeat;0;0;0.7149045;1.0560215;type;['p', 'u', 'l', 'p', 'o'];0.7149045;0.9869018;1.3388866;1.6269673;1.770926;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;4873547648
+101;iglesia;iglesia;;0;1;1;0;First;filler;0;0;1.172579;0.716231;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;4920012248
+102;goma;gomsa;;1;0;1;1;First;filler;1;0;1.3288019;1.519574;type;['g', 'o', 'm', 's', 'a', 'backspace', 'a'];1.3288019;1.4567977;1.6327918;1.7287622;1.760792;2.5600914;2.8483759;NA;NA;NA;NA;NA;NA;NA;NA;0;None;4966615378
+103;columna;columna;;0;1;1;0;First;filler;0;0;1.2680151;1.3443666;type;['c', 'o', 'l', 'u', 'm', 'n', 'a'];1.2680151;1.6360609;1.8270702;2.051995;2.2759959;2.5153341;2.6123817;NA;NA;NA;NA;NA;NA;NA;NA;0;None;505426616
+104;muneca;muneca;;0;1;1;0;First;nontarget;0;0;0.946749;0.672261;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;5100173754
+105;muneca;muneca;;0;1;1;0;First;repeat;0;0;0.599684;0.622341;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;5146848776
+106;pierna;pierna;;0;1;1;0;First;filler;0;0;1.8244084;0.8160058;type;['p', 'i', 'e', 'r', 'n', 'a'];1.8244084;2.0485662;2.240505;2.4004445;2.5604463;2.6404142;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;5193173777
+107;traje;traje;;0;1;1;0;First;nontarget;0;0;0.998707;0.423814;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;5239151028
+108;traje;traje;;0;1;1;0;First;repeat;0;0;0.889372;0.430937;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;5285060156
+109;tenedor;tenedor;;0;1;1;0;First;filler;0;0;1.3040585;0.9933624;type;['t', 'e', 'n', 'e', 'd', 'o', 'r'];1.3040585;1.4000549;1.5601965;1.6242007;1.8800582;2.1840859;2.2974209;NA;NA;NA;NA;NA;NA;NA;NA;0;None;5331659397
+110;pulpo;pulpo;;0;1;1;0;First;filler;0;0;1.825;0.415089;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;5377849254
+111;cazador;cazador;;0;1;1;0;First;nontarget;0;0;0.968;0.56146;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;5424803938
+112;cazador;cazador;;0;1;1;0;First;switch;0;0;1.0512895;1.1039395;type;['c', 'a', 'z', 'a', 'd', 'o', 'r'];1.0512895;1.1472345;1.323231;1.4992373;1.7552349;1.9632335;2.155229;NA;NA;NA;NA;NA;NA;NA;NA;0;None;5470987938
+113;taza;taza;;0;1;1;0;First;filler;0;0;1.9600495;0.4153472;type;['t', 'a', 'z', 'a'];1.9600495;2.0400439;2.2314326;2.3753967;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;5517104997
+114;fresa;fresa;;0;1;1;0;First;nontarget;0;0;1.1862682;0.623414;type;['f', 'r', 'e', 's', 'a'];1.1862682;1.3616912;1.4586632;1.6336898;1.8096822;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;5563081964
+115;fresa;fresa;;0;1;1;0;First;switch;0;0;0.643412;0.548059;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;5608985892
+116;puente;puente;;0;1;1;0;First;nontarget;0;0;0.929;0.462981;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;5654622038
+117;puente;puente;;0;1;1;0;First;switch;0;0;0.7804521;1.1042131;type;['p', 'u', 'e', 'n', 't', 'e'];0.7804521;1.0684149;1.2608756;1.4367053;1.6606735;1.8846652;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;570185171
+118;bano;bano;;0;1;1;0;First;filler;0;0;1.551654;0.464889;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;5748105486
+119;espalda;espalda;;0;1;1;0;First;nontarget;0;0;1.0928958;1.6001184;type;['e', 's', 'p', 'a', 'l', 'd', 'a'];1.0928958;1.2688304;1.9726795;2.1966461;2.3086395;2.5166416;2.6930142;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;5794570758
+120;espalda;espalda;;0;1;1;0;First;repeat;0;0;0.8798346;1.0239453;type;['e', 's', 'p', 'a', 'l', 'd', 'a'];0.8798346;1.0556825;1.2001258;1.296157;1.4081251;1.7118342;1.9037799;NA;NA;NA;NA;NA;NA;NA;NA;0;None;5840062541
+121;bombero;bombero;;0;1;1;0;First;filler;NA;0;0.975367;0.555128;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;5886944215
+122;pavo;pavo;;0;1;1;0;First;nontarget;NA;0;1.3236389;0.5756109;type;['p', 'a', 'v', 'o'];1.3236389;1.4356456;1.7709288;1.8992498;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;5.93e+16
+123;pavo;pavo;;0;1;1;0;First;repeat;NA;0;1.0076447;0.4640811;type;['p', 'a', 'v', 'o'];1.0076447;1.0236364;1.343734;1.4717258;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;5980219474
+124;vaca;vaca;;0;1;1;0;First;filler;NA;0;1.024;0.411723;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;6026050804
+125;regalo;reg;;1;0;1;1;First;filler;NA;0;1.3073773;1.6160671;type;['r', 'e', 'h', 'backspace', 'g'];1.3073773;1.4360119;1.7073818;2.5553827;2.9234444;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;6072106894
+126;vaso;vaso;;0;1;1;0;First;nontarget;NA;0;0.8732876;0.4320663;type;['v', 'a', 's', 'o'];0.8732876;0.921274;1.1296732;1.3053539;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;6118363416
+127;vaso;vaso;;0;1;1;0;First;switch;NA;0;0.918209;0.466942;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;6164478107
+128;camisa;camisa;;0;1;1;0;First;filler;NA;0;1.1056679;1.0243316;type;['c', 'a', 'm', 'i', 's', 'a'];1.1056679;1.2016707;1.6019951;1.825962;1.9540047;2.1299995;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;6211083983
+129;granja;franja;;0;0;1;1;First;nontarget;NA;0;1.4453456;0.8316632;type;['f', 'r', 'a', 'n', 'j', 'a'];1.4453456;1.636343;1.7323432;2.0524016;2.2286456;2.2770088;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;6257616616
+130;granja;granja;;0;1;1;1;First;repeat;NA;0;0.9574922;0.9449464;type;['g', 'r', 'a', 'n', 'j', 'a'];0.9574922;1.1815364;1.2614767;1.597443;1.7894382;1.9024386;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;6304567932
+131;muneca;muneca;;0;1;1;0;First;filler;NA;0;1.009;0.608;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;6350059778
+132;mano;mano;;0;1;1;0;First;nontarget;NA;0;1.460243;0.4798629;type;['m', 'a', 'n', 'o'];1.460243;1.5713159;1.684198;1.9401059;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;6396662103
+133;mano;mano;;0;1;1;0;First;repeat;NA;0;0.9277142;0.6404061;type;['m', 'a', 'n', 'o'];0.9277142;1.0717167;1.2161818;1.5681203;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;6442779578
+134;pintor;pintor;;0;1;1;0;First;nontarget;NA;0;0.9251625;0.8479919;type;['p', 'i', 'n', 't', 'o', 'r'];0.9251625;1.1811602;1.4051578;1.5811554;1.693219;1.7731544;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;6488411766
+135;pintor;pintor;;0;1;1;0;First;switch;NA;0;0.92;0.51341;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;6535083908
+136;traje;traje;;0;1;1;0;First;filler;NA;0;1.023345;0.487546;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;6581269905
+137;cerdo;cerdo;says /serdo/ instead of /<U+00B8>erdo/ -- does that for all instances where in Castellano it is /<U+00B8>/;0;1;1;0;Second;nontarget;NA;0;0.946148;0.553232;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;662690202
+138;cerdo;cerdo;;0;1;1;0;Second;switch;NA;0;1.1251984;0.7673974;type;['c', 'e', 'r', 'd', 'o'];1.1251984;1.3485938;1.5245598;1.7005593;1.8925958;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;6672809757
+139;caracol;caracol;;0;1;1;0;Second;nontarget;NA;0;1.0956231;0.911992;type;['c', 'a', 'r', 'a', 'c', 'o', 'l'];1.0956231;1.1596115;1.3356129;1.3836496;1.6076138;1.8316512;2.0076151;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;6718860661
+140;caracol;caracol;;0;1;1;0;Second;switch;NA;0;0.825432;0.502288;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;676482357
+141;cazador;cazador;;0;1;1;0;Second;filler;NA;0;1.8091249;1.1362552;type;['c', 'a', 'z', 'a', 'd', 'o', 'r'];1.8091249;2.0491221;2.2255086;2.4497056;2.6733834;2.8173667;2.9453801;NA;NA;NA;NA;NA;NA;NA;NA;0;None;6810605656
+142;fresa;fresa;;0;1;1;0;Second;filler;NA;0;1.0905;0.4455;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;6857069685
+143;pavo;pavo;;0;1;1;0;Second;filler;NA;0;1.0333165;0.7036182;type;['p', 'a', 'v', 'o'];1.0333165;1.1613141;1.6255662;1.7369347;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;6903325686
+144;cuerda;cuerda;;0;1;1;0;Second;nontarget;NA;0;1.536389;0.569442;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;6949304852
+145;cuerda;cuerda;;0;1;1;0;Second;repeat;NA;0;0.910624;0.524691;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;6995907449
+146;puente;puente;;0;1;1;0;Second;filler;NA;0;1.1478582;0.8163357;type;['p', 'u', 'e', 'n', 't', 'e'];1.1478582;1.4522308;1.5802292;1.6602263;1.9161939;1.9641939;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;7041538112
+147;falda;falda;;0;1;1;0;Second;nontarget;NA;0;1.145648;0.472226;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;7087726667
+148;falda;falda;;0;1;1;0;Second;repeat;NA;0;0.739467;0.55352;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;7133495231
+149;espalda;espalda;;0;1;1;0;Second;filler;NA;0;1.0197668;1.04012;type;['e', 's', 'p', 'a', 'l', 'd', 'a'];1.0197668;1.195737;1.4037391;1.515742;1.5957371;1.867922;2.0598868;NA;NA;NA;NA;NA;NA;NA;NA;0;None;7180583825
+150;vaso;vaso;;0;1;1;0;Second;filler;NA;0;0.948607;0.380893;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;7226702705
+151;manzana;manzana;/mansana/;0;1;1;0;Second;nontarget;NA;0;0.833839;0.679534;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;7274071567
+152;manzana;manzana;;0;1;1;0;Second;switch;NA;0;0.8632083;0.9439283;type;['m', 'a', 'n', 'z', 'a', 'n', 'a'];0.8632083;0.9591445;1.1351495;1.4231064;1.6151349;1.7111048;1.8071366;NA;NA;NA;NA;NA;NA;NA;NA;0;None;732038526
+153;escoba;escoba;;0;1;1;0;Second;filler;NA;0;0.733118;0.702;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;7366024932
+154;manzana;manzana;;0;1;1;0;Second;filler;NA;0;1.4095747;0.8157637;type;['m', 'a', 'n', 'z', 'a', 'n', 'a'];1.4095747;1.5055684;1.7133435;1.8733365;2.0493432;2.1133364;2.2253384;NA;NA;NA;NA;NA;NA;NA;NA;0;None;7442286566
+155;goma;goma;;0;1;1;0;Second;nontarget;NA;0;1.1034203;0.3680656;type;['g', 'o', 'm', 'a'];1.1034203;1.1994066;1.391494;1.4714859;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;7489027392
+156;goma;goma;;0;1;1;0;Second;switch;NA;0;1.445993;0.399626;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;7534866984
+157;granja;granja;;0;1;1;0;Second;filler;NA;0;1.130391;0.554369;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;7581470607
+158;aguja;aguja;;0;1;1;0;Second;nontarget;NA;0;0.962529;0.644184;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;7628281394
+159;aguja;aguja;;0;1;1;0;Second;switch;NA;0;0.7716303;1.0719973;type;['a', 'g', 'u', 'j', 'a'];0.7716303;1.2196227;1.5556424;1.7156354;1.8436276;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;7674746587
+160;cadena;cadena;;0;1;1;0;Second;filler;NA;0;1.3184968;0.6557449;type;['c', 'a', 'd', 'e', 'n', 'a'];1.3184968;1.3664815;1.6229218;1.7668146;1.8787954;1.9742417;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;7720794309
+161;iglesia;iglesia;;0;1;1;0;Second;nontarget;NA;0;1.0814822;1.056538;type;['i', 'g', 'l', 'e', 's', 'i', 'a'];1.0814822;1.4974853;1.6094725;1.7694782;1.9454402;2.0580231;2.1380202;NA;NA;NA;NA;NA;NA;NA;NA;0;None;7766841894
+162;iglesia;iglesia;vocal fold vibration 0.09ms before the SOT;0;1;1;0;Second;switch;NA;0;0.86435;0.842336;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;7812541803
+163;pintor;pinmtor;breathing at the beginning of the trial;0;0;1;1;Second;filler;NA;0;1.3976464;0.9438106;type;['p', 'i', 'n', 'm', 't', 'o', 'r'];1.3976464;1.6376255;1.9106035;1.9255772;2.1174723;2.2614567;2.341457;NA;NA;NA;NA;NA;NA;NA;NA;0;None;7858727186
+164;conejo;conejo;tongue ;0;1;1;0;Second;nontarget;NA;0;1.078625;0.44833;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;7904637615
+165;conejo;conejo;/ts/ sound before word production;0;1;1;0;Second;repeat;NA;0;1.024;0.488;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;7950328835
+166;cerdo;cerdo;;0;1;1;0;Second;filler;NA;0;0.866848;0.62504;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;7996664823
+167;caracol;caracol;;0;1;1;0;Second;filler;NA;0;1.3070194;0.9127825;type;['c', 'a', 'r', 'a', 'c', 'o', 'l'];1.3070194;1.4036198;1.5465525;1.6105713;1.8514503;2.0586505;2.2198019;NA;NA;NA;NA;NA;NA;NA;NA;0;None;8042988292
+168;guante;guante;;0;1;1;0;Second;nontarget;NA;0;1.329232;0.491583;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;8089373467
+169;guante;guante;;0;1;1;0;Second;repeat;NA;0;1.00913;0.47749;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;8135154238
+170;cartero;cartero;tongue;0;1;1;0;Second;nontarget;NA;0;1.144;0.562928;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;8182590045
+171;cartero;cartero;;0;1;1;0;Second;switch;NA;0;0.9141953;0.9439841;type;['c', 'a', 'r', 't', 'e', 'r', 'o'];0.9141953;0.994184;1.218229;1.3941887;1.5221874;1.6822078;1.8581794;NA;NA;NA;NA;NA;NA;NA;NA;0;None;8228361125
+172;cuerda;cuerda ;;0;0;1;1;Second;filler;NA;0;1.376683;0.507865;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;8274894222
+173;tronco;tronco;;0;1;1;0;Second;filler;NA;0;1.3063198;1.0402285;type;['t', 'r', 'o', 'n', 'c', 'o'];1.3063198;1.4983003;1.7867179;2.0103427;2.2345826;2.3465483;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;8322191486
+174;oreja;oreja;;0;1;1;0;Second;nontarget;NA;0;1.089023;0.9929204;type;['o', 'r', 'e', 'j', 'a'];1.089023;1.6179565;1.77791;1.9699573;2.0819434;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;8369003015
+175;oreja;oreja;;0;1;1;0;Second;repeat;NA;0;0.8952504;0.6407416;type;['o', 'r', 'e', 'j', 'a'];0.8952504;1.1030168;1.2630531;1.4391387;1.535992;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;8415745276
+176;falda;falda;tongue;0;1;1;0;Second;filler;NA;0;1.315802;0.573213;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;8462140892
+177;miel;miel;;0;1;1;0;Second;nontarget;NA;0;1.3104071;0.4161255;type;['m', 'i', 'e', 'l'];1.3104071;1.5183623;1.6143914;1.7265326;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;8508397793
+178;miel;miel;mic sound - end of file;0;1;1;0;Second;repeat;NA;0;0.8372892;0.3999504;type;['m', 'i', 'e', 'l'];0.8372892;1.0292736;1.1732422;1.2372396;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;855472248
+179;mano;mano;;0;1;1;0;Second;filler;NA;0;0.9464976;0.4638022;type;['m', 'a', 'n', 'o'];0.9464976;1.0425088;1.1864669;1.4102998;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;8601950462
+180;goma;goma;;0;1;1;0;Second;filler;NA;0;0.996102;0.460898;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;8647789478
+181;pierna;pierna;;0;1;1;0;Second;nontarget;NA;0;1.3805174;0.8478307;type;['p', 'i', 'e', 'r', 'n', 'a'];1.3805174;1.605014;1.7487398;1.9243953;2.1483779;2.2283481;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;8694254031
+182;pierna;pierna;;0;1;1;0;Second;repeat;NA;0;0.9121085;0.8963671;type;['p', 'i', 'e', 'r', 'n', 'a'];0.9121085;1.1521069;1.359928;1.5198391;1.679833;1.8084756;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;8740857343
+183;pulpo;pulpo;;0;1;1;0;Second;nontarget;NA;0;1.6351534;0.9764315;type;['p', 'u', 'l', 'p', 'o'];1.6351534;1.8431477;2.0502996;2.4501942;2.6115849;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;8787391379
+184;pulpo;pulpo;;0;1;1;0;Second;switch;NA;0;1.057465;0.431613;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;8833440874
+185;aguja;aguja;;0;1;1;0;Second;filler;NA;0;1.4578645;0.719971;type;['a', 'g', 'u', 'j', 'a'];1.4578645;1.8260464;1.9700745;2.1300729;2.1778355;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;8879555497
+186;taza;taza;;0;1;1;0;Second;nontarget;NA;0;1.605845;0.437586;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;8926785522
+187;taza;taza;/tasa/ here /ta<U+00B8>a/ previous trial;0;1;1;0;Second;repeat;NA;0;0.807241;0.443855;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;8972832648
+188;bano;bano;;0;1;1;0;Second;nontarget;NA;0;0.853637;0.450363;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;901881032
+189;bano;bano;;0;1;1;0;Second;switch;NA;0;0.9223057;0.8471972;type;['b', 'a', 'n', 'o'];0.9223057;1.0336364;1.5775834;1.7695029;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;906603857
+190;iglesia;iglesia;;0;1;1;0;Second;filler;NA;0;1.082439;0.716311;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;9113475142
+191;bombero;bombero;;0;1;1;0;Second;nontarget;NA;0;1.2946842;1.2955743;type;['b', 'o', 'm', 'b', 'e', 'r', 'o'];1.2946842;1.4866748;1.6942677;2.0942948;2.2382962;2.4302952;2.5902585;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;9159595298
+192;bombero;bombero;;0;1;1;0;Second;switch;NA;0;0.792906;0.588071;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;9205851551
+193;guante;guante;;1;0;1;1;Second;filler;NA;0;1.0579513;1.8241355;type;['g', 'i', 'backspace', 'u', 'a', 'n', 't', 'e'];1.0579513;1.2339434;2.1780953;2.4500904;2.6252339;2.6420899;2.8500861;2.8820868;NA;NA;NA;NA;NA;NA;NA;0;None;9252520863
+194;conejo;conejo;;0;1;1;0;Second;filler;NA;0;1.140433;0.455559;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;9298083352
+195;vaca;vaca;;0;1;1;0;Second;nontarget;NA;0;0.816557;0.502964;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;9346005645
+196;vaca;vaca;;0;1;1;0;Second;repeat;NA;0;0.660202;0.465511;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;9393027367
+197;cartero;cartero;;0;1;1;0;Second;filler;NA;0;1.1753861;1.007865;type;['c', 'a', 'r', 't', 'e', 'r', 'o'];1.1753861;1.2233794;1.4796517;1.6550547;1.7517576;1.9430036;2.1832511;NA;NA;NA;NA;NA;NA;NA;NA;0;None;943886495
+198;oreja;oreja;tongue;0;1;1;0;Second;filler;NA;0;1.097;0.548483;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;9485121705
+199;regalo;regalo;tongue;0;1;1;0;Second;nontarget;NA;0;1.0144;0.599812;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;9530822076
+200;regalo;regalo;;0;1;1;0;Second;switch;NA;0;0.6184173;0.8795635;type;['r', 'e', 'g', 'a', 'l', 'o'];0.6184173;0.7780013;1.0019929;1.1299905;1.321983;1.4979808;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;9577078643
+201;camisa;camisa;;0;1;1;0;Second;nontarget;NA;0;1.1178083;0.8162613;type;['c', 'a', 'm', 'i', 's', 'a'];1.1178083;1.2142208;1.5024766;1.7100102;1.7740109;1.9340696;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;9623116296
+202;camisa;camisa;;0;1;1;0;Second;repeat;NA;0;0.8560001;0.8158578;type;['c', 'a', 'm', 'i', 's', 'a'];0.8560001;0.9199979;1.2400056;1.4319954;1.5278866;1.6718579;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;9670216139
+203;espejo;espejo;tongue;0;1;1;0;Second;filler;NA;0;1.140265;0.602448;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;9717305358
+204;miel;miel;;0;1;1;0;Second;filler;NA;0;1.5493737;0.3688361;type;['m', 'i', 'e', 'l'];1.5493737;1.7102068;1.8372009;1.9182098;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;976328285
+205;tronco;tronco;;0;1;1;0;Second;filler;NA;0;0.985;0.49315;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;9846769427
+206;espejo;espeko;;0;0;1;1;Second;filler;NA;0;0.9276813;1.1199864;type;['e', 's', 'p', 'e', 'k', 'o'];0.9276813;1.1197827;1.312449;1.4404401;1.7444695;2.0476677;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;9892536015
+207;regalo;regalo;;0;1;1;0;Second;filler;NA;0;0.872;0.544;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;9938157271
+208;vaso;vaso;;0;1;1;0;Second;nontarget;NA;0;0.903175;0.504096;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;9983937242
+209;vaso;vaso;;0;1;1;0;Second;repeat;NA;0;0.687223;0.47049;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1003019196
+210;taza;taza;;0;1;1;0;Second;filler;NA;0;1.6824965;0.3998978;type;['t', 'a', 'z', 'a'];1.6824965;1.7465454;1.938392;2.0823943;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1007651059
+211;cazador;cazador;tongue;0;1;1;0;Second;nontarget;NA;0;1.129;0.571442;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1012270462
+212;cazador;cazador;tongue;0;1;1;0;Second;repeat;NA;0;0.68;0.580807;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1016882198
+213;bano;bal;;1;0;1;1;Second;filler;NA;0;1.1532547;1.7760373;type;['b', 'a', 'l', 'n', 'o', 'backspace', 'backspace'];1.1532547;1.2172537;1.5694351;2.049436;2.2734282;2.7212561;2.929292;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1021556595
+214;espalda;espalda;;0;1;1;0;Second;nontarget;NA;0;0.962518;0.613732;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1026126456
+215;espalda;espalda;;1;0;1;1;Second;switch;NA;0;1.0388103;1.8880374;type;['e', 's', 'p', 'a', 'l', 'a', 'backspace', 'd', 'a'];1.0388103;1.231663;1.4234931;1.5994764;1.6954925;1.8554802;2.5754454;2.7515324;2.9268477;NA;NA;NA;NA;NA;NA;0;None;1030710472
+216;camisa;camisa;;0;1;1;0;Second;filler;NA;0;0.8615452;0.8153119;type;['c', 'a', 'm', 'i', 's', 'a'];0.8615452;1.0695494;1.2135266;1.4206079;1.4845904;1.6768571;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1035384576
+217;puente;puente;;0;1;1;0;Second;nontarget;NA;0;1.255764;1.3597703;type;['p', 'u', 'e', 'n', 't', 'e'];1.255764;1.543476;1.7034728;1.7676207;2.5515323;2.6155343;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1040142106
+218;puente;puente;;0;1;1;0;Second;switch;NA;0;0.832;0.479444;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1044795614
+219;muneca;muneca;;0;1;1;0;Second;nontarget;NA;0;0.739614;0.636032;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1049435223
+220;muneca;muneca;;0;1;1;0;Second;switch;NA;0;1.1624251;1.0573436;type;['m', 'u', 'n', 'e', 'c', 'a'];1.1624251;1.4024905;1.7872365;1.9141983;2.1547689;2.2197687;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1054123194
+221;vaca;vaca;;0;1;1;0;Second;filler;NA;0;0.928984;0.47232;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1058762655
+222;pulpo;pulpo;;0;1;1;0;Second;filler;NA;0;1.176;0.447109;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1063450724
+223;fresa;fresa;;0;1;1;0;Second;nontarget;NA;0;1.1380256;0.6879396;type;['f', 'r', 'e', 's', 'a'];1.1380256;1.3139878;1.473863;1.6498973;1.8259652;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1068083271
+224;fresa;f;;1;0;1;1;Second;repeat;NA;0;0.8314638;1.663965;type;['f', 'r', 'e', 'e', 'backspace', 'backspace'];0.8314638;1.0234592;1.0244615;1.2794646;2.3514433;2.4954288;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;107264638
+225;pierna;pierna;;0;1;1;0;Second;filler;NA;0;1.341214;0.476763;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1077264193
+226;bombero;bombero;;0;1;1;0;Second;filler;NA;0;0.740568;0.689554;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1081890771
+227;traje;traje;;0;1;1;0;Second;nontarget;NA;0;1.2324877;0.6710969;type;['t', 'r', 'a', 'j', 'e'];1.2324877;1.3755718;1.4396557;1.8075365;1.9035846;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1086613641
+228;traje;treje;;0;0;1;1;Second;repeat;NA;0;0.9662869;0.7528215;type;['t', 'r', 'e', 'j', 'e'];0.9662869;1.1266285;1.1426666;1.5911206;1.7191084;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1091294823
+229;pavo;pavo;;0;1;1;0;Second;nontarget;NA;0;0.9360608;0.7520276;type;['p', 'a', 'v', 'o'];0.9360608;1.1280901;1.4960882;1.6880884;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1095885691
+230;pavo;pavo;breath after word production;0;1;1;0;Second;switch;NA;0;1.064;0.344516;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1100629183
+231;vaso;vaso;;0;1;1;0;Second;filler;NA;0;0.978618;0.508274;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1105213252
+232;traje;traje;spoke first, typed then;0;1;0;0;Second;filler;NA;0;1.4285946;0.7520561;type;['t', 'r', 'a', 'j', 'e'];1.4285946;1.588578;1.700575;2.0366324;2.1806507;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1110033209
+233;cerdo;cerdo;;0;1;1;0;Second;nontarget;NA;0;1.0633322;0.8799689;type;['c', 'e', 'r', 'd', 'o'];1.0633322;1.2713397;1.4793414;1.6712981;1.9433011;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1114638006
+234;cerdo;cerdo;;0;1;1;0;Second;repeat;NA;0;0.7520111;0.7378322;type;['c', 'e', 'r', 'd', 'o'];0.7520111;0.9938345;1.16878;1.3439904;1.4898433;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1119333151
+235;cazador;cazador;;0;1;1;0;Second;filler;NA;0;1.163445;0.508274;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1124049201
+236;manzana;manzana;;0;1;1;0;Second;nontarget;NA;0;1.3223619;1.0876501;type;['m', 'a', 'n', 'z', 'a', 'n', 'a'];1.3223619;1.4663462;1.6735377;1.9296168;2.1379627;2.2339598;2.410012;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1128667551
+237;manzana;manzana;;0;1;1;0;Second;repeat;NA;0;0.7587221;0.9607817;type;['m', 'a', 'n', 'z', 'a', 'n', 'a'];0.7587221;0.8395938;0.9835615;1.3195177;1.5274844;1.5915316;1.7195038;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1133390406
+238;cuerda;cuerda;;0;1;1;0;Second;nontarget;NA;0;0.9555691;0.8640678;type;['c', 'u', 'e', 'r', 'd', 'a'];0.9555691;1.1635046;1.2755123;1.4673673;1.6276507;1.8196369;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;113815399
+239;cuerda;cuerda;;0;1;1;0;Second;switch;NA;0;0.868371;0.485795;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1142752842
+240;espalda;espalda;;0;1;1;0;Second;filler;NA;0;1.291078;0.686135;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1147440834
+241;granja;granja;;0;1;1;0;Second;nontarget;NA;0;1.145;0.561686;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1152108172
+242;granja;granja;;1;0;1;1;Second;switch;NA;0;1.1230571;1.5203941;type;['f', 'backspace', 'g', 'r', 'a', 'n', 'j', 'a'];1.1230571;1.8272331;1.9872251;2.1784925;2.3708214;2.4671894;2.6265154;2.6434512;NA;NA;NA;NA;NA;NA;NA;0;None;1156754569
+243;muneca;muneca;;0;1;1;0;Second;filler;NA;0;0.9239739;1.50346;type;['m', 'u', 'n', 'e', 'c', 'a'];0.9239739;1.1959976;1.8035263;1.9794062;2.203446;2.4274339;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1161449789
+244;falda;falda;;0;1;1;0;Second;nontarget;NA;0;1.2974947;0.7995412;type;['f', 'a', 'l', 'd', 'a'];1.2974947;1.3775235;1.7291636;1.8892254;2.0970359;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1166068335
+245;falda;falda;;0;1;1;0;Second;switch;NA;0;0.940516;0.588734;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1170714793
+246;caracol;caracol;;0;1;1;0;Second;nontarget;NA;0;1.057;0.534794;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1175430595
+247;caracol;caracol;;0;1;1;0;Second;repeat;NA;0;0.993417;0.563791;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1180042385
+248;fresa;fresa;;0;1;1;0;Second;filler;NA;0;1.1241;0.7357927;type;['f', 'r', 'e', 's', 'a'];1.1241;1.3001563;1.4918984;1.6839202;1.8598927;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1184737404
+249;pintor;pintor;breath before production;0;1;1;0;Second;nontarget;NA;0;1.158024;0.445285;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1189397694
+250;pintor;pintor;;0;1;1;0;Second;repeat;NA;0;0.870813;0.441862;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1194030262
+251;puente;puente;;0;1;1;0;Second;filler;NA;0;1.032711;0.7515658;type;['p', 'u', 'e', 'n', 't', 'e'];1.032711;1.3045006;1.4804948;1.5124968;1.7523139;1.7842768;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1198621191
+252;pavo;pavo;;0;1;1;0;Second;filler;NA;0;1.096;0.342699;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1203260808
+253;mano;mano;;0;1;1;0;Second;nontarget;NA;0;0.872058;0.441862;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1207941815
+254;mano;mano;;0;1;1;0;Second;switch;NA;0;1.0437518;1.1839583;type;['m', 'a', 'n', 'o'];1.0437518;1.0917488;2.0356901;2.2277101;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;121249812
+255;cerdo;cerdo;;0;1;1;0;Second;filler;NA;0;0.9683837;0.6724424;type;['c', 'e', 'r', 'd', 'o'];0.9683837;1.2101594;1.4004482;1.5444309;1.6408261;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1217116651
+256;aguja;aguja;;0;1;1;0;Second;nontarget;NA;0;1.1870119;0.8637948;type;['a', 'g', 'u', 'j', 'a'];1.1870119;1.6351068;1.7951038;1.9707969;2.0508067;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1227666603
+257;aguja;aguja;;0;1;1;0;Second;switch;NA;0;0.776;0.592;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1232208836
+258;manzana;manzana;chair sound?;0;1;1;0;Second;filler;NA;0;0.724813;0.588187;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1236862402
+259;conejo;conejo;;0;1;1;0;Second;nontarget;NA;0;0.849;0.494411;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1241501787
+260;conejo;conejo;;0;1;1;0;Second;switch;NA;0;1.2287085;0.8160345;type;['c', 'o', 'n', 'e', 'j', 'o'];1.2287085;1.4047046;1.6286998;1.7407044;1.8367055;2.044743;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1246120461
+261;miel;miel;;0;1;1;0;Second;nontarget;NA;0;0.9194645;0.3684839;type;['m', 'i', 'e', 'l'];0.9194645;1.1114208;1.2070141;1.2879484;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1250765938
+262;miel;miel;;0;1;1;0;Second;switch;NA;0;1.367316;0.34936;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1255420287
+263;falda;falda;;0;1;1;0;Second;filler;NA;0;1.2500841;0.7044718;type;['f', 'a', 'l', 'd', 'a'];1.2500841;1.3460357;1.5865766;1.7465197;1.9545559;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1260067102
+264;goma;goma;tongue;0;1;1;0;Second;nontarget;NA;0;1.062156;0.374284;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1264656771
+265;goma;goma;/ngoma/;0;1;1;0;Second;repeat;NA;0;0.62001;0.527123;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1269310931
+266;caracol;caracol;;0;1;1;0;Second;filler;NA;0;1.1309167;0.9444037;type;['c', 'a', 'r', 'a', 'c', 'o', 'l'];1.1309167;1.2109199;1.3872502;1.4352497;1.6432515;1.8992495;2.0753204;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1273978183
+267;iglesia;iglesia;;0;1;1;0;Second;nontarget;NA;0;1.715428;0.664086;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1278583202
+268;iglesia;iglesia;;0;1;1;0;Second;repeat;NA;0;0.820479;0.755648;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;128320102
+269;oreja;oreja;;0;1;1;0;Second;nontarget;NA;0;1.239623;0.633157;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1287875843
+270;oreja;oreja;;0;1;1;0;Second;switch;NA;0;0.8800232;0.5760496;type;['o', 'r', 'e', 'j', 'a'];0.8800232;1.055582;1.2315802;1.3600605;1.4560728;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;129250148
+271;cuerda;cu;;0;0;1;1;Second;filler;1;0;1.554144;0.434394;speak;['c', 'u'];0.9048749;1.1447909;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1297036608
+272;granja;granja;;0;1;1;0;Second;filler;NA;0;1.1227874;0.9123555;type;['g', 'r', 'a', 'n', 'j', 'a'];1.1227874;1.3147952;1.3627928;1.7787974;1.9701452;2.0351429;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1301634811
+273;cartero;cartero;;0;1;1;0;Third;nontarget;NA;0;0.9609733;1.1999271;type;['c', 'a', 'r', 't', 'e', 'r', 'o'];0.9609733;1.0423609;1.3136713;1.6328361;1.8247841;2.0008229;2.1609004;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1306260191
+274;cartero;cartero;;0;1;1;0;Third;repeat;NA;0;1.0365243;1.0087134;type;['c', 'a', 'r', 't', 'e', 'r', 'o'];1.0365243;1.0850723;1.372906;1.6292319;1.8051912;1.9812835;2.0452377;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1310920527
+275;mano;mano;;0;1;1;0;Third;filler;NA;0;0.913166;0.422652;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1315546122
+276;guante;guanyte;;0;0;1;1;Third;nontarget;NA;0;1.2285855;0.6079021;type;['g', 'u', 'a', 'n', 'y', 't', 'e'];1.2285855;1.3885913;1.5166014;1.5806104;1.7726152;1.7886209;1.8364876;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1320137026
+277;guante;guante;;0;1;1;1;Third;repeat;NA;0;0.8596763;1.4405361;type;['g', 'u', 'a', 'n', 't', 'e'];0.8596763;1.3555285;1.8995284;2.0115338;2.2515204;2.3002124;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1324761835
+278;pintor;pintor;;0;1;1;0;Third;filler;NA;0;0.929;0.546652;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1329409033
+279;taza;taza;[/ta:<e8>/ type], spoke first, typed then;0;1;0;0;Third;nontarget;NA;0;1.8322316;0.4638787;type;['t', 'a', 'z', 'a'];1.8322316;1.9282274;2.1365544;2.2961103;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1333965175
+280;taza;taza;;0;1;1;0;Third;repeat;NA;0;1.0373554;0.783914;type;['t', 'a', 'z', 'a'];1.0373554;1.0853528;1.6452399;1.8212694;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1338584012
+281;aguja;aguja;;0;1;1;0;Third;filler;NA;0;1.00026;0.68582;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1343202795
+282;regalo;regalo;;0;1;1;0;Third;nontarget;NA;0;1.1833301;1.0233565;type;['r', 'e', 'g', 'a', 'l', 'o'];1.1833301;1.3273252;1.6149026;1.7438836;2.0312409;2.2066866;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1347814277
+283;regalo;regalo;tongue, breath after;0;1;1;0;Third;switch;NA;0;0.77676;0.655636;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;135250932
+284;bano;bano;tongue;0;1;1;0;Third;nontarget;NA;0;0.859117;0.478628;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1357107084
+285;bano;bano;tongue;0;1;1;0;Third;repeat;NA;0;0.707425;0.451819;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1361885612
+286;conejo;conejo;sigh;1;0;1;1;Third;filler;NA;0;0.9530956;2.0000349;type;['c', 'o', 'n', 'e', 'j', 'k', 'backspace', 'o'];0.9530956;1.1453454;1.4173622;1.5773662;1.753337;1.769383;2.7457889;2.9531305;NA;NA;NA;NA;NA;NA;NA;0;None;1366587736
+287;miel;miel;;0;1;1;0;Third;filler;NA;0;1.144;0.446001;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1371226072
+288;camisa;camisa;;0;1;1;0;Third;nontarget;NA;0;1.081;0.544512;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1375901269
+289;camisa;camisa;;0;1;1;0;Third;switch;NA;0;0.7166722;0.7359933;type;['c', 'a', 'm', 'i', 's', 'a'];0.7166722;0.9406744;1.0366637;1.2286321;1.2926636;1.4526655;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1380568674
+290;vaca;vaca;;0;1;1;0;Third;nontarget;NA;0;1.0171654;0.2559749;type;['v', 'a', 'c', 'a'];1.0171654;1.06517;1.2411474;1.2731403;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1385180272
+291;vaca;vaca;;0;1;1;0;Third;switch;NA;0;0.77963;0.489376;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1389903242
+292;goma;goma;;0;1;1;0;Third;filler;NA;0;0.9827406;0.4639901;type;['g', 'o', 'm', 'a'];0.9827406;1.1267306;1.3187003;1.4467307;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1394542712
+293;pulpo;pulpo;;0;1;1;0;Third;nontarget;NA;0;1.056;0.463293;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1399175273
+294;pulpo;pulpo;;0;1;1;0;Third;repeat;NA;0;0.849;0.488;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1403814612
+295;iglesia;iglesia;;0;1;1;0;Third;filler;NA;0;1.0862;0.9927211;type;['i', 'g', 'l', 'e', 's', 'i', 'a'];1.0862;1.3598184;1.4862259;1.6141765;1.8059728;1.9669259;2.0789211;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1408502757
+296;guante;guante ;;0;0;1;1;Third;filler;NA;0;0.942966;0.532259;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1413092811
+297;pierna;pierna;;0;1;1;0;Third;nontarget;NA;0;0.915622;0.487915;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;141768475
+298;pierna;pierna;;0;1;1;0;Third;switch;NA;0;1.1305629;1.3924792;type;['p', 'i', 'e', 'r', 'n', 'a'];1.1305629;2.0429971;2.1239408;2.2829759;2.3950005;2.5230421;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1422282333
+299;tenedor;tenedor;;0;1;1;0;Third;filler;NA;0;1.242177;0.506171;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1426824594
+300;oreja;oreja;;0;1;1;0;Third;filler;NA;0;1.0129275;0.608333;type;['o', 'r', 'e', 'j', 'a'];1.0129275;1.2220511;1.3968004;1.5247917;1.6212605;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1431408485
+301;columna;columna;tongue;0;1;1;0;Third;filler;NA;0;1.192;0.596144;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;143604124
+302;cartero;cartero;;0;1;1;0;Third;filler;NA;0;0.9890569;0.9439983;type;['c', 'a', 'r', 't', 'e', 'r', 'o'];0.9890569;1.0690184;1.2610211;1.4530206;1.5330254;1.6930187;1.9330552;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1440631894
+303;bombero;bombero;;0;1;1;0;Third;nontarget;NA;0;1.0890496;1.0077792;type;['b', 'o', 'm', 'b', 'e', 'r', 'o'];1.0890496;1.1690779;1.4090784;1.7133065;1.8412468;2.0328297;2.0968288;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;144518803
+304;bombero;bombero;;0;1;1;0;Third;repeat;NA;0;1.2846007;1.215325;type;['b', 'o', 'm', 'b', 'e', 'r', 'o'];1.2846007;1.4125941;1.6198235;2.1159353;2.1959658;2.3719267;2.4999257;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1449792991
+305;cadena;cadena;;0;1;1;0;Third;filler;NA;0;1.091122;0.51032;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1454432294
+306;escoba;escoba;;0;1;1;0;Third;filler;NA;0;0.9273827;0.9766316;type;['e', 's', 'c', 'o', 'b', 'a'];0.9273827;1.1032897;1.3111469;1.4551831;1.7280448;1.9040143;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1458981655
+307;pierna;pierna;;0;1;1;0;Third;filler;NA;0;1.1729796;0.9762631;type;['p', 'i', 'e', 'r', 'n', 'a'];1.1729796;1.5086381;1.6524758;1.8124835;1.9885137;2.1492427;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1471344428
+308;taza;taza;;0;1;1;0;Third;filler;NA;0;1.081;0.412136;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1476018679
+309;pavo;pavo;;0;1;1;0;Third;nontarget;NA;0;1.105;0.347238;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1480706854
+310;pavo;pavo;;0;1;1;0;Third;repeat;NA;0;0.649;0.365055;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1485318569
+311;vaca;vaca;;0;1;1;0;Third;filler;NA;0;1.3431301;0.2871965;type;['v', 'a', 'c', 'a'];1.3431301;1.4230928;1.5504157;1.6303266;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1490006452
+312;espalda;espalda;;0;1;1;0;Third;nontarget;NA;0;0.749828;0.723412;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1494583501
+313;espalda;espalda;;0;1;1;0;Third;repeat;NA;0;0.603499;0.808463;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1499236824
+314;pulpo;pulpo;;0;1;1;0;Third;filler;NA;0;1.2401722;0.943993;type;['p', 'u', 'l', 'p', 'o'];1.2401722;1.4961715;1.8161786;2.0241559;2.1841652;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1503869298
+315;vaso;vaso;;0;1;1;0;Third;nontarget;NA;0;0.928;0.470558;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1508515762
+316;vaso;vaso;;0;1;1;0;Third;switch;NA;0;1.1429739;0.3842862;type;['v', 'a', 's', 'o'];1.1429739;1.2230002;1.3832924;1.5272601;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1513085805
+317;regalo;regalo;;0;1;1;0;Third;filler;NA;0;1.03562;0.9918617;type;['r', 'e', 'g', 'a', 'l', 'o'];1.03562;1.2112734;1.4995494;1.7554786;1.867486;2.0274817;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1517689677
+318;traje;treje;;0;0;1;1;Third;nontarget;NA;0;0.9507458;0.8155455;type;['t', 'r', 'e', 'j', 'e'];0.9507458;1.1419158;1.3024651;1.5104031;1.7662913;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1522350888
+319;traje;traje;;0;1;1;1;Third;switch;NA;0;0.83846;0.464258;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1526969578
+320;fresa;fresa;;0;1;1;0;Third;nontarget;NA;0;0.719724;0.657276;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1531539707
+321;fresa;fresa;;0;1;1;0;Third;switch;NA;0;0.725954;0.7845006;type;['f', 'r', 'e', 's', 'a'];0.725954;0.9179544;1.1099455;1.3344576;1.5104546;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1536206846
+322;bombero;bombero;;0;1;1;0;Third;filler;NA;0;1.086811;1.8403693;type;['b', 'o', 'm', 'b', 'e', 'r', 'o'];1.086811;1.2788027;1.5663568;2.4625645;2.5748175;2.7668378;2.9271803;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1540838552
+323;camisa;camisa;;0;1;1;0;Third;filler;NA;0;0.81667;0.515298;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1545513812
+324;muneca;muneca;;0;1;1;0;Third;nontarget;NA;0;0.9566846;1.1680604;type;['m', 'u', 'n', 'e', 'c', 'a'];0.9566846;1.1960488;1.6447593;1.7887612;2.0767302;2.124745;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1550104689
+325;muneca;muneca;;0;1;1;0;Third;repeat;NA;0;1.1758935;1.3601495;type;['m', 'u', 'n', 'e', 'c', 'a'];1.1758935;1.4158825;1.8158534;1.9927511;2.295802;2.536043;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1554813447
+326;bano;bano;;0;1;1;0;Third;filler;NA;0;0.857;0.536854;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1559432163
+327;puente;puente;;0;1;1;0;Third;nontarget;NA;0;1.2470628;0.7844544;type;['p', 'u', 'e', 'n', 't', 'e'];1.2470628;1.5670618;1.6950123;1.7590462;1.9993601;2.0315172;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1564134116
+328;puente;puente;;0;1;1;0;Third;repeat;NA;0;0.9326355;0.8318598;type;['p', 'u', 'e', 'n', 't', 'e'];0.9326355;1.1885456;1.3645025;1.4284985;1.6845253;1.7644953;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;156870433
+329;cazador;cazadoirt;;0;0;1;1;Third;nontarget;NA;0;1.3611672;1.359919;type;['c', 'a', 'z', 'a', 'd', 'o', 'i', 'r', 't'];1.3611672;1.6811559;1.9051517;2.0816372;2.2730958;2.4810899;2.4970866;2.7050851;2.7210862;NA;NA;NA;NA;NA;NA;1;repeat;1573315942
+330;cazador;cazador;;0;1;1;1;Third;switch;NA;0;0.872;0.531537;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1.58e+16
+331;pavo;pavo;;0;1;1;0;Third;filler;NA;0;1.3172491;0.5440687;type;['p', 'a', 'v', 'o'];1.3172491;1.3652528;1.7172537;1.8613178;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1582560306
+332;falda;falda;;0;1;1;0;Third;nontarget;NA;0;1.0249937;0.9599963;type;['f', 'a', 'l', 'd', 'a'];1.0249937;1.1049925;1.568983;1.7769969;1.98499;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1587108473
+333;falda;falda;;0;1;1;0;Third;repeat;NA;0;1.0792398;1.0394335;type;['f', 'a', 'l', 'd', 'a'];1.0792398;1.1752173;1.7192177;1.9112308;2.1186733;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1591741952
+334;puente;puente;;0;1;1;0;Third;filler;NA;0;1.600091;0.399825;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1596422122
+335;cuerda;cuerda;;0;1;1;0;Third;nontarget;NA;0;1.1376412;0.8476981;type;['c', 'u', 'e', 'r', 'd', 'a'];1.1376412;1.3296248;1.4416204;1.6336211;1.7933472;1.9853393;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1601027822
+336;cuerda;cuerda;;0;1;1;0;Third;repeat;NA;0;0.8300908;0.8320432;type;['c', 'u', 'e', 'r', 'd', 'a'];0.8300908;1.0382198;1.1502152;1.326212;1.4860828;1.662134;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1605591012
+337;espalda;espalda;;0;1;1;0;Third;filler;NA;0;0.9659854;0.9595819;type;['e', 's', 'p', 'a', 'l', 'd', 'a'];0.9659854;1.1414104;1.2850962;1.4290992;1.493096;1.7335805;1.9255673;NA;NA;NA;NA;NA;NA;NA;NA;0;None;161022353
+338;tenedor;tenedor;;0;1;1;0;Third;filler;NA;0;1.329;0.435798;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1614898055
+339;vaso;vaso;;0;1;1;0;Third;filler;NA;0;1.1839228;0.4162047;type;['v', 'a', 's', 'o'];1.1839228;1.2479479;1.4402593;1.6001275;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1619460924
+340;manzana;manzana;;0;1;1;0;Third;nontarget;NA;0;1.1118824;1.5039226;type;['m', 'a', 'n', 'z', 'a', 'n', 'a'];1.1118824;1.2078486;1.3840277;2.2156312;2.4076625;2.4718132;2.615805;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1624093322
+341;manzana;manzana;;0;1;1;0;Third;switch;NA;0;0.894476;0.594524;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1628733015
+342;traje;traje;;0;1;1;0;Third;filler;NA;0;1.193;0.466768;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1633372339
+343;caracol;caracol;tongue;0;1;1;0;Third;nontarget;NA;0;1.296;0.564025;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1637963193
+344;caracol;caracol;;0;1;1;0;Third;switch;NA;0;0.9481254;1.1034693;type;['c', 'a', 'r', 'a', 'c', 'o', 'l'];0.9481254;1.1880788;1.4280761;1.4761194;1.6678575;1.875631;2.0515947;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1642561203
+345;fresa;fresa;;0;1;1;0;Third;filler;NA;0;1.126843;0.68792;type;['f', 'r', 'e', 's', 'a'];1.126843;1.3348456;1.5108405;1.6712034;1.814763;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1647166192
+346;cerdo;cerdo;;0;1;1;0;Third;nontarget;NA;0;0.8831207;0.7837202;type;['c', 'e', 'r', 'd', 'o'];0.8831207;1.1714571;1.3633384;1.5225172;1.6668409;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1651826116
+347;cerdo;cerdo;;0;1;1;0;Third;switch;NA;0;0.865397;0.607936;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1656423156
+348;mano;mano;;0;1;1;0;Third;nontarget;NA;0;0.994037;0.453963;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1660980117
+349;mano;mano;;0;1;1;0;Third;repeat;NA;0;0.772646;0.371354;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;166560576
+350;muneca;muneca;;0;1;1;0;Third;filler;NA;0;1.7639017;1.0722175;type;['m', 'u', 'n', 'e', 'c', 'a'];1.7639017;1.9878875;2.3399253;2.4999161;2.7560479;2.8361192;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1670272843
+351;granja;granja;;0;1;1;0;Third;nontarget;NA;0;1.248053;0.512957;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1674919431
+352;granja;granja;;0;1;1;0;Third;repeat;NA;0;0.689283;0.572786;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1679495675
+353;tronco;tronco;;0;1;1;0;Third;filler;NA;0;1.1510677;1.072034;type;['t', 'r', 'o', 'n', 'c', 'o'];1.1510677;1.3111178;1.6312767;1.9186987;2.1111097;2.2231017;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1684149901
+354;cazador;cazador;tongue, tech sound after;0;1;1;0;Third;filler;NA;0;1.136;0.634718;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1688858905
+355;pintor;pintor;;0;1;1;0;Third;nontarget;NA;0;0.944;0.4975;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1693526
+356;pintor;pintor;;0;1;1;0;Third;switch;NA;0;1.0430357;0.8480606;type;['p', 'i', 'n', 't', 'o', 'r'];1.0430357;1.2673212;1.4603109;1.6670278;1.779003;1.8910963;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1698082151
+357;columna;columna;;0;1;1;0;Third;filler;NA;0;1.239646;0.574504;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;170270775
+358;oreja;oreja;;0;1;1;0;Third;nontarget;NA;0;0.9840606;0.656183;type;['o', 'r', 'e', 'j', 'a'];0.9840606;1.2239894;1.4002088;1.5283255;1.6402436;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1725933007
+359;oreja;oreja;;0;1;1;0;Third;switch;NA;0;1.13468;0.501988;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1730551791
+360;falda;fal ;item accuracy from the back-up file, included, NR duration;0;0;1;1;Third;filler;NA;0;2.865;0.145;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1735156441
+361;guante;guante;tech sound beginning;0;1;1;0;Third;nontarget;NA;0;0.871073;0.518385;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;173973251
+362;guante;guante;;0;1;1;0;Third;switch;NA;0;0.985968;0.7533684;type;['g', 'u', 'a', 'n', 't', 'e'];0.985968;1.1463253;1.3383833;1.3543674;1.6583944;1.7393364;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1744282659
+363;cuerda;cuerda;typed correctly, then spoke towards the end of the trial;0;1;0;0;Third;filler;NA;0;1.3386892;0.7844624;type;['c', 'u', 'e', 'r', 'd', 'a'];1.3386892;1.5307205;1.6107145;1.8021514;1.9621574;2.1231516;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1748922331
+364;conejo;conejo;tech sound beginning;0;1;1;0;Third;nontarget;NA;0;2.0293317;0.7677487;type;['c', 'o', 'n', 'e', 'j', 'o'];2.0293317;2.157321;2.3494592;2.3654622;2.6050083;2.7970804;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1753575521
+365;conejo;conejo;;0;1;1;0;Third;switch;NA;0;1.4;0.463698;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1758256736
+366;manzana;manzana;;0;1;1;0;Third;filler;NA;0;0.9833842;0.9281113;type;['m', 'a', 'n', 'z', 'a', 'n', 'a'];0.9833842;1.0313802;1.2233853;1.5596056;1.7355558;1.7836137;1.9114955;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1762861474
+367;cartero;cartero;tongue;0;1;1;0;Third;nontarget;NA;0;1.105;0.513019;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1767591612
+368;cartero;cartero;;0;1;1;0;Third;repeat;NA;0;0.864;0.526088;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1.77e+16
+369;caracol;caracol;;0;1;1;0;Third;filler;NA;0;1.748636;0.532724;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;177703693
+370;cerdo;cerdo;;0;1;1;0;Third;filler;NA;0;0.8294546;0.7199597;type;['c', 'e', 'r', 'd', 'o'];0.8294546;1.0374504;1.2296545;1.4056467;1.5494143;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1781815302
+371;miel;miel;;0;1;1;0;Third;nontarget;NA;0;1.312;0.429354;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;178637737
+372;miel;miel;;0;1;1;0;Third;repeat;NA;0;1.17576;0.43224;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1791017963
+373;iglesia;iglesia;;0;1;1;0;Third;nontarget;NA;0;1.002346;0.678654;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1795720085
+374;iglesia;iglesia;;0;1;1;0;Third;switch;NA;0;0.9892952;0.9280303;type;['i', 'g', 'l', 'e', 's', 'i', 'a'];0.9892952;1.2452621;1.373227;1.5180406;1.6930973;1.7893919;1.9173255;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1800359384
+375;granja;granja;;0;1;1;0;Third;filler;NA;0;1.305812;0.515767;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1804943314
+376;mano;mano;;0;1;1;0;Third;filler;NA;0;1.2087798;0.4478187;type;['m', 'a', 'n', 'o'];1.2087798;1.2887896;1.4325976;1.6565985;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1809596433
+377;goma;gomna;;0;0;1;1;Third;nontarget;NA;0;0.9604172;0.3998184;type;['g', 'o', 'm', 'n', 'a'];0.9604172;1.0724262;1.2644066;1.280411;1.3602356;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1814180629
+378;goma;goma;;0;1;1;1;Third;repeat;NA;0;1.0136706;0.8799763;type;['g', 'o', 'm', 'a'];1.0136706;1.1896716;1.4136737;1.8936469;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1818799362
+379;pintor;pintor;;0;1;1;0;Third;filler;NA;0;0.904;0.464016;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1823473706
+380;aguja;aguja;;0;1;1;0;Third;nontarget;NA;0;1.233549;1.1207303;type;['a', 'g', 'u', 'j', 'a'];1.233549;1.601556;2.0015136;2.2100258;2.3542793;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1828099012
+381;aguja;aguja;;0;1;1;0;Third;repeat;NA;0;0.8770213;1.0086218;type;['a', 'g', 'u', 'j', 'a'];0.8770213;1.3410462;1.5816638;1.7736406;1.8856431;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1832759511
+382;guante;guna;;1;0;1;1;Third;filler;NA;0;1.0955874;1.7277712;type;['g', 'u', 'n', 'a', 't', 'e', 'backspace', 'backspace', 'backspace', 'a'];1.0955874;1.271577;1.4475741;1.4635796;1.751559;1.7835573;2.2795632;2.4235627;2.6799026;2.8233586;NA;NA;NA;NA;NA;1;repeat;1837357318
+383;espejo;espejo;;0;1;1;0;Third;filler;NA;0;0.792243;0.617395;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1841989823
+384;goma;goma;;0;1;1;0;Third;filler;NA;0;1.829218;0.443729;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1846678124
+385;regalo;regalo;;0;1;1;0;Third;nontarget;NA;0;1.052627;0.8961178;type;['r', 'e', 'g', 'a', 'l', 'o'];1.052627;1.2123981;1.4363994;1.5803969;1.7567821;1.9487448;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;185135221
+386;regalo;regalo;;0;1;1;0;Third;repeat;NA;0;0.9347809;0.9125165;type;['r', 'e', 'g', 'a', 'l', 'o'];0.9347809;1.0947744;1.3672271;1.5272144;1.6713054;1.8472974;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1855997706
+387;pierna;pierna;;0;1;1;0;Third;nontarget;NA;0;0.9884271;0.8319223;type;['p', 'i', 'e', 'r', 'n', 'a'];0.9884271;1.2447924;1.3718732;1.5643468;1.7403464;1.8203494;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1860728542
+388;pierna;pierna;;0;1;1;0;Third;switch;NA;0;1.056925;0.555436;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1865354408
+389;conejo;coneko;;0;0;1;1;Third;filler;NA;0;1.1699887;1.1205987;type;['c', 'o', 'n', 'e', 'k', 'o'];1.1699887;1.3459827;1.5862291;1.9385891;2.0826574;2.2905874;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1869986555
+390;camisa;camisa;;0;1;1;0;Third;nontarget;NA;0;1.072;0.489403;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1874597364
+391;camisa;camisa;/ts/ sound before word production;0;1;1;0;Third;repeat;NA;0;0.745;0.544;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1879341916
+392;vaca;vaca;;0;1;1;0;Third;nontarget;NA;0;0.960708;0.456292;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1883932822
+393;vaca;vaca;;0;1;1;0;Third;switch;NA;0;1.2261403;0.2559911;type;['v', 'a', 'c', 'a'];1.2261403;1.2901316;1.4181285;1.4821314;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1888634856
+394;cartero;cartero;;0;1;1;0;Third;filler;NA;0;1.112;0.520632;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1893288184
+395;taza;taza;;0;1;1;0;Third;nontarget;NA;0;1.5794895;0.5767034;type;['t', 'a', 'z', 'a'];1.5794895;1.6605802;2.0276025;2.1561929;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1897865211
+396;taza;taza;;0;1;1;0;Third;switch;NA;0;0.904;0.376;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;190242826
+397;cadena;cadena;;0;1;1;0;Third;filler;NA;0;1.1008347;0.6237969;type;['c', 'a', 'd', 'e', 'n', 'a'];1.1008347;1.1968292;1.4366404;1.5646455;1.6606316;1.7246316;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1906984416
+398;miel;miel;;0;1;1;0;Third;filler;NA;0;1.057;0.386839;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1911582306
+399;bombero;bombero;;0;1;1;0;Third;nontarget;NA;0;0.944818;0.654802;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;191627712
+400;bombero;bombero;tongue;0;1;1;0;Third;repeat;NA;0;0.82427;0.573271;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1920889334
+401;iglesia;iglesia;;0;1;1;0;Third;filler;NA;0;1.1210494;1.4869971;type;['i', 'g', 'l', 'e', 's', 'i', 'a'];1.1210494;1.5849518;1.7610196;2.2084018;2.4000489;2.4640501;2.6080465;NA;NA;NA;NA;NA;NA;NA;NA;1;switch;1925556353
+402;oreja;oreja;tongue;0;1;1;0;Third;filler;NA;0;0.816;0.56;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1930216727
+403;pulpo;pulpo;breath before, tech sound after;0;1;1;0;Third;nontarget;NA;0;1.312;0.56;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1934835268
+404;pulpo;pulpo;;0;1;1;0;Third;switch;NA;0;1.1386393;1.0239575;type;['p', 'u', 'l', 'p', 'o'];1.1386393;1.4105959;1.8106101;2.0025973;2.1625968;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1939426299
+405;escoba;escoba;breath before;0;1;1;0;Third;filler;NA;0;1.545994;0.527173;speak;None;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1944051815
+406;aguja;aguja;;0;1;1;0;Third;filler;NA;0;1.3529244;0.8159966;type;['a', 'g', 'u', 'j', 'a'];1.3529244;1.7209174;1.9129169;2.0889168;2.168921;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1948684311
+407;bano;bano;;0;1;1;0;Third;nontarget;NA;0;0.99836;0.7686292;type;['b', 'a', 'n', 'o'];0.99836;1.0783953;1.4793063;1.7669892;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;1;repeat;1953309968
+408;bano;bano;;0;1;1;0;Third;repeat;NA;0;1.214059;0.6708103;type;['b', 'a', 'n', 'o'];1.214059;1.26098;1.6449682;1.8848693;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;0;None;1957880088

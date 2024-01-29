@@ -1,0 +1,49 @@
+---
+title: "Damian et al. (2011)"
+author: "Katerina Tsaroucha"
+date: "2023-10-24"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+```
+
+
+```{r}
+df <- data.frame(Experiment = c("spoken-spoken", "written-written", "spoken-written", "written-spoken"),
+                 Condition= rep(c("control", "repeat"), each = 4),
+                 RT = c(872, 995, 1040, 819, 813, 956, 1008, 783),
+                 Errors = c(3.5, 4.1, 3.3, 3.8, 2.9, 2.6, 4.2, 3.8))
+```
+
+```{r}
+ggplot(df, aes(x = Experiment, y = RT, fill = Condition)) +
+  geom_bar(stat = "identity", width = 0.5, position = "dodge") +
+  scale_fill_brewer(palette = "Set1") + 
+  labs(x = "Experiment", y = "Mean RTs (ms)", title = "Mean RTs per experiment per condition")
+```
+
+```{r}
+normalised <- df %>%
+  filter(Condition == "repeat") %>% 
+  mutate(Difference = c(59, 39, 32, 36)) %>% 
+  mutate(Normalisation = Difference/RT) %>% 
+  mutate(Normalisation_perc = scales::percent(Normalisation))
+```
+
+
+
+```{r}
+ggplot(normalised, aes(x = Condition, y = Normalisation, fill = Experiment)) +
+  geom_bar(stat = "identity", width = 0.5, position = "dodge") +
+  geom_text(aes(label = Normalisation_perc), vjust = 0.5, position = position_dodge(width = 0.5)) +
+  scale_fill_brewer(palette = "Set2") +
+  labs(x ='Modality', y='Proportion difference', title = 'Normalised difference within modality')
+
+#long-term priming -- when switching between two response modalities (speak - study phase, write - probe phase), they are 3.17% slower to write in response to the definition of a word they have already said in the study phase.
+# when switching from write to speak, namely when they have to speak in response to the definition of a word they have already written in the study phase, they are 4.60% slower.
+```
+

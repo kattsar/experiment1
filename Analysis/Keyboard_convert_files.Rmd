@@ -1,0 +1,62 @@
+---
+title: "Keyboard_convert"
+author: "Katerina Tsaroucha"
+date: "2023-11-03"
+output: html_document
+---
+```{r}
+rm(list = ls())
+```
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+df1 <- read.csv("C:\\Users\\Κατερίνα\\Nextcloud\\Keyboard comparison\\pilot000101_analysis.csv", header = TRUE, sep = ";", encoding = "UTF-8") %>% 
+  #rename(Trial_no = X.U.FEFF.Trial_no) %>% 
+  filter(Trial_no >= 103 & Trial_no <= 203,
+         RespModal == "type",
+         Exclude == 0) %>% 
+  select(-c(16)) %>% 
+  group_by(CorrectAns) %>% 
+  mutate(Repetition = row_number()) 
+```
+
+```{r}
+data_long1 <- df1 %>% 
+  pivot_longer(cols = starts_with("key"),
+               names_to = "Keypress",
+               values_to = "RT",
+               names_repair = "unique") %>% 
+  select(-c(4:18)) %>% 
+  rename(RT = RT...21)
+```
+```{r}
+write.table(data_long1, "C:\\Users\\Κατερίνα\\Nextcloud\\Keyboard comparison\\trials_normal.txt", sep = "\t", row.names = FALSE, col.names = TRUE)
+```
+
+```{r}
+df2 <- read.csv("C:\\Users\\Κατερίνα\\Nextcloud\\Keyboard comparison\\301023_analysis.csv", header = TRUE, sep = ";", encoding = "UTF-8") %>% 
+  #rename(Trial_no = X.U.FEFF.Trial_no) %>% 
+  filter(RespModal == "type",
+         Exclude == 0) %>% 
+  select(-c(15)) %>% 
+  group_by(CorrectAns) %>% 
+  mutate(Repetition = row_number())
+```
+
+```{r}
+data_long2 <- df2 %>% 
+  pivot_longer(cols = starts_with("key"),
+               names_to = "Keypress",
+               values_to = "RT",
+               names_repair = "unique") %>% 
+  select(-c(4:19)) %>% 
+  rename(RT = RT...22)
+```
+```{r}
+write.table(data_long2, "C:\\Users\\Κατερίνα\\Nextcloud\\Keyboard comparison\\trials_upgrade.txt", sep = "\t", row.names = FALSE, col.names = TRUE)
+```
+
+

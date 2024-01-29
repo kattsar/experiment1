@@ -1,0 +1,21 @@
+﻿taza: katilu
+puerto: portu/kai (any of them)
+antena: antena
+bandeja: erretilu
+maleta: maleta
+traje: jantzi
+clavo: iltze
+basura: zabor
+tiza: klarion
+piedra: harri
+portero: atezain
+cable: kable
+carpeta: karpeta/paper-zorro (any of them)
+copa: kopa
+mando: aginte
+pulpo: olagarro
+babero: adur-zapi
+vestido: soineko
+baño: komun
+tronco: enbor
+leñador: egurgile

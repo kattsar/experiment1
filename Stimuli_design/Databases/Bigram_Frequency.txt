@@ -1,0 +1,13 @@
+If you want to control bigram frequency in your experiment, it would be more appropriate to control for token bigram frequency rather than type bigram frequency. Here's why:
+
+Token bigram frequency refers to the actual number of occurrences of a specific bigram (a sequence of two words) in a given text or corpus. It considers repeated instances of the same bigram. Controlling for token bigram frequency ensures that you have a balanced distribution of how frequently each specific bigram appears in your experiment. This can help minimize any potential bias or confounding effects of bigram frequency on your results.
+
+Type bigram frequency, on the other hand, counts the number of unique bigrams in a text or corpus. It focuses on the variety of different bigrams rather than their frequency of occurrence. Controlling for type bigram frequency would not provide the same level of control over the actual frequency of each bigram in your experiment.
+
+By controlling for token bigram frequency, you can ensure that the frequency of specific bigrams is evenly distributed across your experimental conditions or stimuli, allowing you to isolate the effects of other variables you may be interested in.
+
+To further explore the topic of bigram frequency and its relevance in linguistic research, you may find the following article helpful:
+
+Manning, C. D., & Schütze, H. (1999). Foundations of Statistical Natural Language Processing. MIT Press.
+
+This article provides a comprehensive overview of statistical approaches to natural language processing, including discussions on bigram frequency and its applications.

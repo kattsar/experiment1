@@ -1,0 +1,326 @@
+﻿word	imageability	
+arpa		
+bolo		
+café		
+caja	6.232	
+cama	7.000	
+caña		
+coco		
+codo	4.285	
+cuna	6.069	
+dado	5.273	
+flor	6.306	
+gato		
+goma	6.164	
+isla	6.150	
+juez	5.963	
+kiwi		
+león	6.763	
+loro	6.109	
+luna	5.749	
+miel	5.401	
+nido	6.330	
+niña	6.316	
+niño	6.390	
+nube	6.618	
+nuez	5.309	
+pala	6.263	
+pato	6.573	
+pera	5.548	
+pila	6.028	
+piña		
+pipa	6.271	
+pozo	6.169	
+raíz	5.801	
+rana	6.267	
+saco	5.767	
+taxi	6.654	
+taza	5.341	
+toro	5.858	
+vaca	6.023	
+vaso	6.613	
+vela	5.781	
+aleta	5.746	
+ancla	5.706	
+araña	6.143	
+árbol	6.292	
+avión	5.810	
+banco	5.711	
+barba	6.055	
+bolsa	5.035	
+bomba	5.792	
+botón	6.526	
+braga		
+brazo	6.086	
+bruja	6.127	
+buzón	6.288	
+cable	5.712	
+cajón	6.392	
+cañón	5.594	
+casco	5.797	
+cebra		
+cerdo	5.804	
+cesta	6.057	
+cisne	6.333	
+coche	6.566	
+diana	5.454	
+ducha	6.565	
+falda	6.591	
+fresa	6.670	
+gafas	5.801	
+gaita		
+globo	6.243	
+grifo	5.807	
+jaula	6.485	
+koala		
+limón		
+llave	5.768	
+melón		
+motor	5.652	
+nariz	6.390	
+oreja	6.451	
+oveja	6.322	
+perro	6.573	
+piano	6.565	
+pinza		
+pizza		
+queso	5.849	
+regla	5.585	
+reina	6.344	
+reloj	6.043	
+robot	6.099	
+silla	6.540	
+tacón	6.103	
+traje	5.943	
+túnel	6.207	
+abrazo	6.209	
+antena	6.578	
+babero		
+bañera	6.692	
+biblia	5.702	
+bigote	6.504	
+billar		
+cactus	6.509	
+cadena	6.443	
+cámara	6.257	
+camisa	6.281	
+cereza		
+cocina	6.059	
+cometa	6.066	
+compás	6.182	
+conejo	6.061	
+corona	5.557	
+delfín		
+dominó		
+escoba	5.849	
+espada	5.876	
+espejo	5.595	
+farola		
+flauta	5.971	
+flecha	6.119	
+fuente	6.524	
+guante	6.328	
+jirafa		
+lengua	6.406	
+maleta	4.870	
+medusa		
+minero	5.561	
+molino	6.098	
+moneda	6.295	
+muleta		
+paella	5.823	
+patata	6.313	
+payaso	6.331	
+percha	6.614	
+pincel	5.860	
+puerta	5.804	
+pulmón	5.441	
+regalo	6.030	
+sirena	5.881	
+sombra	6.045	
+tambor	6.213	
+tanque	5.993	
+tejado	6.137	
+tomate	6.628	
+torero	6.107	
+trébol		
+volcán	6.167	
+zapato	5.636	
+abanico	5.728	
+ardilla	5.873	
+autobús	6.304	
+bandeja	5.597	
+bandera	6.051	
+batería	5.914	
+billete	6.514	
+bombero		
+botella	6.765	
+brújula		
+campana	6.488	
+canguro		
+caracol	6.535	
+cazador	5.512	
+cebolla	6.406	
+cerebro	5.708	
+chaleco	6.495	
+chupete		
+corazón	6.158	
+corbata	6.148	
+cortina	5.639	
+enchufe		
+espalda	6.480	
+estuche	5.774	
+galleta		
+girasol		
+lámpara	6.104	
+lechuga	5.658	
+manzana	6.580	
+mechero	6.552	
+medalla	6.391	
+mochila	5.825	
+nadador		
+naranja	6.051	
+pasillo	6.274	
+piscina	6.540	
+plancha	5.658	
+portero	6.169	
+rodilla	4.634	
+teclado		
+tenedor	6.413	
+tiburón		
+tijeras	6.254	
+tortuga	6.418	
+tractor		
+vestido		
+volante	6.509	
+copa	6.388	
+faro		
+pico	5.944	
+puño	5.000	
+fruta	5.333	
+pluma	5.958	
+escudo	5.117	
+ladrón	5.438	
+plátano		
+jamón	6.125	
+camión	6.548	
+cohete	6.271	
+dragón	5.882	
+puente	5.695	
+pistola	6.011	
+cubo	5.129	
+noria		
+peine	6.241	
+cajero	5.638	
+cuadro	6.656	
+pastor	5.648	
+cartero	5.951	
+ventana	6.518	
+indio	6.594	
+piloto	5.389	
+pirata	6.152	
+trineo		
+erizo		
+bala	5.575	
+balón	6.355	
+bolso	6.309	
+lápiz	5.960	
+anillo	6.611	
+pintor	6.062	
+carpeta	6.469	
+tren	6.528	
+mosca	6.502	
+puerto	6.126	
+tetera		
+fábrica	5.237	
+cuerno	6.054	
+mando	4.462	
+candado	6.222	
+mirilla	5.948	
+baño	6.325	
+muralla	5.317	
+arco	6.163	
+mano	6.717	
+rosa		
+tiza		
+barco	6.293	
+gallo	6.614	
+basura		
+coro	5.334	
+dardo	6.268	
+sello		
+zorro	6.204	
+timbre	6.133	
+peluca		
+iglesia	5.713	
+policía	6.861	
+cabra	6.111	
+corcho		
+bebé	6.800	
+rama	6.114	
+tronco	5.909	
+armario	6.239	
+pizarra	5.976	
+bota	6.749	
+lobo	6.103	
+mesa	6.782	
+vena	5.875	
+libro	6.261	
+ratón	6.213	
+tobillo		
+mimo		
+pavo	4.658	
+foca	5.899	
+frontón	5.791	
+parche	5.929	
+capa		
+timón	5.933	
+leñador		
+jabón	5.648	
+tigre	6.363	
+bastón	6.601	
+pierna	5.868	
+sandía		
+boca	6.223	
+pulpo		
+bosque	6.239	
+cono	5.481	
+gota	6.177	
+aguja	5.930	
+violín	6.398	
+granja	4.993	
+balanza	6.008	
+círculo	5.501	
+embudo		
+cigüeña	6.042	
+sofá	6.076	
+ángel	5.380	
+collar	6.543	
+esponja	6.212	
+pañal		
+jersey	6.212	
+pollo	6.505	
+donuts		
+labios		
+clavo	5.832	
+lluvia	6.331	
+navaja	6.615	
+piedra	6.237	
+aceite	5.632	
+balcón	6.176	
+gatillo	6.276	
+jabalí	5.690	
+búho	6.072	
+nudo	5.231	
+cuerda	6.547	
+pulsera	5.954	
+esquina	6.254	
+ataúd	5.381	
+chorizo	6.335	
+plato		
+ciudad	6.188	
+columna	6.645	
+olla	6.186	
+muñeca		
+planta	5.946	
+gallina	6.718	

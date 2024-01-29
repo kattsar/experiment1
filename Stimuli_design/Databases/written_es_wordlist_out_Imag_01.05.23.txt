@@ -1,0 +1,113 @@
+﻿word	imageability	
+kiwi		
+pizza		
+planta	5.946	
+cámara	6.257	
+tren	6.528	
+melón		
+limón		
+cactus	6.509	
+koala		
+sofá	6.076	
+tomate	6.628	
+bota	6.749	
+piano	6.565	
+tractor		
+pipa	6.271	
+mimo		
+piloto	5.389	
+jirafa		
+cocina	6.059	
+capa		
+pirata	6.152	
+violín	6.398	
+banco	5.711	
+fuente	6.524	
+círculo	5.501	
+volcán	6.167	
+cereza		
+minero	5.561	
+vena	5.875	
+ángel	5.380	
+flor	6.306	
+cebra		
+aleta	5.746	
+labios		
+bebé	6.800	
+plátano		
+nariz	6.390	
+cisne	6.333	
+rosa		
+robot	6.099	
+naranja	6.051	
+vaso	6.613	
+gato		
+vaca	6.023	
+cubo	5.129	
+raíz	5.801	
+tijeras	6.254	
+autobús	6.304	
+cuna	6.069	
+juez	5.963	
+ciudad	6.188	
+tronco	5.909	
+pintor	6.062	
+barba	6.055	
+rama	6.114	
+arpa		
+luna	5.749	
+girasol		
+boca	6.223	
+trébol		
+coro	5.334	
+tambor	6.213	
+iglesia	5.713	
+mano	6.717	
+teclado		
+molino	6.098	
+jersey	6.212	
+camisa	6.281	
+miel	5.401	
+trineo		
+falda	6.591	
+avión	5.810	
+zapato	5.636	
+cerebro	5.708	
+bombero		
+pluma	5.958	
+niño	6.390	
+cama	7.000	
+gaita		
+cartero	5.951	
+cabra	6.111	
+pastor	5.648	
+reina	6.344	
+cuerno	6.054	
+árbol	6.292	
+bruja	6.127	
+sirena	5.881	
+niña	6.316	
+oreja	6.451	
+conejo	6.061	
+cazador	5.512	
+corazón	6.158	
+granja	4.993	
+mesa	6.782	
+camión	6.548	
+ladrón	5.438	
+ratón	6.213	
+casco	5.797	
+muñeca		
+barco	6.293	
+tiburón		
+cuadro	6.656	
+brazo	6.086	
+cajón	6.392	
+nube	6.618	
+manzana	6.580	
+guante	6.328	
+tejado	6.137	
+timón	5.933	
+pozo	6.169	
+libro	6.261	
+tacón	6.103	
