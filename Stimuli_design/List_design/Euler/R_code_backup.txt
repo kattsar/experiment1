@@ -1,0 +1,146 @@
+04.04.2023
+
+k = 1
+for (k in 1:(ntrials)) {
+  #get the sequence for the current pair
+  pair_sequence <- df[df$block == j & df$pair_no == k, ]$sequence
+  
+  #get words and modalities for current pair
+  pair_words <- df[df$block == j & df$pair_no == k, ]$word
+  pair_modalities <- df[df$block == j & df$pair_no == k, ]$modality
+  
+  
+  #check if it is a repeat type pair based on sequence or modality
+  if (all(pair_sequence == 1) || all(pair_modalities == "type")) {
+    df[df$block == j & df$pair_no == k, ]$condition <- "repeat type"
+  }
+    
+  #check if it is a repeat speak pair based on sequence or modality
+  else if (all(pair_sequence == 2) || all(pair_modalities == "speak")) {
+    df[df$block == j & df$pair_no == k, ]$condition <- "repeat speak"
+  } 
+   
+  #check if it is a switch type speak pair based on sequence or modality
+  else if ((pair_sequence[1] == 1 & pair_sequence[2] == 2) || (pair_modalities[1] == "type" & pair_modalities[2] == "speak")) {
+    df[df$block == j & df$pair_no == k, ]$condition <- "switch type speak"
+  } 
+  
+  #if none of the above apply, then must be a switch speak type pair based on sequence or modality
+  else {
+    df[df$block == j & df$pair_no == k, ]$condition <- "switch speak type"
+  }
+  
+  #get the current pair's word if k is odd
+  if (k %% 2 == 1) { #check if this is the 1st trial in a pair
+    pair_word <- ifelse(
+      df[df$block == j, ]$sequence[k] %in% c(1),
+      final_corpus %>%
+        filter(modality == "type") %>%
+        sample_n(size = 1) %>%
+        pull(word),
+      final_corpus %>%
+        filter(modality == "speak") %>%
+        sample_n(size = 1) %>%
+        pull(word)
+    )
+  }
+  df[df$block == j, ]$word[k] <- pair_word
+  
+  if (k %% 2 == 1) {
+    df[df$block == j & df$pair_no == (k+1)/2, ]$condition[1] <- "nontarget"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+03.2023
+for (k in 1:(ntrials/2)) {
+  # get the sequence for the current pair
+  pair_sequence <- df[df$block == j & df$Pair_no == k, ]$sequence
+  # check if it is a repeat type pair
+  if (all(pair_sequence == 1)) {
+    df[df$block == j & df$Pair_no == k, ]$condition <- "repeat type"
+  } 
+  # check if it is a repeat speak pair
+  else if (all(pair_sequence == 2)) {
+    df[df$block == j & df$Pair_no == k, ]$condition <- "repeat speak"
+  } 
+  # check if it is a switch type speak pair
+  else if (pair_sequence[1] == 1 & pair_sequence[2] == 2) {
+    df[df$block == j & df$Pair_no == k, ]$condition <- "switch type speak"
+  } 
+  # if none of the above apply, it must be a switch speak type pair
+  else {
+    df[df$block == j & df$Pair_no == k, ]$condition <- "switch speak type"
+  }
+  
+  # get the words and modalities for the current pair
+  pair_words <- df[df$block == j & df$Pair_no == k, ]$word
+  pair_modalities <- df[df$block == j & df$Pair_no == k, ]$modality
+  
+  # check if it is a repeat type pair based on modalities
+  if (all(pair_modalities == "type")) {
+    df[df$block == j & df$Pair_no == k, ]$condition <- "repeat type"
+  } 
+  # check if it is a repeat speak pair based on modalities
+  else if (all(pair_modalities == "speak")) {
+    df[df$block == j & df$Pair_no == k, ]$condition <- "repeat speak"
+  } 
+  # check if it is a switch type speak pair based on modalities
+  else if (pair_modalities[1] == "type" & pair_modalities[2] == "speak") {
+    df[df$block == j & df$Pair_no == k, ]$condition <- "switch type speak"
+  } 
+  # if none of the above apply, it must be a switch speak type pair based on modalities
+  else {
+    df[df$block == j & df$Pair_no == k, ]$condition <- "switch speak type"
+  }
+  
+  # get the current pair's word if k is odd
+  if (k %% 2 == 1) {
+    pair_word <- ifelse(
+      df[df$block == j, ]$sequence[k] %in% c(1),
+      final_corpus %>%
+        filter(modality == "type") %>%
+        sample_n(size = 1) %>%
+        pull(word),
+      final_corpus %>%
+        filter(modality == "speak") %>%
+        sample_n(size = 1) %>%
+        pull(word)
+    )
+    df[df$block == j, ]$word[2*k - 1:2*k] <- pair_word
+  }
+}

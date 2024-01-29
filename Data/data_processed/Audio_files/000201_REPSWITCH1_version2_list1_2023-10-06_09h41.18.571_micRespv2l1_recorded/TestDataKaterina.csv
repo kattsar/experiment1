@@ -1,0 +1,409 @@
+﻿Filename;Transcription;Duration(ms.);SOT;Modality_Correct;Item_Correct;Hesitation;Notes;Exclude
+recording_V2L1p000201_tr100_type_pulpo;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr101_speak_iglesia;iglesia;696.272;1016.222;1;1;0;;0
+recording_V2L1p000201_tr102_type_goma;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr103_type_columna;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr104_speak_muñeca;muñeco;636.33;565.823;1;0;0;;1
+recording_V2L1p000201_tr105_speak_muñeca;muñeca;531.155;772.78;1;1;0;;0
+recording_V2L1p000201_tr106_type_pierna;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr107_speak_traje;camisa traje;352;1768;1;0;0;;1
+recording_V2L1p000201_tr108_speak_traje;traje;352;704;1;1;0;;0
+recording_V2L1p000201_tr109_type_tenedor;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr10_type_traje;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr110_speak_pulpo;pulpo;368;1144;1;1;0;;0
+recording_V2L1p000201_tr111_speak_cazador;cazador;506.729;689.237;1;1;0;mic tap, weird spectrogram;0
+recording_V2L1p000201_tr112_type_cazador;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr113_type_taza;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr114_type_fresa;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr115_speak_fresa;fresa;384.716;732.857;1;1;0;;0
+recording_V2L1p000201_tr116_speak_puente;puente;408;1217;1;1;0;;0
+recording_V2L1p000201_tr117_type_puente;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr118_speak_baño;baño;396.247;779.753;1;1;0;;0
+recording_V2L1p000201_tr119_type_espalda;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr11_speak_camisa;camisa;442.231;647.497;1;1;0;;0
+recording_V2L1p000201_tr120_type_espalda;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr121_speak_bombero;bombero;459.497;601.601;1;1;0;;0
+recording_V2L1p000201_tr122_type_pavo;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr123_type_pavo;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr124_speak_vaca;vaca;361.037;858.579;1;1;0;;0
+recording_V2L1p000201_tr125_type_regalo;[type];3010;0;1;;0;breath as if to speak, didn't speak;
+recording_V2L1p000201_tr126_type_vaso;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr127_speak_vaso;vaso;368.784;737.886;1;1;0;;0
+recording_V2L1p000201_tr128_type_camisa;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr129_type_granja;[type];3050;0;1;;0;tongue sound, as if ready to speak, didn't;
+recording_V2L1p000201_tr12_type_muñeca;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr130_type_granja;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr131_speak_muñeca;muñeca;462.92;616.042;1;1;0;;0
+recording_V2L1p000201_tr132_type_mano;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr133_type_mano;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr134_type_pintor;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr135_speak_pintor;pintor;459.72;640;1;1;0;;0
+recording_V2L1p000201_tr136_speak_traje;traje;390.842;800;1;1;0;;0
+recording_V2L1p000201_tr137_speak_cerdo;cerdo;382.4;701.476;1;1;0;close to mic, beginning sounds weird;0
+recording_V2L1p000201_tr138_type_cerdo;[type];3000;0;1;;0;mic sound at the end;
+recording_V2L1p000201_tr139_type_caracol;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr13_speak_muñeca;muñeca;468.905;872;1;1;0;;0
+recording_V2L1p000201_tr140_speak_caracol;caracol;502.905;656;1;1;0;;0
+recording_V2L1p000201_tr141_type_cazador;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr142_speak_fresa;fresa ;455.096;574.951;1;1;0;;0
+recording_V2L1p000201_tr143_type_pavo;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr144_speak_cuerda;cuerda;331.845;676.155;1;1;0;;0
+recording_V2L1p000201_tr145_speak_cuerda;cuerda ;401.038;602.387;1;1;0;;0
+recording_V2L1p000201_tr146_type_puente;[type];3000;0;1;;0;some sound in the beginning, not talking;
+recording_V2L1p000201_tr147_speak_falda;falda;414.358;783.922;1;1;0;;0
+recording_V2L1p000201_tr148_speak_falda;falda;441.418;550.32;1;1;0;;0
+recording_V2L1p000201_tr149_type_espalda;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr14_speak_pierna;uhmm...pierna;375.266;1762.55;1;1;1;;0
+recording_V2L1p000201_tr150_speak_vaso;vaso;366.388;790.744;1;1;0;;0
+recording_V2L1p000201_tr151_speak_manzana;manzana;494.454;616.07;1;1;0;mic too close to mouth, affects /?/;0
+recording_V2L1p000201_tr152_type_manzana;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr153_speak_escoba;escoba;488.418;890.271;1;1;0;;0
+recording_V2L1p000201_tr154_type_manzana;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr155_type_goma;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr156_speak_goma;goma;367.53;701.746;1;1;0;;0
+recording_V2L1p000201_tr157_speak_granja;granja;480;617;1;1;0;tongue;0
+recording_V2L1p000201_tr158_speak_aguja;aguja;524.032;587.968;1;1;0;;0
+recording_V2L1p000201_tr159_type_aguja;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr15_speak_pavo;pavo;280;672;1;1;0;;0
+recording_V2L1p000201_tr160_type_cadena;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr161_type_iglesia;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr162_speak_iglesia;iglesia;563.716;668.108;1;1;0;;0
+recording_V2L1p000201_tr163_type_pintor;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr164_speak_conejo;conejo;440.846;636.91;1;1;0;tongue;0
+recording_V2L1p000201_tr165_speak_conejo;conejo;426.966;539.099;1;1;0;;0
+recording_V2L1p000201_tr166_speak_cerdo;cerdo;462.639;528.206;1;1;0;;0
+recording_V2L1p000201_tr167_type_caracol;[type];3010;0;1;;0;breath;
+recording_V2L1p000201_tr168_speak_guante;guante;326.854;680;1;1;0;;0
+recording_V2L1p000201_tr169_speak_guante;guante;306.511;517.931;1;1;0;tongue;0
+recording_V2L1p000201_tr16_type_pavo;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr170_speak_cartero;cartero;393.964;848;1;1;0;tongue;0
+recording_V2L1p000201_tr171_type_cartero;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr172_speak_cuerda;cuerda;392.866;635.664;1;1;0;tongue before, hoarse voice, cough after;0
+recording_V2L1p000201_tr173_type_tronco;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr174_type_oreja;[type];3040;0;1;;0;tongue, didn't speak;
+recording_V2L1p000201_tr175_type_oreja;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr176_speak_falda;falda;426.477;494.648;1;1;0;;0
+recording_V2L1p000201_tr177_type_miel;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr178_type_miel;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr179_type_mano;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr17_type_cazador;[type];3040;0;1;;0;deep breath;
+recording_V2L1p000201_tr180_speak_goma;goma;307.062;768;1;1;0;tongue;0
+recording_V2L1p000201_tr181_type_pierna;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr182_type_pierna;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr183_type_pulpo;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr184_speak_pulpo;pulpo;329.295;646.705;1;1;0;;0
+recording_V2L1p000201_tr185_type_aguja;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr186_speak_taza;taza;317.824;793;1;1;0;;0
+recording_V2L1p000201_tr187_speak_taza;taza;342.187;656;1;1;0;mic sound /?/;0
+recording_V2L1p000201_tr188_speak_baño;baño;332.522;647.426;1;1;0;;0
+recording_V2L1p000201_tr189_type_baño;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr18_type_cazador;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr190_speak_iglesia;iglesia;535.939;1002.404;1;1;0;tongue;0
+recording_V2L1p000201_tr191_type_bombero;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr192_speak_bombero;bombero;427.439;668.326;1;1;0;;0
+recording_V2L1p000201_tr193_type_guante;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr194_speak_conejo;conejo;454.867;545;1;1;0;tongue;0
+recording_V2L1p000201_tr195_speak_vaca;vaca;368.167;548.456;1;1;0;hoarse voice, clears throat after word production;0
+recording_V2L1p000201_tr196_speak_vaca;vaca;377.778;487.717;1;1;0;;0
+recording_V2L1p000201_tr197_type_cartero;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr198_speak_oreja;oreja;427.753;801.153;1;1;0;sounds like orieja;0
+recording_V2L1p000201_tr199_speak_regalo;regalo;396.163;532.837;1;1;0;;0
+recording_V2L1p000201_tr19_speak_taza;taza;335.045;813.603;1;1;0;mic sound /?/;0
+recording_V2L1p000201_tr1_type_espejo;[type];2980;0;1;;0;;
+recording_V2L1p000201_tr200_type_regalo;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr201_type_camisa;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr202_type_camisa;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr203_speak_espejo;espejo;517.955;568.289;1;1;0;;0
+recording_V2L1p000201_tr204_type_miel;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr205_speak_tronco;tronco;382.313;977;1;1;0;;0
+recording_V2L1p000201_tr206_type_espejo;[/espej...[ui]/ , type];2456;584;0;;0;started speaking, then typed;1
+recording_V2L1p000201_tr207_speak_regalo;regalo;448.415;770.889;1;1;0;tongue;0
+recording_V2L1p000201_tr208_speak_vaso;vaso;358.43;752;1;1;0;mic tap end;0
+recording_V2L1p000201_tr209_speak_vaso;vaso;358.838;508.426;1;1;0;;0
+recording_V2L1p000201_tr20_type_bombero;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr210_type_taza;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr211_speak_cazador;cazador;463.897;932.387;1;1;0;mic sound /?/, was only silent, had make boundaries for the sounding part;0
+recording_V2L1p000201_tr212_speak_cazador;cazador;515.441;560.892;1;1;0;mic sound /?/;0
+recording_V2L1p000201_tr213_type_baño;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr214_speak_espalda;espalda;488.978;1055.44;1;1;0;tongue;0
+recording_V2L1p000201_tr215_type_espalda;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr216_type_camisa;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr217_type_puente;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr218_speak_puente;puente;362.066;621.105;1;1;0;;0
+recording_V2L1p000201_tr219_speak_muñeca;muñeca;516.852;833;1;1;0;sounds like muñecoa;0
+recording_V2L1p000201_tr21_type_vaso;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr220_type_muñeca;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr221_speak_vaca;vaca;373.363;517.256;1;1;0;;0
+recording_V2L1p000201_tr222_speak_pulpo;pulpo;399.546;632;1;1;0;;0
+recording_V2L1p000201_tr223_type_fresa;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr224_type_fresa;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr225_speak_pierna;pierna;328.122;1235.051;1;1;0;;0
+recording_V2L1p000201_tr226_speak_bombero;bombero;394.124;629.306;1;1;0;;0
+recording_V2L1p000201_tr227_type_traje;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr228_type_traje;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr229_type_pavo;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr22_type_vaso;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr230_speak_pavo;pavo;282.177;606.328;1;1;0;;0
+recording_V2L1p000201_tr231_speak_vaso;vaso;328.444;725.26;1;1;0;;0
+recording_V2L1p000201_tr232_type_traje;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr233_type_cerdo;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr234_type_cerdo;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr235_speak_cazador;cazador;510.754;641.411;1;1;0;;0
+recording_V2L1p000201_tr236_type_manzana;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr237_type_manzana;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr238_type_cuerda;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr239_speak_cuerda;cuerda;375.174;629.702;1;1;0;;0
+recording_V2L1p000201_tr23_speak_regalo;regalo;483.733;624.807;1;1;0;tongue;0
+recording_V2L1p000201_tr240_speak_espalda;espalda;543.735;556.368;1;1;0;;0
+recording_V2L1p000201_tr241_speak_granja;granja;415.391;669.922;1;1;0;tongue;0
+recording_V2L1p000201_tr242_type_granja;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr243_type_muñeca;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr244_type_falda;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr245_speak_falda;falda;398.353;680.477;1;1;0;;0
+recording_V2L1p000201_tr246_speak_caracol;caracol;425.553;616.512;1;1;0;tongue;0
+recording_V2L1p000201_tr247_speak_caracol;caracol;433.399;550.868;1;1;0;;0
+recording_V2L1p000201_tr248_type_fresa;[type];3040;0;1;;0;chair sound at the end;
+recording_V2L1p000201_tr249_speak_pintor;pintor;398.909;888;1;1;0;;0
+recording_V2L1p000201_tr24_type_pulpo;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr250_speak_pintor;pintor;447.13;528;1;1;0;mic sound end of the trial;0
+recording_V2L1p000201_tr251_type_puente;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr252_speak_pavo;pavo;333;1141.097;1;1;0;;0
+recording_V2L1p000201_tr253_speak_mano;mano;371.371;642.24;1;1;0;;0
+recording_V2L1p000201_tr254_type_mano;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr255_type_cerdo;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr256_type_aguja;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr257_speak_aguja;aguja;495.363;601.465;1;1;0;breath end of trial;0
+recording_V2L1p000201_tr258_speak_manzana;manzana;448.646;512.061;1;1;0;;0
+recording_V2L1p000201_tr259_speak_conejo;conejo ;398.742;577.078;1;1;0;tongue;0
+recording_V2L1p000201_tr25_type_espalda;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr260_type_conejo;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr261_type_miel;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr262_speak_miel;miel;355.704;476.892;1;1;0;;0
+recording_V2L1p000201_tr263_type_falda;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr264_speak_goma;goma;341.322;598.342;1;1;0;;0
+recording_V2L1p000201_tr265_speak_goma;goma;363.273;498.967;1;1;0;;0
+recording_V2L1p000201_tr266_type_caracol;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr267_speak_iglesia;i...iglesia;858.632;1176.675;1;1;1;;1
+recording_V2L1p000201_tr268_speak_iglesia;iglesia;438.324;610.281;1;1;0;;0
+recording_V2L1p000201_tr269_speak_oreja;oreja;325.379;594.621;1;1;0;tongue;0
+recording_V2L1p000201_tr26_speak_espalda;espalda;531.665;663.671;1;1;0;;0
+recording_V2L1p000201_tr270_type_oreja;[type ];3000;0;1;;0;;
+recording_V2L1p000201_tr271_speak_cuerda;cuerda;366.131;649;1;1;0;;0
+recording_V2L1p000201_tr272_type_granja;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr273_type_cartero;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr274_type_cartero;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr275_speak_mano;mano;297.95;490.979;1;1;0;;0
+recording_V2L1p000201_tr276_type_guante;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr277_type_guante;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr278_speak_pintor;pintor;390.807;568;1;1;0;;0
+recording_V2L1p000201_tr279_type_taza;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr27_speak_puente;puente;368.452;915.882;1;1;0;;0
+recording_V2L1p000201_tr280_type_taza;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr281_speak_aguja;aguja;488.296;592.555;1;1;0;;0
+recording_V2L1p000201_tr282_type_regalo;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr283_speak_regalo;regalo;404.718;717.177;1;1;0;tongue;0
+recording_V2L1p000201_tr284_speak_baño;baño;336.784;613.423;1;1;0;;0
+recording_V2L1p000201_tr285_speak_baño;baño;315.556;621.444;1;1;0;;0
+recording_V2L1p000201_tr286_type_conejo;[/koke:/, type];3050;0;0;;0;whispered sth, then typed;1
+recording_V2L1p000201_tr287_speak_miel;miel;389.824;869.269;1;1;0;;0
+recording_V2L1p000201_tr288_speak_camisa;camisa;400.946;705;1;1;0;tongue;0
+recording_V2L1p000201_tr289_type_camisa;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr28_type_pintor;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr290_type_vaca;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr291_speak_vaca;vaca;350.315;559.47;1;1;0;;0
+recording_V2L1p000201_tr292_type_goma;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr293_speak_pulpo;pulpo;332.304;649;1;1;0;;0
+recording_V2L1p000201_tr294_speak_pulpo;pulpo;352.872;633;1;1;0;;0
+recording_V2L1p000201_tr295_type_iglesia;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr296_speak_guante;guante;357.845;677.486;1;1;0;tongue;0
+recording_V2L1p000201_tr297_speak_pierna;pierna;314.922;698.621;1;1;0;;0
+recording_V2L1p000201_tr298_type_pierna;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr299_speak_tenedor;tenedor;421.353;656;1;1;0;;0
+recording_V2L1p000201_tr29_type_pintor;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr2_speak_cadena;cadena;395.152;708.848;1;1;0;mic sound /?/;0
+recording_V2L1p000201_tr300_type_oreja;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr301_speak_columna;columna;416.382;988.387;1;1;0;;0
+recording_V2L1p000201_tr302_type_cartero;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr303_type_bombero;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr304_type_bombero;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr305_speak_cadena;cadena;376;793;1;1;0;;0
+recording_V2L1p000201_tr306_type_escoba;[/es/, type];120;633;0;;0;spoke, then typed;1
+recording_V2L1p000201_tr307_type_pierna;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr308_speak_taza;taza;299.282;641;1;1;0;tongue;0
+recording_V2L1p000201_tr309_speak_pavo;pavo;297.003;665;1;1;0;;0
+recording_V2L1p000201_tr30_speak_fresa;fresa;436.432;497.171;1;1;0;;0
+recording_V2L1p000201_tr310_speak_pavo;pavo;339.829;712;1;1;0;;0
+recording_V2L1p000201_tr311_type_vaca;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr312_speak_espalda;espalda;582.186;946.009;1;1;0;;0
+recording_V2L1p000201_tr313_speak_espalda;espalda;497.83;564.956;1;1;0;tongue;0
+recording_V2L1p000201_tr314_type_pulpo;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr315_speak_vaso;vaso;328.305;734.652;1;1;0;;0
+recording_V2L1p000201_tr316_type_vaso;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr317_type_regalo;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr318_type_traje;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr319_speak_traje;traje;397.836;588.609;1;1;0;;0
+recording_V2L1p000201_tr31_type_caracol;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr320_speak_fresa;fresa;404.936;683.34;1;1;0;;0
+recording_V2L1p000201_tr321_type_fresa;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr322_type_bombero;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr323_speak_camisa;traje camisa;369.579;1682.222;1;0;0;said traje first, then corrected to camisa;1
+recording_V2L1p000201_tr324_type_muñeca;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr325_type_muñeca;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr326_speak_baño;baño;354.154;735.986;1;1;0;;0
+recording_V2L1p000201_tr327_type_puente;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr328_type_puente;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr329_type_cazador;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr32_type_caracol;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr330_speak_cazador;cazador;543.151;472.837;1;1;0;tongue;0
+recording_V2L1p000201_tr331_type_pavo;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr332_type_falda;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr333_type_falda;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr334_speak_puente;puente;367.358;553;1;1;0;;0
+recording_V2L1p000201_tr335_type_cuerda;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr336_type_cuerda;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr337_type_espalda;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr338_speak_tenedor;tenedor;419.706;744;1;1;0;cleans throat after word production;0
+recording_V2L1p000201_tr339_type_vaso;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr33_speak_muñeca;muñeca;542.47;855.071;1;1;0;;0
+recording_V2L1p000201_tr340_type_manzana;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr341_speak_manzana;manzana;489.191;613.347;1;1;0;;0
+recording_V2L1p000201_tr342_speak_traje;traje;376.16;648;1;1;0;;0
+recording_V2L1p000201_tr343_speak_caracol;caracol;422.26;521;1;1;0;;0
+recording_V2L1p000201_tr344_type_caracol;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr345_type_fresa;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr346_type_cerdo;;3040;0;;;;;
+recording_V2L1p000201_tr347_speak_cerdo;cerdo;414.988;521.481;1;1;0;tongue;0
+recording_V2L1p000201_tr348_speak_mano;mano;329.756;570.287;1;1;0;;0
+recording_V2L1p000201_tr349_speak_mano;mano;415.391;514.967;1;1;0;;0
+recording_V2L1p000201_tr34_type_mano;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr350_type_muñeca;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr351_speak_granja;granja;434.574;593;1;1;0;;0
+recording_V2L1p000201_tr352_speak_granja;granja;399.615;647.118;1;1;0;tongue;0
+recording_V2L1p000201_tr353_type_tronco;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr354_speak_cazador;cazador;517.218;675.381;1;1;0;;0
+recording_V2L1p000201_tr355_speak_pintor;pintor;418.638;606.697;1;1;0;;0
+recording_V2L1p000201_tr356_type_pintor;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr357_speak_columna;columna;464.318;720;1;1;0;tongue;0
+recording_V2L1p000201_tr358_type_oreja;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr359_speak_oreja;oreja;451.226;520.133;1;1;0;tongue;0
+recording_V2L1p000201_tr35_speak_mano;mano;383.625;659.085;1;1;0;;0
+recording_V2L1p000201_tr360_speak_falda;falda;445.904;466.886;1;1;0;;0
+recording_V2L1p000201_tr361_speak_guante;guante;438.234;528.418;1;1;0;tongue;0
+recording_V2L1p000201_tr362_type_guante;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr363_type_cuerda;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr364_type_conejo;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr365_speak_conejo;conejo;477.186;531.329;1;1;0;articulation sound;0
+recording_V2L1p000201_tr366_type_manzana;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr367_speak_cartero;cartero;408;616;1;1;0;tongue;0
+recording_V2L1p000201_tr368_speak_cartero;cartero;432.784;521;1;1;0;tongue;0
+recording_V2L1p000201_tr369_speak_caracol;caracol;457.994;576;1;1;0;tongue;0
+recording_V2L1p000201_tr36_speak_cuerda;cuerda;414.386;793;1;1;0;;0
+recording_V2L1p000201_tr370_type_cerdo;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr371_speak_miel;miel;418.696;547.779;1;1;0;;0
+recording_V2L1p000201_tr372_speak_miel;miel;355.469;570.003;1;1;0;;0
+recording_V2L1p000201_tr373_speak_iglesia;iglesia;620.793;792.759;1;1;0;;0
+recording_V2L1p000201_tr374_type_iglesia;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr375_speak_granja;granja;421.878;569.596;1;1;0;;0
+recording_V2L1p000201_tr376_type_mano;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr377_type_goma;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr378_type_goma;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr379_speak_pintor;pintor;409.838;556.1;1;1;0;;0
+recording_V2L1p000201_tr37_type_cuerda;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr380_type_aguja;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr381_type_aguja;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr382_type_guante;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr383_speak_espejo;espejo;570.303;565.748;1;1;0;;0
+recording_V2L1p000201_tr384_speak_goma;goma;325.354;827.116;1;1;0;;0
+recording_V2L1p000201_tr385_type_regalo;[type];3010;0;1;;0;breath as if to speak, didn't;
+recording_V2L1p000201_tr386_type_regalo;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr387_type_pierna;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr388_speak_pierna;pierna;387.29;480.336;1;1;0;;0
+recording_V2L1p000201_tr389_type_conejo;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr38_type_traje;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr390_speak_camisa;camisa;440.621;680;1;1;0;tongue;0
+recording_V2L1p000201_tr391_speak_camisa;camisa;448.158;488;1;1;0;tongue;0
+recording_V2L1p000201_tr392_speak_vaca;vaca;342.676;587.196;1;1;0;;0
+recording_V2L1p000201_tr393_type_vaca;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr394_speak_cartero;cartero;411.473;536;1;1;0;tongue;0
+recording_V2L1p000201_tr395_type_taza;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr396_speak_taza;taza;342.667;587.782;1;1;0;;0
+recording_V2L1p000201_tr397_type_cadena;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr398_speak_miel;miel;369.878;561.252;1;1;0;;0
+recording_V2L1p000201_tr399_speak_bombero;bombero;432.695;606.231;1;1;0;;0
+recording_V2L1p000201_tr39_type_granja;[type];3050;0;1;;0;tongue;
+recording_V2L1p000201_tr3_speak_puente;puente;396.277;736;1;1;0;articulation sound;0
+recording_V2L1p000201_tr400_speak_bombero;bombero;406.333;558.868;1;1;0;;0
+recording_V2L1p000201_tr401_type_iglesia;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr402_speak_oreja;oreja;365.568;567.021;1;1;0;tongue;0
+recording_V2L1p000201_tr403_speak_pulpo;pulpo;373.27;594.479;1;1;0;;0
+recording_V2L1p000201_tr404_type_pulpo;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr405_speak_escoba;escoba;414.113;570.152;1;1;0;/ts/ before word production;0
+recording_V2L1p000201_tr406_type_aguja;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr407_type_baño;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr408_type_baño;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr40_speak_granja;granja;435.686;743.14;1;1;0;;0
+recording_V2L1p000201_tr41_type_vaso;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr42_speak_pavo;pavo;328.675;833.986;1;1;0;;0
+recording_V2L1p000201_tr43_speak_manzana;manzana;591.119;1033.881;1;1;0;;0
+recording_V2L1p000201_tr44_speak_manzana;manzana;536.268;551.232;1;1;0;;0
+recording_V2L1p000201_tr45_type_cazador;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr46_speak_cerdo;cerdo;450.973;802.775;1;1;0;mic sound /?/, tongue;0
+recording_V2L1p000201_tr47_speak_cerdo;cerdo;544.909;429.057;1;1;0;;0
+recording_V2L1p000201_tr48_type_escoba;[/e/, type];3040;0;0;;0;started speaking, then typed;1
+recording_V2L1p000201_tr49_speak_espalda;espalda;512.926;1100.848;1;1;0;breath before speaking;0
+recording_V2L1p000201_tr4_speak_puente;puente;388.637;788.899;1;1;0;;0
+recording_V2L1p000201_tr50_speak_falda;falda;469.227;610.694;1;1;0;;0
+recording_V2L1p000201_tr51_type_falda;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr52_type_guante;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr53_speak_guante;guante;440.216;484.87;1;1;0;tongue;0
+recording_V2L1p000201_tr54_speak_tronco;tronco;395.073;889;1;1;0;;0
+recording_V2L1p000201_tr55_speak_miel;miel;384.728;892.587;1;1;0;;0
+recording_V2L1p000201_tr56_type_miel;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr57_type_pintor;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr58_type_cartero;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr59_speak_cartero;cartero;507.142;801.14;1;1;0;;0
+recording_V2L1p000201_tr5_type_vaca;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr60_speak_caracol;caracol;513.938;665;1;1;0;tongue;0
+recording_V2L1p000201_tr61_type_cuerda;[type] ;3050;0;1;;0;;
+recording_V2L1p000201_tr62_speak_aguja;aguja;472;1376;1;1;0;tongue;0
+recording_V2L1p000201_tr63_speak_aguja;aguja;536;752;1;1;0;;0
+recording_V2L1p000201_tr64_type_granja;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr65_speak_manzana;manzana;522.261;594.538;1;1;0;articulation sound;0
+recording_V2L1p000201_tr66_speak_oreja;oreja;472.218;561.663;1;1;0;tongue, sounds like orieja;0
+recording_V2L1p000201_tr67_speak_oreja;oreja;504.202;623.798;1;1;0;tongue, sounds like orieja;0
+recording_V2L1p000201_tr68_type_tenedor;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr69_speak_goma;goma;408.746;762.623;1;1;0;;0
+recording_V2L1p000201_tr6_speak_fresa;fresa;450.336;805.323;1;1;0;;0
+recording_V2L1p000201_tr70_type_goma;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr71_speak_mano;mano;396.319;534.81;1;1;0;breath before word production;0
+recording_V2L1p000201_tr72_type_conejo;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr73_type_conejo;[type];3040;0;1;;0;breath at the end;
+recording_V2L1p000201_tr74_speak_cerdo;cerdo;476.402;653.342;1;1;0;;0
+recording_V2L1p000201_tr75_type_falda;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr76_type_iglesia;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr77_type_iglesia;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr78_speak_guante;guante;371.99;945.314;1;1;0;tongue;0
+recording_V2L1p000201_tr79_type_vaca;[type];3050;0;1;;0;;
+recording_V2L1p000201_tr7_speak_fresa;fresa;441.506;482.035;1;1;0;;0
+recording_V2L1p000201_tr80_type_vaca;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr81_type_baño;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr82_speak_baño;baño;377.493;685.399;1;1;0;;0
+recording_V2L1p000201_tr83_speak_cartero;cartero;457.759;1096;1;1;0;;0
+recording_V2L1p000201_tr84_type_miel;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr85_speak_pierna;pierna;347.142;1112;1;1;0;;0
+recording_V2L1p000201_tr86_speak_pierna;pierna;370.447;704;1;1;0;tongue;0
+recording_V2L1p000201_tr87_speak_taza;taza;364.58;938.672;1;1;0;;0
+recording_V2L1p000201_tr88_type_taza;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr89_speak_aguja;aguja;539.831;774.429;1;1;0;;0
+recording_V2L1p000201_tr8_type_baño;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr90_type_oreja;[type];3010;0;1;;0;;
+recording_V2L1p000201_tr91_type_camisa;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr92_speak_camisa;camisa;470.585;697;1;1;0;tongue;0
+recording_V2L1p000201_tr93_speak_regalo;regalo;521.946;648.374;1;1;0;tongue;0
+recording_V2L1p000201_tr94_speak_regalo;regalo;508.402;553;1;1;0;;0
+recording_V2L1p000201_tr95_type_columna;[type];3040;0;1;;0;;
+recording_V2L1p000201_tr96_speak_conejo;conejo;470.017;801;1;1;0;;0
+recording_V2L1p000201_tr97_speak_bombero;bombero;549.646;584.989;1;1;0;;0
+recording_V2L1p000201_tr98_type_bombero;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr99_type_pulpo;[type];3000;0;1;;0;;
+recording_V2L1p000201_tr9_speak_traje;traje;371.922;909.959;1;1;0;tongue;0
