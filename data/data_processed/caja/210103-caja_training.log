@@ -1,0 +1,73 @@
+Scenario - caja_training.sce
+Logfile written - 12/01/2023 12:08:02
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+210103	1	Response	98	30699	20630	1
+210103	3	Sound	snd_casa	34872	8	227			0		other	0
+210103	3	Key Input	67	43349	8485	1
+210103	3	Key Input	65	45169	10304	1
+210103	3	Key Input	83	47309	12445	1
+210103	3	Key Input	65	48409	13545	1
+210103	3	Text Input	CASA	64864	30000	0
+210103	5	Sound	snd_pulpo	69036	0	1			0		other	0
+210103	5	Key Input	80	76419	7384	1
+210103	5	Key Input	85	78209	9174	1
+210103	5	Key Input	76	80879	11843	1
+210103	5	Key Input	80	83909	14873	1
+210103	5	Key Input	79	84769	15733	1
+210103	5	Text Input	PULPO	99035	30000	0
+210103	7	Sound	snd_puente	103276	0	1			0		other	0
+210103	7	Key Input	80	111829	8553	1
+210103	7	Key Input	85	113969	10693	1
+210103	7	Key Input	69	115769	12493	1
+210103	7	Key Input	78	116929	13653	1
+210103	7	Key Input	84	118369	15093	1
+210103	7	Key Input	69	119078	15802	1
+210103	7	Text Input	PUENTE	133276	30000	0
+210103	9	Sound	snd_casa	137447	0	1			0		other	0
+210103	9	Key Input	67	145699	8252	1
+210103	9	Key Input	65	147238	9791	1
+210103	9	Key Input	83	149929	12482	1
+210103	9	Key Input	65	150979	13532	1
+210103	9	Text Input	CASA	167447	30000	0
+210103	11	Sound	snd_mono	171619	0	1			0		other	0
+210103	11	Key Input	77	181219	9601	1
+210103	11	Key Input	79	183129	11510	1
+210103	11	Key Input	78	184839	13220	1
+210103	11	Key Input	79	186028	14410	1
+210103	11	Text Input	MONO	201618	30000	0
+210103	13	Sound	snd_puente	205859	0	1			0		other	0
+210103	13	Key Input	80	214049	8190	1
+210103	13	Key Input	85	216429	10570	1
+210103	13	Key Input	69	218178	12319	1
+210103	13	Key Input	78	219169	13310	1
+210103	13	Key Input	84	220709	14850	1
+210103	13	Key Input	69	221429	15570	1
+210103	13	Text Input	PUENTE	235859	30000	0
+210103	15	Sound	snd_pulpo	240030	0	1			0		other	0
+210103	15	Key Input	80	248139	8109	1
+210103	15	Key Input	85	249909	9879	1
+210103	15	Key Input	76	252548	12518	1
+210103	15	Key Input	80	255789	15759	1
+210103	15	Key Input	79	256479	16449	1
+210103	15	Text Input	PULPO	270030	30000	0
+210103	17	Sound	snd_mono	274132	0	1			0		other	0
+210103	17	Key Input	77	283389	9257	1
+210103	17	Key Input	79	285339	11207	1
+210103	17	Key Input	78	287049	12917	1
+210103	17	Key Input	79	288199	14067	1
+210103	17	Text Input	MONO	304132	30000	0
+210103	19	Response	98	353869	45496	1
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Sound	snd_casa	other				34872	227			0
+Sound	snd_pulpo	other				69036	1			0
+Sound	snd_puente	other				103276	1			0
+Sound	snd_casa	other				137447	1			0
+Sound	snd_mono	other				171619	1			0
+Sound	snd_puente	other				205859	1			0
+Sound	snd_pulpo	other				240030	1			0
+Sound	snd_mono	other				274132	1			0

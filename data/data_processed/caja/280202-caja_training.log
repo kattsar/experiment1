@@ -1,0 +1,81 @@
+Scenario - caja_training.sce
+Logfile written - 12/04/2023 19:05:15
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+280202	1	Response	98	62635	52566	1
+280202	3	Sound	snd_pulpo	66821	8	223			0		other	0
+280202	3	Key Input	80	76365	9552	1
+280202	3	Key Input	73	79725	12912	1
+280202	3	Key Input	76	87295	20482	1
+280202	3	Key Input	80	90435	23622	1
+280202	3	Key Input	79	92695	25882	1
+280202	3	Text Input	PILPO	96813	30000	0
+280202	5	Sound	snd_puente	100984	0	1			0		other	0
+280202	5	Key Input	80	110665	9681	1
+280202	5	Key Input	204	115024	14040	1
+280202	5	Key Input	68	117654	16670	1
+280202	5	Key Input	78	119104	18120	1
+280202	5	Key Input	71	120574	19590	1
+280202	5	Key Input	68	121394	20410	1
+280202	5	Key Input	8	126144	25160	1
+280202	5	Key Input	8	127684	26700	1
+280202	5	Key Input	8	129044	28060	1
+280202	5	Key Input	8	130224	29240	1
+280202	5	Text Input	PÌ	130984	30000	0
+280202	7	Sound	snd_casa	135086	0	1			0		other	0
+280202	7	Key Input	32	142344	7258	1
+280202	7	Response	98	142344	7258	1
+280202	7	Key Input	67	145534	10448	1
+280202	7	Key Input	65	152054	16968	1
+280202	7	Key Input	88	156534	21448	1
+280202	7	Key Input	90	159204	24118	1
+280202	7	Key Input	90	160024	24938	1
+280202	7	Text Input	 CAXZZ	165086	30000	0
+280202	9	Sound	snd_puente	169327	0	1			0		other	0
+280202	9	Key Input	80	193804	24478	1
+280202	9	Key Input	73	197234	27908	1
+280202	9	Key Input	68	198694	29368	1
+280202	9	Text Input	PID	199326	30000	0
+280202	11	Sound	snd_mono	203428	0	1			0		other	0
+280202	11	Key Input	77	211044	7616	1
+280202	11	Key Input	79	213184	9756	1
+280202	11	Key Input	78	214974	11546	1
+280202	11	Key Input	79	216624	13196	1
+280202	11	Text Input	MONO	233428	30000	0
+280202	13	Sound	snd_mono	237530	0	1			0		other	0
+280202	13	Key Input	44	244954	7424	1
+280202	13	Key Input	77	244984	7454	1
+280202	13	Key Input	79	251204	13674	1
+280202	13	Key Input	78	253554	16025	1
+280202	13	Key Input	79	255574	18045	1
+280202	13	Text Input	,MONO	267530	30000	0
+280202	15	Sound	snd_casa	271632	0	1			0		other	0
+280202	15	Key Input	67	278825	7193	1
+280202	15	Key Input	90	280684	9053	1
+280202	15	Key Input	8	286384	14753	1
+280202	15	Key Input	90	289304	17673	1
+280202	15	Key Input	8	293145	21514	1
+280202	15	Key Input	90	298565	26934	1
+280202	15	Key Input	88	300455	28823	1
+280202	15	Text Input	CZX	301632	30000	0
+280202	17	Sound	snd_pulpo	305872	0	1			0		other	0
+280202	17	Key Input	80	315885	10013	1
+280202	17	Key Input	85	318444	12572	1
+280202	17	Key Input	76	321415	15543	1
+280202	17	Key Input	80	323585	17713	1
+280202	17	Key Input	79	325135	19263	1
+280202	17	Text Input	PULPO	335872	30000	0
+280202	19	Response	98	443765	103791	1
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Sound	snd_pulpo	other				66821	223			0
+Sound	snd_puente	other				100984	1			0
+Sound	snd_casa	other				135086	1			0
+Sound	snd_puente	other				169327	1			0
+Sound	snd_mono	other				203428	1			0
+Sound	snd_mono	other				237530	1			0
+Sound	snd_casa	other				271632	1			0
+Sound	snd_pulpo	other				305872	1			0

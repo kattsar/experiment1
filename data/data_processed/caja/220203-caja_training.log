@@ -1,0 +1,73 @@
+Scenario - caja_training.sce
+Logfile written - 12/01/2023 13:58:00
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+220203	1	Response	98	48467	38398	1
+220203	3	Sound	snd_casa	52582	8	223			0		other	0
+220203	3	Key Input	67	61507	8932	1
+220203	3	Key Input	65	63147	10572	1
+220203	3	Key Input	83	64377	11802	1
+220203	3	Key Input	65	65427	12852	1
+220203	3	Text Input	CASA	82575	30000	0
+220203	5	Sound	snd_puente	86677	0	1			0		other	0
+220203	5	Key Input	80	95667	8991	1
+220203	5	Key Input	85	97187	10511	1
+220203	5	Key Input	69	98717	12040	1
+220203	5	Key Input	78	99937	13260	1
+220203	5	Key Input	84	101637	14960	1
+220203	5	Key Input	69	101806	15129	1
+220203	5	Text Input	PUENTE	116677	30000	0
+220203	7	Sound	snd_pulpo	120779	0	1			0		other	0
+220203	7	Key Input	80	129447	8669	1
+220203	7	Key Input	85	130857	10079	1
+220203	7	Key Input	76	134067	13289	1
+220203	7	Key Input	80	135567	14789	1
+220203	7	Key Input	79	136687	15909	1
+220203	7	Text Input	PULPO	150778	30000	0
+220203	9	Sound	snd_puente	154880	0	1			0		other	0
+220203	9	Key Input	80	163407	8527	1
+220203	9	Key Input	85	164577	9697	1
+220203	9	Key Input	69	165877	10997	1
+220203	9	Key Input	78	167387	12507	1
+220203	9	Key Input	84	168487	13607	1
+220203	9	Key Input	69	168957	14077	1
+220203	9	Text Input	PUENTE	184880	30000	0
+220203	11	Sound	snd_mono	188982	0	1			0		other	0
+220203	11	Key Input	77	197447	8466	1
+220203	11	Key Input	79	198707	9725	1
+220203	11	Key Input	78	200197	11215	1
+220203	11	Key Input	79	201267	12285	1
+220203	11	Text Input	MONO	218982	30000	0
+220203	13	Sound	snd_casa	223084	0	1			0		other	0
+220203	13	Key Input	67	231077	7994	1
+220203	13	Key Input	65	232487	9403	1
+220203	13	Key Input	83	233377	10294	1
+220203	13	Key Input	65	234617	11534	1
+220203	13	Text Input	CASA	253083	30000	0
+220203	15	Sound	snd_pulpo	257185	0	1			0		other	0
+220203	15	Key Input	80	264177	6992	1
+220203	15	Key Input	85	265757	8572	1
+220203	15	Key Input	76	268987	11802	1
+220203	15	Key Input	80	271737	14552	1
+220203	15	Key Input	79	272767	15582	1
+220203	15	Text Input	PULPO	287185	30000	0
+220203	17	Sound	snd_mono	291357	0	1			0		other	0
+220203	17	Key Input	77	299497	8141	1
+220203	17	Key Input	79	300767	9411	1
+220203	17	Key Input	78	302397	11041	1
+220203	17	Key Input	79	303287	11930	1
+220203	17	Text Input	MONO	321356	30000	0
+220203	19	Response	98	365297	39840	1
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Sound	snd_casa	other				52582	223			0
+Sound	snd_puente	other				86677	1			0
+Sound	snd_pulpo	other				120779	1			0
+Sound	snd_puente	other				154880	1			0
+Sound	snd_mono	other				188982	1			0
+Sound	snd_casa	other				223084	1			0
+Sound	snd_pulpo	other				257185	1			0
+Sound	snd_mono	other				291357	1			0

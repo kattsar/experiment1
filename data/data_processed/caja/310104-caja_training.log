@@ -1,0 +1,75 @@
+Scenario - caja_training.sce
+Logfile written - 12/05/2023 16:02:46
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+310104	1	Response	98	65286	55147	1
+310104	3	Sound	snd_puente	69390	8	233			0		other	0
+310104	3	Key Input	80	78666	9283	1
+310104	3	Key Input	85	83685	14303	1
+310104	3	Key Input	69	86375	16993	1
+310104	3	Key Input	78	88015	18633	1
+310104	3	Key Input	84	89425	20043	1
+310104	3	Key Input	69	90285	20903	1
+310104	3	Text Input	PUENTE	99383	30000	0
+310104	5	Sound	snd_casa	103485	0	1			0		other	0
+310104	5	Key Input	67	109696	6211	1
+310104	5	Key Input	65	111645	8161	1
+310104	5	Key Input	83	112625	9141	1
+310104	5	Key Input	65	113475	9991	1
+310104	5	Text Input	CASA	133484	30000	0
+310104	7	Sound	snd_casa	137981	326	1			0		other	0
+310104	7	Key Input	67	144096	6440	1
+310104	7	Key Input	65	145465	7810	1
+310104	7	Key Input	83	146275	8620	1
+310104	7	Key Input	65	148165	10509	1
+310104	7	Text Input	CASA	167656	30000	0
+310104	9	Sound	snd_mono	171758	0	1			0		other	0
+310104	9	Key Input	77	179486	7728	1
+310104	9	Key Input	79	180915	9158	1
+310104	9	Key Input	78	181605	9848	1
+310104	9	Key Input	79	182805	11048	1
+310104	9	Text Input	MONO	201757	30000	0
+310104	11	Sound	snd_puente	205998	0	1			0		other	0
+310104	11	Key Input	80	212266	6268	1
+310104	11	Key Input	73	218435	12438	1
+310104	11	Key Input	161	225355	19358	1
+310104	11	Key Input	8	229985	23988	1
+310104	11	Key Input	8	231735	25738	1
+310104	11	Text Input	P	235998	30000	0
+310104	13	Sound	snd_pulpo	240100	0	1			0		other	0
+310104	13	Key Input	80	249845	9746	1
+310104	13	Key Input	73	253085	12986	1
+310104	13	Key Input	204	263165	23066	1
+310104	13	Text Input	PIÌ	270100	30000	0
+310104	15	Sound	snd_mono	274202	0	1			0		other	0
+310104	15	Key Input	77	285525	11324	1
+310104	15	Key Input	79	286615	12413	1
+310104	15	Key Input	78	287375	13174	1
+310104	15	Key Input	79	288435	14233	1
+310104	15	Text Input	MONO	304201	30000	0
+310104	17	Sound	snd_pulpo	308373	0	1			0		other	0
+310104	17	Key Input	80	313346	4973	1
+310104	17	Key Input	85	320145	11773	1
+310104	17	Key Input	76	326835	18463	1
+310104	17	Key Input	80	329535	21163	1
+310104	17	Key Input	79	331715	23343	1
+310104	17	Text Input	PULPO	338372	30000	0
+310104	19	Response	98	427735	85192	1
+
+Visual picture detection failed over to using scan line information only at the following times:
+type	time	timeout	presentation
+fail	13765.5	34.725	19
+restore	13865.8	0	20
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Sound	snd_puente	other				69390	233			0
+Sound	snd_casa	other				103485	1			0
+Sound	snd_casa	other				137981	1			0
+Sound	snd_mono	other				171758	1			0
+Sound	snd_puente	other				205998	1			0
+Sound	snd_pulpo	other				240100	1			0
+Sound	snd_mono	other				274202	1			0
+Sound	snd_pulpo	other				308373	1			0

@@ -1,0 +1,225 @@
+Scenario - caja.sce
+Logfile written - 01/24/2024 17:26:52
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+460203	1	Response	98	53524	43455	1
+460203	3	Sound	snd_cartera	57653	8	213			0		other	0
+460203	3	Key Input	88	66434	8789	1
+460203	3	Key Input	65	79214	21569	1
+460203	3	Key Input	69	82234	24589	1
+460203	3	Key Input	82	85324	27679	1
+460203	3	Key Input	87	87194	29549	1
+460203	3	Text Input	XAERW	87645	30000	0
+460203	5	Sound	snd_lobo	91816	0	1			0		other	0
+460203	5	Key Input	76	102034	10218	1
+460203	5	Key Input	79	104904	13088	1
+460203	5	Key Input	66	106804	14988	1
+460203	5	Key Input	79	108624	16808	1
+460203	5	Text Input	LOBO	121816	30000	0
+460203	7	Sound	snd_cafetera	125988	0	1			0		other	0
+460203	7	Key Input	88	137124	11136	1
+460203	7	Key Input	65	138194	12207	1
+460203	7	Key Input	70	141674	15686	1
+460203	7	Key Input	87	143904	17916	1
+460203	7	Key Input	69	143924	17936	1
+460203	7	Text Input	XAFWE	155987	30000	0
+460203	9	Sound	snd_gafas	160159	1	1			0		other	0
+460203	9	Key Input	70	170703	10545	1
+460203	9	Key Input	65	172614	12455	1
+460203	9	Key Input	68	178164	18006	1
+460203	9	Key Input	65	179854	19695	1
+460203	9	Key Input	83	181053	20895	1
+460203	9	Text Input	FADAS	190159	30000	0
+460203	11	Sound	snd_persiana	194330	0	1			0		other	0
+460203	11	Key Input	87	207563	13234	1
+460203	11	Key Input	69	210223	15893	1
+460203	11	Key Input	69	223923	29594	1
+460203	11	Text Input	WEE	224330	30000	0
+460203	13	Sound	snd_dinero	228501	0	1			0		other	0
+460203	13	Key Input	83	239604	11103	1
+460203	13	Key Input	73	241103	12602	1
+460203	13	Key Input	78	243843	15342	1
+460203	13	Key Input	87	244953	16452	1
+460203	13	Key Input	69	245833	17332	1
+460203	13	Key Input	79	247383	18882	1
+460203	13	Text Input	SINWEO	258501	30000	0
+460203	15	Sound	snd_hada	262672	0	1			0		other	0
+460203	15	Key Input	72	280283	17611	1
+460203	15	Key Input	83	284613	21941	1
+460203	15	Key Input	83	291423	28751	1
+460203	15	Text Input	HSS	292672	30000	0
+460203	17	Sound	snd_cereza	296843	0	1			0		other	0
+460203	17	Key Input	88	312153	15310	1
+460203	17	Key Input	87	315163	18320	1
+460203	17	Key Input	69	315223	18380	1
+460203	17	Key Input	69	323133	26290	1
+460203	17	Text Input	XWEE	326843	30000	0
+460203	19	Sound	snd_tortuga	331014	0	1			0		other	0
+460203	19	Key Input	82	339493	8479	1
+460203	19	Key Input	79	342053	11039	1
+460203	19	Key Input	69	350703	19689	1
+460203	19	Key Input	82	353233	22219	1
+460203	19	Key Input	73	355373	24359	1
+460203	19	Key Input	70	358983	27969	1
+460203	19	Key Input	65	360993	29979	1
+460203	19	Text Input	ROERIFA	361014	30000	0
+460203	21	Sound	snd_abeja	365186	0	1			0		other	0
+460203	21	Key Input	65	373123	7938	1
+460203	21	Key Input	86	380533	15348	1
+460203	21	Key Input	87	382923	17738	1
+460203	21	Key Input	82	385003	19818	1
+460203	21	Key Input	8	392283	27098	1
+460203	21	Key Input	8	394163	28978	1
+460203	21	Text Input	AV	395185	30000	0
+460203	23	Sound	snd_caramelo	399357	0	1			0		other	0
+460203	23	Key Input	88	408473	9117	1
+460203	23	Key Input	69	416693	17337	1
+460203	23	Key Input	77	422003	22647	1
+460203	23	Key Input	87	423263	23907	1
+460203	23	Key Input	69	424213	24857	1
+460203	23	Key Input	79	426443	27087	1
+460203	23	Text Input	XEMWEO	429357	30000	0
+460203	25	Sound	snd_sangre	433528	0	1			0		other	0
+460203	25	Key Input	83	445303	11776	1
+460203	25	Key Input	65	459484	25956	1
+460203	25	Key Input	78	463354	29826	1
+460203	25	Text Input	SAN	463528	30000	0
+460203	27	Sound	snd_labio	467699	0	1			0		other	0
+460203	27	Key Input	76	481844	14145	1
+460203	27	Key Input	65	483344	15645	1
+460203	27	Key Input	66	491913	24215	1
+460203	27	Key Input	73	497604	29905	1
+460203	27	Text Input	LABI	497699	30000	0
+460203	29	Sound	snd_humo	501870	0	1			0		other	0
+460203	29	Key Input	71	510443	8573	1
+460203	29	Key Input	73	513174	11304	1
+460203	29	Key Input	77	520713	18843	1
+460203	29	Key Input	79	522773	20903	1
+460203	29	Text Input	GIMO	531870	30000	0
+460203	31	Sound	snd_carpeta	536041	0	1			0		other	0
+460203	31	Key Input	88	550243	14202	1
+460203	31	Key Input	65	556144	20102	1
+460203	31	Key Input	69	559004	22962	1
+460203	31	Key Input	82	562244	26202	1
+460203	31	Key Input	80	564793	28752	1
+460203	31	Text Input	XAERP	566041	30000	0
+460203	33	Sound	snd_columpio	570213	0	1			0		other	0
+460203	33	Key Input	67	585304	15092	1
+460203	33	Key Input	79	586874	16661	1
+460203	33	Key Input	76	591323	21111	1
+460203	33	Key Input	73	594333	24121	1
+460203	33	Key Input	44	597333	27121	1
+460203	33	Text Input	COLI,	600212	30000	0
+460203	35	Sound	snd_fresa	604384	0	1			0		other	0
+460203	35	Key Input	68	617304	12920	1
+460203	35	Key Input	69	620153	15770	1
+460203	35	Key Input	82	620163	15780	1
+460203	35	Key Input	65	629613	25230	1
+460203	35	Text Input	DERA	634383	30000	0
+460203	37	Sound	snd_huella	638555	0	1			0		other	0
+460203	37	Key Input	71	651014	12459	1
+460203	37	Key Input	73	653383	14829	1
+460203	37	Key Input	87	660783	22229	1
+460203	37	Key Input	8	667134	28579	1
+460203	37	Text Input	GI	668555	30000	0
+460203	39	Sound	snd_pistola	672726	0	1			0		other	0
+460203	41	Sound	snd_molino	706897	0	1			0		other	0
+460203	41	Key Input	77	718164	11267	1
+460203	41	Key Input	79	720714	13817	1
+460203	41	Key Input	76	723724	16827	1
+460203	41	Key Input	73	727514	20617	1
+460203	41	Key Input	78	730333	23436	1
+460203	41	Key Input	79	732553	25657	1
+460203	41	Text Input	MOLINO	736897	30000	0
+460203	43	Sound	snd_foca	741068	0	1			0		other	0
+460203	43	Key Input	70	752054	10986	1
+460203	43	Key Input	79	756084	15016	1
+460203	43	Key Input	88	761063	19995	1
+460203	43	Key Input	65	762914	21846	1
+460203	43	Text Input	FOXA	771068	30000	0
+460203	45	Sound	snd_novia	775239	0	1			0		other	0
+460203	45	Key Input	78	785714	10475	1
+460203	45	Key Input	79	788413	13173	1
+460203	45	Key Input	67	793364	18124	1
+460203	45	Key Input	73	795073	19834	1
+460203	45	Key Input	65	796184	20944	1
+460203	45	Text Input	NOCIA	805239	30000	0
+460203	47	Sound	snd_cepillo	809411	0	1			0		other	0
+460203	47	Key Input	88	819034	9623	1
+460203	47	Key Input	87	821603	12193	1
+460203	47	Key Input	80	827874	18463	1
+460203	47	Key Input	73	831443	22033	1
+460203	47	Key Input	209	838294	28883	1
+460203	47	Text Input	XWPIÑ	839410	30000	0
+460203	49	Sound	snd_taza	843582	0	1			0		other	0
+460203	49	Key Input	82	853704	10122	1
+460203	49	Key Input	82	870753	27172	1
+460203	49	Text Input	RR	873582	30000	0
+460203	51	Sound	snd_pollo	877753	0	1			0		other	0
+460203	51	Key Input	80	898523	20771	1
+460203	51	Text Input	P	907753	30000	0
+460203	53	Sound	snd_cresta	912202	0	1			0		other	0
+460203	53	Key Input	88	931154	18952	1
+460203	53	Key Input	82	933813	21612	1
+460203	53	Key Input	87	935813	23611	1
+460203	53	Key Input	69	936084	23882	1
+460203	53	Text Input	XRWE	942202	30000	0
+460203	55	Sound	snd_regadera	946373	0	1			0		other	0
+460203	55	Key Input	69	956984	10611	1
+460203	55	Key Input	87	957793	11421	1
+460203	55	Key Input	70	961064	14691	1
+460203	55	Key Input	76	962943	16571	1
+460203	55	Key Input	65	964653	18280	1
+460203	55	Key Input	83	973794	27421	1
+460203	55	Key Input	87	976073	29700	1
+460203	55	Text Input	EWFLASW	976373	30000	0
+460203	57	Sound	snd_paja	980544	0	1			0		other	0
+460203	57	Key Input	80	988074	7530	1
+460203	57	Key Input	74	993574	13030	1
+460203	57	Key Input	65	1006134	25590	1
+460203	57	Text Input	PJA	1010544	30000	0
+460203	59	Sound	snd_pimiento	1014924	0	1			0		other	0
+460203	61	Sound	snd_naranja	1049095	0	1			0		other	0
+460203	61	Key Input	77	1072883	23789	1
+460203	61	Key Input	65	1076413	27319	1
+460203	61	Text Input	MA	1079095	30000	0
+
+Visual picture detection failed over to using scan line information only at the following times:
+type	time	timeout	presentation
+fail	78843.5	34.725	162
+restore	79336.5	0	163
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Sound	snd_cartera	other				57653	213			0
+Sound	snd_lobo	other				91816	1			0
+Sound	snd_cafetera	other				125988	1			0
+Sound	snd_gafas	other				160159	1			0
+Sound	snd_persiana	other				194330	1			0
+Sound	snd_dinero	other				228501	1			0
+Sound	snd_hada	other				262672	1			0
+Sound	snd_cereza	other				296843	1			0
+Sound	snd_tortuga	other				331014	1			0
+Sound	snd_abeja	other				365186	1			0
+Sound	snd_caramelo	other				399357	1			0
+Sound	snd_sangre	other				433528	1			0
+Sound	snd_labio	other				467699	1			0
+Sound	snd_humo	other				501870	1			0
+Sound	snd_carpeta	other				536041	1			0
+Sound	snd_columpio	other				570213	1			0
+Sound	snd_fresa	other				604384	1			0
+Sound	snd_huella	other				638555	1			0
+Sound	snd_pistola	other				672726	1			0
+Sound	snd_molino	other				706897	1			0
+Sound	snd_foca	other				741068	1			0
+Sound	snd_novia	other				775239	1			0
+Sound	snd_cepillo	other				809411	1			0
+Sound	snd_taza	other				843582	1			0
+Sound	snd_pollo	other				877753	1			0
+Sound	snd_cresta	other				912202	1			0
+Sound	snd_regadera	other				946373	1			0
+Sound	snd_paja	other				980544	1			0
+Sound	snd_pimiento	other				1014924	1			0
+Sound	snd_naranja	other				1049095	1			0

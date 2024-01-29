@@ -1,0 +1,69 @@
+Scenario - caja_training.sce
+Logfile written - 01/16/2024 16:22:13
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+420201	1	Response	98	83465	73396	1
+420201	3	Sound	snd_puente	87587	8	219			0		other	0
+420201	3	Key Input	79	99255	11676	1
+420201	3	Key Input	85	102555	14975	1
+420201	3	Key Input	82	113475	25895	1
+420201	3	Key Input	66	115445	27866	1
+420201	3	Text Input	OURB	117580	30000	0
+420201	5	Sound	snd_casa	121751	0	1			0		other	0
+420201	5	Key Input	88	132765	11014	1
+420201	5	Key Input	83	134705	12955	1
+420201	5	Key Input	68	138945	17195	1
+420201	5	Key Input	83	141055	19304	1
+420201	5	Text Input	XSDS	151751	30000	0
+420201	7	Sound	snd_pulpo	155922	0	1			0		other	0
+420201	7	Key Input	80	168045	12124	1
+420201	7	Key Input	79	171194	15272	1
+420201	7	Key Input	75	176995	21073	1
+420201	7	Key Input	79	180015	24094	1
+420201	7	Text Input	POKO	185922	30000	0
+420201	9	Sound	snd_mono	190093	0	1			0		other	0
+420201	9	Key Input	66	206405	16312	1
+420201	9	Key Input	73	211705	21612	1
+420201	9	Key Input	86	215314	25222	1
+420201	9	Key Input	66	215334	25242	1
+420201	9	Key Input	85	219134	29042	1
+420201	9	Text Input	BIVBU	220093	30000	0
+420201	11	Sound	snd_casa	224334	0	1			0		other	0
+420201	11	Key Input	88	236765	12432	1
+420201	11	Key Input	83	240185	15852	1
+420201	11	Key Input	68	245265	20932	1
+420201	11	Key Input	83	247575	23242	1
+420201	11	Text Input	XSDS	254333	30000	0
+420201	13	Sound	snd_mono	258435	0	1			0		other	0
+420201	13	Key Input	77	272205	13770	1
+420201	13	Key Input	85	283495	25060	1
+420201	13	Key Input	78	287515	29080	1
+420201	13	Key Input	66	287525	29090	1
+420201	13	Text Input	MUNB	288435	30000	0
+420201	15	Sound	snd_puente	292537	0	1			0		other	0
+420201	15	Key Input	80	304225	11688	1
+420201	15	Key Input	85	311885	19348	1
+420201	15	Key Input	69	317945	25408	1
+420201	15	Key Input	66	321635	29098	1
+420201	15	Text Input	PUEB	322537	30000	0
+420201	17	Sound	snd_pulpo	326639	0	1			0		other	0
+420201	17	Key Input	80	336235	9596	1
+420201	17	Key Input	73	339465	12826	1
+420201	17	Key Input	75	345425	18787	1
+420201	17	Key Input	80	348545	21906	1
+420201	17	Key Input	79	350794	24156	1
+420201	17	Text Input	PIKPO	356639	30000	0
+420201	19	Response	98	425055	64315	1
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Sound	snd_puente	other				87587	219			0
+Sound	snd_casa	other				121751	1			0
+Sound	snd_pulpo	other				155922	1			0
+Sound	snd_mono	other				190093	1			0
+Sound	snd_casa	other				224334	1			0
+Sound	snd_mono	other				258435	1			0
+Sound	snd_puente	other				292537	1			0
+Sound	snd_pulpo	other				326639	1			0

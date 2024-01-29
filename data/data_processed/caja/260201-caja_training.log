@@ -1,0 +1,73 @@
+Scenario - caja_training.sce
+Logfile written - 12/04/2023 15:29:26
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+260201	1	Response	98	37563	27493	1
+260201	3	Sound	snd_puente	41678	7	213			0		other	0
+260201	3	Key Input	80	50382	8712	1
+260201	3	Key Input	69	52732	11061	1
+260201	3	Key Input	85	53682	12011	1
+260201	3	Key Input	78	59472	17801	1
+260201	3	Key Input	69	62252	20581	1
+260201	3	Text Input	PEUNE	71671	30000	0
+260201	5	Sound	snd_mono	75773	0	1			0		other	0
+260201	5	Key Input	77	84592	8820	1
+260201	5	Key Input	79	85492	9720	1
+260201	5	Key Input	78	87442	11670	1
+260201	5	Key Input	79	89842	14070	1
+260201	5	Text Input	MONO	105772	30000	0
+260201	7	Sound	snd_puente	109874	0	1			0		other	0
+260201	7	Key Input	80	119792	9918	1
+260201	7	Key Input	85	126452	16578	1
+260201	7	Key Input	69	127692	17818	1
+260201	7	Key Input	78	129182	19308	1
+260201	7	Key Input	84	133302	23428	1
+260201	7	Key Input	69	136962	27088	1
+260201	7	Text Input	PUENTE	139874	30000	0
+260201	9	Sound	snd_mono	144045	0	1			0		other	0
+260201	9	Key Input	77	151092	7047	1
+260201	9	Key Input	79	152152	8107	1
+260201	9	Key Input	78	154602	10557	1
+260201	9	Key Input	79	155322	11277	1
+260201	9	Text Input	MONO	174045	30000	0
+260201	11	Sound	snd_casa	178217	0	1			0		other	0
+260201	11	Key Input	67	186422	8205	1
+260201	11	Key Input	65	190011	11795	1
+260201	11	Key Input	83	194222	16006	1
+260201	11	Key Input	65	195562	17346	1
+260201	11	Text Input	CASA	208216	30000	0
+260201	13	Sound	snd_pulpo	212318	0	1			0		other	0
+260201	13	Key Input	80	219823	7505	1
+260201	13	Key Input	85	222301	9983	1
+260201	13	Key Input	76	226552	14234	1
+260201	13	Key Input	80	229312	16994	1
+260201	13	Key Input	79	229942	17624	1
+260201	13	Text Input	PULPO	242318	30000	0
+260201	15	Sound	snd_pulpo	246420	0	1			0		other	0
+260201	15	Key Input	80	253692	7272	1
+260201	15	Key Input	73	256272	9852	1
+260201	15	Key Input	76	258772	12352	1
+260201	15	Key Input	79	264062	17642	1
+260201	15	Key Input	80	271962	25542	1
+260201	15	Key Input	73	273472	27052	1
+260201	15	Text Input	PILOPI	276420	30000	0
+260201	17	Sound	snd_casa	280522	0	1			0		other	0
+260201	17	Key Input	67	289552	9031	1
+260201	17	Key Input	65	293422	12901	1
+260201	17	Key Input	83	296241	15720	1
+260201	17	Key Input	65	299902	19381	1
+260201	17	Text Input	CASA	310521	30000	0
+260201	19	Response	98	403582	88959	1
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Sound	snd_puente	other				41678	213			0
+Sound	snd_mono	other				75773	1			0
+Sound	snd_puente	other				109874	1			0
+Sound	snd_mono	other				144045	1			0
+Sound	snd_casa	other				178217	1			0
+Sound	snd_pulpo	other				212318	1			0
+Sound	snd_pulpo	other				246420	1			0
+Sound	snd_casa	other				280522	1			0

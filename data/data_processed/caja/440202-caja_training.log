@@ -1,0 +1,62 @@
+Scenario - caja_training.sce
+Logfile written - 01/19/2024 15:43:51
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+440202	1	Response	98	26762	16693	1
+440202	3	Sound	snd_casa	30913	8	222			0		other	0
+440202	3	Key Input	88	45992	15086	1
+440202	3	Key Input	65	58882	27977	1
+440202	3	Text Input	XA	60905	30000	0
+440202	5	Sound	snd_casa	65007	0	1			0		other	0
+440202	5	Key Input	88	78522	13515	1
+440202	5	Key Input	83	80952	15945	1
+440202	5	Key Input	83	83802	18795	1
+440202	5	Key Input	83	86972	21965	1
+440202	5	Key Input	65	87122	22115	1
+440202	5	Text Input	XSSSA	95007	30000	0
+440202	7	Sound	snd_pulpo	99178	0	1			0		other	0
+440202	7	Key Input	48	114422	15244	1
+440202	7	Text Input	0	129178	30000	0
+440202	9	Sound	snd_mono	133349	0	1			0		other	0
+440202	9	Key Input	74	146952	13603	1
+440202	9	Key Input	57	151002	17653	1
+440202	9	Key Input	74	154722	21373	1
+440202	9	Key Input	57	156262	22913	1
+440202	9	Text Input	J9J9	163349	30000	0
+440202	11	Sound	snd_pulpo	167520	0	1			0		other	0
+440202	11	Key Input	80	186142	18622	1
+440202	11	Key Input	73	192452	24932	1
+440202	11	Key Input	76	197182	29662	1
+440202	11	Text Input	PIL	197520	30000	0
+440202	13	Sound	snd_mono	201622	0	1			0		other	0
+440202	13	Key Input	77	214132	12510	1
+440202	13	Key Input	79	218632	17010	1
+440202	13	Key Input	78	226232	24610	1
+440202	13	Key Input	79	229012	27390	1
+440202	13	Text Input	MONO	231622	30000	0
+440202	15	Sound	snd_puente	235793	0	1			0		other	0
+440202	15	Key Input	80	248392	12599	1
+440202	15	Key Input	73	254992	19199	1
+440202	15	Key Input	82	265282	29489	1
+440202	15	Text Input	PIR	265793	30000	0
+440202	17	Sound	snd_puente	269895	0	1			0		other	0
+440202	17	Key Input	80	278822	8927	1
+440202	17	Key Input	73	284252	14357	1
+440202	17	Key Input	82	286522	16627	1
+440202	17	Key Input	77	288052	18157	1
+440202	17	Key Input	85	291272	21377	1
+440202	17	Text Input	PIRMU	299894	30000	0
+440202	19	Response	98	354282	50217	1
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Sound	snd_casa	other				30913	222			0
+Sound	snd_casa	other				65007	1			0
+Sound	snd_pulpo	other				99178	1			0
+Sound	snd_mono	other				133349	1			0
+Sound	snd_pulpo	other				167520	1			0
+Sound	snd_mono	other				201622	1			0
+Sound	snd_puente	other				235793	1			0
+Sound	snd_puente	other				269895	1			0
