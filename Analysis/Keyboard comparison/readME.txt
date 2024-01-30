@@ -1,0 +1,1 @@
+Files to compare the Empirisoft keyboard with the one used in Korta.

@@ -1,7 +1,7 @@
 1. Open shortcut folder 2023 on the Desktop.
-2. Open folder Caja
-3. Open subfolder within Caja folder.
-4. Open the e-caja presentation file.
+2. Open folder SCRIPT_caja14032023.
+3. Open subfolder caja.
+4. Open the e-caja presentation file (first file below folder old).
 5. Place the caja on top of the keyboard. Make sure the participant cannot see their hands but instruct the to place them on the keyboard on a way that  helps them type.
 6. When on Presentation:
 	- Press Run.
@@ -11,7 +11,7 @@
 	- After the participant has read the instructions, they need to press SPACE to begin. This point and the previous one you have to include in the 	instructions you give to the participant.
 	- After the practice session has finished ask the participant to press SPACE. This will take you back to the screen with the scenarios. Press Run 		Scenario to run the main task.
 	- At this point you exit the room, but remind the participant that they need to press Enter when they see Ready on the screen.
-	- After the participant is done, they should not do anything in Presentation. After the main task is over, you will be redirected in the scenarios 	screen. Press Continue and then Finish/End (I am not sure about the word). Close the window.
+	- After the participant is done, they should not do anything in Presentation. After the main task is over, you will be redirected in the scenarios 		screen. Press Continue and then Finish/End (I am not sure about the word). Close the window.
 
-7. Back in the Caja folder you will see the output files for your participant.
+7. Back in the SCRIPT_caja14032023 folder you will see the output files for your participant (right below the folder subidos).
 	
