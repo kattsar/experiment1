@@ -9,7 +9,7 @@ Object class = "TextGrid"
 "silences"
 0
 3
-5
+3
 0
 0.768
 "silent"
@@ -17,12 +17,6 @@ Object class = "TextGrid"
 0.904
 "sounding"
 0.904
-1.76
-"silent"
-1.76
-1.9360000000000002
-"sounding"
-1.9360000000000002
 3
 "silent"
 "IntervalTier"
@@ -32,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"[/g/, type]"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -40,7 +34,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"0"
 "IntervalTier"
 "'Item_Correct'"
 0
@@ -64,7 +58,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"started speaking (first phoneme), then typed"
 "IntervalTier"
 "'Exclude'"
 0
@@ -72,4 +66,4 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"1"

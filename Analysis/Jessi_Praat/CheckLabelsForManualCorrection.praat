@@ -6,7 +6,7 @@
 # brings up form that prompts the user to enter directory name
 # creates variable
 
-soundDir$	= "D:\GitHub\experiment1\Data\data_processed\Audio_files\440202_REPSWITCH1_version2_list2_2024-01-19_14h56.06.787_micRespv2l2_recorded"
+soundDir$	= "D:\GitHub\experiment1\Data\data_processed\Audio_files\490101_REPSWITCH1_version1_list1_2024-01-26_14h16.21.646_micRespv1l1_recorded"
 textDir$	= soundDir$
 
 pattern$ 	= ""
@@ -18,7 +18,7 @@ ext$		= ""
 
 
 
-Create Strings as file list... list 'soundDir$'/*type*.wav
+Create Strings as file list... list 'soundDir$'/*speak*.wav
 
 numberOfFiles = Get number of strings
 

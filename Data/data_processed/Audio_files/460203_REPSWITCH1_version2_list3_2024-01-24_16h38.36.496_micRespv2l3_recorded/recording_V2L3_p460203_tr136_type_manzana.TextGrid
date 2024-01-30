@@ -9,7 +9,7 @@ Object class = "TextGrid"
 "silences"
 0
 3
-5
+3
 0
 1
 "silent"
@@ -17,12 +17,6 @@ Object class = "TextGrid"
 1.496
 "sounding"
 1.496
-1.6720000000000002
-"silent"
-1.6720000000000002
-1.776
-"sounding"
-1.776
 3
 "silent"
 "IntervalTier"
@@ -32,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"[/manzanui/, type]"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -40,7 +34,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"0"
 "IntervalTier"
 "'Item_Correct'"
 0
@@ -64,7 +58,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"first spoke, then typed"
 "IntervalTier"
 "'Exclude'"
 0
@@ -72,4 +66,4 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"1"
