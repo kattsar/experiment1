@@ -23,7 +23,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"[type, /ig/]"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -31,7 +31,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"0"
 "IntervalTier"
 "'Item_Correct'"
 0
@@ -55,7 +55,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"typed first, then started speaking at the end of the audio"
 "IntervalTier"
 "'Exclude'"
 0
@@ -63,4 +63,4 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"1"

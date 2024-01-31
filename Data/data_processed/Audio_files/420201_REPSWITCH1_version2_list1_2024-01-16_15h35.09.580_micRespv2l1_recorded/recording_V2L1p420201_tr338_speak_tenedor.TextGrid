@@ -14,9 +14,9 @@ Object class = "TextGrid"
 1.368
 "silent"
 1.368
-1.856
+1.9665842060175878
 "sounding"
-1.856
+1.9665842060175878
 3
 "silent"
 "IntervalTier"
@@ -26,7 +26,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"tenedor"
 "IntervalTier"
 "'Modality_Correct'"
 0
@@ -58,7 +58,7 @@ Object class = "TextGrid"
 1
 0
 3
-""
+"inhale before word"
 "IntervalTier"
 "'Exclude'"
 0
