@@ -1,0 +1,85 @@
+---
+title: "REPSWITCH_Audio_files_organise"
+author: "Katerina Tsaroucha"
+date: "2023-10-25"
+output: html_document
+---
+```{r}
+rm(list = ls())
+```
+
+```{r}
+library(tidyverse)
+library(readr)
+library(readxl)
+library(dplyr)
+library(ggplot2)
+library(stringr)
+```
+
+```{r}
+pilot2_audio <- read.csv("D:\\GitHub\\experiment1\\Analysis\\pilot000201\\TestDataKaterina.csv", header = TRUE, sep = ";", encoding = "UTF-8") %>% 
+  rename(Filename = X.U.FEFF.Filename,
+         RT = SOT,
+         Duration = Duration.ms..) %>%
+  mutate(CorrectAns = sub(".*_(\\w+)$", "\\1", Filename)) %>% 
+  mutate(Trial_no = as.integer(str_extract(Filename, "(?<=tr)\\d+"))) %>% 
+  arrange(Trial_no) %>% 
+  relocate(Trial_no) %>% 
+  relocate(CorrectAns, .after = Filename) %>% 
+  relocate(Duration, .after = RT) %>% 
+  select(-c(2)) %>% 
+  mutate(RT = RT / 1000) %>% 
+  mutate(Duration = Duration / 1000)
+
+#divide RT and Duration values with 1000 to make them the same as with the PsychoPy ones
+```
+
+```{r}
+#The regular expression .*_(\\w+)$ used in the examples means the following:
+
+#.*_: This part matches any character (.) zero or more times (*) followed by an underscore character _. The .* is used to match everything in the string before the last underscore.
+
+#(\\w+): This is a capturing group ( ... ) that matches one or more word characters (\\w+). Word characters include letters, digits, and underscores.
+
+#$: This anchors the pattern to the end of the string, ensuring that the \\w+ part matches the last word in the string.
+
+#So, in the replacement pattern "\\1", the \\1 refers to the first (and in this case, only) capturing group in the regular expression, which is the word that comes after the last underscore in the "Filename."
+
+#In summary, this regular expression is designed to match and capture the last word in a string that comes after the last underscore character. The "\\1" in the replacement pattern is used to insert this captured word into the "Item" column.
+
+#str_extract is used to extract the numbers that follow "tr" in the "Filename" column. The regular expression "(?<=tr)\\d+" looks for one or more digits (\\d+) that are preceded by "tr" ((?<=tr)). This extracts the numeric part after "tr."
+```
+
+```{r}
+pilot2_merged <- read.csv("D:\\GitHub\\experiment1\\Analysis\\pilot000201\\pilot000201_merged_coded.csv", header = TRUE, sep = ";", encoding = "UTF-8") %>% 
+  select(-c(1))
+```
+
+
+```{r}
+pilot2_final <- merge(x = pilot2_merged, y = pilot2_audio, by = "Trial_no", all = TRUE) %>% 
+  select(-c(4, 5, 7, 9:11, 32, 33, 38)) %>% 
+  rename(CorrectAns = CorrectAns.x,
+         Notes = Notes.y,
+         RT = RT.y,
+         Duration = Duration.y,
+         Modality_Correct = Modality_Correct.y,
+         Hesitation = Hesitation.y) %>% 
+  relocate(Modality_Correct, .after = Item_correct) %>% 
+  relocate(Notes, .after = SubjResponse) %>% 
+  relocate(RT, .after = RespModal) %>% 
+  relocate(Duration, .after = RT) %>% 
+  relocate(Hesitation, .after = Error_Corrected) %>% 
+  mutate(Backspace = if_else(str_detect(KeyResp_keys, "backspace"), "1", "0")) %>% 
+  mutate(Item_correct = if_else(CorrectAns == SubjResponse & Backspace == "0", "1", "0")) %>% 
+  relocate(Backspace, .after = Notes) %>% 
+  relocate(Transcription, .after = SubjResponse) #%>% 
+  #mutate(RT == key1) %>% 
+  #mutate(LastKeystroke = max.col(!is.na(select(., starts_with("key"))), ties.method = "last")) %>% #calculate LastKeystroke by finding the last non_NA value with "max.col" -- "ties.method = "last"" ensures that it selects the rightmost column in case of multiple non-NA values.
+  #mutate(Duration = get(paste0("key", LastKeystroke)) - key1)
+
+write.csv(pilot2_final, "D:\\GitHub\\experiment1\\Analysis\\pilot000201\\pilot000201_final.csv", fileEncoding = "UTF-8")
+```
+
+
