@@ -1,0 +1,28 @@
+8.0800 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000022D5FE5B850>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000022D60E11400>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.0801 	EXP 	window1: mouseVisible = True
+8.0801 	EXP 	window1: mouseVisible = False
+8.0801 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.0802 	EXP 	window1: recordFrameIntervals = False
+8.2465 	EXP 	window1: recordFrameIntervals = True
+8.4302 	EXP 	Screen (0) actual frame rate measured at 60.01Hz
+8.4303 	EXP 	window1: recordFrameIntervals = False
+10.5646 	EXP 	Created textWelcomeFam = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textWelcomeFam', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Bienvenido/a al experimento!', units='height', win=Window(...), wrapWidth=1)
+10.6889 	EXP 	Created fixationITI = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixationITI', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+10.6900 	EXP 	Created polygonWhiteFam = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygonWhiteFam', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+10.6997 	EXP 	Created imageFam = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imageFam', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+10.7007 	EXP 	Created textFam = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textFam', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.0511 	EXP 	Created textBlankLoop = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlankLoop', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+12.0925 	EXP 	textboxInstrFam: autoLog = True
+12.0925 	EXP 	textboxEndFam: autoLog = True
+12.0925 	EXP 	textWelcomeFam: autoDraw = True
+14.0954 	EXP 	textWelcomeFam: autoDraw = False
+14.0954 	EXP 	textWelcomeFam: autoDraw = False
+14.0954 	EXP 	textboxInstrFam: autoDraw = True
+15.1251 	EXP 	Imported D:/GitHub/experiment1/Experimental_scripts/Lists/repswitch_fam.xlsx as conditions, 45 conditions, 2 params
+15.1263 	EXP 	Created sequence: random, trialTypes=45, nReps=1, seed=None
+15.1265 	EXP 	New trial (rep=0, index=0): {'image': 'Experimental_scripts/Pictures_Fam/PICTURE_517.png', 'correctAns': 'cuerda'}
+15.1283 	DATA 	Keypress: space
+15.1312 	EXP 	textboxInstrFam: autoDraw = False
+15.1312 	EXP 	fixationITI: autoDraw = True
+16.2465 	DEPRECATION 	Couldn't find image Experimental_scripts/Pictures_Fam/PICTURE_517.png; check path? (tried: D:\GitHub\experiment1\Experimental_scripts\PsychoPy_scripts\Experimental_scripts\Pictures_Fam\PICTURE_517.png)
+16.4012 	EXP 	window1: mouseVisible = True

@@ -7,3 +7,5 @@ data_processed :
 
 
 data_raw : contains the caja output files for each participant (training and caja test); also contains the audio and PSychoPy output excel files from Svetlana's testing of the experiment in Korta
+
+results-survey936631_Cuestionarioteclado.csv : answers of the 49 participants to the typing questionnaire ran through the BCBL Survey App
