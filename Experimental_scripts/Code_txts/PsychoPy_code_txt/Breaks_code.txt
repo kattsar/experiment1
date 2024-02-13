@@ -1,4 +1,10 @@
-
-BEGIN ROUTINE
-if trialsREPSWITCH.thisN == 0 or trialsREPSWITCH.thisN % 95 != 0:
+if (trialsREPSWITCH.thisN + 1) % 51 != 0 or trialsREPSWITCH.thisN == trialsREPSWITCH.nTotal - 1:
     continueRoutine = False
+    
+    # (trialsREPSWITCH.thisN + 1) % 96 !=0 checks if the current trial number plus one is not divisible evenly
+    # by 96. If TRUE, continueRoutine is set to FALSE to skip the break message.
+    
+    # trialsREPSWITCH.thisN == trialsREPSWITCH.nTotal - 1 checks if the current trial is the ladt trial of the 
+    # entire experiment; if TRUE, continueRoutine is set to FALSE to skip the break message.
+    # So the break message will appear after every set of 96 trials except for the last set, where the break
+    # message will be skipped.
